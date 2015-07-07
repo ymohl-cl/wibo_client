@@ -1,0 +1,13 @@
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\bin\Debug\Wibo.dll
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\bin\Debug\Wibo.pdb
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\bin\Debug\Wibo.Wibo.apk
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\bin\Debug\Wibo.Wibo-Signed.apk
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\obj\Debug\Wibo.csprojResolveAssemblyReference.cache
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\obj\Debug\Wibo.dll
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\obj\Debug\Wibo.pdb
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\obj\Debug\android\bin\Wibo.Wibo.apk
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\obj\Debug\res\layout\main.xml
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\obj\Debug\res\values\strings.xml
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\obj\Debug\res\drawable\icon.png
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\obj\Debug\R.cs.flag
+c:\users\fingalar\documents\visual studio 2013\Projects\Wibo\Wibo\obj\Debug\uploadflags.txt
