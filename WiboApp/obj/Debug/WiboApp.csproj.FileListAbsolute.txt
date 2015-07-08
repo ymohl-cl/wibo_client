@@ -1,0 +1,12 @@
+c:\users\fingalar\documents\WiboApp\WiboApp\bin\Debug\WiboApp.dll
+c:\users\fingalar\documents\WiboApp\WiboApp\bin\Debug\WiboApp.pdb
+c:\users\fingalar\documents\WiboApp\WiboApp\bin\Debug\WiboApp.WiboApp.apk
+c:\users\fingalar\documents\WiboApp\WiboApp\bin\Debug\WiboApp.WiboApp-Signed.apk
+c:\users\fingalar\documents\WiboApp\WiboApp\obj\Debug\WiboApp.dll
+c:\users\fingalar\documents\WiboApp\WiboApp\obj\Debug\WiboApp.pdb
+c:\users\fingalar\documents\WiboApp\WiboApp\obj\Debug\android\bin\WiboApp.WiboApp.apk
+c:\users\fingalar\documents\WiboApp\WiboApp\obj\Debug\res\layout\main.xml
+c:\users\fingalar\documents\WiboApp\WiboApp\obj\Debug\res\values\strings.xml
+c:\users\fingalar\documents\WiboApp\WiboApp\obj\Debug\res\drawable\icon.png
+c:\users\fingalar\documents\WiboApp\WiboApp\obj\Debug\R.cs.flag
+c:\users\fingalar\documents\WiboApp\WiboApp\obj\Debug\uploadflags.txt
