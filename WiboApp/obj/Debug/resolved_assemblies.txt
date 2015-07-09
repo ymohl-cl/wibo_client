@@ -1,1 +1,1 @@
-c:\users\fingalar\documents\WiboApp\WiboApp\obj\Debug\assemblies\WiboApp.dll
+C:\Users\Patrick\Documents\wibo_client\WiboApp\obj\Debug\assemblies\WiboApp.dll

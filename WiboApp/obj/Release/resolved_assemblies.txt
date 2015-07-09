@@ -1,0 +1,5 @@
+C:\Users\Patrick\Documents\wibo_client\WiboApp\obj\Release\assemblies\WiboApp.dll
+C:\Users\Patrick\Documents\wibo_client\WiboApp\obj\Release\assemblies\Mono.Android.dll
+C:\Users\Patrick\Documents\wibo_client\WiboApp\obj\Release\assemblies\mscorlib.dll
+C:\Users\Patrick\Documents\wibo_client\WiboApp\obj\Release\assemblies\System.Core.dll
+C:\Users\Patrick\Documents\wibo_client\WiboApp\obj\Release\assemblies\System.dll
