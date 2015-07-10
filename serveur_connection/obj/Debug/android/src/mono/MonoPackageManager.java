@@ -80,8 +80,6 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"serveur_connection.dll",
-		"DeviceInfo.Plugin.Abstractions.dll",
-		"DeviceInfo.Plugin.dll",
 		"Newtonsoft.Json.dll",
 		"System.Device.Portable.dll",
 		"System.Runtime.dll",

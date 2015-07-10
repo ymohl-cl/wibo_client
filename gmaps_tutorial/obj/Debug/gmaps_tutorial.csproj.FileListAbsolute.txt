@@ -108,3 +108,4 @@ C:\Users\Patrick\Documents\wibo_client\gmaps_tutorial\obj\Debug\res\values\strin
 C:\Users\Patrick\Documents\wibo_client\gmaps_tutorial\obj\Debug\res\drawable\icon.png
 C:\Users\Patrick\Documents\wibo_client\gmaps_tutorial\obj\Debug\R.cs.flag
 C:\Users\Patrick\Documents\wibo_client\gmaps_tutorial\obj\Debug\uploadflags.txt
+C:\Users\Patrick\Documents\wibo_client\gmaps_tutorial\obj\Debug\gmaps_tutorial.csprojResolveAssemblyReference.cache

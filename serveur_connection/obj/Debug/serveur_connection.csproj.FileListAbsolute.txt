@@ -2,6 +2,9 @@ C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\serveur_conn
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\serveur_connection.pdb
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\serveur_connection.serveur_connection.apk
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\serveur_connection.serveur_connection-Signed.apk
+C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\System.Device.Portable.dll
+C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\serveur_connection.dll
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\serveur_connection.pdb
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\android\bin\serveur_connection.serveur_connection.apk
@@ -10,13 +13,4 @@ C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\res\values\s
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\res\drawable\icon.png
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\R.cs.flag
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\uploadflags.txt
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\serveur_connection.csprojResolveAssemblyReference.cache
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\DeviceInfo.Plugin.Abstractions.dll
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\DeviceInfo.Plugin.dll
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\System.Device.Portable.dll
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\DeviceInfo.Plugin.pdb
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\DeviceInfo.Plugin.xml
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\DeviceInfo.Plugin.Abstractions.pdb
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\bin\Debug\DeviceInfo.Plugin.Abstractions.xml

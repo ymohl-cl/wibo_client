@@ -3,6 +3,7 @@ C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Release\assemblies
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Release\assemblies\mscorlib.dll
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Release\assemblies\Newtonsoft.Json.dll
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Release\assemblies\System.Core.dll
+C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Release\assemblies\System.Device.Portable.dll
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Release\assemblies\System.dll
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Release\assemblies\System.Json.dll
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Release\assemblies\System.Runtime.Serialization.dll

@@ -1,0 +1,3 @@
+C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\x86\Debug\assemblies\serveur_connection.dll
+C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\x86\Debug\assemblies\Newtonsoft.Json.dll
+C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\x86\Debug\assemblies\System.Device.Portable.dll

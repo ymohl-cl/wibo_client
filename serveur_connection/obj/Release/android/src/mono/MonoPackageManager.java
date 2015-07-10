@@ -81,6 +81,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"serveur_connection.dll",
 		"Newtonsoft.Json.dll",
+		"System.Device.Portable.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

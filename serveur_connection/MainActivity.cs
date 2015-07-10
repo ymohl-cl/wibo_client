@@ -24,7 +24,6 @@ namespace serveur_connection
 {
     [Activity(Label = "serveur_connection", MainLauncher = true, Icon = "@drawable/icon")]
 
-
     public class MainActivity : Activity, ILocationListener
     {
         Location _currentLocation;
@@ -54,6 +53,8 @@ namespace serveur_connection
             Button weatherButton = FindViewById<Button>(Resource.Id.getWeatherButton);
             Button positionButton = FindViewById<Button>(Resource.Id.getCurPosButton);
 
+            TextView location = FindViewById<TextView>(Resource.Id.locationText);
+
             InitializeLocationManager();
 
             positionButton.Click += PositionButton_OnClick;
@@ -62,7 +63,9 @@ namespace serveur_connection
             weatherButton.Click += async (sender, e) =>
             {
                 // Get the latitude and longitude entered by the user and create a query.
-               string url = "http://api.openweathermap.org/data/2.5/weather?lat=" +
+
+//                string url = "http://82.245.153.246:8080/?lat=42&lon=42";
+                string url = "http://api.openweathermap.org/data/2.5/weather?lat=" +
                                 _latitude.Text +
                                 "&lon=" +
                                 _longitude.Text;
@@ -72,15 +75,14 @@ namespace serveur_connection
                 JsonValue json = await FetchWeatherAsync(url);
                 ParseAndDisplay (json);
             };
-
         }
-
+/*
         protected override void OnPause()
         {
             base.OnPause();
             _locationManager.RemoveUpdates(this);
         }
-
+*/
         void InitializeLocationManager()
         {
             _locationManager = (LocationManager)GetSystemService(LocationService);
@@ -103,6 +105,8 @@ namespace serveur_connection
             _currentLocation = _locationManager.GetLastKnownLocation(_locationProvider);
             if (_currentLocation != null)
             {
+
+//                string url = "http://82.245.153.246:8080/?lat=42&lon=42"
                 string url = "http://api.openweathermap.org/data/2.5/weather?lat=" +
                  _currentLocation.Latitude +
                  "&lon=" +
@@ -112,13 +116,12 @@ namespace serveur_connection
                 // parse the results, then update the screen:
                 JsonValue json = await FetchWeatherAsync(url);
                 ParseAndDisplay(json);
-
             }
         }
-
-        // Gets weather data rom the passed URL.
+        // Gets weather data from the passed URL.
         private async Task<JsonValue> FetchWeatherAsync (string url)
         {
+            Console.Out.WriteLine("url : {0}", url);
             // Create an HTTP web request using the URL:
             HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(new Uri(url));
             request.ContentType = "application/json";
@@ -132,7 +135,7 @@ namespace serveur_connection
                 {
                     // Use this stream to build a JSON document object:
                     JsonValue jsonDoc = await Task.Run(() => JsonObject.Load(stream));
-
+                    Console.Out.WriteLine("Response: {0}", jsonDoc.ToString());
                     // Return the JSON document:
                     return jsonDoc;
                 }
@@ -167,9 +170,9 @@ namespace serveur_connection
 
             // Get description in weather array and write it to the humidity TextBox:
             conditions.Text = obj["weather"][0]["description"].ToString();
-            
+
             //var device = DeviceInfo.Plugin.CrossDeviceInfo.Current.Id;
             //Console.Out.WriteLine("Response: {0}", device);
        }
-    }
+   }
 }

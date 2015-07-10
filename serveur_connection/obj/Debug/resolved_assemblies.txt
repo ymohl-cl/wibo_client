@@ -1,6 +1,4 @@
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\assemblies\serveur_connection.dll
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\assemblies\DeviceInfo.Plugin.Abstractions.dll
-C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\assemblies\DeviceInfo.Plugin.dll
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\assemblies\Newtonsoft.Json.dll
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\assemblies\System.Device.Portable.dll
 C:\Users\Patrick\Documents\wibo_client\serveur_connection\obj\Debug\assemblies\System.Runtime.dll
