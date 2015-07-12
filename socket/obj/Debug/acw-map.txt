@@ -1,0 +1,4 @@
+socket.MainActivity, socket;md59ecc83dd8f452fc9e3fa842c9fd71bb5.MainActivity
+socket.MainActivity, socket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59ecc83dd8f452fc9e3fa842c9fd71bb5.MainActivity
+socket.MainActivity;md59ecc83dd8f452fc9e3fa842c9fd71bb5.MainActivity
+socket.MainActivity;md59ecc83dd8f452fc9e3fa842c9fd71bb5.MainActivity

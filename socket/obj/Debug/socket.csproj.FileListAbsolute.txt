@@ -1,0 +1,13 @@
+C:\Users\Patrick\Documents\wibo_client\socket\bin\Debug\socket.dll
+C:\Users\Patrick\Documents\wibo_client\socket\bin\Debug\socket.pdb
+C:\Users\Patrick\Documents\wibo_client\socket\bin\Debug\socket.socket.apk
+C:\Users\Patrick\Documents\wibo_client\socket\bin\Debug\socket.socket-Signed.apk
+C:\Users\Patrick\Documents\wibo_client\socket\obj\Debug\socket.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\wibo_client\socket\obj\Debug\socket.dll
+C:\Users\Patrick\Documents\wibo_client\socket\obj\Debug\socket.pdb
+C:\Users\Patrick\Documents\wibo_client\socket\obj\Debug\android\bin\socket.socket.apk
+C:\Users\Patrick\Documents\wibo_client\socket\obj\Debug\res\layout\main.xml
+C:\Users\Patrick\Documents\wibo_client\socket\obj\Debug\res\values\strings.xml
+C:\Users\Patrick\Documents\wibo_client\socket\obj\Debug\res\drawable\icon.png
+C:\Users\Patrick\Documents\wibo_client\socket\obj\Debug\R.cs.flag
+C:\Users\Patrick\Documents\wibo_client\socket\obj\Debug\uploadflags.txt

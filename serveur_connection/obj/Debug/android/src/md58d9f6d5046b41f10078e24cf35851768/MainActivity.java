@@ -10,6 +10,7 @@ public class MainActivity
 	static final String __md_methods;
 	static {
 		__md_methods = 
+			"n_onDestroy:()V:GetOnDestroyHandler\n" +
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onLocationChanged:(Landroid/location/Location;)V:GetOnLocationChanged_Landroid_location_Location_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_onProviderDisabled:(Ljava/lang/String;)V:GetOnProviderDisabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
@@ -26,6 +27,14 @@ public class MainActivity
 		if (getClass () == MainActivity.class)
 			mono.android.TypeManager.Activate ("serveur_connection.MainActivity, serveur_connection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
+
+
+	public void onDestroy ()
+	{
+		n_onDestroy ();
+	}
+
+	private native void n_onDestroy ();
 
 
 	public void onCreate (android.os.Bundle p0)

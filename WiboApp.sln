@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gmaps_tutorial", "gmaps_tut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serveur_connection", "serveur_connection\serveur_connection.csproj", "{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serverConnection", "serverConnection\serverConnection.csproj", "{C75F3AC8-8FD0-4EE0-B5B8-278A79ADB944}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,14 @@ Global
 		{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}.Release|x86.ActiveCfg = Release|Any CPU
 		{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}.Release|x86.Build.0 = Release|Any CPU
 		{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}.Release|x86.Deploy.0 = Release|Any CPU
+		{C75F3AC8-8FD0-4EE0-B5B8-278A79ADB944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75F3AC8-8FD0-4EE0-B5B8-278A79ADB944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75F3AC8-8FD0-4EE0-B5B8-278A79ADB944}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C75F3AC8-8FD0-4EE0-B5B8-278A79ADB944}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C75F3AC8-8FD0-4EE0-B5B8-278A79ADB944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75F3AC8-8FD0-4EE0-B5B8-278A79ADB944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75F3AC8-8FD0-4EE0-B5B8-278A79ADB944}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C75F3AC8-8FD0-4EE0-B5B8-278A79ADB944}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

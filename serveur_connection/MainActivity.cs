@@ -6,6 +6,7 @@ using System.IO;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 
 using Android.App;
 using Android.Content;
@@ -31,6 +32,8 @@ namespace serveur_connection
         String _locationProvider;
         EditText _latitude;
         EditText _longitude;
+        Socket _soc;
+        int counter = 0;
 
         public void OnLocationChanged(Location location) {}
 
@@ -40,6 +43,12 @@ namespace serveur_connection
 
         public void OnStatusChanged(string provider, Availability status, Bundle extras) {}
 
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            sendData(_soc, "DESTROY");
+            _soc.Close();
+        }
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -55,13 +64,14 @@ namespace serveur_connection
 
             TextView location = FindViewById<TextView>(Resource.Id.locationText);
 
+            _soc = createSocket();
             InitializeLocationManager();
 
             positionButton.Click += PositionButton_OnClick;
-
             // When the user clicks the button ...
             weatherButton.Click += async (sender, e) =>
             {
+/*
                 // Get the latitude and longitude entered by the user and create a query.
 
 //                string url = "http://82.245.153.246:8080/?lat=42&lon=42";
@@ -74,6 +84,9 @@ namespace serveur_connection
                 // parse the results, then update the screen:
                 JsonValue json = await FetchWeatherAsync(url);
                 ParseAndDisplay (json);
+*/
+                counter += 1;
+                sendData(_soc, "Coucou" + counter);
             };
         }
 /*
@@ -140,6 +153,30 @@ namespace serveur_connection
                     return jsonDoc;
                 }
             }
+        } 
+
+        public static Socket createSocket()
+        {
+            String server = "82.245.153.246";
+
+            Socket soc = new Socket(
+                AddressFamily.InterNetwork,
+                SocketType.Stream,
+                ProtocolType.Tcp);
+
+            System.Net.IPAddress ipAddr = System.Net.IPAddress.Parse(server);
+            System.Net.IPEndPoint remoteEP = new IPEndPoint(ipAddr, 8081);
+            
+            soc.Connect(remoteEP);
+
+            return soc;
+        }
+        public static void sendData(Socket soc, String data)
+        {
+            Console.Out.WriteLine("dat : {0}", data);
+            byte[] byData = System.Text.Encoding.ASCII.GetBytes(data);
+            int n = soc.Send(byData);
+            Console.Out.WriteLine("{0} bytes were sent.", n);
         }
 
         private void ParseAndDisplay (JsonValue json)
