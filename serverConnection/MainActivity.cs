@@ -30,7 +30,6 @@ namespace serverConnection
             _soc = createSocket();
             if (_soc.Connected == true)
                 Console.Out.WriteLine("toto.");
-            Console.Out.WriteLine("Back to OnCreate.");
             button.Click += delegate {
                 if (_soc.Connected == true)
                 {
@@ -57,19 +56,22 @@ namespace serverConnection
 
             String server = "82.245.153.246";
 
-            Socket soc = new Socket(
+            Socket socket = new Socket(
                 AddressFamily.InterNetwork,
                 SocketType.Stream,
                 ProtocolType.Tcp);
-            Console.Out.WriteLine("create socket.");
-            System.Net.IPAddress ipAddr = System.Net.IPAddress.Parse(server);
-            System.Net.IPEndPoint remoteEP = new IPEndPoint(ipAddr, 8081);
-            Console.Out.WriteLine("connect socket.");
-            // timeout !!!
-            soc.Connect(ipAddr, 8081);
-            Console.Out.WriteLine("socket is connected.");
-            return soc;
+
+            System.Net.IPAddress ipAddr =
+                System.Net.IPAddress.Parse(server);
+
+            System.Net.IPEndPoint remoteEP =
+                new IPEndPoint(ipAddr, 8081);
+
+            socket.Connect(remoteEP);
+
+            return socket;
         }
+
         public static int sendData(Socket soc, ByteBuffer data, short contentSize, short type, int i, int nbPacket)
         {
             short headerSize = 24;
@@ -84,14 +86,14 @@ namespace serverConnection
             buffer.PutShort(2, type);
             Console.Out.WriteLine("type : {0}", type);
             // Checksum
-            buffer.PutInt(4, 0);
+            buffer.PutInt(4, 9999);
             // Total of packets
             buffer.PutInt(8, nbPacket);
             // Packet number
             buffer.PutInt(12, i);
             Console.Out.WriteLine("i : {0}", i);
             // Device ID
-            buffer.PutLong(16, 0);
+            buffer.PutLong(16, 424242424242);
             // Content
             buffer.Position(24);
             data.Position(0);
