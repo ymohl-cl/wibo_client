@@ -1,3 +1,7 @@
+gmaps_tutorial.MessageActivity, gmaps_tutorial;md5318aa7a829794cd3d0714aaf094576f8.MessageActivity
+gmaps_tutorial.MessageActivity, gmaps_tutorial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5318aa7a829794cd3d0714aaf094576f8.MessageActivity
+gmaps_tutorial.MessageActivity;md5318aa7a829794cd3d0714aaf094576f8.MessageActivity
+gmaps_tutorial.MessageActivity;md5318aa7a829794cd3d0714aaf094576f8.MessageActivity
 gmaps_tutorial.MainActivity, gmaps_tutorial;md5318aa7a829794cd3d0714aaf094576f8.MainActivity
 gmaps_tutorial.MainActivity, gmaps_tutorial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5318aa7a829794cd3d0714aaf094576f8.MainActivity
 gmaps_tutorial.MainActivity;md5318aa7a829794cd3d0714aaf094576f8.MainActivity
