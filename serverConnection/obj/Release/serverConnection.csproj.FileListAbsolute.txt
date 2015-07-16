@@ -10,3 +10,4 @@ C:\Users\Patrick\Documents\wibo_client\serverConnection\obj\Release\res\values\s
 C:\Users\Patrick\Documents\wibo_client\serverConnection\obj\Release\res\drawable\icon.png
 C:\Users\Patrick\Documents\wibo_client\serverConnection\obj\Release\R.cs.flag
 C:\Users\Patrick\Documents\wibo_client\serverConnection\obj\Release\uploadflags.txt
+C:\Users\Patrick\Documents\wibo_client\serverConnection\obj\Release\serverConnection.csprojResolveAssemblyReference.cache
