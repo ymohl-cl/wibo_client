@@ -244,7 +244,7 @@ namespace ServerConnection
                     return false;
             	}
             }
-            _requestList.AddRange(request)
+            _requestList.AddRange(request);
             return true;
         }
 
