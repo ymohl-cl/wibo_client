@@ -23,6 +23,25 @@ namespace ServerConnection
     public class MainActivity : Activity
     {
         Connection _connection;
+
+/*        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            _connection.Close(false);
+        }
+
+        protected override void OnPause()
+        {
+            base.OnPause();
+            _connection.Close(true);
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            _connection.Connect();
+        }
+*/
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -61,12 +80,12 @@ namespace ServerConnection
 
             button5.Click += delegate
             {
-                ThreadPool.QueueUserWorkItem(o => this._connection.SetFollow(42));
+                ThreadPool.QueueUserWorkItem(o => this._connection.SetFollow(4));
             };
 
             button6.Click += delegate
             {
-                ThreadPool.QueueUserWorkItem(o => this._connection.SetUnfollow(42));
+                ThreadPool.QueueUserWorkItem(o => this._connection.SetUnfollow(4));
             };
 
             button7.Click += delegate
@@ -74,7 +93,7 @@ namespace ServerConnection
                 ThreadPool.QueueUserWorkItem(o => this._connection.SetNewBalloon(48.833086, 2.310655, "TOTO", "Ceci est un test"));
             };
 
-            button4.Click += delegate
+            button8.Click += delegate
             {
                 ThreadPool.QueueUserWorkItem(o => this._connection.SetAnswerBalloon(48.833086, 2.310655, 42, "Ceci est une reponse test"));
             };

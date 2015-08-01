@@ -96,20 +96,20 @@ namespace ServerConnection
             LngPosition = lngPosition;
             WindDirection = windDirection;
             WindSpeed = windSpeed;
-            Console.WriteLine("id : {0}, title : {1}, latitude : {2}, longitude : {3}, direction : {4}, speed : {5}",
-                Id, Title, LatPosition, LngPosition, WindDirection, WindSpeed);
+           /* Console.WriteLine("id : {0}, title : {1}, latitude : {2}, longitude : {3}, direction : {4}, speed : {5}",
+                Id, Title, LatPosition, LngPosition, WindDirection, WindSpeed);*/
         }
 
         public Balloon(UInt64 id, List<String> messages)
         {
             Id = id;
             Messages = messages;
-            if (Messages != null)
+/*            if (Messages != null)
             {
                 foreach (string msg in Messages)
                     Console.Write("msg : {0}\n\n", msg);
             }
-        }
+*/        }
 
         public Balloon(UInt64 id, bool catched)
         {

@@ -51,6 +51,7 @@ namespace ServerConnection
                 ProtocolType.Tcp);
             IPAddress serverIP = IPAddress.Parse(ip);
             this._serverEndpoint = new IPEndPoint(serverIP, port);
+            Connect();
         }
 
         // Connect to server
@@ -106,7 +107,7 @@ namespace ServerConnection
         // Set the _followedList list
         public bool SyncWithServer()
         {
-            Console.WriteLine("Sync with server");
+            //Console.WriteLine("Sync with server");
             return AddToRequestList(1, ByteBuffer.Allocate(0));
         }
 
@@ -179,7 +180,7 @@ namespace ServerConnection
             data.PutInt(24, content.Length);
             data.Position(32);
             data.Put(ByteBuffer.Wrap(msgArray));
-
+            
             return AddToRequestList(8, data);
         }
         private bool SetAcknowledgement(int type, int flag)
@@ -210,7 +211,7 @@ namespace ServerConnection
         public bool AddToRequestList(short type, ByteBuffer data)
         {
             List<byte[]> request = new List<byte[]>();
-            Console.WriteLine("Add request to list");
+            //Console.WriteLine("Add request to list");
             ByteBuffer buffer;
             int packetSize;
             data.Position(0);
@@ -218,7 +219,7 @@ namespace ServerConnection
             int nbPackets = (contentSize == 0 ? 1 : contentSize / (1024 - 56)); // 56 = header size
             if (contentSize % (1024 - 56) > 0)
                 nbPackets += 1;
-            Console.WriteLine("nb packet : {0}", nbPackets);
+            //Console.WriteLine("nb packet : {0}", nbPackets);
             for (int i = 0; i < nbPackets; i++)
             {
                 if (contentSize - ((i + 1) * (1024 - 56)) >= (1024 - 56))
@@ -234,8 +235,6 @@ namespace ServerConnection
                 buffer.Get(res);
                 try 
 	            {
-                    Console.WriteLine("connect");
-                    Connect();
                     request.Add(res);
 	            }
 	            catch (Exception err)
@@ -252,7 +251,7 @@ namespace ServerConnection
         {
             ByteBuffer buffer = ByteBuffer.Wrap(request);
             short type = buffer.GetShort(2);
-            Console.Write("Size : {0}\nType : {1}\nNbPackets : {2}\nID packet : {3}\n", buffer.GetShort(0), type, buffer.GetInt(8), buffer.GetInt(12));
+            //Console.Write("Size : {0}\nType : {1}\nNbPackets : {2}\nID packet : {3}\n", buffer.GetShort(0), type, buffer.GetInt(8), buffer.GetInt(12));
             switch (type)
             {
                 case 3:
@@ -268,20 +267,39 @@ namespace ServerConnection
         {
             while (true)
             {
-                if (this._socket.Connected == true && _requestList.Count > 0 && _requestList[0] != null)
+                if (_requestList.Count > 0 && _requestList[0] != null)
                 {
                     try
                     {
                         byte[] readArray = new byte[1024];
-                        printRequest(_requestList[0]);
+//                        printRequest(_requestList[0]);
+                        Console.Write("sending : ");
+                        for (int i = 0; i < 1024; i++)
+                        {
+                            Console.Write(_requestList[0][i]);
+                        }
                         int bytesSent = this._socket.Send(_requestList[0]);
                         Console.WriteLine("{0} bytes sent.", bytesSent);
+//                        Thread.Sleep(5000);
                         int bytesReceived = this._socket.Receive(readArray);
                         Console.WriteLine("{0} bytes received.", bytesReceived);
+                        Console.Write("received : ");
+                        int j = 0;
+                        for (int i = 0; i < 1024; i++)
+                        {
+                            if (readArray[i] == 0)
+                                j++;
+                            Console.Write(readArray[i]);
+                        }
+/*                        if (j == 1024)
+                        {
+                            Console.WriteLine("previous packet was empty");
+                            int bReceived = this._socket.Receive(readArray);
+                            Console.WriteLine("{0} bytes received in new packet.", bReceived);
+                        }
+*/                        Console.Write("\n");
                         ParseResponse(ByteBuffer.Wrap(readArray));
                         _requestList.RemoveAt(0);
-                        this._socket.Disconnect(true);
-                        Console.WriteLine("Disconnect");
                     }
                     catch (Exception err)
                     {
@@ -316,7 +334,7 @@ namespace ServerConnection
                     break;
                 case 32767 :
                     // Acknowledgement!
-                    Console.WriteLine("Acknowledgement");
+//                    Console.WriteLine("Acknowledgement");
                     TreatAcknowledgement(buffer);
                     break;
                 default:
@@ -349,6 +367,9 @@ namespace ServerConnection
             int nbPackets = buffer.GetInt(8);
             int PacketId = buffer.GetInt(12);
             int nbBalloons = buffer.GetInt(16);
+//            Console.WriteLine("nb balloons : {0}", nbBalloons);
+            if (nbBalloons == 0)
+                return;
             int byteIndex = 24;
             if (PacketId == 0)
                 _followedList = new List<Balloon>();
@@ -403,7 +424,7 @@ namespace ServerConnection
                 int j = 0;
                 if (_followedList != null)
                 {
-                    for (j = 0; j < _followedList.Count || _followedList[j].Id == (UInt64)balloonId; j++) { }
+                    for (j = 0; j < _followedList.Count && _followedList[j].Id == (UInt64)balloonId; j++) { }
                 }
                 if (_followedList != null && j < _followedList.Count)
                 {
@@ -412,25 +433,38 @@ namespace ServerConnection
                 }
                 else
                 {
+                    Console.WriteLine("Create balloon");
                     Balloon balloon = new Balloon((UInt64)balloonId, _msgList);
-                    _OnReceiveBalloon.Invoke(this, new OnReceiveBalloonArgs(balloon));
+                    /*                   try
+                                       {
+                                           _OnReceiveBalloon.Invoke(this, new OnReceiveBalloonArgs(balloon));
+                                       }
+                                       catch(Exception err)
+                                       {
+                                           Console.WriteLine("catched : {0}", err);
+                                       }
+                   */
                 }
                 _msgList.Clear();
             }
             else
+            {
+                Console.WriteLine("SetAcknowledgenent");
                 SetAcknowledgement(2, 1);
+            }
+            Console.WriteLine("end of fill balloon method");
         }
 
         // Create balloon list from server response
         private void CreateBalloonList(ByteBuffer buffer)
         {
-            Console.WriteLine("Creating balloon list");
+//            Console.WriteLine("Creating balloon list");
             String title;
             int j;
             byte[] titleArray = new byte[1024];
             int byteIndex = 24;
             int nbBalloons = buffer.GetInt(16);
-            Console.WriteLine("nb balloons : {0}", nbBalloons);
+//            Console.WriteLine("nb balloons : {0}", nbBalloons);
             List<Balloon> balloonList = new List<Balloon>(nbBalloons);
             for (int i = 0; i < nbBalloons; i++)
             {
@@ -450,7 +484,7 @@ namespace ServerConnection
                     buffer.GetDouble(byteIndex + 40)));
                 byteIndex += 56;
             }
-            _OnReceiveBalloonList.Invoke(this, new OnReceiveBalloonListArgs(balloonList));
+          _OnReceiveBalloonList.Invoke(this, new OnReceiveBalloonListArgs(balloonList));
         }
     }
 }
