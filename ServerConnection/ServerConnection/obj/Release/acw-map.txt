@@ -1,0 +1,4 @@
+ServerConnection.MainActivity, ServerConnection;md580a552e8ebae022951eb55875f179d91.MainActivity
+ServerConnection.MainActivity, ServerConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md580a552e8ebae022951eb55875f179d91.MainActivity
+ServerConnection.MainActivity;md580a552e8ebae022951eb55875f179d91.MainActivity
+serverconnection.MainActivity;md580a552e8ebae022951eb55875f179d91.MainActivity

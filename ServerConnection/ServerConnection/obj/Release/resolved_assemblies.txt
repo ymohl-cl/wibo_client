@@ -1,0 +1,7 @@
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Release\assemblies\ServerConnection.dll
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Release\assemblies\Mono.Android.dll
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Release\assemblies\mscorlib.dll
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Release\assemblies\Newtonsoft.Json.dll
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Release\assemblies\System.Core.dll
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Release\assemblies\System.dll
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Release\assemblies\System.Runtime.Serialization.dll

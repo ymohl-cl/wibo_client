@@ -1,0 +1,2 @@
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\assemblies\ServerConnection.dll
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\assemblies\Newtonsoft.Json.dll

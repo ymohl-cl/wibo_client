@@ -1,0 +1,17 @@
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\ServerConnection.csprojResolveAssemblyReference.cache
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\bin\Debug\ServerConnection.dll
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\bin\Debug\ServerConnection.pdb
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\bin\Debug\ServerConnection.ServerConnection.apk
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\bin\Debug\ServerConnection.ServerConnection-Signed.apk
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\ServerConnection.dll
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\ServerConnection.pdb
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\android\bin\ServerConnection.ServerConnection.apk
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\res\layout\main.xml
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\res\values\strings.xml
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\res\drawable\icon.png
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\R.cs.flag
+c:\users\patrick\documents\visual studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\uploadflags.txt
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\ServerConnection.Resource1.resources
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\obj\Debug\ServerConnection.csproj.GenerateResource.Cache
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Patrick\Documents\Visual Studio 2013\Projects\ServerConnection\ServerConnection\bin\Debug\Newtonsoft.Json.xml
