@@ -156,10 +156,12 @@ namespace ServerConnection
                 Console.WriteLine("Title is too long");
                 return false;
             }
+            Console.WriteLine("title : {0}", title);
             ByteBuffer data = ByteBuffer.Allocate(40 + content.Length + 10); // Added 10 here because it wouldn't generate without it
             byte[] titleArray = new byte[16];
-            Encoding.UTF8.GetBytes(content);
             byte[] msgArray = Encoding.UTF8.GetBytes(content);
+            titleArray = Encoding.UTF8.GetBytes(title);
+            data.Position(0);
             data.Put(ByteBuffer.Wrap(titleArray));
             data.PutDouble(16, lon);
             data.PutDouble(24, lat);
@@ -276,6 +278,8 @@ namespace ServerConnection
                         Console.Write("sending : ");
                         for (int i = 0; i < 1024; i++)
                         {
+                            if (i == 56 || i == 56 + 16 || i == 56 + 16 + 8 || i == 56 + 16 + 8 + 8)
+                                Console.Write("|");
                             Console.Write(_requestList[0][i]);
                         }
                         int bytesSent = this._socket.Send(_requestList[0]);
@@ -299,7 +303,8 @@ namespace ServerConnection
                         }
 */                        Console.Write("\n");
                         ParseResponse(ByteBuffer.Wrap(readArray));
-                        _requestList.RemoveAt(0);
+                        if (_requestList.Count > 0)
+                            _requestList.RemoveAt(0);
                     }
                     catch (Exception err)
                     {
@@ -334,7 +339,6 @@ namespace ServerConnection
                     break;
                 case 32767 :
                     // Acknowledgement!
-//                    Console.WriteLine("Acknowledgement");
                     TreatAcknowledgement(buffer);
                     break;
                 default:
@@ -345,21 +349,28 @@ namespace ServerConnection
 
         private void TreatAcknowledgement(ByteBuffer buffer)
         {
-            if (buffer.GetInt(20) == 0)
+            short type = (short)buffer.GetInt(16);
+            int flag = buffer.GetInt(20);
+            Console.WriteLine("type : {0}, flag : {1}", type, flag);
+            if (flag == 0)
             {
-                short type = (short)buffer.GetInt(16);
                 for (int i = 0; i < _requestList.Count; i++)
                 {
                     ByteBuffer request = ByteBuffer.Wrap(_requestList[i]);
                     if (request.GetShort(2) == type)
                         _requestList.RemoveAt(i);
                 }
-/*                AlertDialog.Builder alert = new AlertDialog.Builder(this)
-                .SetTitle("Erreur")
-                .SetMessage("An error as occured.")
-                .SetPositiveButton("OK")
-                .Show();
-*/
+            }
+            if (flag == 1)
+            {
+                if (type == 5)
+                {
+                    _followedList.Add(new Balloon((UInt64)buffer.GetLong(24), null));
+                }
+//                if (type == 6)
+//                {
+//                    _followedList.RemoveAll(x => x.Id == (UInt64)buffer.GetLong(24));
+//                }
             }
         }
         private void CreateFollowedList(ByteBuffer buffer)
@@ -435,15 +446,14 @@ namespace ServerConnection
                 {
                     Console.WriteLine("Create balloon");
                     Balloon balloon = new Balloon((UInt64)balloonId, _msgList);
-                    /*                   try
-                                       {
-                                           _OnReceiveBalloon.Invoke(this, new OnReceiveBalloonArgs(balloon));
-                                       }
-                                       catch(Exception err)
-                                       {
-                                           Console.WriteLine("catched : {0}", err);
-                                       }
-                   */
+                    try
+                    {
+                        _OnReceiveBalloon.Invoke(this, new OnReceiveBalloonArgs(balloon));
+                    }
+                    catch (Exception err)
+                    {
+                        Console.WriteLine("catched : {0}", err);
+                    }
                 }
                 _msgList.Clear();
             }

@@ -95,11 +95,16 @@ namespace ServerConnection
 
             button8.Click += delegate
             {
-                ThreadPool.QueueUserWorkItem(o => this._connection.SetAnswerBalloon(48.833086, 2.310655, 42, "Ceci est une reponse test"));
+                ThreadPool.QueueUserWorkItem(o => this._connection.SetAnswerBalloon(48.833086, 2.310655, 4, "Ceci est une reponse test"));
             };
 
-
             _connection._OnReceiveBalloonList += (o, s) =>
+            {
+                string json = JsonConvert.SerializeObject(s);
+                Console.WriteLine(json);
+            };
+
+            _connection._OnReceiveBalloon += (o, s) =>
             {
                 string json = JsonConvert.SerializeObject(s);
                 Console.WriteLine(json);
@@ -107,4 +112,3 @@ namespace ServerConnection
         }
     }
 }
-
