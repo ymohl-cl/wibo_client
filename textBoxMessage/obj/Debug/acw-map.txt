@@ -1,0 +1,4 @@
+textBoxMessage.MainActivity, textBoxMessage;md584c81fe5cb6df71b48d4c767cb75ad83.MainActivity
+textBoxMessage.MainActivity, textBoxMessage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md584c81fe5cb6df71b48d4c767cb75ad83.MainActivity
+textBoxMessage.MainActivity;md584c81fe5cb6df71b48d4c767cb75ad83.MainActivity
+textboxmessage.MainActivity;md584c81fe5cb6df71b48d4c767cb75ad83.MainActivity

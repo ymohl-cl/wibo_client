@@ -12,15 +12,21 @@ public final class R {
     }
     public static final class drawable {
         public static final int icon=0x7f020000;
+        public static final int redbaloon=0x7f020001;
     }
     public static final class id {
-        public static final int MyButton=0x7f050000;
+        public static final int answerBaloon=0x7f050002;
+        public static final int map=0x7f050000;
+        public static final int messageList=0x7f050001;
     }
     public static final class layout {
         public static final int main=0x7f030000;
+        public static final int messagebaloon=0x7f030001;
     }
     public static final class string {
-        public static final int ApplicationName=0x7f040001;
-        public static final int Hello=0x7f040000;
+        public static final int ApplicationName=0x7f040002;
+        public static final int Hello=0x7f040001;
+        public static final int google_maps_key=0x7f040003;
+        public static final int library_name=0x7f040000;
     }
 }

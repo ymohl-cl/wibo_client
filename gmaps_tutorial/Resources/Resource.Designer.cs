@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("gmaps_tutorial.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("wibo.Resource", IsApplication=true)]
 
-namespace gmaps_tutorial
+namespace wibo
 {
 	
 	
@@ -26,1466 +26,1466 @@ namespace gmaps_tutorial
 		
 		public static void UpdateIdValues()
 		{
-			global::GooglePlayServices.Resource.Animation.abc_fade_in = global::gmaps_tutorial.Resource.Animation.abc_fade_in;
-			global::GooglePlayServices.Resource.Animation.abc_fade_out = global::gmaps_tutorial.Resource.Animation.abc_fade_out;
-			global::GooglePlayServices.Resource.Animation.abc_grow_fade_in_from_bottom = global::gmaps_tutorial.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::GooglePlayServices.Resource.Animation.abc_popup_enter = global::gmaps_tutorial.Resource.Animation.abc_popup_enter;
-			global::GooglePlayServices.Resource.Animation.abc_popup_exit = global::gmaps_tutorial.Resource.Animation.abc_popup_exit;
-			global::GooglePlayServices.Resource.Animation.abc_shrink_fade_out_from_bottom = global::gmaps_tutorial.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::GooglePlayServices.Resource.Animation.abc_slide_in_bottom = global::gmaps_tutorial.Resource.Animation.abc_slide_in_bottom;
-			global::GooglePlayServices.Resource.Animation.abc_slide_in_top = global::gmaps_tutorial.Resource.Animation.abc_slide_in_top;
-			global::GooglePlayServices.Resource.Animation.abc_slide_out_bottom = global::gmaps_tutorial.Resource.Animation.abc_slide_out_bottom;
-			global::GooglePlayServices.Resource.Animation.abc_slide_out_top = global::gmaps_tutorial.Resource.Animation.abc_slide_out_top;
-			global::GooglePlayServices.Resource.Attribute.actionBarDivider = global::gmaps_tutorial.Resource.Attribute.actionBarDivider;
-			global::GooglePlayServices.Resource.Attribute.actionBarItemBackground = global::gmaps_tutorial.Resource.Attribute.actionBarItemBackground;
-			global::GooglePlayServices.Resource.Attribute.actionBarPopupTheme = global::gmaps_tutorial.Resource.Attribute.actionBarPopupTheme;
-			global::GooglePlayServices.Resource.Attribute.actionBarSize = global::gmaps_tutorial.Resource.Attribute.actionBarSize;
-			global::GooglePlayServices.Resource.Attribute.actionBarSplitStyle = global::gmaps_tutorial.Resource.Attribute.actionBarSplitStyle;
-			global::GooglePlayServices.Resource.Attribute.actionBarStyle = global::gmaps_tutorial.Resource.Attribute.actionBarStyle;
-			global::GooglePlayServices.Resource.Attribute.actionBarTabBarStyle = global::gmaps_tutorial.Resource.Attribute.actionBarTabBarStyle;
-			global::GooglePlayServices.Resource.Attribute.actionBarTabStyle = global::gmaps_tutorial.Resource.Attribute.actionBarTabStyle;
-			global::GooglePlayServices.Resource.Attribute.actionBarTabTextStyle = global::gmaps_tutorial.Resource.Attribute.actionBarTabTextStyle;
-			global::GooglePlayServices.Resource.Attribute.actionBarTheme = global::gmaps_tutorial.Resource.Attribute.actionBarTheme;
-			global::GooglePlayServices.Resource.Attribute.actionBarWidgetTheme = global::gmaps_tutorial.Resource.Attribute.actionBarWidgetTheme;
-			global::GooglePlayServices.Resource.Attribute.actionButtonStyle = global::gmaps_tutorial.Resource.Attribute.actionButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.actionDropDownStyle = global::gmaps_tutorial.Resource.Attribute.actionDropDownStyle;
-			global::GooglePlayServices.Resource.Attribute.actionLayout = global::gmaps_tutorial.Resource.Attribute.actionLayout;
-			global::GooglePlayServices.Resource.Attribute.actionMenuTextAppearance = global::gmaps_tutorial.Resource.Attribute.actionMenuTextAppearance;
-			global::GooglePlayServices.Resource.Attribute.actionMenuTextColor = global::gmaps_tutorial.Resource.Attribute.actionMenuTextColor;
-			global::GooglePlayServices.Resource.Attribute.actionModeBackground = global::gmaps_tutorial.Resource.Attribute.actionModeBackground;
-			global::GooglePlayServices.Resource.Attribute.actionModeCloseButtonStyle = global::gmaps_tutorial.Resource.Attribute.actionModeCloseButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.actionModeCloseDrawable = global::gmaps_tutorial.Resource.Attribute.actionModeCloseDrawable;
-			global::GooglePlayServices.Resource.Attribute.actionModeCopyDrawable = global::gmaps_tutorial.Resource.Attribute.actionModeCopyDrawable;
-			global::GooglePlayServices.Resource.Attribute.actionModeCutDrawable = global::gmaps_tutorial.Resource.Attribute.actionModeCutDrawable;
-			global::GooglePlayServices.Resource.Attribute.actionModeFindDrawable = global::gmaps_tutorial.Resource.Attribute.actionModeFindDrawable;
-			global::GooglePlayServices.Resource.Attribute.actionModePasteDrawable = global::gmaps_tutorial.Resource.Attribute.actionModePasteDrawable;
-			global::GooglePlayServices.Resource.Attribute.actionModePopupWindowStyle = global::gmaps_tutorial.Resource.Attribute.actionModePopupWindowStyle;
-			global::GooglePlayServices.Resource.Attribute.actionModeSelectAllDrawable = global::gmaps_tutorial.Resource.Attribute.actionModeSelectAllDrawable;
-			global::GooglePlayServices.Resource.Attribute.actionModeShareDrawable = global::gmaps_tutorial.Resource.Attribute.actionModeShareDrawable;
-			global::GooglePlayServices.Resource.Attribute.actionModeSplitBackground = global::gmaps_tutorial.Resource.Attribute.actionModeSplitBackground;
-			global::GooglePlayServices.Resource.Attribute.actionModeStyle = global::gmaps_tutorial.Resource.Attribute.actionModeStyle;
-			global::GooglePlayServices.Resource.Attribute.actionModeWebSearchDrawable = global::gmaps_tutorial.Resource.Attribute.actionModeWebSearchDrawable;
-			global::GooglePlayServices.Resource.Attribute.actionOverflowButtonStyle = global::gmaps_tutorial.Resource.Attribute.actionOverflowButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.actionOverflowMenuStyle = global::gmaps_tutorial.Resource.Attribute.actionOverflowMenuStyle;
-			global::GooglePlayServices.Resource.Attribute.actionProviderClass = global::gmaps_tutorial.Resource.Attribute.actionProviderClass;
-			global::GooglePlayServices.Resource.Attribute.actionViewClass = global::gmaps_tutorial.Resource.Attribute.actionViewClass;
-			global::GooglePlayServices.Resource.Attribute.activityChooserViewStyle = global::gmaps_tutorial.Resource.Attribute.activityChooserViewStyle;
-			global::GooglePlayServices.Resource.Attribute.adSize = global::gmaps_tutorial.Resource.Attribute.adSize;
-			global::GooglePlayServices.Resource.Attribute.adSizes = global::gmaps_tutorial.Resource.Attribute.adSizes;
-			global::GooglePlayServices.Resource.Attribute.adUnitId = global::gmaps_tutorial.Resource.Attribute.adUnitId;
-			global::GooglePlayServices.Resource.Attribute.alertDialogButtonGroupStyle = global::gmaps_tutorial.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::GooglePlayServices.Resource.Attribute.alertDialogCenterButtons = global::gmaps_tutorial.Resource.Attribute.alertDialogCenterButtons;
-			global::GooglePlayServices.Resource.Attribute.alertDialogStyle = global::gmaps_tutorial.Resource.Attribute.alertDialogStyle;
-			global::GooglePlayServices.Resource.Attribute.alertDialogTheme = global::gmaps_tutorial.Resource.Attribute.alertDialogTheme;
-			global::GooglePlayServices.Resource.Attribute.appTheme = global::gmaps_tutorial.Resource.Attribute.appTheme;
-			global::GooglePlayServices.Resource.Attribute.autoCompleteTextViewStyle = global::gmaps_tutorial.Resource.Attribute.autoCompleteTextViewStyle;
-			global::GooglePlayServices.Resource.Attribute.background = global::gmaps_tutorial.Resource.Attribute.background;
-			global::GooglePlayServices.Resource.Attribute.backgroundSplit = global::gmaps_tutorial.Resource.Attribute.backgroundSplit;
-			global::GooglePlayServices.Resource.Attribute.backgroundStacked = global::gmaps_tutorial.Resource.Attribute.backgroundStacked;
-			global::GooglePlayServices.Resource.Attribute.backgroundTint = global::gmaps_tutorial.Resource.Attribute.backgroundTint;
-			global::GooglePlayServices.Resource.Attribute.backgroundTintMode = global::gmaps_tutorial.Resource.Attribute.backgroundTintMode;
-			global::GooglePlayServices.Resource.Attribute.barSize = global::gmaps_tutorial.Resource.Attribute.barSize;
-			global::GooglePlayServices.Resource.Attribute.borderlessButtonStyle = global::gmaps_tutorial.Resource.Attribute.borderlessButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.buttonBarButtonStyle = global::gmaps_tutorial.Resource.Attribute.buttonBarButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.buttonBarNegativeButtonStyle = global::gmaps_tutorial.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.buttonBarNeutralButtonStyle = global::gmaps_tutorial.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.buttonBarPositiveButtonStyle = global::gmaps_tutorial.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.buttonBarStyle = global::gmaps_tutorial.Resource.Attribute.buttonBarStyle;
-			global::GooglePlayServices.Resource.Attribute.buttonPanelSideLayout = global::gmaps_tutorial.Resource.Attribute.buttonPanelSideLayout;
-			global::GooglePlayServices.Resource.Attribute.buttonStyle = global::gmaps_tutorial.Resource.Attribute.buttonStyle;
-			global::GooglePlayServices.Resource.Attribute.buttonStyleSmall = global::gmaps_tutorial.Resource.Attribute.buttonStyleSmall;
-			global::GooglePlayServices.Resource.Attribute.buyButtonAppearance = global::gmaps_tutorial.Resource.Attribute.buyButtonAppearance;
-			global::GooglePlayServices.Resource.Attribute.buyButtonHeight = global::gmaps_tutorial.Resource.Attribute.buyButtonHeight;
-			global::GooglePlayServices.Resource.Attribute.buyButtonText = global::gmaps_tutorial.Resource.Attribute.buyButtonText;
-			global::GooglePlayServices.Resource.Attribute.buyButtonWidth = global::gmaps_tutorial.Resource.Attribute.buyButtonWidth;
-			global::GooglePlayServices.Resource.Attribute.cameraBearing = global::gmaps_tutorial.Resource.Attribute.cameraBearing;
-			global::GooglePlayServices.Resource.Attribute.cameraTargetLat = global::gmaps_tutorial.Resource.Attribute.cameraTargetLat;
-			global::GooglePlayServices.Resource.Attribute.cameraTargetLng = global::gmaps_tutorial.Resource.Attribute.cameraTargetLng;
-			global::GooglePlayServices.Resource.Attribute.cameraTilt = global::gmaps_tutorial.Resource.Attribute.cameraTilt;
-			global::GooglePlayServices.Resource.Attribute.cameraZoom = global::gmaps_tutorial.Resource.Attribute.cameraZoom;
-			global::GooglePlayServices.Resource.Attribute.checkboxStyle = global::gmaps_tutorial.Resource.Attribute.checkboxStyle;
-			global::GooglePlayServices.Resource.Attribute.checkedTextViewStyle = global::gmaps_tutorial.Resource.Attribute.checkedTextViewStyle;
-			global::GooglePlayServices.Resource.Attribute.circleCrop = global::gmaps_tutorial.Resource.Attribute.circleCrop;
-			global::GooglePlayServices.Resource.Attribute.closeIcon = global::gmaps_tutorial.Resource.Attribute.closeIcon;
-			global::GooglePlayServices.Resource.Attribute.closeItemLayout = global::gmaps_tutorial.Resource.Attribute.closeItemLayout;
-			global::GooglePlayServices.Resource.Attribute.collapseContentDescription = global::gmaps_tutorial.Resource.Attribute.collapseContentDescription;
-			global::GooglePlayServices.Resource.Attribute.collapseIcon = global::gmaps_tutorial.Resource.Attribute.collapseIcon;
-			global::GooglePlayServices.Resource.Attribute.color = global::gmaps_tutorial.Resource.Attribute.color;
-			global::GooglePlayServices.Resource.Attribute.colorAccent = global::gmaps_tutorial.Resource.Attribute.colorAccent;
-			global::GooglePlayServices.Resource.Attribute.colorButtonNormal = global::gmaps_tutorial.Resource.Attribute.colorButtonNormal;
-			global::GooglePlayServices.Resource.Attribute.colorControlActivated = global::gmaps_tutorial.Resource.Attribute.colorControlActivated;
-			global::GooglePlayServices.Resource.Attribute.colorControlHighlight = global::gmaps_tutorial.Resource.Attribute.colorControlHighlight;
-			global::GooglePlayServices.Resource.Attribute.colorControlNormal = global::gmaps_tutorial.Resource.Attribute.colorControlNormal;
-			global::GooglePlayServices.Resource.Attribute.colorPrimary = global::gmaps_tutorial.Resource.Attribute.colorPrimary;
-			global::GooglePlayServices.Resource.Attribute.colorPrimaryDark = global::gmaps_tutorial.Resource.Attribute.colorPrimaryDark;
-			global::GooglePlayServices.Resource.Attribute.colorSwitchThumbNormal = global::gmaps_tutorial.Resource.Attribute.colorSwitchThumbNormal;
-			global::GooglePlayServices.Resource.Attribute.commitIcon = global::gmaps_tutorial.Resource.Attribute.commitIcon;
-			global::GooglePlayServices.Resource.Attribute.contentInsetEnd = global::gmaps_tutorial.Resource.Attribute.contentInsetEnd;
-			global::GooglePlayServices.Resource.Attribute.contentInsetLeft = global::gmaps_tutorial.Resource.Attribute.contentInsetLeft;
-			global::GooglePlayServices.Resource.Attribute.contentInsetRight = global::gmaps_tutorial.Resource.Attribute.contentInsetRight;
-			global::GooglePlayServices.Resource.Attribute.contentInsetStart = global::gmaps_tutorial.Resource.Attribute.contentInsetStart;
-			global::GooglePlayServices.Resource.Attribute.customNavigationLayout = global::gmaps_tutorial.Resource.Attribute.customNavigationLayout;
-			global::GooglePlayServices.Resource.Attribute.defaultQueryHint = global::gmaps_tutorial.Resource.Attribute.defaultQueryHint;
-			global::GooglePlayServices.Resource.Attribute.dialogPreferredPadding = global::gmaps_tutorial.Resource.Attribute.dialogPreferredPadding;
-			global::GooglePlayServices.Resource.Attribute.dialogTheme = global::gmaps_tutorial.Resource.Attribute.dialogTheme;
-			global::GooglePlayServices.Resource.Attribute.disableChildrenWhenDisabled = global::gmaps_tutorial.Resource.Attribute.disableChildrenWhenDisabled;
-			global::GooglePlayServices.Resource.Attribute.displayOptions = global::gmaps_tutorial.Resource.Attribute.displayOptions;
-			global::GooglePlayServices.Resource.Attribute.divider = global::gmaps_tutorial.Resource.Attribute.divider;
-			global::GooglePlayServices.Resource.Attribute.dividerHorizontal = global::gmaps_tutorial.Resource.Attribute.dividerHorizontal;
-			global::GooglePlayServices.Resource.Attribute.dividerPadding = global::gmaps_tutorial.Resource.Attribute.dividerPadding;
-			global::GooglePlayServices.Resource.Attribute.dividerVertical = global::gmaps_tutorial.Resource.Attribute.dividerVertical;
-			global::GooglePlayServices.Resource.Attribute.drawableSize = global::gmaps_tutorial.Resource.Attribute.drawableSize;
-			global::GooglePlayServices.Resource.Attribute.drawerArrowStyle = global::gmaps_tutorial.Resource.Attribute.drawerArrowStyle;
-			global::GooglePlayServices.Resource.Attribute.dropDownListViewStyle = global::gmaps_tutorial.Resource.Attribute.dropDownListViewStyle;
-			global::GooglePlayServices.Resource.Attribute.dropdownListPreferredItemHeight = global::gmaps_tutorial.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::GooglePlayServices.Resource.Attribute.editTextBackground = global::gmaps_tutorial.Resource.Attribute.editTextBackground;
-			global::GooglePlayServices.Resource.Attribute.editTextColor = global::gmaps_tutorial.Resource.Attribute.editTextColor;
-			global::GooglePlayServices.Resource.Attribute.editTextStyle = global::gmaps_tutorial.Resource.Attribute.editTextStyle;
-			global::GooglePlayServices.Resource.Attribute.elevation = global::gmaps_tutorial.Resource.Attribute.elevation;
-			global::GooglePlayServices.Resource.Attribute.environment = global::gmaps_tutorial.Resource.Attribute.environment;
-			global::GooglePlayServices.Resource.Attribute.expandActivityOverflowButtonDrawable = global::gmaps_tutorial.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::GooglePlayServices.Resource.Attribute.externalRouteEnabledDrawable = global::gmaps_tutorial.Resource.Attribute.externalRouteEnabledDrawable;
-			global::GooglePlayServices.Resource.Attribute.fragmentMode = global::gmaps_tutorial.Resource.Attribute.fragmentMode;
-			global::GooglePlayServices.Resource.Attribute.fragmentStyle = global::gmaps_tutorial.Resource.Attribute.fragmentStyle;
-			global::GooglePlayServices.Resource.Attribute.gapBetweenBars = global::gmaps_tutorial.Resource.Attribute.gapBetweenBars;
-			global::GooglePlayServices.Resource.Attribute.goIcon = global::gmaps_tutorial.Resource.Attribute.goIcon;
-			global::GooglePlayServices.Resource.Attribute.height = global::gmaps_tutorial.Resource.Attribute.height;
-			global::GooglePlayServices.Resource.Attribute.hideOnContentScroll = global::gmaps_tutorial.Resource.Attribute.hideOnContentScroll;
-			global::GooglePlayServices.Resource.Attribute.homeAsUpIndicator = global::gmaps_tutorial.Resource.Attribute.homeAsUpIndicator;
-			global::GooglePlayServices.Resource.Attribute.homeLayout = global::gmaps_tutorial.Resource.Attribute.homeLayout;
-			global::GooglePlayServices.Resource.Attribute.icon = global::gmaps_tutorial.Resource.Attribute.icon;
-			global::GooglePlayServices.Resource.Attribute.iconifiedByDefault = global::gmaps_tutorial.Resource.Attribute.iconifiedByDefault;
-			global::GooglePlayServices.Resource.Attribute.imageAspectRatio = global::gmaps_tutorial.Resource.Attribute.imageAspectRatio;
-			global::GooglePlayServices.Resource.Attribute.imageAspectRatioAdjust = global::gmaps_tutorial.Resource.Attribute.imageAspectRatioAdjust;
-			global::GooglePlayServices.Resource.Attribute.indeterminateProgressStyle = global::gmaps_tutorial.Resource.Attribute.indeterminateProgressStyle;
-			global::GooglePlayServices.Resource.Attribute.initialActivityCount = global::gmaps_tutorial.Resource.Attribute.initialActivityCount;
-			global::GooglePlayServices.Resource.Attribute.isLightTheme = global::gmaps_tutorial.Resource.Attribute.isLightTheme;
-			global::GooglePlayServices.Resource.Attribute.itemPadding = global::gmaps_tutorial.Resource.Attribute.itemPadding;
-			global::GooglePlayServices.Resource.Attribute.layout = global::gmaps_tutorial.Resource.Attribute.layout;
-			global::GooglePlayServices.Resource.Attribute.listChoiceBackgroundIndicator = global::gmaps_tutorial.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::GooglePlayServices.Resource.Attribute.listDividerAlertDialog = global::gmaps_tutorial.Resource.Attribute.listDividerAlertDialog;
-			global::GooglePlayServices.Resource.Attribute.listItemLayout = global::gmaps_tutorial.Resource.Attribute.listItemLayout;
-			global::GooglePlayServices.Resource.Attribute.listLayout = global::gmaps_tutorial.Resource.Attribute.listLayout;
-			global::GooglePlayServices.Resource.Attribute.listPopupWindowStyle = global::gmaps_tutorial.Resource.Attribute.listPopupWindowStyle;
-			global::GooglePlayServices.Resource.Attribute.listPreferredItemHeight = global::gmaps_tutorial.Resource.Attribute.listPreferredItemHeight;
-			global::GooglePlayServices.Resource.Attribute.listPreferredItemHeightLarge = global::gmaps_tutorial.Resource.Attribute.listPreferredItemHeightLarge;
-			global::GooglePlayServices.Resource.Attribute.listPreferredItemHeightSmall = global::gmaps_tutorial.Resource.Attribute.listPreferredItemHeightSmall;
-			global::GooglePlayServices.Resource.Attribute.listPreferredItemPaddingLeft = global::gmaps_tutorial.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::GooglePlayServices.Resource.Attribute.listPreferredItemPaddingRight = global::gmaps_tutorial.Resource.Attribute.listPreferredItemPaddingRight;
-			global::GooglePlayServices.Resource.Attribute.liteMode = global::gmaps_tutorial.Resource.Attribute.liteMode;
-			global::GooglePlayServices.Resource.Attribute.logo = global::gmaps_tutorial.Resource.Attribute.logo;
-			global::GooglePlayServices.Resource.Attribute.mapType = global::gmaps_tutorial.Resource.Attribute.mapType;
-			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsBackground = global::gmaps_tutorial.Resource.Attribute.maskedWalletDetailsBackground;
-			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsButtonBackground = global::gmaps_tutorial.Resource.Attribute.maskedWalletDetailsButtonBackground;
-			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsButtonTextAppearance = global::gmaps_tutorial.Resource.Attribute.maskedWalletDetailsButtonTextAppearance;
-			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsHeaderTextAppearance = global::gmaps_tutorial.Resource.Attribute.maskedWalletDetailsHeaderTextAppearance;
-			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsLogoImageType = global::gmaps_tutorial.Resource.Attribute.maskedWalletDetailsLogoImageType;
-			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsLogoTextColor = global::gmaps_tutorial.Resource.Attribute.maskedWalletDetailsLogoTextColor;
-			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsTextAppearance = global::gmaps_tutorial.Resource.Attribute.maskedWalletDetailsTextAppearance;
-			global::GooglePlayServices.Resource.Attribute.maxButtonHeight = global::gmaps_tutorial.Resource.Attribute.maxButtonHeight;
-			global::GooglePlayServices.Resource.Attribute.measureWithLargestChild = global::gmaps_tutorial.Resource.Attribute.measureWithLargestChild;
-			global::GooglePlayServices.Resource.Attribute.mediaRouteButtonStyle = global::gmaps_tutorial.Resource.Attribute.mediaRouteButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.mediaRouteConnectingDrawable = global::gmaps_tutorial.Resource.Attribute.mediaRouteConnectingDrawable;
-			global::GooglePlayServices.Resource.Attribute.mediaRouteOffDrawable = global::gmaps_tutorial.Resource.Attribute.mediaRouteOffDrawable;
-			global::GooglePlayServices.Resource.Attribute.mediaRouteOnDrawable = global::gmaps_tutorial.Resource.Attribute.mediaRouteOnDrawable;
-			global::GooglePlayServices.Resource.Attribute.mediaRoutePauseDrawable = global::gmaps_tutorial.Resource.Attribute.mediaRoutePauseDrawable;
-			global::GooglePlayServices.Resource.Attribute.mediaRoutePlayDrawable = global::gmaps_tutorial.Resource.Attribute.mediaRoutePlayDrawable;
-			global::GooglePlayServices.Resource.Attribute.mediaRouteSettingsDrawable = global::gmaps_tutorial.Resource.Attribute.mediaRouteSettingsDrawable;
-			global::GooglePlayServices.Resource.Attribute.middleBarArrowSize = global::gmaps_tutorial.Resource.Attribute.middleBarArrowSize;
-			global::GooglePlayServices.Resource.Attribute.multiChoiceItemLayout = global::gmaps_tutorial.Resource.Attribute.multiChoiceItemLayout;
-			global::GooglePlayServices.Resource.Attribute.navigationContentDescription = global::gmaps_tutorial.Resource.Attribute.navigationContentDescription;
-			global::GooglePlayServices.Resource.Attribute.navigationIcon = global::gmaps_tutorial.Resource.Attribute.navigationIcon;
-			global::GooglePlayServices.Resource.Attribute.navigationMode = global::gmaps_tutorial.Resource.Attribute.navigationMode;
-			global::GooglePlayServices.Resource.Attribute.overlapAnchor = global::gmaps_tutorial.Resource.Attribute.overlapAnchor;
-			global::GooglePlayServices.Resource.Attribute.paddingEnd = global::gmaps_tutorial.Resource.Attribute.paddingEnd;
-			global::GooglePlayServices.Resource.Attribute.paddingStart = global::gmaps_tutorial.Resource.Attribute.paddingStart;
-			global::GooglePlayServices.Resource.Attribute.panelBackground = global::gmaps_tutorial.Resource.Attribute.panelBackground;
-			global::GooglePlayServices.Resource.Attribute.panelMenuListTheme = global::gmaps_tutorial.Resource.Attribute.panelMenuListTheme;
-			global::GooglePlayServices.Resource.Attribute.panelMenuListWidth = global::gmaps_tutorial.Resource.Attribute.panelMenuListWidth;
-			global::GooglePlayServices.Resource.Attribute.popupMenuStyle = global::gmaps_tutorial.Resource.Attribute.popupMenuStyle;
-			global::GooglePlayServices.Resource.Attribute.popupPromptView = global::gmaps_tutorial.Resource.Attribute.popupPromptView;
-			global::GooglePlayServices.Resource.Attribute.popupTheme = global::gmaps_tutorial.Resource.Attribute.popupTheme;
-			global::GooglePlayServices.Resource.Attribute.popupWindowStyle = global::gmaps_tutorial.Resource.Attribute.popupWindowStyle;
-			global::GooglePlayServices.Resource.Attribute.preserveIconSpacing = global::gmaps_tutorial.Resource.Attribute.preserveIconSpacing;
-			global::GooglePlayServices.Resource.Attribute.progressBarPadding = global::gmaps_tutorial.Resource.Attribute.progressBarPadding;
-			global::GooglePlayServices.Resource.Attribute.progressBarStyle = global::gmaps_tutorial.Resource.Attribute.progressBarStyle;
-			global::GooglePlayServices.Resource.Attribute.prompt = global::gmaps_tutorial.Resource.Attribute.prompt;
-			global::GooglePlayServices.Resource.Attribute.queryBackground = global::gmaps_tutorial.Resource.Attribute.queryBackground;
-			global::GooglePlayServices.Resource.Attribute.queryHint = global::gmaps_tutorial.Resource.Attribute.queryHint;
-			global::GooglePlayServices.Resource.Attribute.radioButtonStyle = global::gmaps_tutorial.Resource.Attribute.radioButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.ratingBarStyle = global::gmaps_tutorial.Resource.Attribute.ratingBarStyle;
-			global::GooglePlayServices.Resource.Attribute.searchHintIcon = global::gmaps_tutorial.Resource.Attribute.searchHintIcon;
-			global::GooglePlayServices.Resource.Attribute.searchIcon = global::gmaps_tutorial.Resource.Attribute.searchIcon;
-			global::GooglePlayServices.Resource.Attribute.searchViewStyle = global::gmaps_tutorial.Resource.Attribute.searchViewStyle;
-			global::GooglePlayServices.Resource.Attribute.selectableItemBackground = global::gmaps_tutorial.Resource.Attribute.selectableItemBackground;
-			global::GooglePlayServices.Resource.Attribute.selectableItemBackgroundBorderless = global::gmaps_tutorial.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::GooglePlayServices.Resource.Attribute.showAsAction = global::gmaps_tutorial.Resource.Attribute.showAsAction;
-			global::GooglePlayServices.Resource.Attribute.showDividers = global::gmaps_tutorial.Resource.Attribute.showDividers;
-			global::GooglePlayServices.Resource.Attribute.showText = global::gmaps_tutorial.Resource.Attribute.showText;
-			global::GooglePlayServices.Resource.Attribute.singleChoiceItemLayout = global::gmaps_tutorial.Resource.Attribute.singleChoiceItemLayout;
-			global::GooglePlayServices.Resource.Attribute.spinBars = global::gmaps_tutorial.Resource.Attribute.spinBars;
-			global::GooglePlayServices.Resource.Attribute.spinnerDropDownItemStyle = global::gmaps_tutorial.Resource.Attribute.spinnerDropDownItemStyle;
-			global::GooglePlayServices.Resource.Attribute.spinnerMode = global::gmaps_tutorial.Resource.Attribute.spinnerMode;
-			global::GooglePlayServices.Resource.Attribute.spinnerStyle = global::gmaps_tutorial.Resource.Attribute.spinnerStyle;
-			global::GooglePlayServices.Resource.Attribute.splitTrack = global::gmaps_tutorial.Resource.Attribute.splitTrack;
-			global::GooglePlayServices.Resource.Attribute.state_above_anchor = global::gmaps_tutorial.Resource.Attribute.state_above_anchor;
-			global::GooglePlayServices.Resource.Attribute.submitBackground = global::gmaps_tutorial.Resource.Attribute.submitBackground;
-			global::GooglePlayServices.Resource.Attribute.subtitle = global::gmaps_tutorial.Resource.Attribute.subtitle;
-			global::GooglePlayServices.Resource.Attribute.subtitleTextAppearance = global::gmaps_tutorial.Resource.Attribute.subtitleTextAppearance;
-			global::GooglePlayServices.Resource.Attribute.subtitleTextStyle = global::gmaps_tutorial.Resource.Attribute.subtitleTextStyle;
-			global::GooglePlayServices.Resource.Attribute.suggestionRowLayout = global::gmaps_tutorial.Resource.Attribute.suggestionRowLayout;
-			global::GooglePlayServices.Resource.Attribute.switchMinWidth = global::gmaps_tutorial.Resource.Attribute.switchMinWidth;
-			global::GooglePlayServices.Resource.Attribute.switchPadding = global::gmaps_tutorial.Resource.Attribute.switchPadding;
-			global::GooglePlayServices.Resource.Attribute.switchStyle = global::gmaps_tutorial.Resource.Attribute.switchStyle;
-			global::GooglePlayServices.Resource.Attribute.switchTextAppearance = global::gmaps_tutorial.Resource.Attribute.switchTextAppearance;
-			global::GooglePlayServices.Resource.Attribute.textAllCaps = global::gmaps_tutorial.Resource.Attribute.textAllCaps;
-			global::GooglePlayServices.Resource.Attribute.textAppearanceLargePopupMenu = global::gmaps_tutorial.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::GooglePlayServices.Resource.Attribute.textAppearanceListItem = global::gmaps_tutorial.Resource.Attribute.textAppearanceListItem;
-			global::GooglePlayServices.Resource.Attribute.textAppearanceListItemSmall = global::gmaps_tutorial.Resource.Attribute.textAppearanceListItemSmall;
-			global::GooglePlayServices.Resource.Attribute.textAppearanceSearchResultSubtitle = global::gmaps_tutorial.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::GooglePlayServices.Resource.Attribute.textAppearanceSearchResultTitle = global::gmaps_tutorial.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::GooglePlayServices.Resource.Attribute.textAppearanceSmallPopupMenu = global::gmaps_tutorial.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::GooglePlayServices.Resource.Attribute.textColorAlertDialogListItem = global::gmaps_tutorial.Resource.Attribute.textColorAlertDialogListItem;
-			global::GooglePlayServices.Resource.Attribute.textColorSearchUrl = global::gmaps_tutorial.Resource.Attribute.textColorSearchUrl;
-			global::GooglePlayServices.Resource.Attribute.theme = global::gmaps_tutorial.Resource.Attribute.theme;
-			global::GooglePlayServices.Resource.Attribute.thickness = global::gmaps_tutorial.Resource.Attribute.thickness;
-			global::GooglePlayServices.Resource.Attribute.thumbTextPadding = global::gmaps_tutorial.Resource.Attribute.thumbTextPadding;
-			global::GooglePlayServices.Resource.Attribute.title = global::gmaps_tutorial.Resource.Attribute.title;
-			global::GooglePlayServices.Resource.Attribute.titleMarginBottom = global::gmaps_tutorial.Resource.Attribute.titleMarginBottom;
-			global::GooglePlayServices.Resource.Attribute.titleMarginEnd = global::gmaps_tutorial.Resource.Attribute.titleMarginEnd;
-			global::GooglePlayServices.Resource.Attribute.titleMarginStart = global::gmaps_tutorial.Resource.Attribute.titleMarginStart;
-			global::GooglePlayServices.Resource.Attribute.titleMarginTop = global::gmaps_tutorial.Resource.Attribute.titleMarginTop;
-			global::GooglePlayServices.Resource.Attribute.titleMargins = global::gmaps_tutorial.Resource.Attribute.titleMargins;
-			global::GooglePlayServices.Resource.Attribute.titleTextAppearance = global::gmaps_tutorial.Resource.Attribute.titleTextAppearance;
-			global::GooglePlayServices.Resource.Attribute.titleTextStyle = global::gmaps_tutorial.Resource.Attribute.titleTextStyle;
-			global::GooglePlayServices.Resource.Attribute.toolbarNavigationButtonStyle = global::gmaps_tutorial.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::GooglePlayServices.Resource.Attribute.toolbarStyle = global::gmaps_tutorial.Resource.Attribute.toolbarStyle;
-			global::GooglePlayServices.Resource.Attribute.topBottomBarArrowSize = global::gmaps_tutorial.Resource.Attribute.topBottomBarArrowSize;
-			global::GooglePlayServices.Resource.Attribute.track = global::gmaps_tutorial.Resource.Attribute.track;
-			global::GooglePlayServices.Resource.Attribute.uiCompass = global::gmaps_tutorial.Resource.Attribute.uiCompass;
-			global::GooglePlayServices.Resource.Attribute.uiMapToolbar = global::gmaps_tutorial.Resource.Attribute.uiMapToolbar;
-			global::GooglePlayServices.Resource.Attribute.uiRotateGestures = global::gmaps_tutorial.Resource.Attribute.uiRotateGestures;
-			global::GooglePlayServices.Resource.Attribute.uiScrollGestures = global::gmaps_tutorial.Resource.Attribute.uiScrollGestures;
-			global::GooglePlayServices.Resource.Attribute.uiTiltGestures = global::gmaps_tutorial.Resource.Attribute.uiTiltGestures;
-			global::GooglePlayServices.Resource.Attribute.uiZoomControls = global::gmaps_tutorial.Resource.Attribute.uiZoomControls;
-			global::GooglePlayServices.Resource.Attribute.uiZoomGestures = global::gmaps_tutorial.Resource.Attribute.uiZoomGestures;
-			global::GooglePlayServices.Resource.Attribute.useViewLifecycle = global::gmaps_tutorial.Resource.Attribute.useViewLifecycle;
-			global::GooglePlayServices.Resource.Attribute.voiceIcon = global::gmaps_tutorial.Resource.Attribute.voiceIcon;
-			global::GooglePlayServices.Resource.Attribute.windowActionBar = global::gmaps_tutorial.Resource.Attribute.windowActionBar;
-			global::GooglePlayServices.Resource.Attribute.windowActionBarOverlay = global::gmaps_tutorial.Resource.Attribute.windowActionBarOverlay;
-			global::GooglePlayServices.Resource.Attribute.windowActionModeOverlay = global::gmaps_tutorial.Resource.Attribute.windowActionModeOverlay;
-			global::GooglePlayServices.Resource.Attribute.windowFixedHeightMajor = global::gmaps_tutorial.Resource.Attribute.windowFixedHeightMajor;
-			global::GooglePlayServices.Resource.Attribute.windowFixedHeightMinor = global::gmaps_tutorial.Resource.Attribute.windowFixedHeightMinor;
-			global::GooglePlayServices.Resource.Attribute.windowFixedWidthMajor = global::gmaps_tutorial.Resource.Attribute.windowFixedWidthMajor;
-			global::GooglePlayServices.Resource.Attribute.windowFixedWidthMinor = global::gmaps_tutorial.Resource.Attribute.windowFixedWidthMinor;
-			global::GooglePlayServices.Resource.Attribute.windowMinWidthMajor = global::gmaps_tutorial.Resource.Attribute.windowMinWidthMajor;
-			global::GooglePlayServices.Resource.Attribute.windowMinWidthMinor = global::gmaps_tutorial.Resource.Attribute.windowMinWidthMinor;
-			global::GooglePlayServices.Resource.Attribute.windowNoTitle = global::gmaps_tutorial.Resource.Attribute.windowNoTitle;
-			global::GooglePlayServices.Resource.Attribute.windowTransitionStyle = global::gmaps_tutorial.Resource.Attribute.windowTransitionStyle;
-			global::GooglePlayServices.Resource.Attribute.zOrderOnTop = global::gmaps_tutorial.Resource.Attribute.zOrderOnTop;
-			global::GooglePlayServices.Resource.Boolean.abc_action_bar_embed_tabs = global::gmaps_tutorial.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::GooglePlayServices.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::gmaps_tutorial.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
-			global::GooglePlayServices.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::gmaps_tutorial.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
-			global::GooglePlayServices.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::gmaps_tutorial.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::GooglePlayServices.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::gmaps_tutorial.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
-			global::GooglePlayServices.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::gmaps_tutorial.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::GooglePlayServices.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::gmaps_tutorial.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::GooglePlayServices.Resource.Color.abc_background_cache_hint_selector_material_dark = global::gmaps_tutorial.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::GooglePlayServices.Resource.Color.abc_background_cache_hint_selector_material_light = global::gmaps_tutorial.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::GooglePlayServices.Resource.Color.abc_input_method_navigation_guard = global::gmaps_tutorial.Resource.Color.abc_input_method_navigation_guard;
-			global::GooglePlayServices.Resource.Color.abc_primary_text_disable_only_material_dark = global::gmaps_tutorial.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::GooglePlayServices.Resource.Color.abc_primary_text_disable_only_material_light = global::gmaps_tutorial.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::GooglePlayServices.Resource.Color.abc_primary_text_material_dark = global::gmaps_tutorial.Resource.Color.abc_primary_text_material_dark;
-			global::GooglePlayServices.Resource.Color.abc_primary_text_material_light = global::gmaps_tutorial.Resource.Color.abc_primary_text_material_light;
-			global::GooglePlayServices.Resource.Color.abc_search_url_text = global::gmaps_tutorial.Resource.Color.abc_search_url_text;
-			global::GooglePlayServices.Resource.Color.abc_search_url_text_normal = global::gmaps_tutorial.Resource.Color.abc_search_url_text_normal;
-			global::GooglePlayServices.Resource.Color.abc_search_url_text_pressed = global::gmaps_tutorial.Resource.Color.abc_search_url_text_pressed;
-			global::GooglePlayServices.Resource.Color.abc_search_url_text_selected = global::gmaps_tutorial.Resource.Color.abc_search_url_text_selected;
-			global::GooglePlayServices.Resource.Color.abc_secondary_text_material_dark = global::gmaps_tutorial.Resource.Color.abc_secondary_text_material_dark;
-			global::GooglePlayServices.Resource.Color.abc_secondary_text_material_light = global::gmaps_tutorial.Resource.Color.abc_secondary_text_material_light;
-			global::GooglePlayServices.Resource.Color.accent_material_dark = global::gmaps_tutorial.Resource.Color.accent_material_dark;
-			global::GooglePlayServices.Resource.Color.accent_material_light = global::gmaps_tutorial.Resource.Color.accent_material_light;
-			global::GooglePlayServices.Resource.Color.background_floating_material_dark = global::gmaps_tutorial.Resource.Color.background_floating_material_dark;
-			global::GooglePlayServices.Resource.Color.background_floating_material_light = global::gmaps_tutorial.Resource.Color.background_floating_material_light;
-			global::GooglePlayServices.Resource.Color.background_material_dark = global::gmaps_tutorial.Resource.Color.background_material_dark;
-			global::GooglePlayServices.Resource.Color.background_material_light = global::gmaps_tutorial.Resource.Color.background_material_light;
-			global::GooglePlayServices.Resource.Color.bright_foreground_disabled_material_dark = global::gmaps_tutorial.Resource.Color.bright_foreground_disabled_material_dark;
-			global::GooglePlayServices.Resource.Color.bright_foreground_disabled_material_light = global::gmaps_tutorial.Resource.Color.bright_foreground_disabled_material_light;
-			global::GooglePlayServices.Resource.Color.bright_foreground_inverse_material_dark = global::gmaps_tutorial.Resource.Color.bright_foreground_inverse_material_dark;
-			global::GooglePlayServices.Resource.Color.bright_foreground_inverse_material_light = global::gmaps_tutorial.Resource.Color.bright_foreground_inverse_material_light;
-			global::GooglePlayServices.Resource.Color.bright_foreground_material_dark = global::gmaps_tutorial.Resource.Color.bright_foreground_material_dark;
-			global::GooglePlayServices.Resource.Color.bright_foreground_material_light = global::gmaps_tutorial.Resource.Color.bright_foreground_material_light;
-			global::GooglePlayServices.Resource.Color.button_material_dark = global::gmaps_tutorial.Resource.Color.button_material_dark;
-			global::GooglePlayServices.Resource.Color.button_material_light = global::gmaps_tutorial.Resource.Color.button_material_light;
-			global::GooglePlayServices.Resource.Color.common_action_bar_splitter = global::gmaps_tutorial.Resource.Color.common_action_bar_splitter;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_dark_text_default = global::gmaps_tutorial.Resource.Color.common_signin_btn_dark_text_default;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_dark_text_disabled = global::gmaps_tutorial.Resource.Color.common_signin_btn_dark_text_disabled;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_dark_text_focused = global::gmaps_tutorial.Resource.Color.common_signin_btn_dark_text_focused;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_dark_text_pressed = global::gmaps_tutorial.Resource.Color.common_signin_btn_dark_text_pressed;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_default_background = global::gmaps_tutorial.Resource.Color.common_signin_btn_default_background;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_light_text_default = global::gmaps_tutorial.Resource.Color.common_signin_btn_light_text_default;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_light_text_disabled = global::gmaps_tutorial.Resource.Color.common_signin_btn_light_text_disabled;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_light_text_focused = global::gmaps_tutorial.Resource.Color.common_signin_btn_light_text_focused;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_light_text_pressed = global::gmaps_tutorial.Resource.Color.common_signin_btn_light_text_pressed;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_text_dark = global::gmaps_tutorial.Resource.Color.common_signin_btn_text_dark;
-			global::GooglePlayServices.Resource.Color.common_signin_btn_text_light = global::gmaps_tutorial.Resource.Color.common_signin_btn_text_light;
-			global::GooglePlayServices.Resource.Color.dim_foreground_disabled_material_dark = global::gmaps_tutorial.Resource.Color.dim_foreground_disabled_material_dark;
-			global::GooglePlayServices.Resource.Color.dim_foreground_disabled_material_light = global::gmaps_tutorial.Resource.Color.dim_foreground_disabled_material_light;
-			global::GooglePlayServices.Resource.Color.dim_foreground_material_dark = global::gmaps_tutorial.Resource.Color.dim_foreground_material_dark;
-			global::GooglePlayServices.Resource.Color.dim_foreground_material_light = global::gmaps_tutorial.Resource.Color.dim_foreground_material_light;
-			global::GooglePlayServices.Resource.Color.highlighted_text_material_dark = global::gmaps_tutorial.Resource.Color.highlighted_text_material_dark;
-			global::GooglePlayServices.Resource.Color.highlighted_text_material_light = global::gmaps_tutorial.Resource.Color.highlighted_text_material_light;
-			global::GooglePlayServices.Resource.Color.hint_foreground_material_dark = global::gmaps_tutorial.Resource.Color.hint_foreground_material_dark;
-			global::GooglePlayServices.Resource.Color.hint_foreground_material_light = global::gmaps_tutorial.Resource.Color.hint_foreground_material_light;
-			global::GooglePlayServices.Resource.Color.link_text_material_dark = global::gmaps_tutorial.Resource.Color.link_text_material_dark;
-			global::GooglePlayServices.Resource.Color.link_text_material_light = global::gmaps_tutorial.Resource.Color.link_text_material_light;
-			global::GooglePlayServices.Resource.Color.material_blue_grey_800 = global::gmaps_tutorial.Resource.Color.material_blue_grey_800;
-			global::GooglePlayServices.Resource.Color.material_blue_grey_900 = global::gmaps_tutorial.Resource.Color.material_blue_grey_900;
-			global::GooglePlayServices.Resource.Color.material_blue_grey_950 = global::gmaps_tutorial.Resource.Color.material_blue_grey_950;
-			global::GooglePlayServices.Resource.Color.material_deep_teal_200 = global::gmaps_tutorial.Resource.Color.material_deep_teal_200;
-			global::GooglePlayServices.Resource.Color.material_deep_teal_500 = global::gmaps_tutorial.Resource.Color.material_deep_teal_500;
-			global::GooglePlayServices.Resource.Color.primary_dark_material_dark = global::gmaps_tutorial.Resource.Color.primary_dark_material_dark;
-			global::GooglePlayServices.Resource.Color.primary_dark_material_light = global::gmaps_tutorial.Resource.Color.primary_dark_material_light;
-			global::GooglePlayServices.Resource.Color.primary_material_dark = global::gmaps_tutorial.Resource.Color.primary_material_dark;
-			global::GooglePlayServices.Resource.Color.primary_material_light = global::gmaps_tutorial.Resource.Color.primary_material_light;
-			global::GooglePlayServices.Resource.Color.primary_text_default_material_dark = global::gmaps_tutorial.Resource.Color.primary_text_default_material_dark;
-			global::GooglePlayServices.Resource.Color.primary_text_default_material_light = global::gmaps_tutorial.Resource.Color.primary_text_default_material_light;
-			global::GooglePlayServices.Resource.Color.primary_text_disabled_material_dark = global::gmaps_tutorial.Resource.Color.primary_text_disabled_material_dark;
-			global::GooglePlayServices.Resource.Color.primary_text_disabled_material_light = global::gmaps_tutorial.Resource.Color.primary_text_disabled_material_light;
-			global::GooglePlayServices.Resource.Color.ripple_material_dark = global::gmaps_tutorial.Resource.Color.ripple_material_dark;
-			global::GooglePlayServices.Resource.Color.ripple_material_light = global::gmaps_tutorial.Resource.Color.ripple_material_light;
-			global::GooglePlayServices.Resource.Color.secondary_text_default_material_dark = global::gmaps_tutorial.Resource.Color.secondary_text_default_material_dark;
-			global::GooglePlayServices.Resource.Color.secondary_text_default_material_light = global::gmaps_tutorial.Resource.Color.secondary_text_default_material_light;
-			global::GooglePlayServices.Resource.Color.secondary_text_disabled_material_dark = global::gmaps_tutorial.Resource.Color.secondary_text_disabled_material_dark;
-			global::GooglePlayServices.Resource.Color.secondary_text_disabled_material_light = global::gmaps_tutorial.Resource.Color.secondary_text_disabled_material_light;
-			global::GooglePlayServices.Resource.Color.switch_thumb_disabled_material_dark = global::gmaps_tutorial.Resource.Color.switch_thumb_disabled_material_dark;
-			global::GooglePlayServices.Resource.Color.switch_thumb_disabled_material_light = global::gmaps_tutorial.Resource.Color.switch_thumb_disabled_material_light;
-			global::GooglePlayServices.Resource.Color.switch_thumb_material_dark = global::gmaps_tutorial.Resource.Color.switch_thumb_material_dark;
-			global::GooglePlayServices.Resource.Color.switch_thumb_material_light = global::gmaps_tutorial.Resource.Color.switch_thumb_material_light;
-			global::GooglePlayServices.Resource.Color.switch_thumb_normal_material_dark = global::gmaps_tutorial.Resource.Color.switch_thumb_normal_material_dark;
-			global::GooglePlayServices.Resource.Color.switch_thumb_normal_material_light = global::gmaps_tutorial.Resource.Color.switch_thumb_normal_material_light;
-			global::GooglePlayServices.Resource.Color.wallet_bright_foreground_disabled_holo_light = global::gmaps_tutorial.Resource.Color.wallet_bright_foreground_disabled_holo_light;
-			global::GooglePlayServices.Resource.Color.wallet_bright_foreground_holo_dark = global::gmaps_tutorial.Resource.Color.wallet_bright_foreground_holo_dark;
-			global::GooglePlayServices.Resource.Color.wallet_bright_foreground_holo_light = global::gmaps_tutorial.Resource.Color.wallet_bright_foreground_holo_light;
-			global::GooglePlayServices.Resource.Color.wallet_dim_foreground_disabled_holo_dark = global::gmaps_tutorial.Resource.Color.wallet_dim_foreground_disabled_holo_dark;
-			global::GooglePlayServices.Resource.Color.wallet_dim_foreground_holo_dark = global::gmaps_tutorial.Resource.Color.wallet_dim_foreground_holo_dark;
-			global::GooglePlayServices.Resource.Color.wallet_dim_foreground_inverse_disabled_holo_dark = global::gmaps_tutorial.Resource.Color.wallet_dim_foreground_inverse_disabled_holo_dark;
-			global::GooglePlayServices.Resource.Color.wallet_dim_foreground_inverse_holo_dark = global::gmaps_tutorial.Resource.Color.wallet_dim_foreground_inverse_holo_dark;
-			global::GooglePlayServices.Resource.Color.wallet_highlighted_text_holo_dark = global::gmaps_tutorial.Resource.Color.wallet_highlighted_text_holo_dark;
-			global::GooglePlayServices.Resource.Color.wallet_highlighted_text_holo_light = global::gmaps_tutorial.Resource.Color.wallet_highlighted_text_holo_light;
-			global::GooglePlayServices.Resource.Color.wallet_hint_foreground_holo_dark = global::gmaps_tutorial.Resource.Color.wallet_hint_foreground_holo_dark;
-			global::GooglePlayServices.Resource.Color.wallet_hint_foreground_holo_light = global::gmaps_tutorial.Resource.Color.wallet_hint_foreground_holo_light;
-			global::GooglePlayServices.Resource.Color.wallet_holo_blue_light = global::gmaps_tutorial.Resource.Color.wallet_holo_blue_light;
-			global::GooglePlayServices.Resource.Color.wallet_link_text_light = global::gmaps_tutorial.Resource.Color.wallet_link_text_light;
-			global::GooglePlayServices.Resource.Color.wallet_primary_text_holo_light = global::gmaps_tutorial.Resource.Color.wallet_primary_text_holo_light;
-			global::GooglePlayServices.Resource.Color.wallet_secondary_text_holo_dark = global::gmaps_tutorial.Resource.Color.wallet_secondary_text_holo_dark;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_content_inset_material = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_default_height_material = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_default_height_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_default_padding_material = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_default_padding_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_navigation_padding_start_material = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_navigation_padding_start_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_progress_bar_size = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_stacked_max_height = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::gmaps_tutorial.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_button_min_height_material = global::gmaps_tutorial.Resource.Dimension.abc_action_button_min_height_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_button_min_width_material = global::gmaps_tutorial.Resource.Dimension.abc_action_button_min_width_material;
-			global::GooglePlayServices.Resource.Dimension.abc_action_button_min_width_overflow_material = global::gmaps_tutorial.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::GooglePlayServices.Resource.Dimension.abc_alert_dialog_button_bar_height = global::gmaps_tutorial.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::GooglePlayServices.Resource.Dimension.abc_button_inset_horizontal_material = global::gmaps_tutorial.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::GooglePlayServices.Resource.Dimension.abc_button_inset_vertical_material = global::gmaps_tutorial.Resource.Dimension.abc_button_inset_vertical_material;
-			global::GooglePlayServices.Resource.Dimension.abc_button_padding_horizontal_material = global::gmaps_tutorial.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::GooglePlayServices.Resource.Dimension.abc_button_padding_vertical_material = global::gmaps_tutorial.Resource.Dimension.abc_button_padding_vertical_material;
-			global::GooglePlayServices.Resource.Dimension.abc_config_prefDialogWidth = global::gmaps_tutorial.Resource.Dimension.abc_config_prefDialogWidth;
-			global::GooglePlayServices.Resource.Dimension.abc_control_corner_material = global::gmaps_tutorial.Resource.Dimension.abc_control_corner_material;
-			global::GooglePlayServices.Resource.Dimension.abc_control_inset_material = global::gmaps_tutorial.Resource.Dimension.abc_control_inset_material;
-			global::GooglePlayServices.Resource.Dimension.abc_control_padding_material = global::gmaps_tutorial.Resource.Dimension.abc_control_padding_material;
-			global::GooglePlayServices.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::gmaps_tutorial.Resource.Dimension.abc_dialog_list_padding_vertical_material;
-			global::GooglePlayServices.Resource.Dimension.abc_dialog_min_width_major = global::gmaps_tutorial.Resource.Dimension.abc_dialog_min_width_major;
-			global::GooglePlayServices.Resource.Dimension.abc_dialog_min_width_minor = global::gmaps_tutorial.Resource.Dimension.abc_dialog_min_width_minor;
-			global::GooglePlayServices.Resource.Dimension.abc_dialog_padding_material = global::gmaps_tutorial.Resource.Dimension.abc_dialog_padding_material;
-			global::GooglePlayServices.Resource.Dimension.abc_dialog_padding_top_material = global::gmaps_tutorial.Resource.Dimension.abc_dialog_padding_top_material;
-			global::GooglePlayServices.Resource.Dimension.abc_disabled_alpha_material_dark = global::gmaps_tutorial.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::GooglePlayServices.Resource.Dimension.abc_disabled_alpha_material_light = global::gmaps_tutorial.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::GooglePlayServices.Resource.Dimension.abc_dropdownitem_icon_width = global::gmaps_tutorial.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::GooglePlayServices.Resource.Dimension.abc_dropdownitem_text_padding_left = global::gmaps_tutorial.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::GooglePlayServices.Resource.Dimension.abc_dropdownitem_text_padding_right = global::gmaps_tutorial.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::GooglePlayServices.Resource.Dimension.abc_edit_text_inset_bottom_material = global::gmaps_tutorial.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::GooglePlayServices.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::gmaps_tutorial.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::GooglePlayServices.Resource.Dimension.abc_edit_text_inset_top_material = global::gmaps_tutorial.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::GooglePlayServices.Resource.Dimension.abc_floating_window_z = global::gmaps_tutorial.Resource.Dimension.abc_floating_window_z;
-			global::GooglePlayServices.Resource.Dimension.abc_list_item_padding_horizontal_material = global::gmaps_tutorial.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::GooglePlayServices.Resource.Dimension.abc_panel_menu_list_width = global::gmaps_tutorial.Resource.Dimension.abc_panel_menu_list_width;
-			global::GooglePlayServices.Resource.Dimension.abc_search_view_preferred_width = global::gmaps_tutorial.Resource.Dimension.abc_search_view_preferred_width;
-			global::GooglePlayServices.Resource.Dimension.abc_search_view_text_min_width = global::gmaps_tutorial.Resource.Dimension.abc_search_view_text_min_width;
-			global::GooglePlayServices.Resource.Dimension.abc_switch_padding = global::gmaps_tutorial.Resource.Dimension.abc_switch_padding;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_body_1_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_body_1_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_body_2_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_body_2_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_button_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_button_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_caption_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_caption_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_display_1_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_display_1_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_display_2_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_display_2_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_display_3_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_display_3_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_display_4_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_display_4_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_headline_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_headline_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_large_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_large_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_medium_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_medium_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_menu_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_menu_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_small_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_small_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_subhead_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_subhead_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::gmaps_tutorial.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_title_material = global::gmaps_tutorial.Resource.Dimension.abc_text_size_title_material;
-			global::GooglePlayServices.Resource.Dimension.abc_text_size_title_material_toolbar = global::gmaps_tutorial.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::GooglePlayServices.Resource.Dimension.dialog_fixed_height_major = global::gmaps_tutorial.Resource.Dimension.dialog_fixed_height_major;
-			global::GooglePlayServices.Resource.Dimension.dialog_fixed_height_minor = global::gmaps_tutorial.Resource.Dimension.dialog_fixed_height_minor;
-			global::GooglePlayServices.Resource.Dimension.dialog_fixed_width_major = global::gmaps_tutorial.Resource.Dimension.dialog_fixed_width_major;
-			global::GooglePlayServices.Resource.Dimension.dialog_fixed_width_minor = global::gmaps_tutorial.Resource.Dimension.dialog_fixed_width_minor;
-			global::GooglePlayServices.Resource.Dimension.disabled_alpha_material_dark = global::gmaps_tutorial.Resource.Dimension.disabled_alpha_material_dark;
-			global::GooglePlayServices.Resource.Dimension.disabled_alpha_material_light = global::gmaps_tutorial.Resource.Dimension.disabled_alpha_material_light;
-			global::GooglePlayServices.Resource.Dimension.mr_media_route_controller_art_max_height = global::gmaps_tutorial.Resource.Dimension.mr_media_route_controller_art_max_height;
-			global::GooglePlayServices.Resource.Dimension.notification_large_icon_height = global::gmaps_tutorial.Resource.Dimension.notification_large_icon_height;
-			global::GooglePlayServices.Resource.Dimension.notification_large_icon_width = global::gmaps_tutorial.Resource.Dimension.notification_large_icon_width;
-			global::GooglePlayServices.Resource.Dimension.notification_subtext_size = global::gmaps_tutorial.Resource.Dimension.notification_subtext_size;
-			global::GooglePlayServices.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_borderless_material = global::gmaps_tutorial.Resource.Drawable.abc_btn_borderless_material;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_check_material = global::gmaps_tutorial.Resource.Drawable.abc_btn_check_material;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::gmaps_tutorial.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::gmaps_tutorial.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_default_mtrl_shape = global::gmaps_tutorial.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_radio_material = global::gmaps_tutorial.Resource.Drawable.abc_btn_radio_material;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::gmaps_tutorial.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::gmaps_tutorial.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::gmaps_tutorial.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::GooglePlayServices.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::gmaps_tutorial.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::GooglePlayServices.Resource.Drawable.abc_cab_background_internal_bg = global::gmaps_tutorial.Resource.Drawable.abc_cab_background_internal_bg;
-			global::GooglePlayServices.Resource.Drawable.abc_cab_background_top_material = global::gmaps_tutorial.Resource.Drawable.abc_cab_background_top_material;
-			global::GooglePlayServices.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_dialog_material_background_dark = global::gmaps_tutorial.Resource.Drawable.abc_dialog_material_background_dark;
-			global::GooglePlayServices.Resource.Drawable.abc_dialog_material_background_light = global::gmaps_tutorial.Resource.Drawable.abc_dialog_material_background_light;
-			global::GooglePlayServices.Resource.Drawable.abc_edit_text_material = global::gmaps_tutorial.Resource.Drawable.abc_edit_text_material;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_clear_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_item_background_holo_dark = global::gmaps_tutorial.Resource.Drawable.abc_item_background_holo_dark;
-			global::GooglePlayServices.Resource.Drawable.abc_item_background_holo_light = global::gmaps_tutorial.Resource.Drawable.abc_item_background_holo_light;
-			global::GooglePlayServices.Resource.Drawable.abc_list_divider_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_list_focused_holo = global::gmaps_tutorial.Resource.Drawable.abc_list_focused_holo;
-			global::GooglePlayServices.Resource.Drawable.abc_list_longpressed_holo = global::gmaps_tutorial.Resource.Drawable.abc_list_longpressed_holo;
-			global::GooglePlayServices.Resource.Drawable.abc_list_pressed_holo_dark = global::gmaps_tutorial.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::GooglePlayServices.Resource.Drawable.abc_list_pressed_holo_light = global::gmaps_tutorial.Resource.Drawable.abc_list_pressed_holo_light;
-			global::GooglePlayServices.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::gmaps_tutorial.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::GooglePlayServices.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::gmaps_tutorial.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::GooglePlayServices.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::gmaps_tutorial.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::GooglePlayServices.Resource.Drawable.abc_list_selector_disabled_holo_light = global::gmaps_tutorial.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::GooglePlayServices.Resource.Drawable.abc_list_selector_holo_dark = global::gmaps_tutorial.Resource.Drawable.abc_list_selector_holo_dark;
-			global::GooglePlayServices.Resource.Drawable.abc_list_selector_holo_light = global::gmaps_tutorial.Resource.Drawable.abc_list_selector_holo_light;
-			global::GooglePlayServices.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::gmaps_tutorial.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::GooglePlayServices.Resource.Drawable.abc_popup_background_mtrl_mult = global::gmaps_tutorial.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::GooglePlayServices.Resource.Drawable.abc_ratingbar_full_material = global::gmaps_tutorial.Resource.Drawable.abc_ratingbar_full_material;
-			global::GooglePlayServices.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::gmaps_tutorial.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_spinner_textfield_background_material = global::gmaps_tutorial.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::GooglePlayServices.Resource.Drawable.abc_switch_thumb_material = global::gmaps_tutorial.Resource.Drawable.abc_switch_thumb_material;
-			global::GooglePlayServices.Resource.Drawable.abc_switch_track_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_tab_indicator_material = global::gmaps_tutorial.Resource.Drawable.abc_tab_indicator_material;
-			global::GooglePlayServices.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_text_cursor_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_text_cursor_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::gmaps_tutorial.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::GooglePlayServices.Resource.Drawable.abc_textfield_search_material = global::gmaps_tutorial.Resource.Drawable.abc_textfield_search_material;
-			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_0 = global::gmaps_tutorial.Resource.Drawable.cast_ic_notification_0;
-			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_1 = global::gmaps_tutorial.Resource.Drawable.cast_ic_notification_1;
-			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_2 = global::gmaps_tutorial.Resource.Drawable.cast_ic_notification_2;
-			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_connecting = global::gmaps_tutorial.Resource.Drawable.cast_ic_notification_connecting;
-			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_on = global::gmaps_tutorial.Resource.Drawable.cast_ic_notification_on;
-			global::GooglePlayServices.Resource.Drawable.common_full_open_on_phone = global::gmaps_tutorial.Resource.Drawable.common_full_open_on_phone;
-			global::GooglePlayServices.Resource.Drawable.common_ic_googleplayservices = global::gmaps_tutorial.Resource.Drawable.common_ic_googleplayservices;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_disabled_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_disabled_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_disabled_focus_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_disabled_focus_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_disabled_focus_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_disabled_focus_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_disabled_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_disabled_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_focus_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_focus_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_focus_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_focus_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_normal_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_normal_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_normal_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_normal_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_pressed_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_pressed_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_pressed_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_icon_pressed_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_disabled_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_disabled_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_disabled_focus_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_disabled_focus_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_disabled_focus_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_disabled_focus_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_disabled_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_disabled_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_focus_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_focus_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_focus_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_focus_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_normal_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_normal_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_normal_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_normal_light;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_pressed_dark = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_pressed_dark;
-			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_pressed_light = global::gmaps_tutorial.Resource.Drawable.common_signin_btn_text_pressed_light;
-			global::GooglePlayServices.Resource.Drawable.ic_cast_dark = global::gmaps_tutorial.Resource.Drawable.ic_cast_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_cast_disabled_light = global::gmaps_tutorial.Resource.Drawable.ic_cast_disabled_light;
-			global::GooglePlayServices.Resource.Drawable.ic_cast_light = global::gmaps_tutorial.Resource.Drawable.ic_cast_light;
-			global::GooglePlayServices.Resource.Drawable.ic_cast_off_light = global::gmaps_tutorial.Resource.Drawable.ic_cast_off_light;
-			global::GooglePlayServices.Resource.Drawable.ic_cast_on_0_light = global::gmaps_tutorial.Resource.Drawable.ic_cast_on_0_light;
-			global::GooglePlayServices.Resource.Drawable.ic_cast_on_1_light = global::gmaps_tutorial.Resource.Drawable.ic_cast_on_1_light;
-			global::GooglePlayServices.Resource.Drawable.ic_cast_on_2_light = global::gmaps_tutorial.Resource.Drawable.ic_cast_on_2_light;
-			global::GooglePlayServices.Resource.Drawable.ic_cast_on_light = global::gmaps_tutorial.Resource.Drawable.ic_cast_on_light;
-			global::GooglePlayServices.Resource.Drawable.ic_media_pause = global::gmaps_tutorial.Resource.Drawable.ic_media_pause;
-			global::GooglePlayServices.Resource.Drawable.ic_media_play = global::gmaps_tutorial.Resource.Drawable.ic_media_play;
-			global::GooglePlayServices.Resource.Drawable.ic_media_route_disabled_mono_dark = global::gmaps_tutorial.Resource.Drawable.ic_media_route_disabled_mono_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_media_route_off_mono_dark = global::gmaps_tutorial.Resource.Drawable.ic_media_route_off_mono_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_media_route_on_0_mono_dark = global::gmaps_tutorial.Resource.Drawable.ic_media_route_on_0_mono_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_media_route_on_1_mono_dark = global::gmaps_tutorial.Resource.Drawable.ic_media_route_on_1_mono_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_media_route_on_2_mono_dark = global::gmaps_tutorial.Resource.Drawable.ic_media_route_on_2_mono_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_media_route_on_mono_dark = global::gmaps_tutorial.Resource.Drawable.ic_media_route_on_mono_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_pause_dark = global::gmaps_tutorial.Resource.Drawable.ic_pause_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_pause_light = global::gmaps_tutorial.Resource.Drawable.ic_pause_light;
-			global::GooglePlayServices.Resource.Drawable.ic_play_dark = global::gmaps_tutorial.Resource.Drawable.ic_play_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_play_light = global::gmaps_tutorial.Resource.Drawable.ic_play_light;
-			global::GooglePlayServices.Resource.Drawable.ic_plusone_medium_off_client = global::gmaps_tutorial.Resource.Drawable.ic_plusone_medium_off_client;
-			global::GooglePlayServices.Resource.Drawable.ic_plusone_small_off_client = global::gmaps_tutorial.Resource.Drawable.ic_plusone_small_off_client;
-			global::GooglePlayServices.Resource.Drawable.ic_plusone_standard_off_client = global::gmaps_tutorial.Resource.Drawable.ic_plusone_standard_off_client;
-			global::GooglePlayServices.Resource.Drawable.ic_plusone_tall_off_client = global::gmaps_tutorial.Resource.Drawable.ic_plusone_tall_off_client;
-			global::GooglePlayServices.Resource.Drawable.ic_setting_dark = global::gmaps_tutorial.Resource.Drawable.ic_setting_dark;
-			global::GooglePlayServices.Resource.Drawable.ic_setting_light = global::gmaps_tutorial.Resource.Drawable.ic_setting_light;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_audio_vol = global::gmaps_tutorial.Resource.Drawable.mr_ic_audio_vol;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::gmaps_tutorial.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::gmaps_tutorial.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_media_route_mono_dark = global::gmaps_tutorial.Resource.Drawable.mr_ic_media_route_mono_dark;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_media_route_mono_light = global::gmaps_tutorial.Resource.Drawable.mr_ic_media_route_mono_light;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_pause_dark = global::gmaps_tutorial.Resource.Drawable.mr_ic_pause_dark;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_pause_light = global::gmaps_tutorial.Resource.Drawable.mr_ic_pause_light;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_play_dark = global::gmaps_tutorial.Resource.Drawable.mr_ic_play_dark;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_play_light = global::gmaps_tutorial.Resource.Drawable.mr_ic_play_light;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_settings_dark = global::gmaps_tutorial.Resource.Drawable.mr_ic_settings_dark;
-			global::GooglePlayServices.Resource.Drawable.mr_ic_settings_light = global::gmaps_tutorial.Resource.Drawable.mr_ic_settings_light;
-			global::GooglePlayServices.Resource.Drawable.notification_template_icon_bg = global::gmaps_tutorial.Resource.Drawable.notification_template_icon_bg;
-			global::GooglePlayServices.Resource.Drawable.powered_by_google_dark = global::gmaps_tutorial.Resource.Drawable.powered_by_google_dark;
-			global::GooglePlayServices.Resource.Drawable.powered_by_google_light = global::gmaps_tutorial.Resource.Drawable.powered_by_google_light;
-			global::GooglePlayServices.Resource.Id.action0 = global::gmaps_tutorial.Resource.Id.action0;
-			global::GooglePlayServices.Resource.Id.action_bar = global::gmaps_tutorial.Resource.Id.action_bar;
-			global::GooglePlayServices.Resource.Id.action_bar_activity_content = global::gmaps_tutorial.Resource.Id.action_bar_activity_content;
-			global::GooglePlayServices.Resource.Id.action_bar_container = global::gmaps_tutorial.Resource.Id.action_bar_container;
-			global::GooglePlayServices.Resource.Id.action_bar_root = global::gmaps_tutorial.Resource.Id.action_bar_root;
-			global::GooglePlayServices.Resource.Id.action_bar_spinner = global::gmaps_tutorial.Resource.Id.action_bar_spinner;
-			global::GooglePlayServices.Resource.Id.action_bar_subtitle = global::gmaps_tutorial.Resource.Id.action_bar_subtitle;
-			global::GooglePlayServices.Resource.Id.action_bar_title = global::gmaps_tutorial.Resource.Id.action_bar_title;
-			global::GooglePlayServices.Resource.Id.action_context_bar = global::gmaps_tutorial.Resource.Id.action_context_bar;
-			global::GooglePlayServices.Resource.Id.action_divider = global::gmaps_tutorial.Resource.Id.action_divider;
-			global::GooglePlayServices.Resource.Id.action_menu_divider = global::gmaps_tutorial.Resource.Id.action_menu_divider;
-			global::GooglePlayServices.Resource.Id.action_menu_presenter = global::gmaps_tutorial.Resource.Id.action_menu_presenter;
-			global::GooglePlayServices.Resource.Id.action_mode_bar = global::gmaps_tutorial.Resource.Id.action_mode_bar;
-			global::GooglePlayServices.Resource.Id.action_mode_bar_stub = global::gmaps_tutorial.Resource.Id.action_mode_bar_stub;
-			global::GooglePlayServices.Resource.Id.action_mode_close_button = global::gmaps_tutorial.Resource.Id.action_mode_close_button;
-			global::GooglePlayServices.Resource.Id.activity_chooser_view_content = global::gmaps_tutorial.Resource.Id.activity_chooser_view_content;
-			global::GooglePlayServices.Resource.Id.adjust_height = global::gmaps_tutorial.Resource.Id.adjust_height;
-			global::GooglePlayServices.Resource.Id.adjust_width = global::gmaps_tutorial.Resource.Id.adjust_width;
-			global::GooglePlayServices.Resource.Id.alertTitle = global::gmaps_tutorial.Resource.Id.alertTitle;
-			global::GooglePlayServices.Resource.Id.always = global::gmaps_tutorial.Resource.Id.always;
-			global::GooglePlayServices.Resource.Id.art = global::gmaps_tutorial.Resource.Id.art;
-			global::GooglePlayServices.Resource.Id.beginning = global::gmaps_tutorial.Resource.Id.beginning;
-			global::GooglePlayServices.Resource.Id.book_now = global::gmaps_tutorial.Resource.Id.book_now;
-			global::GooglePlayServices.Resource.Id.buttonPanel = global::gmaps_tutorial.Resource.Id.buttonPanel;
-			global::GooglePlayServices.Resource.Id.buttons = global::gmaps_tutorial.Resource.Id.buttons;
-			global::GooglePlayServices.Resource.Id.buyButton = global::gmaps_tutorial.Resource.Id.buyButton;
-			global::GooglePlayServices.Resource.Id.buy_now = global::gmaps_tutorial.Resource.Id.buy_now;
-			global::GooglePlayServices.Resource.Id.buy_with_google = global::gmaps_tutorial.Resource.Id.buy_with_google;
-			global::GooglePlayServices.Resource.Id.cancel_action = global::gmaps_tutorial.Resource.Id.cancel_action;
-			global::GooglePlayServices.Resource.Id.cast_notification_id = global::gmaps_tutorial.Resource.Id.cast_notification_id;
-			global::GooglePlayServices.Resource.Id.checkbox = global::gmaps_tutorial.Resource.Id.checkbox;
-			global::GooglePlayServices.Resource.Id.chronometer = global::gmaps_tutorial.Resource.Id.chronometer;
-			global::GooglePlayServices.Resource.Id.classic = global::gmaps_tutorial.Resource.Id.classic;
-			global::GooglePlayServices.Resource.Id.collapseActionView = global::gmaps_tutorial.Resource.Id.collapseActionView;
-			global::GooglePlayServices.Resource.Id.contentPanel = global::gmaps_tutorial.Resource.Id.contentPanel;
-			global::GooglePlayServices.Resource.Id.custom = global::gmaps_tutorial.Resource.Id.custom;
-			global::GooglePlayServices.Resource.Id.customPanel = global::gmaps_tutorial.Resource.Id.customPanel;
-			global::GooglePlayServices.Resource.Id.decor_content_parent = global::gmaps_tutorial.Resource.Id.decor_content_parent;
-			global::GooglePlayServices.Resource.Id.default_activity_button = global::gmaps_tutorial.Resource.Id.default_activity_button;
-			global::GooglePlayServices.Resource.Id.default_control_frame = global::gmaps_tutorial.Resource.Id.default_control_frame;
-			global::GooglePlayServices.Resource.Id.dialog = global::gmaps_tutorial.Resource.Id.dialog;
-			global::GooglePlayServices.Resource.Id.disableHome = global::gmaps_tutorial.Resource.Id.disableHome;
-			global::GooglePlayServices.Resource.Id.disconnect = global::gmaps_tutorial.Resource.Id.disconnect;
-			global::GooglePlayServices.Resource.Id.donate_with_google = global::gmaps_tutorial.Resource.Id.donate_with_google;
-			global::GooglePlayServices.Resource.Id.dropdown = global::gmaps_tutorial.Resource.Id.dropdown;
-			global::GooglePlayServices.Resource.Id.edit_query = global::gmaps_tutorial.Resource.Id.edit_query;
-			global::GooglePlayServices.Resource.Id.end = global::gmaps_tutorial.Resource.Id.end;
-			global::GooglePlayServices.Resource.Id.end_padder = global::gmaps_tutorial.Resource.Id.end_padder;
-			global::GooglePlayServices.Resource.Id.expand_activities_button = global::gmaps_tutorial.Resource.Id.expand_activities_button;
-			global::GooglePlayServices.Resource.Id.expanded_menu = global::gmaps_tutorial.Resource.Id.expanded_menu;
-			global::GooglePlayServices.Resource.Id.grayscale = global::gmaps_tutorial.Resource.Id.grayscale;
-			global::GooglePlayServices.Resource.Id.holo_dark = global::gmaps_tutorial.Resource.Id.holo_dark;
-			global::GooglePlayServices.Resource.Id.holo_light = global::gmaps_tutorial.Resource.Id.holo_light;
-			global::GooglePlayServices.Resource.Id.home = global::gmaps_tutorial.Resource.Id.home;
-			global::GooglePlayServices.Resource.Id.homeAsUp = global::gmaps_tutorial.Resource.Id.homeAsUp;
-			global::GooglePlayServices.Resource.Id.hybrid = global::gmaps_tutorial.Resource.Id.hybrid;
-			global::GooglePlayServices.Resource.Id.icon = global::gmaps_tutorial.Resource.Id.icon;
-			global::GooglePlayServices.Resource.Id.ifRoom = global::gmaps_tutorial.Resource.Id.ifRoom;
-			global::GooglePlayServices.Resource.Id.image = global::gmaps_tutorial.Resource.Id.image;
-			global::GooglePlayServices.Resource.Id.info = global::gmaps_tutorial.Resource.Id.info;
-			global::GooglePlayServices.Resource.Id.line1 = global::gmaps_tutorial.Resource.Id.line1;
-			global::GooglePlayServices.Resource.Id.line3 = global::gmaps_tutorial.Resource.Id.line3;
-			global::GooglePlayServices.Resource.Id.listMode = global::gmaps_tutorial.Resource.Id.listMode;
-			global::GooglePlayServices.Resource.Id.list_item = global::gmaps_tutorial.Resource.Id.list_item;
-			global::GooglePlayServices.Resource.Id.match_parent = global::gmaps_tutorial.Resource.Id.match_parent;
-			global::GooglePlayServices.Resource.Id.media_actions = global::gmaps_tutorial.Resource.Id.media_actions;
-			global::GooglePlayServices.Resource.Id.media_route_control_frame = global::gmaps_tutorial.Resource.Id.media_route_control_frame;
-			global::GooglePlayServices.Resource.Id.media_route_list = global::gmaps_tutorial.Resource.Id.media_route_list;
-			global::GooglePlayServices.Resource.Id.media_route_volume_layout = global::gmaps_tutorial.Resource.Id.media_route_volume_layout;
-			global::GooglePlayServices.Resource.Id.media_route_volume_slider = global::gmaps_tutorial.Resource.Id.media_route_volume_slider;
-			global::GooglePlayServices.Resource.Id.middle = global::gmaps_tutorial.Resource.Id.middle;
-			global::GooglePlayServices.Resource.Id.monochrome = global::gmaps_tutorial.Resource.Id.monochrome;
-			global::GooglePlayServices.Resource.Id.multiply = global::gmaps_tutorial.Resource.Id.multiply;
-			global::GooglePlayServices.Resource.Id.never = global::gmaps_tutorial.Resource.Id.never;
-			global::GooglePlayServices.Resource.Id.none = global::gmaps_tutorial.Resource.Id.none;
-			global::GooglePlayServices.Resource.Id.normal = global::gmaps_tutorial.Resource.Id.normal;
-			global::GooglePlayServices.Resource.Id.parentPanel = global::gmaps_tutorial.Resource.Id.parentPanel;
-			global::GooglePlayServices.Resource.Id.play_pause = global::gmaps_tutorial.Resource.Id.play_pause;
-			global::GooglePlayServices.Resource.Id.production = global::gmaps_tutorial.Resource.Id.production;
-			global::GooglePlayServices.Resource.Id.progress_circular = global::gmaps_tutorial.Resource.Id.progress_circular;
-			global::GooglePlayServices.Resource.Id.progress_horizontal = global::gmaps_tutorial.Resource.Id.progress_horizontal;
-			global::GooglePlayServices.Resource.Id.radio = global::gmaps_tutorial.Resource.Id.radio;
-			global::GooglePlayServices.Resource.Id.route_name = global::gmaps_tutorial.Resource.Id.route_name;
-			global::GooglePlayServices.Resource.Id.sandbox = global::gmaps_tutorial.Resource.Id.sandbox;
-			global::GooglePlayServices.Resource.Id.satellite = global::gmaps_tutorial.Resource.Id.satellite;
-			global::GooglePlayServices.Resource.Id.screen = global::gmaps_tutorial.Resource.Id.screen;
-			global::GooglePlayServices.Resource.Id.scrollView = global::gmaps_tutorial.Resource.Id.scrollView;
-			global::GooglePlayServices.Resource.Id.search_badge = global::gmaps_tutorial.Resource.Id.search_badge;
-			global::GooglePlayServices.Resource.Id.search_bar = global::gmaps_tutorial.Resource.Id.search_bar;
-			global::GooglePlayServices.Resource.Id.search_button = global::gmaps_tutorial.Resource.Id.search_button;
-			global::GooglePlayServices.Resource.Id.search_close_btn = global::gmaps_tutorial.Resource.Id.search_close_btn;
-			global::GooglePlayServices.Resource.Id.search_edit_frame = global::gmaps_tutorial.Resource.Id.search_edit_frame;
-			global::GooglePlayServices.Resource.Id.search_go_btn = global::gmaps_tutorial.Resource.Id.search_go_btn;
-			global::GooglePlayServices.Resource.Id.search_mag_icon = global::gmaps_tutorial.Resource.Id.search_mag_icon;
-			global::GooglePlayServices.Resource.Id.search_plate = global::gmaps_tutorial.Resource.Id.search_plate;
-			global::GooglePlayServices.Resource.Id.search_src_text = global::gmaps_tutorial.Resource.Id.search_src_text;
-			global::GooglePlayServices.Resource.Id.search_voice_btn = global::gmaps_tutorial.Resource.Id.search_voice_btn;
-			global::GooglePlayServices.Resource.Id.select_dialog_listview = global::gmaps_tutorial.Resource.Id.select_dialog_listview;
-			global::GooglePlayServices.Resource.Id.selectionDetails = global::gmaps_tutorial.Resource.Id.selectionDetails;
-			global::GooglePlayServices.Resource.Id.settings = global::gmaps_tutorial.Resource.Id.settings;
-			global::GooglePlayServices.Resource.Id.shortcut = global::gmaps_tutorial.Resource.Id.shortcut;
-			global::GooglePlayServices.Resource.Id.showCustom = global::gmaps_tutorial.Resource.Id.showCustom;
-			global::GooglePlayServices.Resource.Id.showHome = global::gmaps_tutorial.Resource.Id.showHome;
-			global::GooglePlayServices.Resource.Id.showTitle = global::gmaps_tutorial.Resource.Id.showTitle;
-			global::GooglePlayServices.Resource.Id.slide = global::gmaps_tutorial.Resource.Id.slide;
-			global::GooglePlayServices.Resource.Id.split_action_bar = global::gmaps_tutorial.Resource.Id.split_action_bar;
-			global::GooglePlayServices.Resource.Id.src_atop = global::gmaps_tutorial.Resource.Id.src_atop;
-			global::GooglePlayServices.Resource.Id.src_in = global::gmaps_tutorial.Resource.Id.src_in;
-			global::GooglePlayServices.Resource.Id.src_over = global::gmaps_tutorial.Resource.Id.src_over;
-			global::GooglePlayServices.Resource.Id.status_bar_latest_event_content = global::gmaps_tutorial.Resource.Id.status_bar_latest_event_content;
-			global::GooglePlayServices.Resource.Id.stop = global::gmaps_tutorial.Resource.Id.stop;
-			global::GooglePlayServices.Resource.Id.strict_sandbox = global::gmaps_tutorial.Resource.Id.strict_sandbox;
-			global::GooglePlayServices.Resource.Id.submit_area = global::gmaps_tutorial.Resource.Id.submit_area;
-			global::GooglePlayServices.Resource.Id.subtitle = global::gmaps_tutorial.Resource.Id.subtitle;
-			global::GooglePlayServices.Resource.Id.tabMode = global::gmaps_tutorial.Resource.Id.tabMode;
-			global::GooglePlayServices.Resource.Id.terrain = global::gmaps_tutorial.Resource.Id.terrain;
-			global::GooglePlayServices.Resource.Id.test = global::gmaps_tutorial.Resource.Id.test;
-			global::GooglePlayServices.Resource.Id.text = global::gmaps_tutorial.Resource.Id.text;
-			global::GooglePlayServices.Resource.Id.text2 = global::gmaps_tutorial.Resource.Id.text2;
-			global::GooglePlayServices.Resource.Id.textSpacerNoButtons = global::gmaps_tutorial.Resource.Id.textSpacerNoButtons;
-			global::GooglePlayServices.Resource.Id.text_wrapper = global::gmaps_tutorial.Resource.Id.text_wrapper;
-			global::GooglePlayServices.Resource.Id.time = global::gmaps_tutorial.Resource.Id.time;
-			global::GooglePlayServices.Resource.Id.title = global::gmaps_tutorial.Resource.Id.title;
-			global::GooglePlayServices.Resource.Id.title_bar = global::gmaps_tutorial.Resource.Id.title_bar;
-			global::GooglePlayServices.Resource.Id.title_template = global::gmaps_tutorial.Resource.Id.title_template;
-			global::GooglePlayServices.Resource.Id.topPanel = global::gmaps_tutorial.Resource.Id.topPanel;
-			global::GooglePlayServices.Resource.Id.up = global::gmaps_tutorial.Resource.Id.up;
-			global::GooglePlayServices.Resource.Id.useLogo = global::gmaps_tutorial.Resource.Id.useLogo;
-			global::GooglePlayServices.Resource.Id.withText = global::gmaps_tutorial.Resource.Id.withText;
-			global::GooglePlayServices.Resource.Id.wrap_content = global::gmaps_tutorial.Resource.Id.wrap_content;
-			global::GooglePlayServices.Resource.Integer.abc_config_activityDefaultDur = global::gmaps_tutorial.Resource.Integer.abc_config_activityDefaultDur;
-			global::GooglePlayServices.Resource.Integer.abc_config_activityShortDur = global::gmaps_tutorial.Resource.Integer.abc_config_activityShortDur;
-			global::GooglePlayServices.Resource.Integer.abc_max_action_buttons = global::gmaps_tutorial.Resource.Integer.abc_max_action_buttons;
-			global::GooglePlayServices.Resource.Integer.cancel_button_image_alpha = global::gmaps_tutorial.Resource.Integer.cancel_button_image_alpha;
-			global::GooglePlayServices.Resource.Integer.google_play_services_version = global::gmaps_tutorial.Resource.Integer.google_play_services_version;
-			global::GooglePlayServices.Resource.Integer.status_bar_notification_info_maxnum = global::gmaps_tutorial.Resource.Integer.status_bar_notification_info_maxnum;
-			global::GooglePlayServices.Resource.Layout.abc_action_bar_title_item = global::gmaps_tutorial.Resource.Layout.abc_action_bar_title_item;
-			global::GooglePlayServices.Resource.Layout.abc_action_bar_up_container = global::gmaps_tutorial.Resource.Layout.abc_action_bar_up_container;
-			global::GooglePlayServices.Resource.Layout.abc_action_bar_view_list_nav_layout = global::gmaps_tutorial.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::GooglePlayServices.Resource.Layout.abc_action_menu_item_layout = global::gmaps_tutorial.Resource.Layout.abc_action_menu_item_layout;
-			global::GooglePlayServices.Resource.Layout.abc_action_menu_layout = global::gmaps_tutorial.Resource.Layout.abc_action_menu_layout;
-			global::GooglePlayServices.Resource.Layout.abc_action_mode_bar = global::gmaps_tutorial.Resource.Layout.abc_action_mode_bar;
-			global::GooglePlayServices.Resource.Layout.abc_action_mode_close_item_material = global::gmaps_tutorial.Resource.Layout.abc_action_mode_close_item_material;
-			global::GooglePlayServices.Resource.Layout.abc_activity_chooser_view = global::gmaps_tutorial.Resource.Layout.abc_activity_chooser_view;
-			global::GooglePlayServices.Resource.Layout.abc_activity_chooser_view_list_item = global::gmaps_tutorial.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::GooglePlayServices.Resource.Layout.abc_alert_dialog_material = global::gmaps_tutorial.Resource.Layout.abc_alert_dialog_material;
-			global::GooglePlayServices.Resource.Layout.abc_dialog_title_material = global::gmaps_tutorial.Resource.Layout.abc_dialog_title_material;
-			global::GooglePlayServices.Resource.Layout.abc_expanded_menu_layout = global::gmaps_tutorial.Resource.Layout.abc_expanded_menu_layout;
-			global::GooglePlayServices.Resource.Layout.abc_list_menu_item_checkbox = global::gmaps_tutorial.Resource.Layout.abc_list_menu_item_checkbox;
-			global::GooglePlayServices.Resource.Layout.abc_list_menu_item_icon = global::gmaps_tutorial.Resource.Layout.abc_list_menu_item_icon;
-			global::GooglePlayServices.Resource.Layout.abc_list_menu_item_layout = global::gmaps_tutorial.Resource.Layout.abc_list_menu_item_layout;
-			global::GooglePlayServices.Resource.Layout.abc_list_menu_item_radio = global::gmaps_tutorial.Resource.Layout.abc_list_menu_item_radio;
-			global::GooglePlayServices.Resource.Layout.abc_popup_menu_item_layout = global::gmaps_tutorial.Resource.Layout.abc_popup_menu_item_layout;
-			global::GooglePlayServices.Resource.Layout.abc_screen_content_include = global::gmaps_tutorial.Resource.Layout.abc_screen_content_include;
-			global::GooglePlayServices.Resource.Layout.abc_screen_simple = global::gmaps_tutorial.Resource.Layout.abc_screen_simple;
-			global::GooglePlayServices.Resource.Layout.abc_screen_simple_overlay_action_mode = global::gmaps_tutorial.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::GooglePlayServices.Resource.Layout.abc_screen_toolbar = global::gmaps_tutorial.Resource.Layout.abc_screen_toolbar;
-			global::GooglePlayServices.Resource.Layout.abc_search_dropdown_item_icons_2line = global::gmaps_tutorial.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::GooglePlayServices.Resource.Layout.abc_search_view = global::gmaps_tutorial.Resource.Layout.abc_search_view;
-			global::GooglePlayServices.Resource.Layout.abc_select_dialog_material = global::gmaps_tutorial.Resource.Layout.abc_select_dialog_material;
-			global::GooglePlayServices.Resource.Layout.abc_simple_dropdown_hint = global::gmaps_tutorial.Resource.Layout.abc_simple_dropdown_hint;
-			global::GooglePlayServices.Resource.Layout.mr_media_route_chooser_dialog = global::gmaps_tutorial.Resource.Layout.mr_media_route_chooser_dialog;
-			global::GooglePlayServices.Resource.Layout.mr_media_route_controller_material_dialog_b = global::gmaps_tutorial.Resource.Layout.mr_media_route_controller_material_dialog_b;
-			global::GooglePlayServices.Resource.Layout.mr_media_route_list_item = global::gmaps_tutorial.Resource.Layout.mr_media_route_list_item;
-			global::GooglePlayServices.Resource.Layout.notification_media_action = global::gmaps_tutorial.Resource.Layout.notification_media_action;
-			global::GooglePlayServices.Resource.Layout.notification_media_cancel_action = global::gmaps_tutorial.Resource.Layout.notification_media_cancel_action;
-			global::GooglePlayServices.Resource.Layout.notification_template_big_media = global::gmaps_tutorial.Resource.Layout.notification_template_big_media;
-			global::GooglePlayServices.Resource.Layout.notification_template_big_media_narrow = global::gmaps_tutorial.Resource.Layout.notification_template_big_media_narrow;
-			global::GooglePlayServices.Resource.Layout.notification_template_lines = global::gmaps_tutorial.Resource.Layout.notification_template_lines;
-			global::GooglePlayServices.Resource.Layout.notification_template_media = global::gmaps_tutorial.Resource.Layout.notification_template_media;
-			global::GooglePlayServices.Resource.Layout.notification_template_part_chronometer = global::gmaps_tutorial.Resource.Layout.notification_template_part_chronometer;
-			global::GooglePlayServices.Resource.Layout.notification_template_part_time = global::gmaps_tutorial.Resource.Layout.notification_template_part_time;
-			global::GooglePlayServices.Resource.Layout.select_dialog_item_material = global::gmaps_tutorial.Resource.Layout.select_dialog_item_material;
-			global::GooglePlayServices.Resource.Layout.select_dialog_multichoice_material = global::gmaps_tutorial.Resource.Layout.select_dialog_multichoice_material;
-			global::GooglePlayServices.Resource.Layout.select_dialog_singlechoice_material = global::gmaps_tutorial.Resource.Layout.select_dialog_singlechoice_material;
-			global::GooglePlayServices.Resource.Layout.support_simple_spinner_dropdown_item = global::gmaps_tutorial.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::GooglePlayServices.Resource.Raw.gtm_analytics = global::gmaps_tutorial.Resource.Raw.gtm_analytics;
-			global::GooglePlayServices.Resource.String.abc_action_bar_home_description = global::gmaps_tutorial.Resource.String.abc_action_bar_home_description;
-			global::GooglePlayServices.Resource.String.abc_action_bar_home_description_format = global::gmaps_tutorial.Resource.String.abc_action_bar_home_description_format;
-			global::GooglePlayServices.Resource.String.abc_action_bar_home_subtitle_description_format = global::gmaps_tutorial.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::GooglePlayServices.Resource.String.abc_action_bar_up_description = global::gmaps_tutorial.Resource.String.abc_action_bar_up_description;
-			global::GooglePlayServices.Resource.String.abc_action_menu_overflow_description = global::gmaps_tutorial.Resource.String.abc_action_menu_overflow_description;
-			global::GooglePlayServices.Resource.String.abc_action_mode_done = global::gmaps_tutorial.Resource.String.abc_action_mode_done;
-			global::GooglePlayServices.Resource.String.abc_activity_chooser_view_see_all = global::gmaps_tutorial.Resource.String.abc_activity_chooser_view_see_all;
-			global::GooglePlayServices.Resource.String.abc_activitychooserview_choose_application = global::gmaps_tutorial.Resource.String.abc_activitychooserview_choose_application;
-			global::GooglePlayServices.Resource.String.abc_search_hint = global::gmaps_tutorial.Resource.String.abc_search_hint;
-			global::GooglePlayServices.Resource.String.abc_searchview_description_clear = global::gmaps_tutorial.Resource.String.abc_searchview_description_clear;
-			global::GooglePlayServices.Resource.String.abc_searchview_description_query = global::gmaps_tutorial.Resource.String.abc_searchview_description_query;
-			global::GooglePlayServices.Resource.String.abc_searchview_description_search = global::gmaps_tutorial.Resource.String.abc_searchview_description_search;
-			global::GooglePlayServices.Resource.String.abc_searchview_description_submit = global::gmaps_tutorial.Resource.String.abc_searchview_description_submit;
-			global::GooglePlayServices.Resource.String.abc_searchview_description_voice = global::gmaps_tutorial.Resource.String.abc_searchview_description_voice;
-			global::GooglePlayServices.Resource.String.abc_shareactionprovider_share_with = global::gmaps_tutorial.Resource.String.abc_shareactionprovider_share_with;
-			global::GooglePlayServices.Resource.String.abc_shareactionprovider_share_with_application = global::gmaps_tutorial.Resource.String.abc_shareactionprovider_share_with_application;
-			global::GooglePlayServices.Resource.String.abc_toolbar_collapse_description = global::gmaps_tutorial.Resource.String.abc_toolbar_collapse_description;
-			global::GooglePlayServices.Resource.String.accept = global::gmaps_tutorial.Resource.String.accept;
-			global::GooglePlayServices.Resource.String.auth_google_play_services_client_facebook_display_name = global::gmaps_tutorial.Resource.String.auth_google_play_services_client_facebook_display_name;
-			global::GooglePlayServices.Resource.String.auth_google_play_services_client_google_display_name = global::gmaps_tutorial.Resource.String.auth_google_play_services_client_google_display_name;
-			global::GooglePlayServices.Resource.String.cast_notification_connected_message = global::gmaps_tutorial.Resource.String.cast_notification_connected_message;
-			global::GooglePlayServices.Resource.String.cast_notification_connecting_message = global::gmaps_tutorial.Resource.String.cast_notification_connecting_message;
-			global::GooglePlayServices.Resource.String.cast_notification_disconnect = global::gmaps_tutorial.Resource.String.cast_notification_disconnect;
-			global::GooglePlayServices.Resource.String.common_android_wear_notification_needs_update_text = global::gmaps_tutorial.Resource.String.common_android_wear_notification_needs_update_text;
-			global::GooglePlayServices.Resource.String.common_android_wear_update_text = global::gmaps_tutorial.Resource.String.common_android_wear_update_text;
-			global::GooglePlayServices.Resource.String.common_android_wear_update_title = global::gmaps_tutorial.Resource.String.common_android_wear_update_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_api_unavailable_text = global::gmaps_tutorial.Resource.String.common_google_play_services_api_unavailable_text;
-			global::GooglePlayServices.Resource.String.common_google_play_services_enable_button = global::gmaps_tutorial.Resource.String.common_google_play_services_enable_button;
-			global::GooglePlayServices.Resource.String.common_google_play_services_enable_text = global::gmaps_tutorial.Resource.String.common_google_play_services_enable_text;
-			global::GooglePlayServices.Resource.String.common_google_play_services_enable_title = global::gmaps_tutorial.Resource.String.common_google_play_services_enable_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_error_notification_requested_by_msg = global::gmaps_tutorial.Resource.String.common_google_play_services_error_notification_requested_by_msg;
-			global::GooglePlayServices.Resource.String.common_google_play_services_install_button = global::gmaps_tutorial.Resource.String.common_google_play_services_install_button;
-			global::GooglePlayServices.Resource.String.common_google_play_services_install_text_phone = global::gmaps_tutorial.Resource.String.common_google_play_services_install_text_phone;
-			global::GooglePlayServices.Resource.String.common_google_play_services_install_text_tablet = global::gmaps_tutorial.Resource.String.common_google_play_services_install_text_tablet;
-			global::GooglePlayServices.Resource.String.common_google_play_services_install_title = global::gmaps_tutorial.Resource.String.common_google_play_services_install_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_invalid_account_text = global::gmaps_tutorial.Resource.String.common_google_play_services_invalid_account_text;
-			global::GooglePlayServices.Resource.String.common_google_play_services_invalid_account_title = global::gmaps_tutorial.Resource.String.common_google_play_services_invalid_account_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_needs_enabling_title = global::gmaps_tutorial.Resource.String.common_google_play_services_needs_enabling_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_network_error_text = global::gmaps_tutorial.Resource.String.common_google_play_services_network_error_text;
-			global::GooglePlayServices.Resource.String.common_google_play_services_network_error_title = global::gmaps_tutorial.Resource.String.common_google_play_services_network_error_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_notification_needs_update_title = global::gmaps_tutorial.Resource.String.common_google_play_services_notification_needs_update_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_notification_ticker = global::gmaps_tutorial.Resource.String.common_google_play_services_notification_ticker;
-			global::GooglePlayServices.Resource.String.common_google_play_services_sign_in_failed_text = global::gmaps_tutorial.Resource.String.common_google_play_services_sign_in_failed_text;
-			global::GooglePlayServices.Resource.String.common_google_play_services_sign_in_failed_title = global::gmaps_tutorial.Resource.String.common_google_play_services_sign_in_failed_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_unknown_issue = global::gmaps_tutorial.Resource.String.common_google_play_services_unknown_issue;
-			global::GooglePlayServices.Resource.String.common_google_play_services_unsupported_text = global::gmaps_tutorial.Resource.String.common_google_play_services_unsupported_text;
-			global::GooglePlayServices.Resource.String.common_google_play_services_unsupported_title = global::gmaps_tutorial.Resource.String.common_google_play_services_unsupported_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_update_button = global::gmaps_tutorial.Resource.String.common_google_play_services_update_button;
-			global::GooglePlayServices.Resource.String.common_google_play_services_update_text = global::gmaps_tutorial.Resource.String.common_google_play_services_update_text;
-			global::GooglePlayServices.Resource.String.common_google_play_services_update_title = global::gmaps_tutorial.Resource.String.common_google_play_services_update_title;
-			global::GooglePlayServices.Resource.String.common_google_play_services_updating_text = global::gmaps_tutorial.Resource.String.common_google_play_services_updating_text;
-			global::GooglePlayServices.Resource.String.common_google_play_services_updating_title = global::gmaps_tutorial.Resource.String.common_google_play_services_updating_title;
-			global::GooglePlayServices.Resource.String.common_open_on_phone = global::gmaps_tutorial.Resource.String.common_open_on_phone;
-			global::GooglePlayServices.Resource.String.common_signin_button_text = global::gmaps_tutorial.Resource.String.common_signin_button_text;
-			global::GooglePlayServices.Resource.String.common_signin_button_text_long = global::gmaps_tutorial.Resource.String.common_signin_button_text_long;
-			global::GooglePlayServices.Resource.String.create_calendar_message = global::gmaps_tutorial.Resource.String.create_calendar_message;
-			global::GooglePlayServices.Resource.String.create_calendar_title = global::gmaps_tutorial.Resource.String.create_calendar_title;
-			global::GooglePlayServices.Resource.String.decline = global::gmaps_tutorial.Resource.String.decline;
-			global::GooglePlayServices.Resource.String.library_name = global::gmaps_tutorial.Resource.String.library_name;
-			global::GooglePlayServices.Resource.String.mr_media_route_button_content_description = global::gmaps_tutorial.Resource.String.mr_media_route_button_content_description;
-			global::GooglePlayServices.Resource.String.mr_media_route_chooser_searching = global::gmaps_tutorial.Resource.String.mr_media_route_chooser_searching;
-			global::GooglePlayServices.Resource.String.mr_media_route_chooser_title = global::gmaps_tutorial.Resource.String.mr_media_route_chooser_title;
-			global::GooglePlayServices.Resource.String.mr_media_route_controller_disconnect = global::gmaps_tutorial.Resource.String.mr_media_route_controller_disconnect;
-			global::GooglePlayServices.Resource.String.mr_media_route_controller_pause = global::gmaps_tutorial.Resource.String.mr_media_route_controller_pause;
-			global::GooglePlayServices.Resource.String.mr_media_route_controller_play = global::gmaps_tutorial.Resource.String.mr_media_route_controller_play;
-			global::GooglePlayServices.Resource.String.mr_media_route_controller_settings_description = global::gmaps_tutorial.Resource.String.mr_media_route_controller_settings_description;
-			global::GooglePlayServices.Resource.String.mr_media_route_controller_stop = global::gmaps_tutorial.Resource.String.mr_media_route_controller_stop;
-			global::GooglePlayServices.Resource.String.mr_system_route_name = global::gmaps_tutorial.Resource.String.mr_system_route_name;
-			global::GooglePlayServices.Resource.String.mr_user_route_category_name = global::gmaps_tutorial.Resource.String.mr_user_route_category_name;
-			global::GooglePlayServices.Resource.String.status_bar_notification_info_overflow = global::gmaps_tutorial.Resource.String.status_bar_notification_info_overflow;
-			global::GooglePlayServices.Resource.String.store_picture_message = global::gmaps_tutorial.Resource.String.store_picture_message;
-			global::GooglePlayServices.Resource.String.store_picture_title = global::gmaps_tutorial.Resource.String.store_picture_title;
-			global::GooglePlayServices.Resource.String.wallet_buy_button_place_holder = global::gmaps_tutorial.Resource.String.wallet_buy_button_place_holder;
-			global::GooglePlayServices.Resource.Style.AlertDialog_AppCompat = global::gmaps_tutorial.Resource.Style.AlertDialog_AppCompat;
-			global::GooglePlayServices.Resource.Style.AlertDialog_AppCompat_Light = global::gmaps_tutorial.Resource.Style.AlertDialog_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Animation_AppCompat_Dialog = global::gmaps_tutorial.Resource.Style.Animation_AppCompat_Dialog;
-			global::GooglePlayServices.Resource.Style.Animation_AppCompat_DropDownUp = global::gmaps_tutorial.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::GooglePlayServices.Resource.Style.Base_AlertDialog_AppCompat = global::gmaps_tutorial.Resource.Style.Base_AlertDialog_AppCompat;
-			global::GooglePlayServices.Resource.Style.Base_AlertDialog_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Base_Animation_AppCompat_Dialog = global::gmaps_tutorial.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::GooglePlayServices.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::gmaps_tutorial.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::GooglePlayServices.Resource.Style.Base_DialogWindowTitle_AppCompat = global::gmaps_tutorial.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::GooglePlayServices.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::gmaps_tutorial.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Button = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Large = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Small = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Title = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::GooglePlayServices.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::gmaps_tutorial.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Dialog = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::gmaps_tutorial.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat = global::gmaps_tutorial.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::gmaps_tutorial.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::gmaps_tutorial.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::gmaps_tutorial.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::gmaps_tutorial.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::GooglePlayServices.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::gmaps_tutorial.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::GooglePlayServices.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::gmaps_tutorial.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::GooglePlayServices.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::gmaps_tutorial.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::GooglePlayServices.Resource.Style.Base_V21_Theme_AppCompat = global::gmaps_tutorial.Resource.Style.Base_V21_Theme_AppCompat;
-			global::GooglePlayServices.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::gmaps_tutorial.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::GooglePlayServices.Resource.Style.Base_V21_Theme_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::gmaps_tutorial.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::GooglePlayServices.Resource.Style.Base_V7_Theme_AppCompat = global::gmaps_tutorial.Resource.Style.Base_V7_Theme_AppCompat;
-			global::GooglePlayServices.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::gmaps_tutorial.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::GooglePlayServices.Resource.Style.Base_V7_Theme_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::gmaps_tutorial.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::GooglePlayServices.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::gmaps_tutorial.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::GooglePlayServices.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::gmaps_tutorial.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionButton = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionMode = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Button;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button_Small = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_EditText = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ListView = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_RatingBar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_SearchView = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Spinner = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Toolbar = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::gmaps_tutorial.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::GooglePlayServices.Resource.Style.Platform_AppCompat = global::gmaps_tutorial.Resource.Style.Platform_AppCompat;
-			global::GooglePlayServices.Resource.Style.Platform_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Platform_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::gmaps_tutorial.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::GooglePlayServices.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Platform_V11_AppCompat = global::gmaps_tutorial.Resource.Style.Platform_V11_AppCompat;
-			global::GooglePlayServices.Resource.Style.Platform_V11_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Platform_V11_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Platform_V14_AppCompat = global::gmaps_tutorial.Resource.Style.Platform_V14_AppCompat;
-			global::GooglePlayServices.Resource.Style.Platform_V14_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Platform_V14_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::gmaps_tutorial.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation = global::gmaps_tutorial.Resource.Style.RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Body1 = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Body2 = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Button = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Button;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Caption = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Display1 = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Display2 = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Display3 = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Display4 = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Headline = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Large = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Large;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Medium = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Menu = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Small = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Small;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Subhead = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Title = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Title;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::gmaps_tutorial.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent = global::gmaps_tutorial.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::gmaps_tutorial.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::gmaps_tutorial.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::gmaps_tutorial.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::gmaps_tutorial.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::GooglePlayServices.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::gmaps_tutorial.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::GooglePlayServices.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::gmaps_tutorial.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::GooglePlayServices.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::gmaps_tutorial.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat = global::gmaps_tutorial.Resource.Style.Theme_AppCompat;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_CompactMenu = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Dialog = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Dialog;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Dialog_Alert = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_Dialog = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::GooglePlayServices.Resource.Style.Theme_AppCompat_NoActionBar = global::gmaps_tutorial.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::GooglePlayServices.Resource.Style.Theme_IAPTheme = global::gmaps_tutorial.Resource.Style.Theme_IAPTheme;
-			global::GooglePlayServices.Resource.Style.Theme_MediaRouter = global::gmaps_tutorial.Resource.Style.Theme_MediaRouter;
-			global::GooglePlayServices.Resource.Style.Theme_MediaRouter_Light = global::gmaps_tutorial.Resource.Style.Theme_MediaRouter_Light;
-			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat = global::gmaps_tutorial.Resource.Style.ThemeOverlay_AppCompat;
-			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::gmaps_tutorial.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat_Dark = global::gmaps_tutorial.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::gmaps_tutorial.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat_Light = global::gmaps_tutorial.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::GooglePlayServices.Resource.Style.WalletFragmentDefaultButtonTextAppearance = global::gmaps_tutorial.Resource.Style.WalletFragmentDefaultButtonTextAppearance;
-			global::GooglePlayServices.Resource.Style.WalletFragmentDefaultDetailsHeaderTextAppearance = global::gmaps_tutorial.Resource.Style.WalletFragmentDefaultDetailsHeaderTextAppearance;
-			global::GooglePlayServices.Resource.Style.WalletFragmentDefaultDetailsTextAppearance = global::gmaps_tutorial.Resource.Style.WalletFragmentDefaultDetailsTextAppearance;
-			global::GooglePlayServices.Resource.Style.WalletFragmentDefaultStyle = global::gmaps_tutorial.Resource.Style.WalletFragmentDefaultStyle;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActionBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionButton = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActionButton;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionMode = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActionMode;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActivityChooserView = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Button;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button_Borderless = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button_Small = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Button_Small;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ButtonBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_EditText = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_EditText;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionButton = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_SearchView = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ListPopupWindow = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ListView = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ListView;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ListView_DropDown = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ListView_Menu = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_PopupMenu = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_PopupWindow = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ProgressBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_RatingBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_RatingBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_SearchView = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_SearchView;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Spinner = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Spinner;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Toolbar = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Toolbar;
-			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::gmaps_tutorial.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::GooglePlayServices.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::gmaps_tutorial.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::GooglePlayServices.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::gmaps_tutorial.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::GooglePlayServices.Resource.Styleable.ActionBar = global::gmaps_tutorial.Resource.Styleable.ActionBar;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_background = global::gmaps_tutorial.Resource.Styleable.ActionBar_background;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_backgroundSplit = global::gmaps_tutorial.Resource.Styleable.ActionBar_backgroundSplit;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_backgroundStacked = global::gmaps_tutorial.Resource.Styleable.ActionBar_backgroundStacked;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_contentInsetEnd = global::gmaps_tutorial.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_contentInsetLeft = global::gmaps_tutorial.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_contentInsetRight = global::gmaps_tutorial.Resource.Styleable.ActionBar_contentInsetRight;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_contentInsetStart = global::gmaps_tutorial.Resource.Styleable.ActionBar_contentInsetStart;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_customNavigationLayout = global::gmaps_tutorial.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_displayOptions = global::gmaps_tutorial.Resource.Styleable.ActionBar_displayOptions;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_divider = global::gmaps_tutorial.Resource.Styleable.ActionBar_divider;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_elevation = global::gmaps_tutorial.Resource.Styleable.ActionBar_elevation;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_height = global::gmaps_tutorial.Resource.Styleable.ActionBar_height;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_hideOnContentScroll = global::gmaps_tutorial.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_homeAsUpIndicator = global::gmaps_tutorial.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_homeLayout = global::gmaps_tutorial.Resource.Styleable.ActionBar_homeLayout;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_icon = global::gmaps_tutorial.Resource.Styleable.ActionBar_icon;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::gmaps_tutorial.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_itemPadding = global::gmaps_tutorial.Resource.Styleable.ActionBar_itemPadding;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_logo = global::gmaps_tutorial.Resource.Styleable.ActionBar_logo;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_navigationMode = global::gmaps_tutorial.Resource.Styleable.ActionBar_navigationMode;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_popupTheme = global::gmaps_tutorial.Resource.Styleable.ActionBar_popupTheme;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_progressBarPadding = global::gmaps_tutorial.Resource.Styleable.ActionBar_progressBarPadding;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_progressBarStyle = global::gmaps_tutorial.Resource.Styleable.ActionBar_progressBarStyle;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_subtitle = global::gmaps_tutorial.Resource.Styleable.ActionBar_subtitle;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_subtitleTextStyle = global::gmaps_tutorial.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_title = global::gmaps_tutorial.Resource.Styleable.ActionBar_title;
-			global::GooglePlayServices.Resource.Styleable.ActionBar_titleTextStyle = global::gmaps_tutorial.Resource.Styleable.ActionBar_titleTextStyle;
-			global::GooglePlayServices.Resource.Styleable.ActionBarLayout = global::gmaps_tutorial.Resource.Styleable.ActionBarLayout;
-			global::GooglePlayServices.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::gmaps_tutorial.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::GooglePlayServices.Resource.Styleable.ActionMenuItemView = global::gmaps_tutorial.Resource.Styleable.ActionMenuItemView;
-			global::GooglePlayServices.Resource.Styleable.ActionMenuItemView_android_minWidth = global::gmaps_tutorial.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::GooglePlayServices.Resource.Styleable.ActionMenuView = global::gmaps_tutorial.Resource.Styleable.ActionMenuView;
-			global::GooglePlayServices.Resource.Styleable.ActionMode = global::gmaps_tutorial.Resource.Styleable.ActionMode;
-			global::GooglePlayServices.Resource.Styleable.ActionMode_background = global::gmaps_tutorial.Resource.Styleable.ActionMode_background;
-			global::GooglePlayServices.Resource.Styleable.ActionMode_backgroundSplit = global::gmaps_tutorial.Resource.Styleable.ActionMode_backgroundSplit;
-			global::GooglePlayServices.Resource.Styleable.ActionMode_closeItemLayout = global::gmaps_tutorial.Resource.Styleable.ActionMode_closeItemLayout;
-			global::GooglePlayServices.Resource.Styleable.ActionMode_height = global::gmaps_tutorial.Resource.Styleable.ActionMode_height;
-			global::GooglePlayServices.Resource.Styleable.ActionMode_subtitleTextStyle = global::gmaps_tutorial.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::GooglePlayServices.Resource.Styleable.ActionMode_titleTextStyle = global::gmaps_tutorial.Resource.Styleable.ActionMode_titleTextStyle;
-			global::GooglePlayServices.Resource.Styleable.ActivityChooserView = global::gmaps_tutorial.Resource.Styleable.ActivityChooserView;
-			global::GooglePlayServices.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::gmaps_tutorial.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::GooglePlayServices.Resource.Styleable.ActivityChooserView_initialActivityCount = global::gmaps_tutorial.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::GooglePlayServices.Resource.Styleable.AdsAttrs = global::gmaps_tutorial.Resource.Styleable.AdsAttrs;
-			global::GooglePlayServices.Resource.Styleable.AdsAttrs_adSize = global::gmaps_tutorial.Resource.Styleable.AdsAttrs_adSize;
-			global::GooglePlayServices.Resource.Styleable.AdsAttrs_adSizes = global::gmaps_tutorial.Resource.Styleable.AdsAttrs_adSizes;
-			global::GooglePlayServices.Resource.Styleable.AdsAttrs_adUnitId = global::gmaps_tutorial.Resource.Styleable.AdsAttrs_adUnitId;
-			global::GooglePlayServices.Resource.Styleable.AlertDialog = global::gmaps_tutorial.Resource.Styleable.AlertDialog;
-			global::GooglePlayServices.Resource.Styleable.AlertDialog_android_layout = global::gmaps_tutorial.Resource.Styleable.AlertDialog_android_layout;
-			global::GooglePlayServices.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::gmaps_tutorial.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::GooglePlayServices.Resource.Styleable.AlertDialog_listItemLayout = global::gmaps_tutorial.Resource.Styleable.AlertDialog_listItemLayout;
-			global::GooglePlayServices.Resource.Styleable.AlertDialog_listLayout = global::gmaps_tutorial.Resource.Styleable.AlertDialog_listLayout;
-			global::GooglePlayServices.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::gmaps_tutorial.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::GooglePlayServices.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::gmaps_tutorial.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::GooglePlayServices.Resource.Styleable.AppCompatTextView = global::gmaps_tutorial.Resource.Styleable.AppCompatTextView;
-			global::GooglePlayServices.Resource.Styleable.AppCompatTextView_android_textAppearance = global::gmaps_tutorial.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::GooglePlayServices.Resource.Styleable.AppCompatTextView_textAllCaps = global::gmaps_tutorial.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::GooglePlayServices.Resource.Styleable.CustomWalletTheme = global::gmaps_tutorial.Resource.Styleable.CustomWalletTheme;
-			global::GooglePlayServices.Resource.Styleable.CustomWalletTheme_windowTransitionStyle = global::gmaps_tutorial.Resource.Styleable.CustomWalletTheme_windowTransitionStyle;
-			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle = global::gmaps_tutorial.Resource.Styleable.DrawerArrowToggle;
-			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_barSize = global::gmaps_tutorial.Resource.Styleable.DrawerArrowToggle_barSize;
-			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_color = global::gmaps_tutorial.Resource.Styleable.DrawerArrowToggle_color;
-			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_drawableSize = global::gmaps_tutorial.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::gmaps_tutorial.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize = global::gmaps_tutorial.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize;
-			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_spinBars = global::gmaps_tutorial.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_thickness = global::gmaps_tutorial.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize = global::gmaps_tutorial.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_gravity = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_orientation = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_divider = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_divider;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_showDividers = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::gmaps_tutorial.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::GooglePlayServices.Resource.Styleable.ListPopupWindow = global::gmaps_tutorial.Resource.Styleable.ListPopupWindow;
-			global::GooglePlayServices.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::gmaps_tutorial.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::GooglePlayServices.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::gmaps_tutorial.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::GooglePlayServices.Resource.Styleable.LoadingImageView = global::gmaps_tutorial.Resource.Styleable.LoadingImageView;
-			global::GooglePlayServices.Resource.Styleable.LoadingImageView_circleCrop = global::gmaps_tutorial.Resource.Styleable.LoadingImageView_circleCrop;
-			global::GooglePlayServices.Resource.Styleable.LoadingImageView_imageAspectRatio = global::gmaps_tutorial.Resource.Styleable.LoadingImageView_imageAspectRatio;
-			global::GooglePlayServices.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust = global::gmaps_tutorial.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs = global::gmaps_tutorial.Resource.Styleable.MapAttrs;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraBearing = global::gmaps_tutorial.Resource.Styleable.MapAttrs_cameraBearing;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraTargetLat = global::gmaps_tutorial.Resource.Styleable.MapAttrs_cameraTargetLat;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraTargetLng = global::gmaps_tutorial.Resource.Styleable.MapAttrs_cameraTargetLng;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraTilt = global::gmaps_tutorial.Resource.Styleable.MapAttrs_cameraTilt;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraZoom = global::gmaps_tutorial.Resource.Styleable.MapAttrs_cameraZoom;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_liteMode = global::gmaps_tutorial.Resource.Styleable.MapAttrs_liteMode;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_mapType = global::gmaps_tutorial.Resource.Styleable.MapAttrs_mapType;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiCompass = global::gmaps_tutorial.Resource.Styleable.MapAttrs_uiCompass;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiMapToolbar = global::gmaps_tutorial.Resource.Styleable.MapAttrs_uiMapToolbar;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiRotateGestures = global::gmaps_tutorial.Resource.Styleable.MapAttrs_uiRotateGestures;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiScrollGestures = global::gmaps_tutorial.Resource.Styleable.MapAttrs_uiScrollGestures;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiTiltGestures = global::gmaps_tutorial.Resource.Styleable.MapAttrs_uiTiltGestures;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiZoomControls = global::gmaps_tutorial.Resource.Styleable.MapAttrs_uiZoomControls;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiZoomGestures = global::gmaps_tutorial.Resource.Styleable.MapAttrs_uiZoomGestures;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_useViewLifecycle = global::gmaps_tutorial.Resource.Styleable.MapAttrs_useViewLifecycle;
-			global::GooglePlayServices.Resource.Styleable.MapAttrs_zOrderOnTop = global::gmaps_tutorial.Resource.Styleable.MapAttrs_zOrderOnTop;
-			global::GooglePlayServices.Resource.Styleable.MediaRouteButton = global::gmaps_tutorial.Resource.Styleable.MediaRouteButton;
-			global::GooglePlayServices.Resource.Styleable.MediaRouteButton_android_minHeight = global::gmaps_tutorial.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::GooglePlayServices.Resource.Styleable.MediaRouteButton_android_minWidth = global::gmaps_tutorial.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::GooglePlayServices.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::gmaps_tutorial.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::GooglePlayServices.Resource.Styleable.MenuGroup = global::gmaps_tutorial.Resource.Styleable.MenuGroup;
-			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_checkableBehavior = global::gmaps_tutorial.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_enabled = global::gmaps_tutorial.Resource.Styleable.MenuGroup_android_enabled;
-			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_id = global::gmaps_tutorial.Resource.Styleable.MenuGroup_android_id;
-			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_menuCategory = global::gmaps_tutorial.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_orderInCategory = global::gmaps_tutorial.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_visible = global::gmaps_tutorial.Resource.Styleable.MenuGroup_android_visible;
-			global::GooglePlayServices.Resource.Styleable.MenuItem = global::gmaps_tutorial.Resource.Styleable.MenuItem;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_actionLayout = global::gmaps_tutorial.Resource.Styleable.MenuItem_actionLayout;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_actionProviderClass = global::gmaps_tutorial.Resource.Styleable.MenuItem_actionProviderClass;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_actionViewClass = global::gmaps_tutorial.Resource.Styleable.MenuItem_actionViewClass;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_checkable = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_checkable;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_checked = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_checked;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_enabled = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_enabled;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_icon = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_icon;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_id = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_id;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_menuCategory = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_menuCategory;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_numericShortcut = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_onClick = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_onClick;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_orderInCategory = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_title = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_title;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_titleCondensed = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_android_visible = global::gmaps_tutorial.Resource.Styleable.MenuItem_android_visible;
-			global::GooglePlayServices.Resource.Styleable.MenuItem_showAsAction = global::gmaps_tutorial.Resource.Styleable.MenuItem_showAsAction;
-			global::GooglePlayServices.Resource.Styleable.MenuView = global::gmaps_tutorial.Resource.Styleable.MenuView;
-			global::GooglePlayServices.Resource.Styleable.MenuView_android_headerBackground = global::gmaps_tutorial.Resource.Styleable.MenuView_android_headerBackground;
-			global::GooglePlayServices.Resource.Styleable.MenuView_android_horizontalDivider = global::gmaps_tutorial.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::GooglePlayServices.Resource.Styleable.MenuView_android_itemBackground = global::gmaps_tutorial.Resource.Styleable.MenuView_android_itemBackground;
-			global::GooglePlayServices.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::gmaps_tutorial.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::GooglePlayServices.Resource.Styleable.MenuView_android_itemTextAppearance = global::gmaps_tutorial.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::GooglePlayServices.Resource.Styleable.MenuView_android_verticalDivider = global::gmaps_tutorial.Resource.Styleable.MenuView_android_verticalDivider;
-			global::GooglePlayServices.Resource.Styleable.MenuView_android_windowAnimationStyle = global::gmaps_tutorial.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::GooglePlayServices.Resource.Styleable.MenuView_preserveIconSpacing = global::gmaps_tutorial.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::GooglePlayServices.Resource.Styleable.PopupWindow = global::gmaps_tutorial.Resource.Styleable.PopupWindow;
-			global::GooglePlayServices.Resource.Styleable.PopupWindow_android_popupBackground = global::gmaps_tutorial.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::GooglePlayServices.Resource.Styleable.PopupWindow_overlapAnchor = global::gmaps_tutorial.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::GooglePlayServices.Resource.Styleable.PopupWindowBackgroundState = global::gmaps_tutorial.Resource.Styleable.PopupWindowBackgroundState;
-			global::GooglePlayServices.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::gmaps_tutorial.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::GooglePlayServices.Resource.Styleable.SearchView = global::gmaps_tutorial.Resource.Styleable.SearchView;
-			global::GooglePlayServices.Resource.Styleable.SearchView_android_focusable = global::gmaps_tutorial.Resource.Styleable.SearchView_android_focusable;
-			global::GooglePlayServices.Resource.Styleable.SearchView_android_imeOptions = global::gmaps_tutorial.Resource.Styleable.SearchView_android_imeOptions;
-			global::GooglePlayServices.Resource.Styleable.SearchView_android_inputType = global::gmaps_tutorial.Resource.Styleable.SearchView_android_inputType;
-			global::GooglePlayServices.Resource.Styleable.SearchView_android_maxWidth = global::gmaps_tutorial.Resource.Styleable.SearchView_android_maxWidth;
-			global::GooglePlayServices.Resource.Styleable.SearchView_closeIcon = global::gmaps_tutorial.Resource.Styleable.SearchView_closeIcon;
-			global::GooglePlayServices.Resource.Styleable.SearchView_commitIcon = global::gmaps_tutorial.Resource.Styleable.SearchView_commitIcon;
-			global::GooglePlayServices.Resource.Styleable.SearchView_defaultQueryHint = global::gmaps_tutorial.Resource.Styleable.SearchView_defaultQueryHint;
-			global::GooglePlayServices.Resource.Styleable.SearchView_goIcon = global::gmaps_tutorial.Resource.Styleable.SearchView_goIcon;
-			global::GooglePlayServices.Resource.Styleable.SearchView_iconifiedByDefault = global::gmaps_tutorial.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::GooglePlayServices.Resource.Styleable.SearchView_layout = global::gmaps_tutorial.Resource.Styleable.SearchView_layout;
-			global::GooglePlayServices.Resource.Styleable.SearchView_queryBackground = global::gmaps_tutorial.Resource.Styleable.SearchView_queryBackground;
-			global::GooglePlayServices.Resource.Styleable.SearchView_queryHint = global::gmaps_tutorial.Resource.Styleable.SearchView_queryHint;
-			global::GooglePlayServices.Resource.Styleable.SearchView_searchHintIcon = global::gmaps_tutorial.Resource.Styleable.SearchView_searchHintIcon;
-			global::GooglePlayServices.Resource.Styleable.SearchView_searchIcon = global::gmaps_tutorial.Resource.Styleable.SearchView_searchIcon;
-			global::GooglePlayServices.Resource.Styleable.SearchView_submitBackground = global::gmaps_tutorial.Resource.Styleable.SearchView_submitBackground;
-			global::GooglePlayServices.Resource.Styleable.SearchView_suggestionRowLayout = global::gmaps_tutorial.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::GooglePlayServices.Resource.Styleable.SearchView_voiceIcon = global::gmaps_tutorial.Resource.Styleable.SearchView_voiceIcon;
-			global::GooglePlayServices.Resource.Styleable.Spinner = global::gmaps_tutorial.Resource.Styleable.Spinner;
-			global::GooglePlayServices.Resource.Styleable.Spinner_android_background = global::gmaps_tutorial.Resource.Styleable.Spinner_android_background;
-			global::GooglePlayServices.Resource.Styleable.Spinner_android_dropDownHorizontalOffset = global::gmaps_tutorial.Resource.Styleable.Spinner_android_dropDownHorizontalOffset;
-			global::GooglePlayServices.Resource.Styleable.Spinner_android_dropDownSelector = global::gmaps_tutorial.Resource.Styleable.Spinner_android_dropDownSelector;
-			global::GooglePlayServices.Resource.Styleable.Spinner_android_dropDownVerticalOffset = global::gmaps_tutorial.Resource.Styleable.Spinner_android_dropDownVerticalOffset;
-			global::GooglePlayServices.Resource.Styleable.Spinner_android_dropDownWidth = global::gmaps_tutorial.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::GooglePlayServices.Resource.Styleable.Spinner_android_gravity = global::gmaps_tutorial.Resource.Styleable.Spinner_android_gravity;
-			global::GooglePlayServices.Resource.Styleable.Spinner_android_popupBackground = global::gmaps_tutorial.Resource.Styleable.Spinner_android_popupBackground;
-			global::GooglePlayServices.Resource.Styleable.Spinner_disableChildrenWhenDisabled = global::gmaps_tutorial.Resource.Styleable.Spinner_disableChildrenWhenDisabled;
-			global::GooglePlayServices.Resource.Styleable.Spinner_popupPromptView = global::gmaps_tutorial.Resource.Styleable.Spinner_popupPromptView;
-			global::GooglePlayServices.Resource.Styleable.Spinner_prompt = global::gmaps_tutorial.Resource.Styleable.Spinner_prompt;
-			global::GooglePlayServices.Resource.Styleable.Spinner_spinnerMode = global::gmaps_tutorial.Resource.Styleable.Spinner_spinnerMode;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat = global::gmaps_tutorial.Resource.Styleable.SwitchCompat;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_android_textOff = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_android_textOff;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_android_textOn = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_android_textOn;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_android_thumb = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_android_thumb;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_showText = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_showText;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_splitTrack = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_splitTrack;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_switchMinWidth = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_switchPadding = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_switchPadding;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_switchTextAppearance = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_thumbTextPadding = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::GooglePlayServices.Resource.Styleable.SwitchCompat_track = global::gmaps_tutorial.Resource.Styleable.SwitchCompat_track;
-			global::GooglePlayServices.Resource.Styleable.TextAppearance = global::gmaps_tutorial.Resource.Styleable.TextAppearance;
-			global::GooglePlayServices.Resource.Styleable.TextAppearance_android_textColor = global::gmaps_tutorial.Resource.Styleable.TextAppearance_android_textColor;
-			global::GooglePlayServices.Resource.Styleable.TextAppearance_android_textSize = global::gmaps_tutorial.Resource.Styleable.TextAppearance_android_textSize;
-			global::GooglePlayServices.Resource.Styleable.TextAppearance_android_textStyle = global::gmaps_tutorial.Resource.Styleable.TextAppearance_android_textStyle;
-			global::GooglePlayServices.Resource.Styleable.TextAppearance_android_typeface = global::gmaps_tutorial.Resource.Styleable.TextAppearance_android_typeface;
-			global::GooglePlayServices.Resource.Styleable.TextAppearance_textAllCaps = global::gmaps_tutorial.Resource.Styleable.TextAppearance_textAllCaps;
-			global::GooglePlayServices.Resource.Styleable.Theme = global::gmaps_tutorial.Resource.Styleable.Theme;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarDivider = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarDivider;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarItemBackground = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarItemBackground;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarPopupTheme = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarPopupTheme;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarSize = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarSize;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarSplitStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarSplitStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarTabBarStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarTabBarStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarTabStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarTabStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarTabTextStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarTabTextStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarTheme = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarTheme;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionBarWidgetTheme = global::gmaps_tutorial.Resource.Styleable.Theme_actionBarWidgetTheme;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionDropDownStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionDropDownStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionMenuTextAppearance = global::gmaps_tutorial.Resource.Styleable.Theme_actionMenuTextAppearance;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionMenuTextColor = global::gmaps_tutorial.Resource.Styleable.Theme_actionMenuTextColor;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeBackground = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeBackground;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeCloseButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeCloseButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeCloseDrawable = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeCloseDrawable;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeCopyDrawable = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeCopyDrawable;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeCutDrawable = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeCutDrawable;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeFindDrawable = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeFindDrawable;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModePasteDrawable = global::gmaps_tutorial.Resource.Styleable.Theme_actionModePasteDrawable;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModePopupWindowStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionModePopupWindowStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeSelectAllDrawable = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeSelectAllDrawable;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeShareDrawable = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeShareDrawable;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeSplitBackground = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeSplitBackground;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionModeWebSearchDrawable = global::gmaps_tutorial.Resource.Styleable.Theme_actionModeWebSearchDrawable;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionOverflowButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionOverflowButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_actionOverflowMenuStyle = global::gmaps_tutorial.Resource.Styleable.Theme_actionOverflowMenuStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_activityChooserViewStyle = global::gmaps_tutorial.Resource.Styleable.Theme_activityChooserViewStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_alertDialogButtonGroupStyle = global::gmaps_tutorial.Resource.Styleable.Theme_alertDialogButtonGroupStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_alertDialogCenterButtons = global::gmaps_tutorial.Resource.Styleable.Theme_alertDialogCenterButtons;
-			global::GooglePlayServices.Resource.Styleable.Theme_alertDialogStyle = global::gmaps_tutorial.Resource.Styleable.Theme_alertDialogStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_alertDialogTheme = global::gmaps_tutorial.Resource.Styleable.Theme_alertDialogTheme;
-			global::GooglePlayServices.Resource.Styleable.Theme_android_windowAnimationStyle = global::gmaps_tutorial.Resource.Styleable.Theme_android_windowAnimationStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_android_windowIsFloating = global::gmaps_tutorial.Resource.Styleable.Theme_android_windowIsFloating;
-			global::GooglePlayServices.Resource.Styleable.Theme_autoCompleteTextViewStyle = global::gmaps_tutorial.Resource.Styleable.Theme_autoCompleteTextViewStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_borderlessButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_borderlessButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_buttonBarButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarNegativeButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_buttonBarNegativeButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarNeutralButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_buttonBarNeutralButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarPositiveButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_buttonBarPositiveButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarStyle = global::gmaps_tutorial.Resource.Styleable.Theme_buttonBarStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_buttonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_buttonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_buttonStyleSmall = global::gmaps_tutorial.Resource.Styleable.Theme_buttonStyleSmall;
-			global::GooglePlayServices.Resource.Styleable.Theme_checkboxStyle = global::gmaps_tutorial.Resource.Styleable.Theme_checkboxStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_checkedTextViewStyle = global::gmaps_tutorial.Resource.Styleable.Theme_checkedTextViewStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_colorAccent = global::gmaps_tutorial.Resource.Styleable.Theme_colorAccent;
-			global::GooglePlayServices.Resource.Styleable.Theme_colorButtonNormal = global::gmaps_tutorial.Resource.Styleable.Theme_colorButtonNormal;
-			global::GooglePlayServices.Resource.Styleable.Theme_colorControlActivated = global::gmaps_tutorial.Resource.Styleable.Theme_colorControlActivated;
-			global::GooglePlayServices.Resource.Styleable.Theme_colorControlHighlight = global::gmaps_tutorial.Resource.Styleable.Theme_colorControlHighlight;
-			global::GooglePlayServices.Resource.Styleable.Theme_colorControlNormal = global::gmaps_tutorial.Resource.Styleable.Theme_colorControlNormal;
-			global::GooglePlayServices.Resource.Styleable.Theme_colorPrimary = global::gmaps_tutorial.Resource.Styleable.Theme_colorPrimary;
-			global::GooglePlayServices.Resource.Styleable.Theme_colorPrimaryDark = global::gmaps_tutorial.Resource.Styleable.Theme_colorPrimaryDark;
-			global::GooglePlayServices.Resource.Styleable.Theme_colorSwitchThumbNormal = global::gmaps_tutorial.Resource.Styleable.Theme_colorSwitchThumbNormal;
-			global::GooglePlayServices.Resource.Styleable.Theme_dialogPreferredPadding = global::gmaps_tutorial.Resource.Styleable.Theme_dialogPreferredPadding;
-			global::GooglePlayServices.Resource.Styleable.Theme_dialogTheme = global::gmaps_tutorial.Resource.Styleable.Theme_dialogTheme;
-			global::GooglePlayServices.Resource.Styleable.Theme_dividerHorizontal = global::gmaps_tutorial.Resource.Styleable.Theme_dividerHorizontal;
-			global::GooglePlayServices.Resource.Styleable.Theme_dividerVertical = global::gmaps_tutorial.Resource.Styleable.Theme_dividerVertical;
-			global::GooglePlayServices.Resource.Styleable.Theme_dropDownListViewStyle = global::gmaps_tutorial.Resource.Styleable.Theme_dropDownListViewStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::gmaps_tutorial.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
-			global::GooglePlayServices.Resource.Styleable.Theme_editTextBackground = global::gmaps_tutorial.Resource.Styleable.Theme_editTextBackground;
-			global::GooglePlayServices.Resource.Styleable.Theme_editTextColor = global::gmaps_tutorial.Resource.Styleable.Theme_editTextColor;
-			global::GooglePlayServices.Resource.Styleable.Theme_editTextStyle = global::gmaps_tutorial.Resource.Styleable.Theme_editTextStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_homeAsUpIndicator = global::gmaps_tutorial.Resource.Styleable.Theme_homeAsUpIndicator;
-			global::GooglePlayServices.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::gmaps_tutorial.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
-			global::GooglePlayServices.Resource.Styleable.Theme_listDividerAlertDialog = global::gmaps_tutorial.Resource.Styleable.Theme_listDividerAlertDialog;
-			global::GooglePlayServices.Resource.Styleable.Theme_listPopupWindowStyle = global::gmaps_tutorial.Resource.Styleable.Theme_listPopupWindowStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemHeight = global::gmaps_tutorial.Resource.Styleable.Theme_listPreferredItemHeight;
-			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemHeightLarge = global::gmaps_tutorial.Resource.Styleable.Theme_listPreferredItemHeightLarge;
-			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemHeightSmall = global::gmaps_tutorial.Resource.Styleable.Theme_listPreferredItemHeightSmall;
-			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemPaddingLeft = global::gmaps_tutorial.Resource.Styleable.Theme_listPreferredItemPaddingLeft;
-			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemPaddingRight = global::gmaps_tutorial.Resource.Styleable.Theme_listPreferredItemPaddingRight;
-			global::GooglePlayServices.Resource.Styleable.Theme_panelBackground = global::gmaps_tutorial.Resource.Styleable.Theme_panelBackground;
-			global::GooglePlayServices.Resource.Styleable.Theme_panelMenuListTheme = global::gmaps_tutorial.Resource.Styleable.Theme_panelMenuListTheme;
-			global::GooglePlayServices.Resource.Styleable.Theme_panelMenuListWidth = global::gmaps_tutorial.Resource.Styleable.Theme_panelMenuListWidth;
-			global::GooglePlayServices.Resource.Styleable.Theme_popupMenuStyle = global::gmaps_tutorial.Resource.Styleable.Theme_popupMenuStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_popupWindowStyle = global::gmaps_tutorial.Resource.Styleable.Theme_popupWindowStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_radioButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_radioButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_ratingBarStyle = global::gmaps_tutorial.Resource.Styleable.Theme_ratingBarStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_searchViewStyle = global::gmaps_tutorial.Resource.Styleable.Theme_searchViewStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_selectableItemBackground = global::gmaps_tutorial.Resource.Styleable.Theme_selectableItemBackground;
-			global::GooglePlayServices.Resource.Styleable.Theme_selectableItemBackgroundBorderless = global::gmaps_tutorial.Resource.Styleable.Theme_selectableItemBackgroundBorderless;
-			global::GooglePlayServices.Resource.Styleable.Theme_spinnerDropDownItemStyle = global::gmaps_tutorial.Resource.Styleable.Theme_spinnerDropDownItemStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_spinnerStyle = global::gmaps_tutorial.Resource.Styleable.Theme_spinnerStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_switchStyle = global::gmaps_tutorial.Resource.Styleable.Theme_switchStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceLargePopupMenu = global::gmaps_tutorial.Resource.Styleable.Theme_textAppearanceLargePopupMenu;
-			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceListItem = global::gmaps_tutorial.Resource.Styleable.Theme_textAppearanceListItem;
-			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceListItemSmall = global::gmaps_tutorial.Resource.Styleable.Theme_textAppearanceListItemSmall;
-			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle = global::gmaps_tutorial.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle;
-			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceSearchResultTitle = global::gmaps_tutorial.Resource.Styleable.Theme_textAppearanceSearchResultTitle;
-			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceSmallPopupMenu = global::gmaps_tutorial.Resource.Styleable.Theme_textAppearanceSmallPopupMenu;
-			global::GooglePlayServices.Resource.Styleable.Theme_textColorAlertDialogListItem = global::gmaps_tutorial.Resource.Styleable.Theme_textColorAlertDialogListItem;
-			global::GooglePlayServices.Resource.Styleable.Theme_textColorSearchUrl = global::gmaps_tutorial.Resource.Styleable.Theme_textColorSearchUrl;
-			global::GooglePlayServices.Resource.Styleable.Theme_toolbarNavigationButtonStyle = global::gmaps_tutorial.Resource.Styleable.Theme_toolbarNavigationButtonStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_toolbarStyle = global::gmaps_tutorial.Resource.Styleable.Theme_toolbarStyle;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowActionBar = global::gmaps_tutorial.Resource.Styleable.Theme_windowActionBar;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowActionBarOverlay = global::gmaps_tutorial.Resource.Styleable.Theme_windowActionBarOverlay;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowActionModeOverlay = global::gmaps_tutorial.Resource.Styleable.Theme_windowActionModeOverlay;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowFixedHeightMajor = global::gmaps_tutorial.Resource.Styleable.Theme_windowFixedHeightMajor;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowFixedHeightMinor = global::gmaps_tutorial.Resource.Styleable.Theme_windowFixedHeightMinor;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowFixedWidthMajor = global::gmaps_tutorial.Resource.Styleable.Theme_windowFixedWidthMajor;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowFixedWidthMinor = global::gmaps_tutorial.Resource.Styleable.Theme_windowFixedWidthMinor;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowMinWidthMajor = global::gmaps_tutorial.Resource.Styleable.Theme_windowMinWidthMajor;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowMinWidthMinor = global::gmaps_tutorial.Resource.Styleable.Theme_windowMinWidthMinor;
-			global::GooglePlayServices.Resource.Styleable.Theme_windowNoTitle = global::gmaps_tutorial.Resource.Styleable.Theme_windowNoTitle;
-			global::GooglePlayServices.Resource.Styleable.Toolbar = global::gmaps_tutorial.Resource.Styleable.Toolbar;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_android_gravity = global::gmaps_tutorial.Resource.Styleable.Toolbar_android_gravity;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_android_minHeight = global::gmaps_tutorial.Resource.Styleable.Toolbar_android_minHeight;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_collapseContentDescription = global::gmaps_tutorial.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_collapseIcon = global::gmaps_tutorial.Resource.Styleable.Toolbar_collapseIcon;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_contentInsetEnd = global::gmaps_tutorial.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_contentInsetLeft = global::gmaps_tutorial.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_contentInsetRight = global::gmaps_tutorial.Resource.Styleable.Toolbar_contentInsetRight;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_contentInsetStart = global::gmaps_tutorial.Resource.Styleable.Toolbar_contentInsetStart;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_maxButtonHeight = global::gmaps_tutorial.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_navigationContentDescription = global::gmaps_tutorial.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_navigationIcon = global::gmaps_tutorial.Resource.Styleable.Toolbar_navigationIcon;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_popupTheme = global::gmaps_tutorial.Resource.Styleable.Toolbar_popupTheme;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_subtitle = global::gmaps_tutorial.Resource.Styleable.Toolbar_subtitle;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_subtitleTextAppearance = global::gmaps_tutorial.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_title = global::gmaps_tutorial.Resource.Styleable.Toolbar_title;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMarginBottom = global::gmaps_tutorial.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMarginEnd = global::gmaps_tutorial.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMarginStart = global::gmaps_tutorial.Resource.Styleable.Toolbar_titleMarginStart;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMarginTop = global::gmaps_tutorial.Resource.Styleable.Toolbar_titleMarginTop;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMargins = global::gmaps_tutorial.Resource.Styleable.Toolbar_titleMargins;
-			global::GooglePlayServices.Resource.Styleable.Toolbar_titleTextAppearance = global::gmaps_tutorial.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::GooglePlayServices.Resource.Styleable.View = global::gmaps_tutorial.Resource.Styleable.View;
-			global::GooglePlayServices.Resource.Styleable.View_android_focusable = global::gmaps_tutorial.Resource.Styleable.View_android_focusable;
-			global::GooglePlayServices.Resource.Styleable.View_android_theme = global::gmaps_tutorial.Resource.Styleable.View_android_theme;
-			global::GooglePlayServices.Resource.Styleable.View_backgroundTint = global::gmaps_tutorial.Resource.Styleable.View_backgroundTint;
-			global::GooglePlayServices.Resource.Styleable.View_backgroundTintMode = global::gmaps_tutorial.Resource.Styleable.View_backgroundTintMode;
-			global::GooglePlayServices.Resource.Styleable.View_paddingEnd = global::gmaps_tutorial.Resource.Styleable.View_paddingEnd;
-			global::GooglePlayServices.Resource.Styleable.View_paddingStart = global::gmaps_tutorial.Resource.Styleable.View_paddingStart;
-			global::GooglePlayServices.Resource.Styleable.View_theme = global::gmaps_tutorial.Resource.Styleable.View_theme;
-			global::GooglePlayServices.Resource.Styleable.ViewStubCompat = global::gmaps_tutorial.Resource.Styleable.ViewStubCompat;
-			global::GooglePlayServices.Resource.Styleable.ViewStubCompat_android_id = global::gmaps_tutorial.Resource.Styleable.ViewStubCompat_android_id;
-			global::GooglePlayServices.Resource.Styleable.ViewStubCompat_android_inflatedId = global::gmaps_tutorial.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::GooglePlayServices.Resource.Styleable.ViewStubCompat_android_layout = global::gmaps_tutorial.Resource.Styleable.ViewStubCompat_android_layout;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions = global::gmaps_tutorial.Resource.Styleable.WalletFragmentOptions;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions_appTheme = global::gmaps_tutorial.Resource.Styleable.WalletFragmentOptions_appTheme;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions_environment = global::gmaps_tutorial.Resource.Styleable.WalletFragmentOptions_environment;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions_fragmentMode = global::gmaps_tutorial.Resource.Styleable.WalletFragmentOptions_fragmentMode;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions_fragmentStyle = global::gmaps_tutorial.Resource.Styleable.WalletFragmentOptions_fragmentStyle;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_buyButtonAppearance = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_buyButtonAppearance;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_buyButtonHeight = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_buyButtonHeight;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_buyButtonText = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_buyButtonText;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_buyButtonWidth = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_buyButtonWidth;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsBackground = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsBackground;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonBackground = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonBackground;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoImageType = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoImageType;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoTextColor = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoTextColor;
-			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsTextAppearance = global::gmaps_tutorial.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsTextAppearance;
+			global::GooglePlayServices.Resource.Animation.abc_fade_in = global::wibo.Resource.Animation.abc_fade_in;
+			global::GooglePlayServices.Resource.Animation.abc_fade_out = global::wibo.Resource.Animation.abc_fade_out;
+			global::GooglePlayServices.Resource.Animation.abc_grow_fade_in_from_bottom = global::wibo.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::GooglePlayServices.Resource.Animation.abc_popup_enter = global::wibo.Resource.Animation.abc_popup_enter;
+			global::GooglePlayServices.Resource.Animation.abc_popup_exit = global::wibo.Resource.Animation.abc_popup_exit;
+			global::GooglePlayServices.Resource.Animation.abc_shrink_fade_out_from_bottom = global::wibo.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::GooglePlayServices.Resource.Animation.abc_slide_in_bottom = global::wibo.Resource.Animation.abc_slide_in_bottom;
+			global::GooglePlayServices.Resource.Animation.abc_slide_in_top = global::wibo.Resource.Animation.abc_slide_in_top;
+			global::GooglePlayServices.Resource.Animation.abc_slide_out_bottom = global::wibo.Resource.Animation.abc_slide_out_bottom;
+			global::GooglePlayServices.Resource.Animation.abc_slide_out_top = global::wibo.Resource.Animation.abc_slide_out_top;
+			global::GooglePlayServices.Resource.Attribute.actionBarDivider = global::wibo.Resource.Attribute.actionBarDivider;
+			global::GooglePlayServices.Resource.Attribute.actionBarItemBackground = global::wibo.Resource.Attribute.actionBarItemBackground;
+			global::GooglePlayServices.Resource.Attribute.actionBarPopupTheme = global::wibo.Resource.Attribute.actionBarPopupTheme;
+			global::GooglePlayServices.Resource.Attribute.actionBarSize = global::wibo.Resource.Attribute.actionBarSize;
+			global::GooglePlayServices.Resource.Attribute.actionBarSplitStyle = global::wibo.Resource.Attribute.actionBarSplitStyle;
+			global::GooglePlayServices.Resource.Attribute.actionBarStyle = global::wibo.Resource.Attribute.actionBarStyle;
+			global::GooglePlayServices.Resource.Attribute.actionBarTabBarStyle = global::wibo.Resource.Attribute.actionBarTabBarStyle;
+			global::GooglePlayServices.Resource.Attribute.actionBarTabStyle = global::wibo.Resource.Attribute.actionBarTabStyle;
+			global::GooglePlayServices.Resource.Attribute.actionBarTabTextStyle = global::wibo.Resource.Attribute.actionBarTabTextStyle;
+			global::GooglePlayServices.Resource.Attribute.actionBarTheme = global::wibo.Resource.Attribute.actionBarTheme;
+			global::GooglePlayServices.Resource.Attribute.actionBarWidgetTheme = global::wibo.Resource.Attribute.actionBarWidgetTheme;
+			global::GooglePlayServices.Resource.Attribute.actionButtonStyle = global::wibo.Resource.Attribute.actionButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.actionDropDownStyle = global::wibo.Resource.Attribute.actionDropDownStyle;
+			global::GooglePlayServices.Resource.Attribute.actionLayout = global::wibo.Resource.Attribute.actionLayout;
+			global::GooglePlayServices.Resource.Attribute.actionMenuTextAppearance = global::wibo.Resource.Attribute.actionMenuTextAppearance;
+			global::GooglePlayServices.Resource.Attribute.actionMenuTextColor = global::wibo.Resource.Attribute.actionMenuTextColor;
+			global::GooglePlayServices.Resource.Attribute.actionModeBackground = global::wibo.Resource.Attribute.actionModeBackground;
+			global::GooglePlayServices.Resource.Attribute.actionModeCloseButtonStyle = global::wibo.Resource.Attribute.actionModeCloseButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.actionModeCloseDrawable = global::wibo.Resource.Attribute.actionModeCloseDrawable;
+			global::GooglePlayServices.Resource.Attribute.actionModeCopyDrawable = global::wibo.Resource.Attribute.actionModeCopyDrawable;
+			global::GooglePlayServices.Resource.Attribute.actionModeCutDrawable = global::wibo.Resource.Attribute.actionModeCutDrawable;
+			global::GooglePlayServices.Resource.Attribute.actionModeFindDrawable = global::wibo.Resource.Attribute.actionModeFindDrawable;
+			global::GooglePlayServices.Resource.Attribute.actionModePasteDrawable = global::wibo.Resource.Attribute.actionModePasteDrawable;
+			global::GooglePlayServices.Resource.Attribute.actionModePopupWindowStyle = global::wibo.Resource.Attribute.actionModePopupWindowStyle;
+			global::GooglePlayServices.Resource.Attribute.actionModeSelectAllDrawable = global::wibo.Resource.Attribute.actionModeSelectAllDrawable;
+			global::GooglePlayServices.Resource.Attribute.actionModeShareDrawable = global::wibo.Resource.Attribute.actionModeShareDrawable;
+			global::GooglePlayServices.Resource.Attribute.actionModeSplitBackground = global::wibo.Resource.Attribute.actionModeSplitBackground;
+			global::GooglePlayServices.Resource.Attribute.actionModeStyle = global::wibo.Resource.Attribute.actionModeStyle;
+			global::GooglePlayServices.Resource.Attribute.actionModeWebSearchDrawable = global::wibo.Resource.Attribute.actionModeWebSearchDrawable;
+			global::GooglePlayServices.Resource.Attribute.actionOverflowButtonStyle = global::wibo.Resource.Attribute.actionOverflowButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.actionOverflowMenuStyle = global::wibo.Resource.Attribute.actionOverflowMenuStyle;
+			global::GooglePlayServices.Resource.Attribute.actionProviderClass = global::wibo.Resource.Attribute.actionProviderClass;
+			global::GooglePlayServices.Resource.Attribute.actionViewClass = global::wibo.Resource.Attribute.actionViewClass;
+			global::GooglePlayServices.Resource.Attribute.activityChooserViewStyle = global::wibo.Resource.Attribute.activityChooserViewStyle;
+			global::GooglePlayServices.Resource.Attribute.adSize = global::wibo.Resource.Attribute.adSize;
+			global::GooglePlayServices.Resource.Attribute.adSizes = global::wibo.Resource.Attribute.adSizes;
+			global::GooglePlayServices.Resource.Attribute.adUnitId = global::wibo.Resource.Attribute.adUnitId;
+			global::GooglePlayServices.Resource.Attribute.alertDialogButtonGroupStyle = global::wibo.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::GooglePlayServices.Resource.Attribute.alertDialogCenterButtons = global::wibo.Resource.Attribute.alertDialogCenterButtons;
+			global::GooglePlayServices.Resource.Attribute.alertDialogStyle = global::wibo.Resource.Attribute.alertDialogStyle;
+			global::GooglePlayServices.Resource.Attribute.alertDialogTheme = global::wibo.Resource.Attribute.alertDialogTheme;
+			global::GooglePlayServices.Resource.Attribute.appTheme = global::wibo.Resource.Attribute.appTheme;
+			global::GooglePlayServices.Resource.Attribute.autoCompleteTextViewStyle = global::wibo.Resource.Attribute.autoCompleteTextViewStyle;
+			global::GooglePlayServices.Resource.Attribute.background = global::wibo.Resource.Attribute.background;
+			global::GooglePlayServices.Resource.Attribute.backgroundSplit = global::wibo.Resource.Attribute.backgroundSplit;
+			global::GooglePlayServices.Resource.Attribute.backgroundStacked = global::wibo.Resource.Attribute.backgroundStacked;
+			global::GooglePlayServices.Resource.Attribute.backgroundTint = global::wibo.Resource.Attribute.backgroundTint;
+			global::GooglePlayServices.Resource.Attribute.backgroundTintMode = global::wibo.Resource.Attribute.backgroundTintMode;
+			global::GooglePlayServices.Resource.Attribute.barSize = global::wibo.Resource.Attribute.barSize;
+			global::GooglePlayServices.Resource.Attribute.borderlessButtonStyle = global::wibo.Resource.Attribute.borderlessButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.buttonBarButtonStyle = global::wibo.Resource.Attribute.buttonBarButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.buttonBarNegativeButtonStyle = global::wibo.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.buttonBarNeutralButtonStyle = global::wibo.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.buttonBarPositiveButtonStyle = global::wibo.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.buttonBarStyle = global::wibo.Resource.Attribute.buttonBarStyle;
+			global::GooglePlayServices.Resource.Attribute.buttonPanelSideLayout = global::wibo.Resource.Attribute.buttonPanelSideLayout;
+			global::GooglePlayServices.Resource.Attribute.buttonStyle = global::wibo.Resource.Attribute.buttonStyle;
+			global::GooglePlayServices.Resource.Attribute.buttonStyleSmall = global::wibo.Resource.Attribute.buttonStyleSmall;
+			global::GooglePlayServices.Resource.Attribute.buyButtonAppearance = global::wibo.Resource.Attribute.buyButtonAppearance;
+			global::GooglePlayServices.Resource.Attribute.buyButtonHeight = global::wibo.Resource.Attribute.buyButtonHeight;
+			global::GooglePlayServices.Resource.Attribute.buyButtonText = global::wibo.Resource.Attribute.buyButtonText;
+			global::GooglePlayServices.Resource.Attribute.buyButtonWidth = global::wibo.Resource.Attribute.buyButtonWidth;
+			global::GooglePlayServices.Resource.Attribute.cameraBearing = global::wibo.Resource.Attribute.cameraBearing;
+			global::GooglePlayServices.Resource.Attribute.cameraTargetLat = global::wibo.Resource.Attribute.cameraTargetLat;
+			global::GooglePlayServices.Resource.Attribute.cameraTargetLng = global::wibo.Resource.Attribute.cameraTargetLng;
+			global::GooglePlayServices.Resource.Attribute.cameraTilt = global::wibo.Resource.Attribute.cameraTilt;
+			global::GooglePlayServices.Resource.Attribute.cameraZoom = global::wibo.Resource.Attribute.cameraZoom;
+			global::GooglePlayServices.Resource.Attribute.checkboxStyle = global::wibo.Resource.Attribute.checkboxStyle;
+			global::GooglePlayServices.Resource.Attribute.checkedTextViewStyle = global::wibo.Resource.Attribute.checkedTextViewStyle;
+			global::GooglePlayServices.Resource.Attribute.circleCrop = global::wibo.Resource.Attribute.circleCrop;
+			global::GooglePlayServices.Resource.Attribute.closeIcon = global::wibo.Resource.Attribute.closeIcon;
+			global::GooglePlayServices.Resource.Attribute.closeItemLayout = global::wibo.Resource.Attribute.closeItemLayout;
+			global::GooglePlayServices.Resource.Attribute.collapseContentDescription = global::wibo.Resource.Attribute.collapseContentDescription;
+			global::GooglePlayServices.Resource.Attribute.collapseIcon = global::wibo.Resource.Attribute.collapseIcon;
+			global::GooglePlayServices.Resource.Attribute.color = global::wibo.Resource.Attribute.color;
+			global::GooglePlayServices.Resource.Attribute.colorAccent = global::wibo.Resource.Attribute.colorAccent;
+			global::GooglePlayServices.Resource.Attribute.colorButtonNormal = global::wibo.Resource.Attribute.colorButtonNormal;
+			global::GooglePlayServices.Resource.Attribute.colorControlActivated = global::wibo.Resource.Attribute.colorControlActivated;
+			global::GooglePlayServices.Resource.Attribute.colorControlHighlight = global::wibo.Resource.Attribute.colorControlHighlight;
+			global::GooglePlayServices.Resource.Attribute.colorControlNormal = global::wibo.Resource.Attribute.colorControlNormal;
+			global::GooglePlayServices.Resource.Attribute.colorPrimary = global::wibo.Resource.Attribute.colorPrimary;
+			global::GooglePlayServices.Resource.Attribute.colorPrimaryDark = global::wibo.Resource.Attribute.colorPrimaryDark;
+			global::GooglePlayServices.Resource.Attribute.colorSwitchThumbNormal = global::wibo.Resource.Attribute.colorSwitchThumbNormal;
+			global::GooglePlayServices.Resource.Attribute.commitIcon = global::wibo.Resource.Attribute.commitIcon;
+			global::GooglePlayServices.Resource.Attribute.contentInsetEnd = global::wibo.Resource.Attribute.contentInsetEnd;
+			global::GooglePlayServices.Resource.Attribute.contentInsetLeft = global::wibo.Resource.Attribute.contentInsetLeft;
+			global::GooglePlayServices.Resource.Attribute.contentInsetRight = global::wibo.Resource.Attribute.contentInsetRight;
+			global::GooglePlayServices.Resource.Attribute.contentInsetStart = global::wibo.Resource.Attribute.contentInsetStart;
+			global::GooglePlayServices.Resource.Attribute.customNavigationLayout = global::wibo.Resource.Attribute.customNavigationLayout;
+			global::GooglePlayServices.Resource.Attribute.defaultQueryHint = global::wibo.Resource.Attribute.defaultQueryHint;
+			global::GooglePlayServices.Resource.Attribute.dialogPreferredPadding = global::wibo.Resource.Attribute.dialogPreferredPadding;
+			global::GooglePlayServices.Resource.Attribute.dialogTheme = global::wibo.Resource.Attribute.dialogTheme;
+			global::GooglePlayServices.Resource.Attribute.disableChildrenWhenDisabled = global::wibo.Resource.Attribute.disableChildrenWhenDisabled;
+			global::GooglePlayServices.Resource.Attribute.displayOptions = global::wibo.Resource.Attribute.displayOptions;
+			global::GooglePlayServices.Resource.Attribute.divider = global::wibo.Resource.Attribute.divider;
+			global::GooglePlayServices.Resource.Attribute.dividerHorizontal = global::wibo.Resource.Attribute.dividerHorizontal;
+			global::GooglePlayServices.Resource.Attribute.dividerPadding = global::wibo.Resource.Attribute.dividerPadding;
+			global::GooglePlayServices.Resource.Attribute.dividerVertical = global::wibo.Resource.Attribute.dividerVertical;
+			global::GooglePlayServices.Resource.Attribute.drawableSize = global::wibo.Resource.Attribute.drawableSize;
+			global::GooglePlayServices.Resource.Attribute.drawerArrowStyle = global::wibo.Resource.Attribute.drawerArrowStyle;
+			global::GooglePlayServices.Resource.Attribute.dropDownListViewStyle = global::wibo.Resource.Attribute.dropDownListViewStyle;
+			global::GooglePlayServices.Resource.Attribute.dropdownListPreferredItemHeight = global::wibo.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::GooglePlayServices.Resource.Attribute.editTextBackground = global::wibo.Resource.Attribute.editTextBackground;
+			global::GooglePlayServices.Resource.Attribute.editTextColor = global::wibo.Resource.Attribute.editTextColor;
+			global::GooglePlayServices.Resource.Attribute.editTextStyle = global::wibo.Resource.Attribute.editTextStyle;
+			global::GooglePlayServices.Resource.Attribute.elevation = global::wibo.Resource.Attribute.elevation;
+			global::GooglePlayServices.Resource.Attribute.environment = global::wibo.Resource.Attribute.environment;
+			global::GooglePlayServices.Resource.Attribute.expandActivityOverflowButtonDrawable = global::wibo.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::GooglePlayServices.Resource.Attribute.externalRouteEnabledDrawable = global::wibo.Resource.Attribute.externalRouteEnabledDrawable;
+			global::GooglePlayServices.Resource.Attribute.fragmentMode = global::wibo.Resource.Attribute.fragmentMode;
+			global::GooglePlayServices.Resource.Attribute.fragmentStyle = global::wibo.Resource.Attribute.fragmentStyle;
+			global::GooglePlayServices.Resource.Attribute.gapBetweenBars = global::wibo.Resource.Attribute.gapBetweenBars;
+			global::GooglePlayServices.Resource.Attribute.goIcon = global::wibo.Resource.Attribute.goIcon;
+			global::GooglePlayServices.Resource.Attribute.height = global::wibo.Resource.Attribute.height;
+			global::GooglePlayServices.Resource.Attribute.hideOnContentScroll = global::wibo.Resource.Attribute.hideOnContentScroll;
+			global::GooglePlayServices.Resource.Attribute.homeAsUpIndicator = global::wibo.Resource.Attribute.homeAsUpIndicator;
+			global::GooglePlayServices.Resource.Attribute.homeLayout = global::wibo.Resource.Attribute.homeLayout;
+			global::GooglePlayServices.Resource.Attribute.icon = global::wibo.Resource.Attribute.icon;
+			global::GooglePlayServices.Resource.Attribute.iconifiedByDefault = global::wibo.Resource.Attribute.iconifiedByDefault;
+			global::GooglePlayServices.Resource.Attribute.imageAspectRatio = global::wibo.Resource.Attribute.imageAspectRatio;
+			global::GooglePlayServices.Resource.Attribute.imageAspectRatioAdjust = global::wibo.Resource.Attribute.imageAspectRatioAdjust;
+			global::GooglePlayServices.Resource.Attribute.indeterminateProgressStyle = global::wibo.Resource.Attribute.indeterminateProgressStyle;
+			global::GooglePlayServices.Resource.Attribute.initialActivityCount = global::wibo.Resource.Attribute.initialActivityCount;
+			global::GooglePlayServices.Resource.Attribute.isLightTheme = global::wibo.Resource.Attribute.isLightTheme;
+			global::GooglePlayServices.Resource.Attribute.itemPadding = global::wibo.Resource.Attribute.itemPadding;
+			global::GooglePlayServices.Resource.Attribute.layout = global::wibo.Resource.Attribute.layout;
+			global::GooglePlayServices.Resource.Attribute.listChoiceBackgroundIndicator = global::wibo.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::GooglePlayServices.Resource.Attribute.listDividerAlertDialog = global::wibo.Resource.Attribute.listDividerAlertDialog;
+			global::GooglePlayServices.Resource.Attribute.listItemLayout = global::wibo.Resource.Attribute.listItemLayout;
+			global::GooglePlayServices.Resource.Attribute.listLayout = global::wibo.Resource.Attribute.listLayout;
+			global::GooglePlayServices.Resource.Attribute.listPopupWindowStyle = global::wibo.Resource.Attribute.listPopupWindowStyle;
+			global::GooglePlayServices.Resource.Attribute.listPreferredItemHeight = global::wibo.Resource.Attribute.listPreferredItemHeight;
+			global::GooglePlayServices.Resource.Attribute.listPreferredItemHeightLarge = global::wibo.Resource.Attribute.listPreferredItemHeightLarge;
+			global::GooglePlayServices.Resource.Attribute.listPreferredItemHeightSmall = global::wibo.Resource.Attribute.listPreferredItemHeightSmall;
+			global::GooglePlayServices.Resource.Attribute.listPreferredItemPaddingLeft = global::wibo.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::GooglePlayServices.Resource.Attribute.listPreferredItemPaddingRight = global::wibo.Resource.Attribute.listPreferredItemPaddingRight;
+			global::GooglePlayServices.Resource.Attribute.liteMode = global::wibo.Resource.Attribute.liteMode;
+			global::GooglePlayServices.Resource.Attribute.logo = global::wibo.Resource.Attribute.logo;
+			global::GooglePlayServices.Resource.Attribute.mapType = global::wibo.Resource.Attribute.mapType;
+			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsBackground = global::wibo.Resource.Attribute.maskedWalletDetailsBackground;
+			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsButtonBackground = global::wibo.Resource.Attribute.maskedWalletDetailsButtonBackground;
+			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsButtonTextAppearance = global::wibo.Resource.Attribute.maskedWalletDetailsButtonTextAppearance;
+			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsHeaderTextAppearance = global::wibo.Resource.Attribute.maskedWalletDetailsHeaderTextAppearance;
+			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsLogoImageType = global::wibo.Resource.Attribute.maskedWalletDetailsLogoImageType;
+			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsLogoTextColor = global::wibo.Resource.Attribute.maskedWalletDetailsLogoTextColor;
+			global::GooglePlayServices.Resource.Attribute.maskedWalletDetailsTextAppearance = global::wibo.Resource.Attribute.maskedWalletDetailsTextAppearance;
+			global::GooglePlayServices.Resource.Attribute.maxButtonHeight = global::wibo.Resource.Attribute.maxButtonHeight;
+			global::GooglePlayServices.Resource.Attribute.measureWithLargestChild = global::wibo.Resource.Attribute.measureWithLargestChild;
+			global::GooglePlayServices.Resource.Attribute.mediaRouteButtonStyle = global::wibo.Resource.Attribute.mediaRouteButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.mediaRouteConnectingDrawable = global::wibo.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::GooglePlayServices.Resource.Attribute.mediaRouteOffDrawable = global::wibo.Resource.Attribute.mediaRouteOffDrawable;
+			global::GooglePlayServices.Resource.Attribute.mediaRouteOnDrawable = global::wibo.Resource.Attribute.mediaRouteOnDrawable;
+			global::GooglePlayServices.Resource.Attribute.mediaRoutePauseDrawable = global::wibo.Resource.Attribute.mediaRoutePauseDrawable;
+			global::GooglePlayServices.Resource.Attribute.mediaRoutePlayDrawable = global::wibo.Resource.Attribute.mediaRoutePlayDrawable;
+			global::GooglePlayServices.Resource.Attribute.mediaRouteSettingsDrawable = global::wibo.Resource.Attribute.mediaRouteSettingsDrawable;
+			global::GooglePlayServices.Resource.Attribute.middleBarArrowSize = global::wibo.Resource.Attribute.middleBarArrowSize;
+			global::GooglePlayServices.Resource.Attribute.multiChoiceItemLayout = global::wibo.Resource.Attribute.multiChoiceItemLayout;
+			global::GooglePlayServices.Resource.Attribute.navigationContentDescription = global::wibo.Resource.Attribute.navigationContentDescription;
+			global::GooglePlayServices.Resource.Attribute.navigationIcon = global::wibo.Resource.Attribute.navigationIcon;
+			global::GooglePlayServices.Resource.Attribute.navigationMode = global::wibo.Resource.Attribute.navigationMode;
+			global::GooglePlayServices.Resource.Attribute.overlapAnchor = global::wibo.Resource.Attribute.overlapAnchor;
+			global::GooglePlayServices.Resource.Attribute.paddingEnd = global::wibo.Resource.Attribute.paddingEnd;
+			global::GooglePlayServices.Resource.Attribute.paddingStart = global::wibo.Resource.Attribute.paddingStart;
+			global::GooglePlayServices.Resource.Attribute.panelBackground = global::wibo.Resource.Attribute.panelBackground;
+			global::GooglePlayServices.Resource.Attribute.panelMenuListTheme = global::wibo.Resource.Attribute.panelMenuListTheme;
+			global::GooglePlayServices.Resource.Attribute.panelMenuListWidth = global::wibo.Resource.Attribute.panelMenuListWidth;
+			global::GooglePlayServices.Resource.Attribute.popupMenuStyle = global::wibo.Resource.Attribute.popupMenuStyle;
+			global::GooglePlayServices.Resource.Attribute.popupPromptView = global::wibo.Resource.Attribute.popupPromptView;
+			global::GooglePlayServices.Resource.Attribute.popupTheme = global::wibo.Resource.Attribute.popupTheme;
+			global::GooglePlayServices.Resource.Attribute.popupWindowStyle = global::wibo.Resource.Attribute.popupWindowStyle;
+			global::GooglePlayServices.Resource.Attribute.preserveIconSpacing = global::wibo.Resource.Attribute.preserveIconSpacing;
+			global::GooglePlayServices.Resource.Attribute.progressBarPadding = global::wibo.Resource.Attribute.progressBarPadding;
+			global::GooglePlayServices.Resource.Attribute.progressBarStyle = global::wibo.Resource.Attribute.progressBarStyle;
+			global::GooglePlayServices.Resource.Attribute.prompt = global::wibo.Resource.Attribute.prompt;
+			global::GooglePlayServices.Resource.Attribute.queryBackground = global::wibo.Resource.Attribute.queryBackground;
+			global::GooglePlayServices.Resource.Attribute.queryHint = global::wibo.Resource.Attribute.queryHint;
+			global::GooglePlayServices.Resource.Attribute.radioButtonStyle = global::wibo.Resource.Attribute.radioButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.ratingBarStyle = global::wibo.Resource.Attribute.ratingBarStyle;
+			global::GooglePlayServices.Resource.Attribute.searchHintIcon = global::wibo.Resource.Attribute.searchHintIcon;
+			global::GooglePlayServices.Resource.Attribute.searchIcon = global::wibo.Resource.Attribute.searchIcon;
+			global::GooglePlayServices.Resource.Attribute.searchViewStyle = global::wibo.Resource.Attribute.searchViewStyle;
+			global::GooglePlayServices.Resource.Attribute.selectableItemBackground = global::wibo.Resource.Attribute.selectableItemBackground;
+			global::GooglePlayServices.Resource.Attribute.selectableItemBackgroundBorderless = global::wibo.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::GooglePlayServices.Resource.Attribute.showAsAction = global::wibo.Resource.Attribute.showAsAction;
+			global::GooglePlayServices.Resource.Attribute.showDividers = global::wibo.Resource.Attribute.showDividers;
+			global::GooglePlayServices.Resource.Attribute.showText = global::wibo.Resource.Attribute.showText;
+			global::GooglePlayServices.Resource.Attribute.singleChoiceItemLayout = global::wibo.Resource.Attribute.singleChoiceItemLayout;
+			global::GooglePlayServices.Resource.Attribute.spinBars = global::wibo.Resource.Attribute.spinBars;
+			global::GooglePlayServices.Resource.Attribute.spinnerDropDownItemStyle = global::wibo.Resource.Attribute.spinnerDropDownItemStyle;
+			global::GooglePlayServices.Resource.Attribute.spinnerMode = global::wibo.Resource.Attribute.spinnerMode;
+			global::GooglePlayServices.Resource.Attribute.spinnerStyle = global::wibo.Resource.Attribute.spinnerStyle;
+			global::GooglePlayServices.Resource.Attribute.splitTrack = global::wibo.Resource.Attribute.splitTrack;
+			global::GooglePlayServices.Resource.Attribute.state_above_anchor = global::wibo.Resource.Attribute.state_above_anchor;
+			global::GooglePlayServices.Resource.Attribute.submitBackground = global::wibo.Resource.Attribute.submitBackground;
+			global::GooglePlayServices.Resource.Attribute.subtitle = global::wibo.Resource.Attribute.subtitle;
+			global::GooglePlayServices.Resource.Attribute.subtitleTextAppearance = global::wibo.Resource.Attribute.subtitleTextAppearance;
+			global::GooglePlayServices.Resource.Attribute.subtitleTextStyle = global::wibo.Resource.Attribute.subtitleTextStyle;
+			global::GooglePlayServices.Resource.Attribute.suggestionRowLayout = global::wibo.Resource.Attribute.suggestionRowLayout;
+			global::GooglePlayServices.Resource.Attribute.switchMinWidth = global::wibo.Resource.Attribute.switchMinWidth;
+			global::GooglePlayServices.Resource.Attribute.switchPadding = global::wibo.Resource.Attribute.switchPadding;
+			global::GooglePlayServices.Resource.Attribute.switchStyle = global::wibo.Resource.Attribute.switchStyle;
+			global::GooglePlayServices.Resource.Attribute.switchTextAppearance = global::wibo.Resource.Attribute.switchTextAppearance;
+			global::GooglePlayServices.Resource.Attribute.textAllCaps = global::wibo.Resource.Attribute.textAllCaps;
+			global::GooglePlayServices.Resource.Attribute.textAppearanceLargePopupMenu = global::wibo.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::GooglePlayServices.Resource.Attribute.textAppearanceListItem = global::wibo.Resource.Attribute.textAppearanceListItem;
+			global::GooglePlayServices.Resource.Attribute.textAppearanceListItemSmall = global::wibo.Resource.Attribute.textAppearanceListItemSmall;
+			global::GooglePlayServices.Resource.Attribute.textAppearanceSearchResultSubtitle = global::wibo.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::GooglePlayServices.Resource.Attribute.textAppearanceSearchResultTitle = global::wibo.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::GooglePlayServices.Resource.Attribute.textAppearanceSmallPopupMenu = global::wibo.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::GooglePlayServices.Resource.Attribute.textColorAlertDialogListItem = global::wibo.Resource.Attribute.textColorAlertDialogListItem;
+			global::GooglePlayServices.Resource.Attribute.textColorSearchUrl = global::wibo.Resource.Attribute.textColorSearchUrl;
+			global::GooglePlayServices.Resource.Attribute.theme = global::wibo.Resource.Attribute.theme;
+			global::GooglePlayServices.Resource.Attribute.thickness = global::wibo.Resource.Attribute.thickness;
+			global::GooglePlayServices.Resource.Attribute.thumbTextPadding = global::wibo.Resource.Attribute.thumbTextPadding;
+			global::GooglePlayServices.Resource.Attribute.title = global::wibo.Resource.Attribute.title;
+			global::GooglePlayServices.Resource.Attribute.titleMarginBottom = global::wibo.Resource.Attribute.titleMarginBottom;
+			global::GooglePlayServices.Resource.Attribute.titleMarginEnd = global::wibo.Resource.Attribute.titleMarginEnd;
+			global::GooglePlayServices.Resource.Attribute.titleMarginStart = global::wibo.Resource.Attribute.titleMarginStart;
+			global::GooglePlayServices.Resource.Attribute.titleMarginTop = global::wibo.Resource.Attribute.titleMarginTop;
+			global::GooglePlayServices.Resource.Attribute.titleMargins = global::wibo.Resource.Attribute.titleMargins;
+			global::GooglePlayServices.Resource.Attribute.titleTextAppearance = global::wibo.Resource.Attribute.titleTextAppearance;
+			global::GooglePlayServices.Resource.Attribute.titleTextStyle = global::wibo.Resource.Attribute.titleTextStyle;
+			global::GooglePlayServices.Resource.Attribute.toolbarNavigationButtonStyle = global::wibo.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::GooglePlayServices.Resource.Attribute.toolbarStyle = global::wibo.Resource.Attribute.toolbarStyle;
+			global::GooglePlayServices.Resource.Attribute.topBottomBarArrowSize = global::wibo.Resource.Attribute.topBottomBarArrowSize;
+			global::GooglePlayServices.Resource.Attribute.track = global::wibo.Resource.Attribute.track;
+			global::GooglePlayServices.Resource.Attribute.uiCompass = global::wibo.Resource.Attribute.uiCompass;
+			global::GooglePlayServices.Resource.Attribute.uiMapToolbar = global::wibo.Resource.Attribute.uiMapToolbar;
+			global::GooglePlayServices.Resource.Attribute.uiRotateGestures = global::wibo.Resource.Attribute.uiRotateGestures;
+			global::GooglePlayServices.Resource.Attribute.uiScrollGestures = global::wibo.Resource.Attribute.uiScrollGestures;
+			global::GooglePlayServices.Resource.Attribute.uiTiltGestures = global::wibo.Resource.Attribute.uiTiltGestures;
+			global::GooglePlayServices.Resource.Attribute.uiZoomControls = global::wibo.Resource.Attribute.uiZoomControls;
+			global::GooglePlayServices.Resource.Attribute.uiZoomGestures = global::wibo.Resource.Attribute.uiZoomGestures;
+			global::GooglePlayServices.Resource.Attribute.useViewLifecycle = global::wibo.Resource.Attribute.useViewLifecycle;
+			global::GooglePlayServices.Resource.Attribute.voiceIcon = global::wibo.Resource.Attribute.voiceIcon;
+			global::GooglePlayServices.Resource.Attribute.windowActionBar = global::wibo.Resource.Attribute.windowActionBar;
+			global::GooglePlayServices.Resource.Attribute.windowActionBarOverlay = global::wibo.Resource.Attribute.windowActionBarOverlay;
+			global::GooglePlayServices.Resource.Attribute.windowActionModeOverlay = global::wibo.Resource.Attribute.windowActionModeOverlay;
+			global::GooglePlayServices.Resource.Attribute.windowFixedHeightMajor = global::wibo.Resource.Attribute.windowFixedHeightMajor;
+			global::GooglePlayServices.Resource.Attribute.windowFixedHeightMinor = global::wibo.Resource.Attribute.windowFixedHeightMinor;
+			global::GooglePlayServices.Resource.Attribute.windowFixedWidthMajor = global::wibo.Resource.Attribute.windowFixedWidthMajor;
+			global::GooglePlayServices.Resource.Attribute.windowFixedWidthMinor = global::wibo.Resource.Attribute.windowFixedWidthMinor;
+			global::GooglePlayServices.Resource.Attribute.windowMinWidthMajor = global::wibo.Resource.Attribute.windowMinWidthMajor;
+			global::GooglePlayServices.Resource.Attribute.windowMinWidthMinor = global::wibo.Resource.Attribute.windowMinWidthMinor;
+			global::GooglePlayServices.Resource.Attribute.windowNoTitle = global::wibo.Resource.Attribute.windowNoTitle;
+			global::GooglePlayServices.Resource.Attribute.windowTransitionStyle = global::wibo.Resource.Attribute.windowTransitionStyle;
+			global::GooglePlayServices.Resource.Attribute.zOrderOnTop = global::wibo.Resource.Attribute.zOrderOnTop;
+			global::GooglePlayServices.Resource.Boolean.abc_action_bar_embed_tabs = global::wibo.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::GooglePlayServices.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::wibo.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::GooglePlayServices.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::wibo.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::GooglePlayServices.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::wibo.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::GooglePlayServices.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::wibo.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::GooglePlayServices.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::wibo.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::GooglePlayServices.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::wibo.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::GooglePlayServices.Resource.Color.abc_background_cache_hint_selector_material_dark = global::wibo.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::GooglePlayServices.Resource.Color.abc_background_cache_hint_selector_material_light = global::wibo.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::GooglePlayServices.Resource.Color.abc_input_method_navigation_guard = global::wibo.Resource.Color.abc_input_method_navigation_guard;
+			global::GooglePlayServices.Resource.Color.abc_primary_text_disable_only_material_dark = global::wibo.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::GooglePlayServices.Resource.Color.abc_primary_text_disable_only_material_light = global::wibo.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::GooglePlayServices.Resource.Color.abc_primary_text_material_dark = global::wibo.Resource.Color.abc_primary_text_material_dark;
+			global::GooglePlayServices.Resource.Color.abc_primary_text_material_light = global::wibo.Resource.Color.abc_primary_text_material_light;
+			global::GooglePlayServices.Resource.Color.abc_search_url_text = global::wibo.Resource.Color.abc_search_url_text;
+			global::GooglePlayServices.Resource.Color.abc_search_url_text_normal = global::wibo.Resource.Color.abc_search_url_text_normal;
+			global::GooglePlayServices.Resource.Color.abc_search_url_text_pressed = global::wibo.Resource.Color.abc_search_url_text_pressed;
+			global::GooglePlayServices.Resource.Color.abc_search_url_text_selected = global::wibo.Resource.Color.abc_search_url_text_selected;
+			global::GooglePlayServices.Resource.Color.abc_secondary_text_material_dark = global::wibo.Resource.Color.abc_secondary_text_material_dark;
+			global::GooglePlayServices.Resource.Color.abc_secondary_text_material_light = global::wibo.Resource.Color.abc_secondary_text_material_light;
+			global::GooglePlayServices.Resource.Color.accent_material_dark = global::wibo.Resource.Color.accent_material_dark;
+			global::GooglePlayServices.Resource.Color.accent_material_light = global::wibo.Resource.Color.accent_material_light;
+			global::GooglePlayServices.Resource.Color.background_floating_material_dark = global::wibo.Resource.Color.background_floating_material_dark;
+			global::GooglePlayServices.Resource.Color.background_floating_material_light = global::wibo.Resource.Color.background_floating_material_light;
+			global::GooglePlayServices.Resource.Color.background_material_dark = global::wibo.Resource.Color.background_material_dark;
+			global::GooglePlayServices.Resource.Color.background_material_light = global::wibo.Resource.Color.background_material_light;
+			global::GooglePlayServices.Resource.Color.bright_foreground_disabled_material_dark = global::wibo.Resource.Color.bright_foreground_disabled_material_dark;
+			global::GooglePlayServices.Resource.Color.bright_foreground_disabled_material_light = global::wibo.Resource.Color.bright_foreground_disabled_material_light;
+			global::GooglePlayServices.Resource.Color.bright_foreground_inverse_material_dark = global::wibo.Resource.Color.bright_foreground_inverse_material_dark;
+			global::GooglePlayServices.Resource.Color.bright_foreground_inverse_material_light = global::wibo.Resource.Color.bright_foreground_inverse_material_light;
+			global::GooglePlayServices.Resource.Color.bright_foreground_material_dark = global::wibo.Resource.Color.bright_foreground_material_dark;
+			global::GooglePlayServices.Resource.Color.bright_foreground_material_light = global::wibo.Resource.Color.bright_foreground_material_light;
+			global::GooglePlayServices.Resource.Color.button_material_dark = global::wibo.Resource.Color.button_material_dark;
+			global::GooglePlayServices.Resource.Color.button_material_light = global::wibo.Resource.Color.button_material_light;
+			global::GooglePlayServices.Resource.Color.common_action_bar_splitter = global::wibo.Resource.Color.common_action_bar_splitter;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_dark_text_default = global::wibo.Resource.Color.common_signin_btn_dark_text_default;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_dark_text_disabled = global::wibo.Resource.Color.common_signin_btn_dark_text_disabled;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_dark_text_focused = global::wibo.Resource.Color.common_signin_btn_dark_text_focused;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_dark_text_pressed = global::wibo.Resource.Color.common_signin_btn_dark_text_pressed;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_default_background = global::wibo.Resource.Color.common_signin_btn_default_background;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_light_text_default = global::wibo.Resource.Color.common_signin_btn_light_text_default;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_light_text_disabled = global::wibo.Resource.Color.common_signin_btn_light_text_disabled;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_light_text_focused = global::wibo.Resource.Color.common_signin_btn_light_text_focused;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_light_text_pressed = global::wibo.Resource.Color.common_signin_btn_light_text_pressed;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_text_dark = global::wibo.Resource.Color.common_signin_btn_text_dark;
+			global::GooglePlayServices.Resource.Color.common_signin_btn_text_light = global::wibo.Resource.Color.common_signin_btn_text_light;
+			global::GooglePlayServices.Resource.Color.dim_foreground_disabled_material_dark = global::wibo.Resource.Color.dim_foreground_disabled_material_dark;
+			global::GooglePlayServices.Resource.Color.dim_foreground_disabled_material_light = global::wibo.Resource.Color.dim_foreground_disabled_material_light;
+			global::GooglePlayServices.Resource.Color.dim_foreground_material_dark = global::wibo.Resource.Color.dim_foreground_material_dark;
+			global::GooglePlayServices.Resource.Color.dim_foreground_material_light = global::wibo.Resource.Color.dim_foreground_material_light;
+			global::GooglePlayServices.Resource.Color.highlighted_text_material_dark = global::wibo.Resource.Color.highlighted_text_material_dark;
+			global::GooglePlayServices.Resource.Color.highlighted_text_material_light = global::wibo.Resource.Color.highlighted_text_material_light;
+			global::GooglePlayServices.Resource.Color.hint_foreground_material_dark = global::wibo.Resource.Color.hint_foreground_material_dark;
+			global::GooglePlayServices.Resource.Color.hint_foreground_material_light = global::wibo.Resource.Color.hint_foreground_material_light;
+			global::GooglePlayServices.Resource.Color.link_text_material_dark = global::wibo.Resource.Color.link_text_material_dark;
+			global::GooglePlayServices.Resource.Color.link_text_material_light = global::wibo.Resource.Color.link_text_material_light;
+			global::GooglePlayServices.Resource.Color.material_blue_grey_800 = global::wibo.Resource.Color.material_blue_grey_800;
+			global::GooglePlayServices.Resource.Color.material_blue_grey_900 = global::wibo.Resource.Color.material_blue_grey_900;
+			global::GooglePlayServices.Resource.Color.material_blue_grey_950 = global::wibo.Resource.Color.material_blue_grey_950;
+			global::GooglePlayServices.Resource.Color.material_deep_teal_200 = global::wibo.Resource.Color.material_deep_teal_200;
+			global::GooglePlayServices.Resource.Color.material_deep_teal_500 = global::wibo.Resource.Color.material_deep_teal_500;
+			global::GooglePlayServices.Resource.Color.primary_dark_material_dark = global::wibo.Resource.Color.primary_dark_material_dark;
+			global::GooglePlayServices.Resource.Color.primary_dark_material_light = global::wibo.Resource.Color.primary_dark_material_light;
+			global::GooglePlayServices.Resource.Color.primary_material_dark = global::wibo.Resource.Color.primary_material_dark;
+			global::GooglePlayServices.Resource.Color.primary_material_light = global::wibo.Resource.Color.primary_material_light;
+			global::GooglePlayServices.Resource.Color.primary_text_default_material_dark = global::wibo.Resource.Color.primary_text_default_material_dark;
+			global::GooglePlayServices.Resource.Color.primary_text_default_material_light = global::wibo.Resource.Color.primary_text_default_material_light;
+			global::GooglePlayServices.Resource.Color.primary_text_disabled_material_dark = global::wibo.Resource.Color.primary_text_disabled_material_dark;
+			global::GooglePlayServices.Resource.Color.primary_text_disabled_material_light = global::wibo.Resource.Color.primary_text_disabled_material_light;
+			global::GooglePlayServices.Resource.Color.ripple_material_dark = global::wibo.Resource.Color.ripple_material_dark;
+			global::GooglePlayServices.Resource.Color.ripple_material_light = global::wibo.Resource.Color.ripple_material_light;
+			global::GooglePlayServices.Resource.Color.secondary_text_default_material_dark = global::wibo.Resource.Color.secondary_text_default_material_dark;
+			global::GooglePlayServices.Resource.Color.secondary_text_default_material_light = global::wibo.Resource.Color.secondary_text_default_material_light;
+			global::GooglePlayServices.Resource.Color.secondary_text_disabled_material_dark = global::wibo.Resource.Color.secondary_text_disabled_material_dark;
+			global::GooglePlayServices.Resource.Color.secondary_text_disabled_material_light = global::wibo.Resource.Color.secondary_text_disabled_material_light;
+			global::GooglePlayServices.Resource.Color.switch_thumb_disabled_material_dark = global::wibo.Resource.Color.switch_thumb_disabled_material_dark;
+			global::GooglePlayServices.Resource.Color.switch_thumb_disabled_material_light = global::wibo.Resource.Color.switch_thumb_disabled_material_light;
+			global::GooglePlayServices.Resource.Color.switch_thumb_material_dark = global::wibo.Resource.Color.switch_thumb_material_dark;
+			global::GooglePlayServices.Resource.Color.switch_thumb_material_light = global::wibo.Resource.Color.switch_thumb_material_light;
+			global::GooglePlayServices.Resource.Color.switch_thumb_normal_material_dark = global::wibo.Resource.Color.switch_thumb_normal_material_dark;
+			global::GooglePlayServices.Resource.Color.switch_thumb_normal_material_light = global::wibo.Resource.Color.switch_thumb_normal_material_light;
+			global::GooglePlayServices.Resource.Color.wallet_bright_foreground_disabled_holo_light = global::wibo.Resource.Color.wallet_bright_foreground_disabled_holo_light;
+			global::GooglePlayServices.Resource.Color.wallet_bright_foreground_holo_dark = global::wibo.Resource.Color.wallet_bright_foreground_holo_dark;
+			global::GooglePlayServices.Resource.Color.wallet_bright_foreground_holo_light = global::wibo.Resource.Color.wallet_bright_foreground_holo_light;
+			global::GooglePlayServices.Resource.Color.wallet_dim_foreground_disabled_holo_dark = global::wibo.Resource.Color.wallet_dim_foreground_disabled_holo_dark;
+			global::GooglePlayServices.Resource.Color.wallet_dim_foreground_holo_dark = global::wibo.Resource.Color.wallet_dim_foreground_holo_dark;
+			global::GooglePlayServices.Resource.Color.wallet_dim_foreground_inverse_disabled_holo_dark = global::wibo.Resource.Color.wallet_dim_foreground_inverse_disabled_holo_dark;
+			global::GooglePlayServices.Resource.Color.wallet_dim_foreground_inverse_holo_dark = global::wibo.Resource.Color.wallet_dim_foreground_inverse_holo_dark;
+			global::GooglePlayServices.Resource.Color.wallet_highlighted_text_holo_dark = global::wibo.Resource.Color.wallet_highlighted_text_holo_dark;
+			global::GooglePlayServices.Resource.Color.wallet_highlighted_text_holo_light = global::wibo.Resource.Color.wallet_highlighted_text_holo_light;
+			global::GooglePlayServices.Resource.Color.wallet_hint_foreground_holo_dark = global::wibo.Resource.Color.wallet_hint_foreground_holo_dark;
+			global::GooglePlayServices.Resource.Color.wallet_hint_foreground_holo_light = global::wibo.Resource.Color.wallet_hint_foreground_holo_light;
+			global::GooglePlayServices.Resource.Color.wallet_holo_blue_light = global::wibo.Resource.Color.wallet_holo_blue_light;
+			global::GooglePlayServices.Resource.Color.wallet_link_text_light = global::wibo.Resource.Color.wallet_link_text_light;
+			global::GooglePlayServices.Resource.Color.wallet_primary_text_holo_light = global::wibo.Resource.Color.wallet_primary_text_holo_light;
+			global::GooglePlayServices.Resource.Color.wallet_secondary_text_holo_dark = global::wibo.Resource.Color.wallet_secondary_text_holo_dark;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_content_inset_material = global::wibo.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_default_height_material = global::wibo.Resource.Dimension.abc_action_bar_default_height_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_default_padding_material = global::wibo.Resource.Dimension.abc_action_bar_default_padding_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::wibo.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_navigation_padding_start_material = global::wibo.Resource.Dimension.abc_action_bar_navigation_padding_start_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::wibo.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::wibo.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_progress_bar_size = global::wibo.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_stacked_max_height = global::wibo.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::wibo.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::wibo.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::wibo.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_button_min_height_material = global::wibo.Resource.Dimension.abc_action_button_min_height_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_button_min_width_material = global::wibo.Resource.Dimension.abc_action_button_min_width_material;
+			global::GooglePlayServices.Resource.Dimension.abc_action_button_min_width_overflow_material = global::wibo.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::GooglePlayServices.Resource.Dimension.abc_alert_dialog_button_bar_height = global::wibo.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::GooglePlayServices.Resource.Dimension.abc_button_inset_horizontal_material = global::wibo.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::GooglePlayServices.Resource.Dimension.abc_button_inset_vertical_material = global::wibo.Resource.Dimension.abc_button_inset_vertical_material;
+			global::GooglePlayServices.Resource.Dimension.abc_button_padding_horizontal_material = global::wibo.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::GooglePlayServices.Resource.Dimension.abc_button_padding_vertical_material = global::wibo.Resource.Dimension.abc_button_padding_vertical_material;
+			global::GooglePlayServices.Resource.Dimension.abc_config_prefDialogWidth = global::wibo.Resource.Dimension.abc_config_prefDialogWidth;
+			global::GooglePlayServices.Resource.Dimension.abc_control_corner_material = global::wibo.Resource.Dimension.abc_control_corner_material;
+			global::GooglePlayServices.Resource.Dimension.abc_control_inset_material = global::wibo.Resource.Dimension.abc_control_inset_material;
+			global::GooglePlayServices.Resource.Dimension.abc_control_padding_material = global::wibo.Resource.Dimension.abc_control_padding_material;
+			global::GooglePlayServices.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::wibo.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::GooglePlayServices.Resource.Dimension.abc_dialog_min_width_major = global::wibo.Resource.Dimension.abc_dialog_min_width_major;
+			global::GooglePlayServices.Resource.Dimension.abc_dialog_min_width_minor = global::wibo.Resource.Dimension.abc_dialog_min_width_minor;
+			global::GooglePlayServices.Resource.Dimension.abc_dialog_padding_material = global::wibo.Resource.Dimension.abc_dialog_padding_material;
+			global::GooglePlayServices.Resource.Dimension.abc_dialog_padding_top_material = global::wibo.Resource.Dimension.abc_dialog_padding_top_material;
+			global::GooglePlayServices.Resource.Dimension.abc_disabled_alpha_material_dark = global::wibo.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::GooglePlayServices.Resource.Dimension.abc_disabled_alpha_material_light = global::wibo.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::GooglePlayServices.Resource.Dimension.abc_dropdownitem_icon_width = global::wibo.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::GooglePlayServices.Resource.Dimension.abc_dropdownitem_text_padding_left = global::wibo.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::GooglePlayServices.Resource.Dimension.abc_dropdownitem_text_padding_right = global::wibo.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::GooglePlayServices.Resource.Dimension.abc_edit_text_inset_bottom_material = global::wibo.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::GooglePlayServices.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::wibo.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::GooglePlayServices.Resource.Dimension.abc_edit_text_inset_top_material = global::wibo.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::GooglePlayServices.Resource.Dimension.abc_floating_window_z = global::wibo.Resource.Dimension.abc_floating_window_z;
+			global::GooglePlayServices.Resource.Dimension.abc_list_item_padding_horizontal_material = global::wibo.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::GooglePlayServices.Resource.Dimension.abc_panel_menu_list_width = global::wibo.Resource.Dimension.abc_panel_menu_list_width;
+			global::GooglePlayServices.Resource.Dimension.abc_search_view_preferred_width = global::wibo.Resource.Dimension.abc_search_view_preferred_width;
+			global::GooglePlayServices.Resource.Dimension.abc_search_view_text_min_width = global::wibo.Resource.Dimension.abc_search_view_text_min_width;
+			global::GooglePlayServices.Resource.Dimension.abc_switch_padding = global::wibo.Resource.Dimension.abc_switch_padding;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_body_1_material = global::wibo.Resource.Dimension.abc_text_size_body_1_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_body_2_material = global::wibo.Resource.Dimension.abc_text_size_body_2_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_button_material = global::wibo.Resource.Dimension.abc_text_size_button_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_caption_material = global::wibo.Resource.Dimension.abc_text_size_caption_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_display_1_material = global::wibo.Resource.Dimension.abc_text_size_display_1_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_display_2_material = global::wibo.Resource.Dimension.abc_text_size_display_2_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_display_3_material = global::wibo.Resource.Dimension.abc_text_size_display_3_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_display_4_material = global::wibo.Resource.Dimension.abc_text_size_display_4_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_headline_material = global::wibo.Resource.Dimension.abc_text_size_headline_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_large_material = global::wibo.Resource.Dimension.abc_text_size_large_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_medium_material = global::wibo.Resource.Dimension.abc_text_size_medium_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_menu_material = global::wibo.Resource.Dimension.abc_text_size_menu_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_small_material = global::wibo.Resource.Dimension.abc_text_size_small_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_subhead_material = global::wibo.Resource.Dimension.abc_text_size_subhead_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::wibo.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_title_material = global::wibo.Resource.Dimension.abc_text_size_title_material;
+			global::GooglePlayServices.Resource.Dimension.abc_text_size_title_material_toolbar = global::wibo.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::GooglePlayServices.Resource.Dimension.dialog_fixed_height_major = global::wibo.Resource.Dimension.dialog_fixed_height_major;
+			global::GooglePlayServices.Resource.Dimension.dialog_fixed_height_minor = global::wibo.Resource.Dimension.dialog_fixed_height_minor;
+			global::GooglePlayServices.Resource.Dimension.dialog_fixed_width_major = global::wibo.Resource.Dimension.dialog_fixed_width_major;
+			global::GooglePlayServices.Resource.Dimension.dialog_fixed_width_minor = global::wibo.Resource.Dimension.dialog_fixed_width_minor;
+			global::GooglePlayServices.Resource.Dimension.disabled_alpha_material_dark = global::wibo.Resource.Dimension.disabled_alpha_material_dark;
+			global::GooglePlayServices.Resource.Dimension.disabled_alpha_material_light = global::wibo.Resource.Dimension.disabled_alpha_material_light;
+			global::GooglePlayServices.Resource.Dimension.mr_media_route_controller_art_max_height = global::wibo.Resource.Dimension.mr_media_route_controller_art_max_height;
+			global::GooglePlayServices.Resource.Dimension.notification_large_icon_height = global::wibo.Resource.Dimension.notification_large_icon_height;
+			global::GooglePlayServices.Resource.Dimension.notification_large_icon_width = global::wibo.Resource.Dimension.notification_large_icon_width;
+			global::GooglePlayServices.Resource.Dimension.notification_subtext_size = global::wibo.Resource.Dimension.notification_subtext_size;
+			global::GooglePlayServices.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::wibo.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_borderless_material = global::wibo.Resource.Drawable.abc_btn_borderless_material;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_check_material = global::wibo.Resource.Drawable.abc_btn_check_material;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::wibo.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::wibo.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_default_mtrl_shape = global::wibo.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_radio_material = global::wibo.Resource.Drawable.abc_btn_radio_material;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::wibo.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::wibo.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::wibo.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::wibo.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::wibo.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::GooglePlayServices.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::wibo.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::GooglePlayServices.Resource.Drawable.abc_cab_background_internal_bg = global::wibo.Resource.Drawable.abc_cab_background_internal_bg;
+			global::GooglePlayServices.Resource.Drawable.abc_cab_background_top_material = global::wibo.Resource.Drawable.abc_cab_background_top_material;
+			global::GooglePlayServices.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::wibo.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_dialog_material_background_dark = global::wibo.Resource.Drawable.abc_dialog_material_background_dark;
+			global::GooglePlayServices.Resource.Drawable.abc_dialog_material_background_light = global::wibo.Resource.Drawable.abc_dialog_material_background_light;
+			global::GooglePlayServices.Resource.Drawable.abc_edit_text_material = global::wibo.Resource.Drawable.abc_edit_text_material;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::wibo.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::wibo.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::wibo.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::wibo.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::wibo.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::wibo.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::wibo.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::wibo.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::wibo.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::wibo.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::wibo.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::wibo.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_item_background_holo_dark = global::wibo.Resource.Drawable.abc_item_background_holo_dark;
+			global::GooglePlayServices.Resource.Drawable.abc_item_background_holo_light = global::wibo.Resource.Drawable.abc_item_background_holo_light;
+			global::GooglePlayServices.Resource.Drawable.abc_list_divider_mtrl_alpha = global::wibo.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_list_focused_holo = global::wibo.Resource.Drawable.abc_list_focused_holo;
+			global::GooglePlayServices.Resource.Drawable.abc_list_longpressed_holo = global::wibo.Resource.Drawable.abc_list_longpressed_holo;
+			global::GooglePlayServices.Resource.Drawable.abc_list_pressed_holo_dark = global::wibo.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::GooglePlayServices.Resource.Drawable.abc_list_pressed_holo_light = global::wibo.Resource.Drawable.abc_list_pressed_holo_light;
+			global::GooglePlayServices.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::wibo.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::GooglePlayServices.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::wibo.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::GooglePlayServices.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::wibo.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::GooglePlayServices.Resource.Drawable.abc_list_selector_disabled_holo_light = global::wibo.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::GooglePlayServices.Resource.Drawable.abc_list_selector_holo_dark = global::wibo.Resource.Drawable.abc_list_selector_holo_dark;
+			global::GooglePlayServices.Resource.Drawable.abc_list_selector_holo_light = global::wibo.Resource.Drawable.abc_list_selector_holo_light;
+			global::GooglePlayServices.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::wibo.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::GooglePlayServices.Resource.Drawable.abc_popup_background_mtrl_mult = global::wibo.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::GooglePlayServices.Resource.Drawable.abc_ratingbar_full_material = global::wibo.Resource.Drawable.abc_ratingbar_full_material;
+			global::GooglePlayServices.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::wibo.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_spinner_textfield_background_material = global::wibo.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::GooglePlayServices.Resource.Drawable.abc_switch_thumb_material = global::wibo.Resource.Drawable.abc_switch_thumb_material;
+			global::GooglePlayServices.Resource.Drawable.abc_switch_track_mtrl_alpha = global::wibo.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_tab_indicator_material = global::wibo.Resource.Drawable.abc_tab_indicator_material;
+			global::GooglePlayServices.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::wibo.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_text_cursor_mtrl_alpha = global::wibo.Resource.Drawable.abc_text_cursor_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::wibo.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::wibo.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::wibo.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::wibo.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::GooglePlayServices.Resource.Drawable.abc_textfield_search_material = global::wibo.Resource.Drawable.abc_textfield_search_material;
+			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_0 = global::wibo.Resource.Drawable.cast_ic_notification_0;
+			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_1 = global::wibo.Resource.Drawable.cast_ic_notification_1;
+			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_2 = global::wibo.Resource.Drawable.cast_ic_notification_2;
+			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_connecting = global::wibo.Resource.Drawable.cast_ic_notification_connecting;
+			global::GooglePlayServices.Resource.Drawable.cast_ic_notification_on = global::wibo.Resource.Drawable.cast_ic_notification_on;
+			global::GooglePlayServices.Resource.Drawable.common_full_open_on_phone = global::wibo.Resource.Drawable.common_full_open_on_phone;
+			global::GooglePlayServices.Resource.Drawable.common_ic_googleplayservices = global::wibo.Resource.Drawable.common_ic_googleplayservices;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_dark = global::wibo.Resource.Drawable.common_signin_btn_icon_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_disabled_dark = global::wibo.Resource.Drawable.common_signin_btn_icon_disabled_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_disabled_focus_dark = global::wibo.Resource.Drawable.common_signin_btn_icon_disabled_focus_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_disabled_focus_light = global::wibo.Resource.Drawable.common_signin_btn_icon_disabled_focus_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_disabled_light = global::wibo.Resource.Drawable.common_signin_btn_icon_disabled_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_focus_dark = global::wibo.Resource.Drawable.common_signin_btn_icon_focus_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_focus_light = global::wibo.Resource.Drawable.common_signin_btn_icon_focus_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_light = global::wibo.Resource.Drawable.common_signin_btn_icon_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_normal_dark = global::wibo.Resource.Drawable.common_signin_btn_icon_normal_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_normal_light = global::wibo.Resource.Drawable.common_signin_btn_icon_normal_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_pressed_dark = global::wibo.Resource.Drawable.common_signin_btn_icon_pressed_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_icon_pressed_light = global::wibo.Resource.Drawable.common_signin_btn_icon_pressed_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_dark = global::wibo.Resource.Drawable.common_signin_btn_text_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_disabled_dark = global::wibo.Resource.Drawable.common_signin_btn_text_disabled_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_disabled_focus_dark = global::wibo.Resource.Drawable.common_signin_btn_text_disabled_focus_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_disabled_focus_light = global::wibo.Resource.Drawable.common_signin_btn_text_disabled_focus_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_disabled_light = global::wibo.Resource.Drawable.common_signin_btn_text_disabled_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_focus_dark = global::wibo.Resource.Drawable.common_signin_btn_text_focus_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_focus_light = global::wibo.Resource.Drawable.common_signin_btn_text_focus_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_light = global::wibo.Resource.Drawable.common_signin_btn_text_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_normal_dark = global::wibo.Resource.Drawable.common_signin_btn_text_normal_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_normal_light = global::wibo.Resource.Drawable.common_signin_btn_text_normal_light;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_pressed_dark = global::wibo.Resource.Drawable.common_signin_btn_text_pressed_dark;
+			global::GooglePlayServices.Resource.Drawable.common_signin_btn_text_pressed_light = global::wibo.Resource.Drawable.common_signin_btn_text_pressed_light;
+			global::GooglePlayServices.Resource.Drawable.ic_cast_dark = global::wibo.Resource.Drawable.ic_cast_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_cast_disabled_light = global::wibo.Resource.Drawable.ic_cast_disabled_light;
+			global::GooglePlayServices.Resource.Drawable.ic_cast_light = global::wibo.Resource.Drawable.ic_cast_light;
+			global::GooglePlayServices.Resource.Drawable.ic_cast_off_light = global::wibo.Resource.Drawable.ic_cast_off_light;
+			global::GooglePlayServices.Resource.Drawable.ic_cast_on_0_light = global::wibo.Resource.Drawable.ic_cast_on_0_light;
+			global::GooglePlayServices.Resource.Drawable.ic_cast_on_1_light = global::wibo.Resource.Drawable.ic_cast_on_1_light;
+			global::GooglePlayServices.Resource.Drawable.ic_cast_on_2_light = global::wibo.Resource.Drawable.ic_cast_on_2_light;
+			global::GooglePlayServices.Resource.Drawable.ic_cast_on_light = global::wibo.Resource.Drawable.ic_cast_on_light;
+			global::GooglePlayServices.Resource.Drawable.ic_media_pause = global::wibo.Resource.Drawable.ic_media_pause;
+			global::GooglePlayServices.Resource.Drawable.ic_media_play = global::wibo.Resource.Drawable.ic_media_play;
+			global::GooglePlayServices.Resource.Drawable.ic_media_route_disabled_mono_dark = global::wibo.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_media_route_off_mono_dark = global::wibo.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_media_route_on_0_mono_dark = global::wibo.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_media_route_on_1_mono_dark = global::wibo.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_media_route_on_2_mono_dark = global::wibo.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_media_route_on_mono_dark = global::wibo.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_pause_dark = global::wibo.Resource.Drawable.ic_pause_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_pause_light = global::wibo.Resource.Drawable.ic_pause_light;
+			global::GooglePlayServices.Resource.Drawable.ic_play_dark = global::wibo.Resource.Drawable.ic_play_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_play_light = global::wibo.Resource.Drawable.ic_play_light;
+			global::GooglePlayServices.Resource.Drawable.ic_plusone_medium_off_client = global::wibo.Resource.Drawable.ic_plusone_medium_off_client;
+			global::GooglePlayServices.Resource.Drawable.ic_plusone_small_off_client = global::wibo.Resource.Drawable.ic_plusone_small_off_client;
+			global::GooglePlayServices.Resource.Drawable.ic_plusone_standard_off_client = global::wibo.Resource.Drawable.ic_plusone_standard_off_client;
+			global::GooglePlayServices.Resource.Drawable.ic_plusone_tall_off_client = global::wibo.Resource.Drawable.ic_plusone_tall_off_client;
+			global::GooglePlayServices.Resource.Drawable.ic_setting_dark = global::wibo.Resource.Drawable.ic_setting_dark;
+			global::GooglePlayServices.Resource.Drawable.ic_setting_light = global::wibo.Resource.Drawable.ic_setting_light;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_audio_vol = global::wibo.Resource.Drawable.mr_ic_audio_vol;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::wibo.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::wibo.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_media_route_mono_dark = global::wibo.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_media_route_mono_light = global::wibo.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_pause_dark = global::wibo.Resource.Drawable.mr_ic_pause_dark;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_pause_light = global::wibo.Resource.Drawable.mr_ic_pause_light;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_play_dark = global::wibo.Resource.Drawable.mr_ic_play_dark;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_play_light = global::wibo.Resource.Drawable.mr_ic_play_light;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_settings_dark = global::wibo.Resource.Drawable.mr_ic_settings_dark;
+			global::GooglePlayServices.Resource.Drawable.mr_ic_settings_light = global::wibo.Resource.Drawable.mr_ic_settings_light;
+			global::GooglePlayServices.Resource.Drawable.notification_template_icon_bg = global::wibo.Resource.Drawable.notification_template_icon_bg;
+			global::GooglePlayServices.Resource.Drawable.powered_by_google_dark = global::wibo.Resource.Drawable.powered_by_google_dark;
+			global::GooglePlayServices.Resource.Drawable.powered_by_google_light = global::wibo.Resource.Drawable.powered_by_google_light;
+			global::GooglePlayServices.Resource.Id.action0 = global::wibo.Resource.Id.action0;
+			global::GooglePlayServices.Resource.Id.action_bar = global::wibo.Resource.Id.action_bar;
+			global::GooglePlayServices.Resource.Id.action_bar_activity_content = global::wibo.Resource.Id.action_bar_activity_content;
+			global::GooglePlayServices.Resource.Id.action_bar_container = global::wibo.Resource.Id.action_bar_container;
+			global::GooglePlayServices.Resource.Id.action_bar_root = global::wibo.Resource.Id.action_bar_root;
+			global::GooglePlayServices.Resource.Id.action_bar_spinner = global::wibo.Resource.Id.action_bar_spinner;
+			global::GooglePlayServices.Resource.Id.action_bar_subtitle = global::wibo.Resource.Id.action_bar_subtitle;
+			global::GooglePlayServices.Resource.Id.action_bar_title = global::wibo.Resource.Id.action_bar_title;
+			global::GooglePlayServices.Resource.Id.action_context_bar = global::wibo.Resource.Id.action_context_bar;
+			global::GooglePlayServices.Resource.Id.action_divider = global::wibo.Resource.Id.action_divider;
+			global::GooglePlayServices.Resource.Id.action_menu_divider = global::wibo.Resource.Id.action_menu_divider;
+			global::GooglePlayServices.Resource.Id.action_menu_presenter = global::wibo.Resource.Id.action_menu_presenter;
+			global::GooglePlayServices.Resource.Id.action_mode_bar = global::wibo.Resource.Id.action_mode_bar;
+			global::GooglePlayServices.Resource.Id.action_mode_bar_stub = global::wibo.Resource.Id.action_mode_bar_stub;
+			global::GooglePlayServices.Resource.Id.action_mode_close_button = global::wibo.Resource.Id.action_mode_close_button;
+			global::GooglePlayServices.Resource.Id.activity_chooser_view_content = global::wibo.Resource.Id.activity_chooser_view_content;
+			global::GooglePlayServices.Resource.Id.adjust_height = global::wibo.Resource.Id.adjust_height;
+			global::GooglePlayServices.Resource.Id.adjust_width = global::wibo.Resource.Id.adjust_width;
+			global::GooglePlayServices.Resource.Id.alertTitle = global::wibo.Resource.Id.alertTitle;
+			global::GooglePlayServices.Resource.Id.always = global::wibo.Resource.Id.always;
+			global::GooglePlayServices.Resource.Id.art = global::wibo.Resource.Id.art;
+			global::GooglePlayServices.Resource.Id.beginning = global::wibo.Resource.Id.beginning;
+			global::GooglePlayServices.Resource.Id.book_now = global::wibo.Resource.Id.book_now;
+			global::GooglePlayServices.Resource.Id.buttonPanel = global::wibo.Resource.Id.buttonPanel;
+			global::GooglePlayServices.Resource.Id.buttons = global::wibo.Resource.Id.buttons;
+			global::GooglePlayServices.Resource.Id.buyButton = global::wibo.Resource.Id.buyButton;
+			global::GooglePlayServices.Resource.Id.buy_now = global::wibo.Resource.Id.buy_now;
+			global::GooglePlayServices.Resource.Id.buy_with_google = global::wibo.Resource.Id.buy_with_google;
+			global::GooglePlayServices.Resource.Id.cancel_action = global::wibo.Resource.Id.cancel_action;
+			global::GooglePlayServices.Resource.Id.cast_notification_id = global::wibo.Resource.Id.cast_notification_id;
+			global::GooglePlayServices.Resource.Id.checkbox = global::wibo.Resource.Id.checkbox;
+			global::GooglePlayServices.Resource.Id.chronometer = global::wibo.Resource.Id.chronometer;
+			global::GooglePlayServices.Resource.Id.classic = global::wibo.Resource.Id.classic;
+			global::GooglePlayServices.Resource.Id.collapseActionView = global::wibo.Resource.Id.collapseActionView;
+			global::GooglePlayServices.Resource.Id.contentPanel = global::wibo.Resource.Id.contentPanel;
+			global::GooglePlayServices.Resource.Id.custom = global::wibo.Resource.Id.custom;
+			global::GooglePlayServices.Resource.Id.customPanel = global::wibo.Resource.Id.customPanel;
+			global::GooglePlayServices.Resource.Id.decor_content_parent = global::wibo.Resource.Id.decor_content_parent;
+			global::GooglePlayServices.Resource.Id.default_activity_button = global::wibo.Resource.Id.default_activity_button;
+			global::GooglePlayServices.Resource.Id.default_control_frame = global::wibo.Resource.Id.default_control_frame;
+			global::GooglePlayServices.Resource.Id.dialog = global::wibo.Resource.Id.dialog;
+			global::GooglePlayServices.Resource.Id.disableHome = global::wibo.Resource.Id.disableHome;
+			global::GooglePlayServices.Resource.Id.disconnect = global::wibo.Resource.Id.disconnect;
+			global::GooglePlayServices.Resource.Id.donate_with_google = global::wibo.Resource.Id.donate_with_google;
+			global::GooglePlayServices.Resource.Id.dropdown = global::wibo.Resource.Id.dropdown;
+			global::GooglePlayServices.Resource.Id.edit_query = global::wibo.Resource.Id.edit_query;
+			global::GooglePlayServices.Resource.Id.end = global::wibo.Resource.Id.end;
+			global::GooglePlayServices.Resource.Id.end_padder = global::wibo.Resource.Id.end_padder;
+			global::GooglePlayServices.Resource.Id.expand_activities_button = global::wibo.Resource.Id.expand_activities_button;
+			global::GooglePlayServices.Resource.Id.expanded_menu = global::wibo.Resource.Id.expanded_menu;
+			global::GooglePlayServices.Resource.Id.grayscale = global::wibo.Resource.Id.grayscale;
+			global::GooglePlayServices.Resource.Id.holo_dark = global::wibo.Resource.Id.holo_dark;
+			global::GooglePlayServices.Resource.Id.holo_light = global::wibo.Resource.Id.holo_light;
+			global::GooglePlayServices.Resource.Id.home = global::wibo.Resource.Id.home;
+			global::GooglePlayServices.Resource.Id.homeAsUp = global::wibo.Resource.Id.homeAsUp;
+			global::GooglePlayServices.Resource.Id.hybrid = global::wibo.Resource.Id.hybrid;
+			global::GooglePlayServices.Resource.Id.icon = global::wibo.Resource.Id.icon;
+			global::GooglePlayServices.Resource.Id.ifRoom = global::wibo.Resource.Id.ifRoom;
+			global::GooglePlayServices.Resource.Id.image = global::wibo.Resource.Id.image;
+			global::GooglePlayServices.Resource.Id.info = global::wibo.Resource.Id.info;
+			global::GooglePlayServices.Resource.Id.line1 = global::wibo.Resource.Id.line1;
+			global::GooglePlayServices.Resource.Id.line3 = global::wibo.Resource.Id.line3;
+			global::GooglePlayServices.Resource.Id.listMode = global::wibo.Resource.Id.listMode;
+			global::GooglePlayServices.Resource.Id.list_item = global::wibo.Resource.Id.list_item;
+			global::GooglePlayServices.Resource.Id.match_parent = global::wibo.Resource.Id.match_parent;
+			global::GooglePlayServices.Resource.Id.media_actions = global::wibo.Resource.Id.media_actions;
+			global::GooglePlayServices.Resource.Id.media_route_control_frame = global::wibo.Resource.Id.media_route_control_frame;
+			global::GooglePlayServices.Resource.Id.media_route_list = global::wibo.Resource.Id.media_route_list;
+			global::GooglePlayServices.Resource.Id.media_route_volume_layout = global::wibo.Resource.Id.media_route_volume_layout;
+			global::GooglePlayServices.Resource.Id.media_route_volume_slider = global::wibo.Resource.Id.media_route_volume_slider;
+			global::GooglePlayServices.Resource.Id.middle = global::wibo.Resource.Id.middle;
+			global::GooglePlayServices.Resource.Id.monochrome = global::wibo.Resource.Id.monochrome;
+			global::GooglePlayServices.Resource.Id.multiply = global::wibo.Resource.Id.multiply;
+			global::GooglePlayServices.Resource.Id.never = global::wibo.Resource.Id.never;
+			global::GooglePlayServices.Resource.Id.none = global::wibo.Resource.Id.none;
+			global::GooglePlayServices.Resource.Id.normal = global::wibo.Resource.Id.normal;
+			global::GooglePlayServices.Resource.Id.parentPanel = global::wibo.Resource.Id.parentPanel;
+			global::GooglePlayServices.Resource.Id.play_pause = global::wibo.Resource.Id.play_pause;
+			global::GooglePlayServices.Resource.Id.production = global::wibo.Resource.Id.production;
+			global::GooglePlayServices.Resource.Id.progress_circular = global::wibo.Resource.Id.progress_circular;
+			global::GooglePlayServices.Resource.Id.progress_horizontal = global::wibo.Resource.Id.progress_horizontal;
+			global::GooglePlayServices.Resource.Id.radio = global::wibo.Resource.Id.radio;
+			global::GooglePlayServices.Resource.Id.route_name = global::wibo.Resource.Id.route_name;
+			global::GooglePlayServices.Resource.Id.sandbox = global::wibo.Resource.Id.sandbox;
+			global::GooglePlayServices.Resource.Id.satellite = global::wibo.Resource.Id.satellite;
+			global::GooglePlayServices.Resource.Id.screen = global::wibo.Resource.Id.screen;
+			global::GooglePlayServices.Resource.Id.scrollView = global::wibo.Resource.Id.scrollView;
+			global::GooglePlayServices.Resource.Id.search_badge = global::wibo.Resource.Id.search_badge;
+			global::GooglePlayServices.Resource.Id.search_bar = global::wibo.Resource.Id.search_bar;
+			global::GooglePlayServices.Resource.Id.search_button = global::wibo.Resource.Id.search_button;
+			global::GooglePlayServices.Resource.Id.search_close_btn = global::wibo.Resource.Id.search_close_btn;
+			global::GooglePlayServices.Resource.Id.search_edit_frame = global::wibo.Resource.Id.search_edit_frame;
+			global::GooglePlayServices.Resource.Id.search_go_btn = global::wibo.Resource.Id.search_go_btn;
+			global::GooglePlayServices.Resource.Id.search_mag_icon = global::wibo.Resource.Id.search_mag_icon;
+			global::GooglePlayServices.Resource.Id.search_plate = global::wibo.Resource.Id.search_plate;
+			global::GooglePlayServices.Resource.Id.search_src_text = global::wibo.Resource.Id.search_src_text;
+			global::GooglePlayServices.Resource.Id.search_voice_btn = global::wibo.Resource.Id.search_voice_btn;
+			global::GooglePlayServices.Resource.Id.select_dialog_listview = global::wibo.Resource.Id.select_dialog_listview;
+			global::GooglePlayServices.Resource.Id.selectionDetails = global::wibo.Resource.Id.selectionDetails;
+			global::GooglePlayServices.Resource.Id.settings = global::wibo.Resource.Id.settings;
+			global::GooglePlayServices.Resource.Id.shortcut = global::wibo.Resource.Id.shortcut;
+			global::GooglePlayServices.Resource.Id.showCustom = global::wibo.Resource.Id.showCustom;
+			global::GooglePlayServices.Resource.Id.showHome = global::wibo.Resource.Id.showHome;
+			global::GooglePlayServices.Resource.Id.showTitle = global::wibo.Resource.Id.showTitle;
+			global::GooglePlayServices.Resource.Id.slide = global::wibo.Resource.Id.slide;
+			global::GooglePlayServices.Resource.Id.split_action_bar = global::wibo.Resource.Id.split_action_bar;
+			global::GooglePlayServices.Resource.Id.src_atop = global::wibo.Resource.Id.src_atop;
+			global::GooglePlayServices.Resource.Id.src_in = global::wibo.Resource.Id.src_in;
+			global::GooglePlayServices.Resource.Id.src_over = global::wibo.Resource.Id.src_over;
+			global::GooglePlayServices.Resource.Id.status_bar_latest_event_content = global::wibo.Resource.Id.status_bar_latest_event_content;
+			global::GooglePlayServices.Resource.Id.stop = global::wibo.Resource.Id.stop;
+			global::GooglePlayServices.Resource.Id.strict_sandbox = global::wibo.Resource.Id.strict_sandbox;
+			global::GooglePlayServices.Resource.Id.submit_area = global::wibo.Resource.Id.submit_area;
+			global::GooglePlayServices.Resource.Id.subtitle = global::wibo.Resource.Id.subtitle;
+			global::GooglePlayServices.Resource.Id.tabMode = global::wibo.Resource.Id.tabMode;
+			global::GooglePlayServices.Resource.Id.terrain = global::wibo.Resource.Id.terrain;
+			global::GooglePlayServices.Resource.Id.test = global::wibo.Resource.Id.test;
+			global::GooglePlayServices.Resource.Id.text = global::wibo.Resource.Id.text;
+			global::GooglePlayServices.Resource.Id.text2 = global::wibo.Resource.Id.text2;
+			global::GooglePlayServices.Resource.Id.textSpacerNoButtons = global::wibo.Resource.Id.textSpacerNoButtons;
+			global::GooglePlayServices.Resource.Id.text_wrapper = global::wibo.Resource.Id.text_wrapper;
+			global::GooglePlayServices.Resource.Id.time = global::wibo.Resource.Id.time;
+			global::GooglePlayServices.Resource.Id.title = global::wibo.Resource.Id.title;
+			global::GooglePlayServices.Resource.Id.title_bar = global::wibo.Resource.Id.title_bar;
+			global::GooglePlayServices.Resource.Id.title_template = global::wibo.Resource.Id.title_template;
+			global::GooglePlayServices.Resource.Id.topPanel = global::wibo.Resource.Id.topPanel;
+			global::GooglePlayServices.Resource.Id.up = global::wibo.Resource.Id.up;
+			global::GooglePlayServices.Resource.Id.useLogo = global::wibo.Resource.Id.useLogo;
+			global::GooglePlayServices.Resource.Id.withText = global::wibo.Resource.Id.withText;
+			global::GooglePlayServices.Resource.Id.wrap_content = global::wibo.Resource.Id.wrap_content;
+			global::GooglePlayServices.Resource.Integer.abc_config_activityDefaultDur = global::wibo.Resource.Integer.abc_config_activityDefaultDur;
+			global::GooglePlayServices.Resource.Integer.abc_config_activityShortDur = global::wibo.Resource.Integer.abc_config_activityShortDur;
+			global::GooglePlayServices.Resource.Integer.abc_max_action_buttons = global::wibo.Resource.Integer.abc_max_action_buttons;
+			global::GooglePlayServices.Resource.Integer.cancel_button_image_alpha = global::wibo.Resource.Integer.cancel_button_image_alpha;
+			global::GooglePlayServices.Resource.Integer.google_play_services_version = global::wibo.Resource.Integer.google_play_services_version;
+			global::GooglePlayServices.Resource.Integer.status_bar_notification_info_maxnum = global::wibo.Resource.Integer.status_bar_notification_info_maxnum;
+			global::GooglePlayServices.Resource.Layout.abc_action_bar_title_item = global::wibo.Resource.Layout.abc_action_bar_title_item;
+			global::GooglePlayServices.Resource.Layout.abc_action_bar_up_container = global::wibo.Resource.Layout.abc_action_bar_up_container;
+			global::GooglePlayServices.Resource.Layout.abc_action_bar_view_list_nav_layout = global::wibo.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::GooglePlayServices.Resource.Layout.abc_action_menu_item_layout = global::wibo.Resource.Layout.abc_action_menu_item_layout;
+			global::GooglePlayServices.Resource.Layout.abc_action_menu_layout = global::wibo.Resource.Layout.abc_action_menu_layout;
+			global::GooglePlayServices.Resource.Layout.abc_action_mode_bar = global::wibo.Resource.Layout.abc_action_mode_bar;
+			global::GooglePlayServices.Resource.Layout.abc_action_mode_close_item_material = global::wibo.Resource.Layout.abc_action_mode_close_item_material;
+			global::GooglePlayServices.Resource.Layout.abc_activity_chooser_view = global::wibo.Resource.Layout.abc_activity_chooser_view;
+			global::GooglePlayServices.Resource.Layout.abc_activity_chooser_view_list_item = global::wibo.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::GooglePlayServices.Resource.Layout.abc_alert_dialog_material = global::wibo.Resource.Layout.abc_alert_dialog_material;
+			global::GooglePlayServices.Resource.Layout.abc_dialog_title_material = global::wibo.Resource.Layout.abc_dialog_title_material;
+			global::GooglePlayServices.Resource.Layout.abc_expanded_menu_layout = global::wibo.Resource.Layout.abc_expanded_menu_layout;
+			global::GooglePlayServices.Resource.Layout.abc_list_menu_item_checkbox = global::wibo.Resource.Layout.abc_list_menu_item_checkbox;
+			global::GooglePlayServices.Resource.Layout.abc_list_menu_item_icon = global::wibo.Resource.Layout.abc_list_menu_item_icon;
+			global::GooglePlayServices.Resource.Layout.abc_list_menu_item_layout = global::wibo.Resource.Layout.abc_list_menu_item_layout;
+			global::GooglePlayServices.Resource.Layout.abc_list_menu_item_radio = global::wibo.Resource.Layout.abc_list_menu_item_radio;
+			global::GooglePlayServices.Resource.Layout.abc_popup_menu_item_layout = global::wibo.Resource.Layout.abc_popup_menu_item_layout;
+			global::GooglePlayServices.Resource.Layout.abc_screen_content_include = global::wibo.Resource.Layout.abc_screen_content_include;
+			global::GooglePlayServices.Resource.Layout.abc_screen_simple = global::wibo.Resource.Layout.abc_screen_simple;
+			global::GooglePlayServices.Resource.Layout.abc_screen_simple_overlay_action_mode = global::wibo.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::GooglePlayServices.Resource.Layout.abc_screen_toolbar = global::wibo.Resource.Layout.abc_screen_toolbar;
+			global::GooglePlayServices.Resource.Layout.abc_search_dropdown_item_icons_2line = global::wibo.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::GooglePlayServices.Resource.Layout.abc_search_view = global::wibo.Resource.Layout.abc_search_view;
+			global::GooglePlayServices.Resource.Layout.abc_select_dialog_material = global::wibo.Resource.Layout.abc_select_dialog_material;
+			global::GooglePlayServices.Resource.Layout.abc_simple_dropdown_hint = global::wibo.Resource.Layout.abc_simple_dropdown_hint;
+			global::GooglePlayServices.Resource.Layout.mr_media_route_chooser_dialog = global::wibo.Resource.Layout.mr_media_route_chooser_dialog;
+			global::GooglePlayServices.Resource.Layout.mr_media_route_controller_material_dialog_b = global::wibo.Resource.Layout.mr_media_route_controller_material_dialog_b;
+			global::GooglePlayServices.Resource.Layout.mr_media_route_list_item = global::wibo.Resource.Layout.mr_media_route_list_item;
+			global::GooglePlayServices.Resource.Layout.notification_media_action = global::wibo.Resource.Layout.notification_media_action;
+			global::GooglePlayServices.Resource.Layout.notification_media_cancel_action = global::wibo.Resource.Layout.notification_media_cancel_action;
+			global::GooglePlayServices.Resource.Layout.notification_template_big_media = global::wibo.Resource.Layout.notification_template_big_media;
+			global::GooglePlayServices.Resource.Layout.notification_template_big_media_narrow = global::wibo.Resource.Layout.notification_template_big_media_narrow;
+			global::GooglePlayServices.Resource.Layout.notification_template_lines = global::wibo.Resource.Layout.notification_template_lines;
+			global::GooglePlayServices.Resource.Layout.notification_template_media = global::wibo.Resource.Layout.notification_template_media;
+			global::GooglePlayServices.Resource.Layout.notification_template_part_chronometer = global::wibo.Resource.Layout.notification_template_part_chronometer;
+			global::GooglePlayServices.Resource.Layout.notification_template_part_time = global::wibo.Resource.Layout.notification_template_part_time;
+			global::GooglePlayServices.Resource.Layout.select_dialog_item_material = global::wibo.Resource.Layout.select_dialog_item_material;
+			global::GooglePlayServices.Resource.Layout.select_dialog_multichoice_material = global::wibo.Resource.Layout.select_dialog_multichoice_material;
+			global::GooglePlayServices.Resource.Layout.select_dialog_singlechoice_material = global::wibo.Resource.Layout.select_dialog_singlechoice_material;
+			global::GooglePlayServices.Resource.Layout.support_simple_spinner_dropdown_item = global::wibo.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::GooglePlayServices.Resource.Raw.gtm_analytics = global::wibo.Resource.Raw.gtm_analytics;
+			global::GooglePlayServices.Resource.String.abc_action_bar_home_description = global::wibo.Resource.String.abc_action_bar_home_description;
+			global::GooglePlayServices.Resource.String.abc_action_bar_home_description_format = global::wibo.Resource.String.abc_action_bar_home_description_format;
+			global::GooglePlayServices.Resource.String.abc_action_bar_home_subtitle_description_format = global::wibo.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::GooglePlayServices.Resource.String.abc_action_bar_up_description = global::wibo.Resource.String.abc_action_bar_up_description;
+			global::GooglePlayServices.Resource.String.abc_action_menu_overflow_description = global::wibo.Resource.String.abc_action_menu_overflow_description;
+			global::GooglePlayServices.Resource.String.abc_action_mode_done = global::wibo.Resource.String.abc_action_mode_done;
+			global::GooglePlayServices.Resource.String.abc_activity_chooser_view_see_all = global::wibo.Resource.String.abc_activity_chooser_view_see_all;
+			global::GooglePlayServices.Resource.String.abc_activitychooserview_choose_application = global::wibo.Resource.String.abc_activitychooserview_choose_application;
+			global::GooglePlayServices.Resource.String.abc_search_hint = global::wibo.Resource.String.abc_search_hint;
+			global::GooglePlayServices.Resource.String.abc_searchview_description_clear = global::wibo.Resource.String.abc_searchview_description_clear;
+			global::GooglePlayServices.Resource.String.abc_searchview_description_query = global::wibo.Resource.String.abc_searchview_description_query;
+			global::GooglePlayServices.Resource.String.abc_searchview_description_search = global::wibo.Resource.String.abc_searchview_description_search;
+			global::GooglePlayServices.Resource.String.abc_searchview_description_submit = global::wibo.Resource.String.abc_searchview_description_submit;
+			global::GooglePlayServices.Resource.String.abc_searchview_description_voice = global::wibo.Resource.String.abc_searchview_description_voice;
+			global::GooglePlayServices.Resource.String.abc_shareactionprovider_share_with = global::wibo.Resource.String.abc_shareactionprovider_share_with;
+			global::GooglePlayServices.Resource.String.abc_shareactionprovider_share_with_application = global::wibo.Resource.String.abc_shareactionprovider_share_with_application;
+			global::GooglePlayServices.Resource.String.abc_toolbar_collapse_description = global::wibo.Resource.String.abc_toolbar_collapse_description;
+			global::GooglePlayServices.Resource.String.accept = global::wibo.Resource.String.accept;
+			global::GooglePlayServices.Resource.String.auth_google_play_services_client_facebook_display_name = global::wibo.Resource.String.auth_google_play_services_client_facebook_display_name;
+			global::GooglePlayServices.Resource.String.auth_google_play_services_client_google_display_name = global::wibo.Resource.String.auth_google_play_services_client_google_display_name;
+			global::GooglePlayServices.Resource.String.cast_notification_connected_message = global::wibo.Resource.String.cast_notification_connected_message;
+			global::GooglePlayServices.Resource.String.cast_notification_connecting_message = global::wibo.Resource.String.cast_notification_connecting_message;
+			global::GooglePlayServices.Resource.String.cast_notification_disconnect = global::wibo.Resource.String.cast_notification_disconnect;
+			global::GooglePlayServices.Resource.String.common_android_wear_notification_needs_update_text = global::wibo.Resource.String.common_android_wear_notification_needs_update_text;
+			global::GooglePlayServices.Resource.String.common_android_wear_update_text = global::wibo.Resource.String.common_android_wear_update_text;
+			global::GooglePlayServices.Resource.String.common_android_wear_update_title = global::wibo.Resource.String.common_android_wear_update_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_api_unavailable_text = global::wibo.Resource.String.common_google_play_services_api_unavailable_text;
+			global::GooglePlayServices.Resource.String.common_google_play_services_enable_button = global::wibo.Resource.String.common_google_play_services_enable_button;
+			global::GooglePlayServices.Resource.String.common_google_play_services_enable_text = global::wibo.Resource.String.common_google_play_services_enable_text;
+			global::GooglePlayServices.Resource.String.common_google_play_services_enable_title = global::wibo.Resource.String.common_google_play_services_enable_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_error_notification_requested_by_msg = global::wibo.Resource.String.common_google_play_services_error_notification_requested_by_msg;
+			global::GooglePlayServices.Resource.String.common_google_play_services_install_button = global::wibo.Resource.String.common_google_play_services_install_button;
+			global::GooglePlayServices.Resource.String.common_google_play_services_install_text_phone = global::wibo.Resource.String.common_google_play_services_install_text_phone;
+			global::GooglePlayServices.Resource.String.common_google_play_services_install_text_tablet = global::wibo.Resource.String.common_google_play_services_install_text_tablet;
+			global::GooglePlayServices.Resource.String.common_google_play_services_install_title = global::wibo.Resource.String.common_google_play_services_install_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_invalid_account_text = global::wibo.Resource.String.common_google_play_services_invalid_account_text;
+			global::GooglePlayServices.Resource.String.common_google_play_services_invalid_account_title = global::wibo.Resource.String.common_google_play_services_invalid_account_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_needs_enabling_title = global::wibo.Resource.String.common_google_play_services_needs_enabling_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_network_error_text = global::wibo.Resource.String.common_google_play_services_network_error_text;
+			global::GooglePlayServices.Resource.String.common_google_play_services_network_error_title = global::wibo.Resource.String.common_google_play_services_network_error_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_notification_needs_update_title = global::wibo.Resource.String.common_google_play_services_notification_needs_update_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_notification_ticker = global::wibo.Resource.String.common_google_play_services_notification_ticker;
+			global::GooglePlayServices.Resource.String.common_google_play_services_sign_in_failed_text = global::wibo.Resource.String.common_google_play_services_sign_in_failed_text;
+			global::GooglePlayServices.Resource.String.common_google_play_services_sign_in_failed_title = global::wibo.Resource.String.common_google_play_services_sign_in_failed_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_unknown_issue = global::wibo.Resource.String.common_google_play_services_unknown_issue;
+			global::GooglePlayServices.Resource.String.common_google_play_services_unsupported_text = global::wibo.Resource.String.common_google_play_services_unsupported_text;
+			global::GooglePlayServices.Resource.String.common_google_play_services_unsupported_title = global::wibo.Resource.String.common_google_play_services_unsupported_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_update_button = global::wibo.Resource.String.common_google_play_services_update_button;
+			global::GooglePlayServices.Resource.String.common_google_play_services_update_text = global::wibo.Resource.String.common_google_play_services_update_text;
+			global::GooglePlayServices.Resource.String.common_google_play_services_update_title = global::wibo.Resource.String.common_google_play_services_update_title;
+			global::GooglePlayServices.Resource.String.common_google_play_services_updating_text = global::wibo.Resource.String.common_google_play_services_updating_text;
+			global::GooglePlayServices.Resource.String.common_google_play_services_updating_title = global::wibo.Resource.String.common_google_play_services_updating_title;
+			global::GooglePlayServices.Resource.String.common_open_on_phone = global::wibo.Resource.String.common_open_on_phone;
+			global::GooglePlayServices.Resource.String.common_signin_button_text = global::wibo.Resource.String.common_signin_button_text;
+			global::GooglePlayServices.Resource.String.common_signin_button_text_long = global::wibo.Resource.String.common_signin_button_text_long;
+			global::GooglePlayServices.Resource.String.create_calendar_message = global::wibo.Resource.String.create_calendar_message;
+			global::GooglePlayServices.Resource.String.create_calendar_title = global::wibo.Resource.String.create_calendar_title;
+			global::GooglePlayServices.Resource.String.decline = global::wibo.Resource.String.decline;
+			global::GooglePlayServices.Resource.String.library_name = global::wibo.Resource.String.library_name;
+			global::GooglePlayServices.Resource.String.mr_media_route_button_content_description = global::wibo.Resource.String.mr_media_route_button_content_description;
+			global::GooglePlayServices.Resource.String.mr_media_route_chooser_searching = global::wibo.Resource.String.mr_media_route_chooser_searching;
+			global::GooglePlayServices.Resource.String.mr_media_route_chooser_title = global::wibo.Resource.String.mr_media_route_chooser_title;
+			global::GooglePlayServices.Resource.String.mr_media_route_controller_disconnect = global::wibo.Resource.String.mr_media_route_controller_disconnect;
+			global::GooglePlayServices.Resource.String.mr_media_route_controller_pause = global::wibo.Resource.String.mr_media_route_controller_pause;
+			global::GooglePlayServices.Resource.String.mr_media_route_controller_play = global::wibo.Resource.String.mr_media_route_controller_play;
+			global::GooglePlayServices.Resource.String.mr_media_route_controller_settings_description = global::wibo.Resource.String.mr_media_route_controller_settings_description;
+			global::GooglePlayServices.Resource.String.mr_media_route_controller_stop = global::wibo.Resource.String.mr_media_route_controller_stop;
+			global::GooglePlayServices.Resource.String.mr_system_route_name = global::wibo.Resource.String.mr_system_route_name;
+			global::GooglePlayServices.Resource.String.mr_user_route_category_name = global::wibo.Resource.String.mr_user_route_category_name;
+			global::GooglePlayServices.Resource.String.status_bar_notification_info_overflow = global::wibo.Resource.String.status_bar_notification_info_overflow;
+			global::GooglePlayServices.Resource.String.store_picture_message = global::wibo.Resource.String.store_picture_message;
+			global::GooglePlayServices.Resource.String.store_picture_title = global::wibo.Resource.String.store_picture_title;
+			global::GooglePlayServices.Resource.String.wallet_buy_button_place_holder = global::wibo.Resource.String.wallet_buy_button_place_holder;
+			global::GooglePlayServices.Resource.Style.AlertDialog_AppCompat = global::wibo.Resource.Style.AlertDialog_AppCompat;
+			global::GooglePlayServices.Resource.Style.AlertDialog_AppCompat_Light = global::wibo.Resource.Style.AlertDialog_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Animation_AppCompat_Dialog = global::wibo.Resource.Style.Animation_AppCompat_Dialog;
+			global::GooglePlayServices.Resource.Style.Animation_AppCompat_DropDownUp = global::wibo.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::GooglePlayServices.Resource.Style.Base_AlertDialog_AppCompat = global::wibo.Resource.Style.Base_AlertDialog_AppCompat;
+			global::GooglePlayServices.Resource.Style.Base_AlertDialog_AppCompat_Light = global::wibo.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Base_Animation_AppCompat_Dialog = global::wibo.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::GooglePlayServices.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::wibo.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::GooglePlayServices.Resource.Style.Base_DialogWindowTitle_AppCompat = global::wibo.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::GooglePlayServices.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::wibo.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat = global::wibo.Resource.Style.Base_TextAppearance_AppCompat;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Button = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Large = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Small = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Title = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::wibo.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::wibo.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::wibo.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::GooglePlayServices.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::wibo.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat = global::wibo.Resource.Style.Base_Theme_AppCompat;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::wibo.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Dialog = global::wibo.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::wibo.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::wibo.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::wibo.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::wibo.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light = global::wibo.Resource.Style.Base_Theme_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::wibo.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::wibo.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::wibo.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::wibo.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::wibo.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::GooglePlayServices.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::wibo.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat = global::wibo.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::wibo.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::wibo.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::wibo.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::GooglePlayServices.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::wibo.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::wibo.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::GooglePlayServices.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::wibo.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::GooglePlayServices.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::wibo.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::GooglePlayServices.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::wibo.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::GooglePlayServices.Resource.Style.Base_V21_Theme_AppCompat = global::wibo.Resource.Style.Base_V21_Theme_AppCompat;
+			global::GooglePlayServices.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::wibo.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::GooglePlayServices.Resource.Style.Base_V21_Theme_AppCompat_Light = global::wibo.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::wibo.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::GooglePlayServices.Resource.Style.Base_V7_Theme_AppCompat = global::wibo.Resource.Style.Base_V7_Theme_AppCompat;
+			global::GooglePlayServices.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::wibo.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::GooglePlayServices.Resource.Style.Base_V7_Theme_AppCompat_Light = global::wibo.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::wibo.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::GooglePlayServices.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::wibo.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::GooglePlayServices.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::wibo.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar = global::wibo.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::wibo.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::wibo.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::wibo.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::wibo.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionButton = global::wibo.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::wibo.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::wibo.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActionMode = global::wibo.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::wibo.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::wibo.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button = global::wibo.Resource.Style.Base_Widget_AppCompat_Button;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::wibo.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::wibo.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::wibo.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Button_Small = global::wibo.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::wibo.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::wibo.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::wibo.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::wibo.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::wibo.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::wibo.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::wibo.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::wibo.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_EditText = global::wibo.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::wibo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::wibo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::wibo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::wibo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::wibo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::wibo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::wibo.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::wibo.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::wibo.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ListView = global::wibo.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::wibo.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::wibo.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::wibo.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::wibo.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::wibo.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::wibo.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::wibo.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_RatingBar = global::wibo.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_SearchView = global::wibo.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::wibo.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Spinner = global::wibo.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar = global::wibo.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::wibo.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::wibo.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Toolbar = global::wibo.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::GooglePlayServices.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::wibo.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::GooglePlayServices.Resource.Style.Platform_AppCompat = global::wibo.Resource.Style.Platform_AppCompat;
+			global::GooglePlayServices.Resource.Style.Platform_AppCompat_Light = global::wibo.Resource.Style.Platform_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::wibo.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::GooglePlayServices.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::wibo.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Platform_V11_AppCompat = global::wibo.Resource.Style.Platform_V11_AppCompat;
+			global::GooglePlayServices.Resource.Style.Platform_V11_AppCompat_Light = global::wibo.Resource.Style.Platform_V11_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Platform_V14_AppCompat = global::wibo.Resource.Style.Platform_V14_AppCompat;
+			global::GooglePlayServices.Resource.Style.Platform_V14_AppCompat_Light = global::wibo.Resource.Style.Platform_V14_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::wibo.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::GooglePlayServices.Resource.Style.RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation = global::wibo.Resource.Style.RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat = global::wibo.Resource.Style.TextAppearance_AppCompat;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Body1 = global::wibo.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Body2 = global::wibo.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Button = global::wibo.Resource.Style.TextAppearance_AppCompat_Button;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Caption = global::wibo.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Display1 = global::wibo.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Display2 = global::wibo.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Display3 = global::wibo.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Display4 = global::wibo.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Headline = global::wibo.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Large = global::wibo.Resource.Style.TextAppearance_AppCompat_Large;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::wibo.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::wibo.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::wibo.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::wibo.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Medium = global::wibo.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Menu = global::wibo.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::wibo.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::wibo.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Small = global::wibo.Resource.Style.TextAppearance_AppCompat_Small;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Subhead = global::wibo.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Title = global::wibo.Resource.Style.TextAppearance_AppCompat_Title;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::GooglePlayServices.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::wibo.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent = global::wibo.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::wibo.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::wibo.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::wibo.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::GooglePlayServices.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::wibo.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::GooglePlayServices.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::wibo.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::GooglePlayServices.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::wibo.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::GooglePlayServices.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::wibo.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat = global::wibo.Resource.Style.Theme_AppCompat;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_CompactMenu = global::wibo.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Dialog = global::wibo.Resource.Style.Theme_AppCompat_Dialog;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Dialog_Alert = global::wibo.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::wibo.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::wibo.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light = global::wibo.Resource.Style.Theme_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::wibo.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_Dialog = global::wibo.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::wibo.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::wibo.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::wibo.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::wibo.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::GooglePlayServices.Resource.Style.Theme_AppCompat_NoActionBar = global::wibo.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::GooglePlayServices.Resource.Style.Theme_IAPTheme = global::wibo.Resource.Style.Theme_IAPTheme;
+			global::GooglePlayServices.Resource.Style.Theme_MediaRouter = global::wibo.Resource.Style.Theme_MediaRouter;
+			global::GooglePlayServices.Resource.Style.Theme_MediaRouter_Light = global::wibo.Resource.Style.Theme_MediaRouter_Light;
+			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat = global::wibo.Resource.Style.ThemeOverlay_AppCompat;
+			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::wibo.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat_Dark = global::wibo.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::wibo.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::GooglePlayServices.Resource.Style.ThemeOverlay_AppCompat_Light = global::wibo.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::GooglePlayServices.Resource.Style.WalletFragmentDefaultButtonTextAppearance = global::wibo.Resource.Style.WalletFragmentDefaultButtonTextAppearance;
+			global::GooglePlayServices.Resource.Style.WalletFragmentDefaultDetailsHeaderTextAppearance = global::wibo.Resource.Style.WalletFragmentDefaultDetailsHeaderTextAppearance;
+			global::GooglePlayServices.Resource.Style.WalletFragmentDefaultDetailsTextAppearance = global::wibo.Resource.Style.WalletFragmentDefaultDetailsTextAppearance;
+			global::GooglePlayServices.Resource.Style.WalletFragmentDefaultStyle = global::wibo.Resource.Style.WalletFragmentDefaultStyle;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar = global::wibo.Resource.Style.Widget_AppCompat_ActionBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::wibo.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::wibo.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::wibo.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::wibo.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionButton = global::wibo.Resource.Style.Widget_AppCompat_ActionButton;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::wibo.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::wibo.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActionMode = global::wibo.Resource.Style.Widget_AppCompat_ActionMode;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ActivityChooserView = global::wibo.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::wibo.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button = global::wibo.Resource.Style.Widget_AppCompat_Button;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button_Borderless = global::wibo.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::wibo.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::wibo.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Button_Small = global::wibo.Resource.Style.Widget_AppCompat_Button_Small;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ButtonBar = global::wibo.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::wibo.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::wibo.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::wibo.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::wibo.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::wibo.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::wibo.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_EditText = global::wibo.Resource.Style.Widget_AppCompat_EditText;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionButton = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::wibo.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::wibo.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::wibo.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::wibo.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::wibo.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::wibo.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::wibo.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::wibo.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_SearchView = global::wibo.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::wibo.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ListPopupWindow = global::wibo.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ListView = global::wibo.Resource.Style.Widget_AppCompat_ListView;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ListView_DropDown = global::wibo.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ListView_Menu = global::wibo.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_PopupMenu = global::wibo.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::wibo.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_PopupWindow = global::wibo.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ProgressBar = global::wibo.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::wibo.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_RatingBar = global::wibo.Resource.Style.Widget_AppCompat_RatingBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_SearchView = global::wibo.Resource.Style.Widget_AppCompat_SearchView;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::wibo.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Spinner = global::wibo.Resource.Style.Widget_AppCompat_Spinner;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::wibo.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::wibo.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::wibo.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::wibo.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Toolbar = global::wibo.Resource.Style.Widget_AppCompat_Toolbar;
+			global::GooglePlayServices.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::wibo.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::GooglePlayServices.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::wibo.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::GooglePlayServices.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::wibo.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::GooglePlayServices.Resource.Styleable.ActionBar = global::wibo.Resource.Styleable.ActionBar;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_background = global::wibo.Resource.Styleable.ActionBar_background;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_backgroundSplit = global::wibo.Resource.Styleable.ActionBar_backgroundSplit;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_backgroundStacked = global::wibo.Resource.Styleable.ActionBar_backgroundStacked;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_contentInsetEnd = global::wibo.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_contentInsetLeft = global::wibo.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_contentInsetRight = global::wibo.Resource.Styleable.ActionBar_contentInsetRight;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_contentInsetStart = global::wibo.Resource.Styleable.ActionBar_contentInsetStart;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_customNavigationLayout = global::wibo.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_displayOptions = global::wibo.Resource.Styleable.ActionBar_displayOptions;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_divider = global::wibo.Resource.Styleable.ActionBar_divider;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_elevation = global::wibo.Resource.Styleable.ActionBar_elevation;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_height = global::wibo.Resource.Styleable.ActionBar_height;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_hideOnContentScroll = global::wibo.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_homeAsUpIndicator = global::wibo.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_homeLayout = global::wibo.Resource.Styleable.ActionBar_homeLayout;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_icon = global::wibo.Resource.Styleable.ActionBar_icon;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::wibo.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_itemPadding = global::wibo.Resource.Styleable.ActionBar_itemPadding;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_logo = global::wibo.Resource.Styleable.ActionBar_logo;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_navigationMode = global::wibo.Resource.Styleable.ActionBar_navigationMode;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_popupTheme = global::wibo.Resource.Styleable.ActionBar_popupTheme;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_progressBarPadding = global::wibo.Resource.Styleable.ActionBar_progressBarPadding;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_progressBarStyle = global::wibo.Resource.Styleable.ActionBar_progressBarStyle;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_subtitle = global::wibo.Resource.Styleable.ActionBar_subtitle;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_subtitleTextStyle = global::wibo.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_title = global::wibo.Resource.Styleable.ActionBar_title;
+			global::GooglePlayServices.Resource.Styleable.ActionBar_titleTextStyle = global::wibo.Resource.Styleable.ActionBar_titleTextStyle;
+			global::GooglePlayServices.Resource.Styleable.ActionBarLayout = global::wibo.Resource.Styleable.ActionBarLayout;
+			global::GooglePlayServices.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::wibo.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::GooglePlayServices.Resource.Styleable.ActionMenuItemView = global::wibo.Resource.Styleable.ActionMenuItemView;
+			global::GooglePlayServices.Resource.Styleable.ActionMenuItemView_android_minWidth = global::wibo.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::GooglePlayServices.Resource.Styleable.ActionMenuView = global::wibo.Resource.Styleable.ActionMenuView;
+			global::GooglePlayServices.Resource.Styleable.ActionMode = global::wibo.Resource.Styleable.ActionMode;
+			global::GooglePlayServices.Resource.Styleable.ActionMode_background = global::wibo.Resource.Styleable.ActionMode_background;
+			global::GooglePlayServices.Resource.Styleable.ActionMode_backgroundSplit = global::wibo.Resource.Styleable.ActionMode_backgroundSplit;
+			global::GooglePlayServices.Resource.Styleable.ActionMode_closeItemLayout = global::wibo.Resource.Styleable.ActionMode_closeItemLayout;
+			global::GooglePlayServices.Resource.Styleable.ActionMode_height = global::wibo.Resource.Styleable.ActionMode_height;
+			global::GooglePlayServices.Resource.Styleable.ActionMode_subtitleTextStyle = global::wibo.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::GooglePlayServices.Resource.Styleable.ActionMode_titleTextStyle = global::wibo.Resource.Styleable.ActionMode_titleTextStyle;
+			global::GooglePlayServices.Resource.Styleable.ActivityChooserView = global::wibo.Resource.Styleable.ActivityChooserView;
+			global::GooglePlayServices.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::wibo.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::GooglePlayServices.Resource.Styleable.ActivityChooserView_initialActivityCount = global::wibo.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::GooglePlayServices.Resource.Styleable.AdsAttrs = global::wibo.Resource.Styleable.AdsAttrs;
+			global::GooglePlayServices.Resource.Styleable.AdsAttrs_adSize = global::wibo.Resource.Styleable.AdsAttrs_adSize;
+			global::GooglePlayServices.Resource.Styleable.AdsAttrs_adSizes = global::wibo.Resource.Styleable.AdsAttrs_adSizes;
+			global::GooglePlayServices.Resource.Styleable.AdsAttrs_adUnitId = global::wibo.Resource.Styleable.AdsAttrs_adUnitId;
+			global::GooglePlayServices.Resource.Styleable.AlertDialog = global::wibo.Resource.Styleable.AlertDialog;
+			global::GooglePlayServices.Resource.Styleable.AlertDialog_android_layout = global::wibo.Resource.Styleable.AlertDialog_android_layout;
+			global::GooglePlayServices.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::wibo.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::GooglePlayServices.Resource.Styleable.AlertDialog_listItemLayout = global::wibo.Resource.Styleable.AlertDialog_listItemLayout;
+			global::GooglePlayServices.Resource.Styleable.AlertDialog_listLayout = global::wibo.Resource.Styleable.AlertDialog_listLayout;
+			global::GooglePlayServices.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::wibo.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::GooglePlayServices.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::wibo.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::GooglePlayServices.Resource.Styleable.AppCompatTextView = global::wibo.Resource.Styleable.AppCompatTextView;
+			global::GooglePlayServices.Resource.Styleable.AppCompatTextView_android_textAppearance = global::wibo.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::GooglePlayServices.Resource.Styleable.AppCompatTextView_textAllCaps = global::wibo.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::GooglePlayServices.Resource.Styleable.CustomWalletTheme = global::wibo.Resource.Styleable.CustomWalletTheme;
+			global::GooglePlayServices.Resource.Styleable.CustomWalletTheme_windowTransitionStyle = global::wibo.Resource.Styleable.CustomWalletTheme_windowTransitionStyle;
+			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle = global::wibo.Resource.Styleable.DrawerArrowToggle;
+			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_barSize = global::wibo.Resource.Styleable.DrawerArrowToggle_barSize;
+			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_color = global::wibo.Resource.Styleable.DrawerArrowToggle_color;
+			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_drawableSize = global::wibo.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::wibo.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize = global::wibo.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize;
+			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_spinBars = global::wibo.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_thickness = global::wibo.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::GooglePlayServices.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize = global::wibo.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat = global::wibo.Resource.Styleable.LinearLayoutCompat;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::wibo.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::wibo.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_gravity = global::wibo.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_orientation = global::wibo.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::wibo.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_divider = global::wibo.Resource.Styleable.LinearLayoutCompat_divider;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::wibo.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::wibo.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_showDividers = global::wibo.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout = global::wibo.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::wibo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::wibo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::wibo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::GooglePlayServices.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::wibo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::GooglePlayServices.Resource.Styleable.ListPopupWindow = global::wibo.Resource.Styleable.ListPopupWindow;
+			global::GooglePlayServices.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::wibo.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::GooglePlayServices.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::wibo.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::GooglePlayServices.Resource.Styleable.LoadingImageView = global::wibo.Resource.Styleable.LoadingImageView;
+			global::GooglePlayServices.Resource.Styleable.LoadingImageView_circleCrop = global::wibo.Resource.Styleable.LoadingImageView_circleCrop;
+			global::GooglePlayServices.Resource.Styleable.LoadingImageView_imageAspectRatio = global::wibo.Resource.Styleable.LoadingImageView_imageAspectRatio;
+			global::GooglePlayServices.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust = global::wibo.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs = global::wibo.Resource.Styleable.MapAttrs;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraBearing = global::wibo.Resource.Styleable.MapAttrs_cameraBearing;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraTargetLat = global::wibo.Resource.Styleable.MapAttrs_cameraTargetLat;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraTargetLng = global::wibo.Resource.Styleable.MapAttrs_cameraTargetLng;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraTilt = global::wibo.Resource.Styleable.MapAttrs_cameraTilt;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_cameraZoom = global::wibo.Resource.Styleable.MapAttrs_cameraZoom;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_liteMode = global::wibo.Resource.Styleable.MapAttrs_liteMode;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_mapType = global::wibo.Resource.Styleable.MapAttrs_mapType;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiCompass = global::wibo.Resource.Styleable.MapAttrs_uiCompass;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiMapToolbar = global::wibo.Resource.Styleable.MapAttrs_uiMapToolbar;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiRotateGestures = global::wibo.Resource.Styleable.MapAttrs_uiRotateGestures;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiScrollGestures = global::wibo.Resource.Styleable.MapAttrs_uiScrollGestures;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiTiltGestures = global::wibo.Resource.Styleable.MapAttrs_uiTiltGestures;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiZoomControls = global::wibo.Resource.Styleable.MapAttrs_uiZoomControls;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_uiZoomGestures = global::wibo.Resource.Styleable.MapAttrs_uiZoomGestures;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_useViewLifecycle = global::wibo.Resource.Styleable.MapAttrs_useViewLifecycle;
+			global::GooglePlayServices.Resource.Styleable.MapAttrs_zOrderOnTop = global::wibo.Resource.Styleable.MapAttrs_zOrderOnTop;
+			global::GooglePlayServices.Resource.Styleable.MediaRouteButton = global::wibo.Resource.Styleable.MediaRouteButton;
+			global::GooglePlayServices.Resource.Styleable.MediaRouteButton_android_minHeight = global::wibo.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::GooglePlayServices.Resource.Styleable.MediaRouteButton_android_minWidth = global::wibo.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::GooglePlayServices.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::wibo.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::GooglePlayServices.Resource.Styleable.MenuGroup = global::wibo.Resource.Styleable.MenuGroup;
+			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_checkableBehavior = global::wibo.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_enabled = global::wibo.Resource.Styleable.MenuGroup_android_enabled;
+			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_id = global::wibo.Resource.Styleable.MenuGroup_android_id;
+			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_menuCategory = global::wibo.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_orderInCategory = global::wibo.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::GooglePlayServices.Resource.Styleable.MenuGroup_android_visible = global::wibo.Resource.Styleable.MenuGroup_android_visible;
+			global::GooglePlayServices.Resource.Styleable.MenuItem = global::wibo.Resource.Styleable.MenuItem;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_actionLayout = global::wibo.Resource.Styleable.MenuItem_actionLayout;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_actionProviderClass = global::wibo.Resource.Styleable.MenuItem_actionProviderClass;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_actionViewClass = global::wibo.Resource.Styleable.MenuItem_actionViewClass;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::wibo.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_checkable = global::wibo.Resource.Styleable.MenuItem_android_checkable;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_checked = global::wibo.Resource.Styleable.MenuItem_android_checked;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_enabled = global::wibo.Resource.Styleable.MenuItem_android_enabled;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_icon = global::wibo.Resource.Styleable.MenuItem_android_icon;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_id = global::wibo.Resource.Styleable.MenuItem_android_id;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_menuCategory = global::wibo.Resource.Styleable.MenuItem_android_menuCategory;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_numericShortcut = global::wibo.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_onClick = global::wibo.Resource.Styleable.MenuItem_android_onClick;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_orderInCategory = global::wibo.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_title = global::wibo.Resource.Styleable.MenuItem_android_title;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_titleCondensed = global::wibo.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_android_visible = global::wibo.Resource.Styleable.MenuItem_android_visible;
+			global::GooglePlayServices.Resource.Styleable.MenuItem_showAsAction = global::wibo.Resource.Styleable.MenuItem_showAsAction;
+			global::GooglePlayServices.Resource.Styleable.MenuView = global::wibo.Resource.Styleable.MenuView;
+			global::GooglePlayServices.Resource.Styleable.MenuView_android_headerBackground = global::wibo.Resource.Styleable.MenuView_android_headerBackground;
+			global::GooglePlayServices.Resource.Styleable.MenuView_android_horizontalDivider = global::wibo.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::GooglePlayServices.Resource.Styleable.MenuView_android_itemBackground = global::wibo.Resource.Styleable.MenuView_android_itemBackground;
+			global::GooglePlayServices.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::wibo.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::GooglePlayServices.Resource.Styleable.MenuView_android_itemTextAppearance = global::wibo.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::GooglePlayServices.Resource.Styleable.MenuView_android_verticalDivider = global::wibo.Resource.Styleable.MenuView_android_verticalDivider;
+			global::GooglePlayServices.Resource.Styleable.MenuView_android_windowAnimationStyle = global::wibo.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::GooglePlayServices.Resource.Styleable.MenuView_preserveIconSpacing = global::wibo.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::GooglePlayServices.Resource.Styleable.PopupWindow = global::wibo.Resource.Styleable.PopupWindow;
+			global::GooglePlayServices.Resource.Styleable.PopupWindow_android_popupBackground = global::wibo.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::GooglePlayServices.Resource.Styleable.PopupWindow_overlapAnchor = global::wibo.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::GooglePlayServices.Resource.Styleable.PopupWindowBackgroundState = global::wibo.Resource.Styleable.PopupWindowBackgroundState;
+			global::GooglePlayServices.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::wibo.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::GooglePlayServices.Resource.Styleable.SearchView = global::wibo.Resource.Styleable.SearchView;
+			global::GooglePlayServices.Resource.Styleable.SearchView_android_focusable = global::wibo.Resource.Styleable.SearchView_android_focusable;
+			global::GooglePlayServices.Resource.Styleable.SearchView_android_imeOptions = global::wibo.Resource.Styleable.SearchView_android_imeOptions;
+			global::GooglePlayServices.Resource.Styleable.SearchView_android_inputType = global::wibo.Resource.Styleable.SearchView_android_inputType;
+			global::GooglePlayServices.Resource.Styleable.SearchView_android_maxWidth = global::wibo.Resource.Styleable.SearchView_android_maxWidth;
+			global::GooglePlayServices.Resource.Styleable.SearchView_closeIcon = global::wibo.Resource.Styleable.SearchView_closeIcon;
+			global::GooglePlayServices.Resource.Styleable.SearchView_commitIcon = global::wibo.Resource.Styleable.SearchView_commitIcon;
+			global::GooglePlayServices.Resource.Styleable.SearchView_defaultQueryHint = global::wibo.Resource.Styleable.SearchView_defaultQueryHint;
+			global::GooglePlayServices.Resource.Styleable.SearchView_goIcon = global::wibo.Resource.Styleable.SearchView_goIcon;
+			global::GooglePlayServices.Resource.Styleable.SearchView_iconifiedByDefault = global::wibo.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::GooglePlayServices.Resource.Styleable.SearchView_layout = global::wibo.Resource.Styleable.SearchView_layout;
+			global::GooglePlayServices.Resource.Styleable.SearchView_queryBackground = global::wibo.Resource.Styleable.SearchView_queryBackground;
+			global::GooglePlayServices.Resource.Styleable.SearchView_queryHint = global::wibo.Resource.Styleable.SearchView_queryHint;
+			global::GooglePlayServices.Resource.Styleable.SearchView_searchHintIcon = global::wibo.Resource.Styleable.SearchView_searchHintIcon;
+			global::GooglePlayServices.Resource.Styleable.SearchView_searchIcon = global::wibo.Resource.Styleable.SearchView_searchIcon;
+			global::GooglePlayServices.Resource.Styleable.SearchView_submitBackground = global::wibo.Resource.Styleable.SearchView_submitBackground;
+			global::GooglePlayServices.Resource.Styleable.SearchView_suggestionRowLayout = global::wibo.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::GooglePlayServices.Resource.Styleable.SearchView_voiceIcon = global::wibo.Resource.Styleable.SearchView_voiceIcon;
+			global::GooglePlayServices.Resource.Styleable.Spinner = global::wibo.Resource.Styleable.Spinner;
+			global::GooglePlayServices.Resource.Styleable.Spinner_android_background = global::wibo.Resource.Styleable.Spinner_android_background;
+			global::GooglePlayServices.Resource.Styleable.Spinner_android_dropDownHorizontalOffset = global::wibo.Resource.Styleable.Spinner_android_dropDownHorizontalOffset;
+			global::GooglePlayServices.Resource.Styleable.Spinner_android_dropDownSelector = global::wibo.Resource.Styleable.Spinner_android_dropDownSelector;
+			global::GooglePlayServices.Resource.Styleable.Spinner_android_dropDownVerticalOffset = global::wibo.Resource.Styleable.Spinner_android_dropDownVerticalOffset;
+			global::GooglePlayServices.Resource.Styleable.Spinner_android_dropDownWidth = global::wibo.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::GooglePlayServices.Resource.Styleable.Spinner_android_gravity = global::wibo.Resource.Styleable.Spinner_android_gravity;
+			global::GooglePlayServices.Resource.Styleable.Spinner_android_popupBackground = global::wibo.Resource.Styleable.Spinner_android_popupBackground;
+			global::GooglePlayServices.Resource.Styleable.Spinner_disableChildrenWhenDisabled = global::wibo.Resource.Styleable.Spinner_disableChildrenWhenDisabled;
+			global::GooglePlayServices.Resource.Styleable.Spinner_popupPromptView = global::wibo.Resource.Styleable.Spinner_popupPromptView;
+			global::GooglePlayServices.Resource.Styleable.Spinner_prompt = global::wibo.Resource.Styleable.Spinner_prompt;
+			global::GooglePlayServices.Resource.Styleable.Spinner_spinnerMode = global::wibo.Resource.Styleable.Spinner_spinnerMode;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat = global::wibo.Resource.Styleable.SwitchCompat;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_android_textOff = global::wibo.Resource.Styleable.SwitchCompat_android_textOff;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_android_textOn = global::wibo.Resource.Styleable.SwitchCompat_android_textOn;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_android_thumb = global::wibo.Resource.Styleable.SwitchCompat_android_thumb;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_showText = global::wibo.Resource.Styleable.SwitchCompat_showText;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_splitTrack = global::wibo.Resource.Styleable.SwitchCompat_splitTrack;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_switchMinWidth = global::wibo.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_switchPadding = global::wibo.Resource.Styleable.SwitchCompat_switchPadding;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_switchTextAppearance = global::wibo.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_thumbTextPadding = global::wibo.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::GooglePlayServices.Resource.Styleable.SwitchCompat_track = global::wibo.Resource.Styleable.SwitchCompat_track;
+			global::GooglePlayServices.Resource.Styleable.TextAppearance = global::wibo.Resource.Styleable.TextAppearance;
+			global::GooglePlayServices.Resource.Styleable.TextAppearance_android_textColor = global::wibo.Resource.Styleable.TextAppearance_android_textColor;
+			global::GooglePlayServices.Resource.Styleable.TextAppearance_android_textSize = global::wibo.Resource.Styleable.TextAppearance_android_textSize;
+			global::GooglePlayServices.Resource.Styleable.TextAppearance_android_textStyle = global::wibo.Resource.Styleable.TextAppearance_android_textStyle;
+			global::GooglePlayServices.Resource.Styleable.TextAppearance_android_typeface = global::wibo.Resource.Styleable.TextAppearance_android_typeface;
+			global::GooglePlayServices.Resource.Styleable.TextAppearance_textAllCaps = global::wibo.Resource.Styleable.TextAppearance_textAllCaps;
+			global::GooglePlayServices.Resource.Styleable.Theme = global::wibo.Resource.Styleable.Theme;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarDivider = global::wibo.Resource.Styleable.Theme_actionBarDivider;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarItemBackground = global::wibo.Resource.Styleable.Theme_actionBarItemBackground;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarPopupTheme = global::wibo.Resource.Styleable.Theme_actionBarPopupTheme;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarSize = global::wibo.Resource.Styleable.Theme_actionBarSize;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarSplitStyle = global::wibo.Resource.Styleable.Theme_actionBarSplitStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarStyle = global::wibo.Resource.Styleable.Theme_actionBarStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarTabBarStyle = global::wibo.Resource.Styleable.Theme_actionBarTabBarStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarTabStyle = global::wibo.Resource.Styleable.Theme_actionBarTabStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarTabTextStyle = global::wibo.Resource.Styleable.Theme_actionBarTabTextStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarTheme = global::wibo.Resource.Styleable.Theme_actionBarTheme;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionBarWidgetTheme = global::wibo.Resource.Styleable.Theme_actionBarWidgetTheme;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionButtonStyle = global::wibo.Resource.Styleable.Theme_actionButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionDropDownStyle = global::wibo.Resource.Styleable.Theme_actionDropDownStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionMenuTextAppearance = global::wibo.Resource.Styleable.Theme_actionMenuTextAppearance;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionMenuTextColor = global::wibo.Resource.Styleable.Theme_actionMenuTextColor;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeBackground = global::wibo.Resource.Styleable.Theme_actionModeBackground;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeCloseButtonStyle = global::wibo.Resource.Styleable.Theme_actionModeCloseButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeCloseDrawable = global::wibo.Resource.Styleable.Theme_actionModeCloseDrawable;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeCopyDrawable = global::wibo.Resource.Styleable.Theme_actionModeCopyDrawable;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeCutDrawable = global::wibo.Resource.Styleable.Theme_actionModeCutDrawable;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeFindDrawable = global::wibo.Resource.Styleable.Theme_actionModeFindDrawable;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModePasteDrawable = global::wibo.Resource.Styleable.Theme_actionModePasteDrawable;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModePopupWindowStyle = global::wibo.Resource.Styleable.Theme_actionModePopupWindowStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeSelectAllDrawable = global::wibo.Resource.Styleable.Theme_actionModeSelectAllDrawable;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeShareDrawable = global::wibo.Resource.Styleable.Theme_actionModeShareDrawable;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeSplitBackground = global::wibo.Resource.Styleable.Theme_actionModeSplitBackground;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeStyle = global::wibo.Resource.Styleable.Theme_actionModeStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionModeWebSearchDrawable = global::wibo.Resource.Styleable.Theme_actionModeWebSearchDrawable;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionOverflowButtonStyle = global::wibo.Resource.Styleable.Theme_actionOverflowButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_actionOverflowMenuStyle = global::wibo.Resource.Styleable.Theme_actionOverflowMenuStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_activityChooserViewStyle = global::wibo.Resource.Styleable.Theme_activityChooserViewStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_alertDialogButtonGroupStyle = global::wibo.Resource.Styleable.Theme_alertDialogButtonGroupStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_alertDialogCenterButtons = global::wibo.Resource.Styleable.Theme_alertDialogCenterButtons;
+			global::GooglePlayServices.Resource.Styleable.Theme_alertDialogStyle = global::wibo.Resource.Styleable.Theme_alertDialogStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_alertDialogTheme = global::wibo.Resource.Styleable.Theme_alertDialogTheme;
+			global::GooglePlayServices.Resource.Styleable.Theme_android_windowAnimationStyle = global::wibo.Resource.Styleable.Theme_android_windowAnimationStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_android_windowIsFloating = global::wibo.Resource.Styleable.Theme_android_windowIsFloating;
+			global::GooglePlayServices.Resource.Styleable.Theme_autoCompleteTextViewStyle = global::wibo.Resource.Styleable.Theme_autoCompleteTextViewStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_borderlessButtonStyle = global::wibo.Resource.Styleable.Theme_borderlessButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarButtonStyle = global::wibo.Resource.Styleable.Theme_buttonBarButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarNegativeButtonStyle = global::wibo.Resource.Styleable.Theme_buttonBarNegativeButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarNeutralButtonStyle = global::wibo.Resource.Styleable.Theme_buttonBarNeutralButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarPositiveButtonStyle = global::wibo.Resource.Styleable.Theme_buttonBarPositiveButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_buttonBarStyle = global::wibo.Resource.Styleable.Theme_buttonBarStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_buttonStyle = global::wibo.Resource.Styleable.Theme_buttonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_buttonStyleSmall = global::wibo.Resource.Styleable.Theme_buttonStyleSmall;
+			global::GooglePlayServices.Resource.Styleable.Theme_checkboxStyle = global::wibo.Resource.Styleable.Theme_checkboxStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_checkedTextViewStyle = global::wibo.Resource.Styleable.Theme_checkedTextViewStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_colorAccent = global::wibo.Resource.Styleable.Theme_colorAccent;
+			global::GooglePlayServices.Resource.Styleable.Theme_colorButtonNormal = global::wibo.Resource.Styleable.Theme_colorButtonNormal;
+			global::GooglePlayServices.Resource.Styleable.Theme_colorControlActivated = global::wibo.Resource.Styleable.Theme_colorControlActivated;
+			global::GooglePlayServices.Resource.Styleable.Theme_colorControlHighlight = global::wibo.Resource.Styleable.Theme_colorControlHighlight;
+			global::GooglePlayServices.Resource.Styleable.Theme_colorControlNormal = global::wibo.Resource.Styleable.Theme_colorControlNormal;
+			global::GooglePlayServices.Resource.Styleable.Theme_colorPrimary = global::wibo.Resource.Styleable.Theme_colorPrimary;
+			global::GooglePlayServices.Resource.Styleable.Theme_colorPrimaryDark = global::wibo.Resource.Styleable.Theme_colorPrimaryDark;
+			global::GooglePlayServices.Resource.Styleable.Theme_colorSwitchThumbNormal = global::wibo.Resource.Styleable.Theme_colorSwitchThumbNormal;
+			global::GooglePlayServices.Resource.Styleable.Theme_dialogPreferredPadding = global::wibo.Resource.Styleable.Theme_dialogPreferredPadding;
+			global::GooglePlayServices.Resource.Styleable.Theme_dialogTheme = global::wibo.Resource.Styleable.Theme_dialogTheme;
+			global::GooglePlayServices.Resource.Styleable.Theme_dividerHorizontal = global::wibo.Resource.Styleable.Theme_dividerHorizontal;
+			global::GooglePlayServices.Resource.Styleable.Theme_dividerVertical = global::wibo.Resource.Styleable.Theme_dividerVertical;
+			global::GooglePlayServices.Resource.Styleable.Theme_dropDownListViewStyle = global::wibo.Resource.Styleable.Theme_dropDownListViewStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::wibo.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
+			global::GooglePlayServices.Resource.Styleable.Theme_editTextBackground = global::wibo.Resource.Styleable.Theme_editTextBackground;
+			global::GooglePlayServices.Resource.Styleable.Theme_editTextColor = global::wibo.Resource.Styleable.Theme_editTextColor;
+			global::GooglePlayServices.Resource.Styleable.Theme_editTextStyle = global::wibo.Resource.Styleable.Theme_editTextStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_homeAsUpIndicator = global::wibo.Resource.Styleable.Theme_homeAsUpIndicator;
+			global::GooglePlayServices.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::wibo.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
+			global::GooglePlayServices.Resource.Styleable.Theme_listDividerAlertDialog = global::wibo.Resource.Styleable.Theme_listDividerAlertDialog;
+			global::GooglePlayServices.Resource.Styleable.Theme_listPopupWindowStyle = global::wibo.Resource.Styleable.Theme_listPopupWindowStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemHeight = global::wibo.Resource.Styleable.Theme_listPreferredItemHeight;
+			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemHeightLarge = global::wibo.Resource.Styleable.Theme_listPreferredItemHeightLarge;
+			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemHeightSmall = global::wibo.Resource.Styleable.Theme_listPreferredItemHeightSmall;
+			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemPaddingLeft = global::wibo.Resource.Styleable.Theme_listPreferredItemPaddingLeft;
+			global::GooglePlayServices.Resource.Styleable.Theme_listPreferredItemPaddingRight = global::wibo.Resource.Styleable.Theme_listPreferredItemPaddingRight;
+			global::GooglePlayServices.Resource.Styleable.Theme_panelBackground = global::wibo.Resource.Styleable.Theme_panelBackground;
+			global::GooglePlayServices.Resource.Styleable.Theme_panelMenuListTheme = global::wibo.Resource.Styleable.Theme_panelMenuListTheme;
+			global::GooglePlayServices.Resource.Styleable.Theme_panelMenuListWidth = global::wibo.Resource.Styleable.Theme_panelMenuListWidth;
+			global::GooglePlayServices.Resource.Styleable.Theme_popupMenuStyle = global::wibo.Resource.Styleable.Theme_popupMenuStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_popupWindowStyle = global::wibo.Resource.Styleable.Theme_popupWindowStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_radioButtonStyle = global::wibo.Resource.Styleable.Theme_radioButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_ratingBarStyle = global::wibo.Resource.Styleable.Theme_ratingBarStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_searchViewStyle = global::wibo.Resource.Styleable.Theme_searchViewStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_selectableItemBackground = global::wibo.Resource.Styleable.Theme_selectableItemBackground;
+			global::GooglePlayServices.Resource.Styleable.Theme_selectableItemBackgroundBorderless = global::wibo.Resource.Styleable.Theme_selectableItemBackgroundBorderless;
+			global::GooglePlayServices.Resource.Styleable.Theme_spinnerDropDownItemStyle = global::wibo.Resource.Styleable.Theme_spinnerDropDownItemStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_spinnerStyle = global::wibo.Resource.Styleable.Theme_spinnerStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_switchStyle = global::wibo.Resource.Styleable.Theme_switchStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceLargePopupMenu = global::wibo.Resource.Styleable.Theme_textAppearanceLargePopupMenu;
+			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceListItem = global::wibo.Resource.Styleable.Theme_textAppearanceListItem;
+			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceListItemSmall = global::wibo.Resource.Styleable.Theme_textAppearanceListItemSmall;
+			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle = global::wibo.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle;
+			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceSearchResultTitle = global::wibo.Resource.Styleable.Theme_textAppearanceSearchResultTitle;
+			global::GooglePlayServices.Resource.Styleable.Theme_textAppearanceSmallPopupMenu = global::wibo.Resource.Styleable.Theme_textAppearanceSmallPopupMenu;
+			global::GooglePlayServices.Resource.Styleable.Theme_textColorAlertDialogListItem = global::wibo.Resource.Styleable.Theme_textColorAlertDialogListItem;
+			global::GooglePlayServices.Resource.Styleable.Theme_textColorSearchUrl = global::wibo.Resource.Styleable.Theme_textColorSearchUrl;
+			global::GooglePlayServices.Resource.Styleable.Theme_toolbarNavigationButtonStyle = global::wibo.Resource.Styleable.Theme_toolbarNavigationButtonStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_toolbarStyle = global::wibo.Resource.Styleable.Theme_toolbarStyle;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowActionBar = global::wibo.Resource.Styleable.Theme_windowActionBar;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowActionBarOverlay = global::wibo.Resource.Styleable.Theme_windowActionBarOverlay;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowActionModeOverlay = global::wibo.Resource.Styleable.Theme_windowActionModeOverlay;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowFixedHeightMajor = global::wibo.Resource.Styleable.Theme_windowFixedHeightMajor;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowFixedHeightMinor = global::wibo.Resource.Styleable.Theme_windowFixedHeightMinor;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowFixedWidthMajor = global::wibo.Resource.Styleable.Theme_windowFixedWidthMajor;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowFixedWidthMinor = global::wibo.Resource.Styleable.Theme_windowFixedWidthMinor;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowMinWidthMajor = global::wibo.Resource.Styleable.Theme_windowMinWidthMajor;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowMinWidthMinor = global::wibo.Resource.Styleable.Theme_windowMinWidthMinor;
+			global::GooglePlayServices.Resource.Styleable.Theme_windowNoTitle = global::wibo.Resource.Styleable.Theme_windowNoTitle;
+			global::GooglePlayServices.Resource.Styleable.Toolbar = global::wibo.Resource.Styleable.Toolbar;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_android_gravity = global::wibo.Resource.Styleable.Toolbar_android_gravity;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_android_minHeight = global::wibo.Resource.Styleable.Toolbar_android_minHeight;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_collapseContentDescription = global::wibo.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_collapseIcon = global::wibo.Resource.Styleable.Toolbar_collapseIcon;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_contentInsetEnd = global::wibo.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_contentInsetLeft = global::wibo.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_contentInsetRight = global::wibo.Resource.Styleable.Toolbar_contentInsetRight;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_contentInsetStart = global::wibo.Resource.Styleable.Toolbar_contentInsetStart;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_maxButtonHeight = global::wibo.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_navigationContentDescription = global::wibo.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_navigationIcon = global::wibo.Resource.Styleable.Toolbar_navigationIcon;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_popupTheme = global::wibo.Resource.Styleable.Toolbar_popupTheme;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_subtitle = global::wibo.Resource.Styleable.Toolbar_subtitle;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_subtitleTextAppearance = global::wibo.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_title = global::wibo.Resource.Styleable.Toolbar_title;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMarginBottom = global::wibo.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMarginEnd = global::wibo.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMarginStart = global::wibo.Resource.Styleable.Toolbar_titleMarginStart;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMarginTop = global::wibo.Resource.Styleable.Toolbar_titleMarginTop;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_titleMargins = global::wibo.Resource.Styleable.Toolbar_titleMargins;
+			global::GooglePlayServices.Resource.Styleable.Toolbar_titleTextAppearance = global::wibo.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::GooglePlayServices.Resource.Styleable.View = global::wibo.Resource.Styleable.View;
+			global::GooglePlayServices.Resource.Styleable.View_android_focusable = global::wibo.Resource.Styleable.View_android_focusable;
+			global::GooglePlayServices.Resource.Styleable.View_android_theme = global::wibo.Resource.Styleable.View_android_theme;
+			global::GooglePlayServices.Resource.Styleable.View_backgroundTint = global::wibo.Resource.Styleable.View_backgroundTint;
+			global::GooglePlayServices.Resource.Styleable.View_backgroundTintMode = global::wibo.Resource.Styleable.View_backgroundTintMode;
+			global::GooglePlayServices.Resource.Styleable.View_paddingEnd = global::wibo.Resource.Styleable.View_paddingEnd;
+			global::GooglePlayServices.Resource.Styleable.View_paddingStart = global::wibo.Resource.Styleable.View_paddingStart;
+			global::GooglePlayServices.Resource.Styleable.View_theme = global::wibo.Resource.Styleable.View_theme;
+			global::GooglePlayServices.Resource.Styleable.ViewStubCompat = global::wibo.Resource.Styleable.ViewStubCompat;
+			global::GooglePlayServices.Resource.Styleable.ViewStubCompat_android_id = global::wibo.Resource.Styleable.ViewStubCompat_android_id;
+			global::GooglePlayServices.Resource.Styleable.ViewStubCompat_android_inflatedId = global::wibo.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::GooglePlayServices.Resource.Styleable.ViewStubCompat_android_layout = global::wibo.Resource.Styleable.ViewStubCompat_android_layout;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions = global::wibo.Resource.Styleable.WalletFragmentOptions;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions_appTheme = global::wibo.Resource.Styleable.WalletFragmentOptions_appTheme;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions_environment = global::wibo.Resource.Styleable.WalletFragmentOptions_environment;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions_fragmentMode = global::wibo.Resource.Styleable.WalletFragmentOptions_fragmentMode;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentOptions_fragmentStyle = global::wibo.Resource.Styleable.WalletFragmentOptions_fragmentStyle;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle = global::wibo.Resource.Styleable.WalletFragmentStyle;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_buyButtonAppearance = global::wibo.Resource.Styleable.WalletFragmentStyle_buyButtonAppearance;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_buyButtonHeight = global::wibo.Resource.Styleable.WalletFragmentStyle_buyButtonHeight;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_buyButtonText = global::wibo.Resource.Styleable.WalletFragmentStyle_buyButtonText;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_buyButtonWidth = global::wibo.Resource.Styleable.WalletFragmentStyle_buyButtonWidth;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsBackground = global::wibo.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsBackground;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonBackground = global::wibo.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonBackground;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = global::wibo.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = global::wibo.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoImageType = global::wibo.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoImageType;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoTextColor = global::wibo.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsLogoTextColor;
+			global::GooglePlayServices.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsTextAppearance = global::wibo.Resource.Styleable.WalletFragmentStyle_maskedWalletDetailsTextAppearance;
 		}
 		
 		public partial class Animation
@@ -1520,6 +1520,12 @@ namespace gmaps_tutorial
 			
 			// aapt resource value: 0x7f040009
 			public const int abc_slide_out_top = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int slideBot = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int SlideTop = 2130968587;
 			
 			static Animation()
 			{
@@ -3003,223 +3009,289 @@ namespace gmaps_tutorial
 			public const int abc_textfield_search_material = 2130837562;
 			
 			// aapt resource value: 0x7f02003b
-			public const int cast_ic_notification_0 = 2130837563;
+			public const int background_blanc = 2130837563;
 			
 			// aapt resource value: 0x7f02003c
-			public const int cast_ic_notification_1 = 2130837564;
+			public const int background_gradient_avec_trou = 2130837564;
 			
 			// aapt resource value: 0x7f02003d
-			public const int cast_ic_notification_2 = 2130837565;
+			public const int background_gradient_page_chargement = 2130837565;
 			
 			// aapt resource value: 0x7f02003e
-			public const int cast_ic_notification_connecting = 2130837566;
+			public const int background_gradient_page_interne = 2130837566;
 			
 			// aapt resource value: 0x7f02003f
-			public const int cast_ic_notification_on = 2130837567;
+			public const int background_origami = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int common_full_open_on_phone = 2130837568;
+			public const int backgroundInternPagesLayerList = 2130837568;
 			
 			// aapt resource value: 0x7f020041
-			public const int common_ic_googleplayservices = 2130837569;
+			public const int backround_gradient_avec_trou = 2130837569;
 			
 			// aapt resource value: 0x7f020042
-			public const int common_signin_btn_icon_dark = 2130837570;
+			public const int ballon_de_base_centre_map_grand = 2130837570;
 			
 			// aapt resource value: 0x7f020043
-			public const int common_signin_btn_icon_disabled_dark = 2130837571;
+			public const int ballon_de_base_cote_map_petit = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int common_signin_btn_icon_disabled_focus_dark = 2130837572;
+			public const int ballon_sans_queue_pour_gonflement_petit_taille_de_base = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int common_signin_btn_icon_disabled_focus_light = 2130837573;
+			public const int ballon_sans_queue_pour_gonflement_petit_taille_plus_grande = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int common_signin_btn_icon_disabled_light = 2130837574;
+			public const int bouton_avec_plus = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int common_signin_btn_icon_focus_dark = 2130837575;
+			public const int bouton_sans_plus = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int common_signin_btn_icon_focus_light = 2130837576;
+			public const int cast_ic_notification_0 = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int common_signin_btn_icon_light = 2130837577;
+			public const int cast_ic_notification_1 = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int common_signin_btn_icon_normal_dark = 2130837578;
+			public const int cast_ic_notification_2 = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int common_signin_btn_icon_normal_light = 2130837579;
+			public const int cast_ic_notification_connecting = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int common_signin_btn_icon_pressed_dark = 2130837580;
+			public const int cast_ic_notification_on = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int common_signin_btn_icon_pressed_light = 2130837581;
+			public const int cercle_blanc_contours_bleu = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int common_signin_btn_text_dark = 2130837582;
+			public const int common_full_open_on_phone = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int common_signin_btn_text_disabled_dark = 2130837583;
+			public const int common_ic_googleplayservices = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int common_signin_btn_text_disabled_focus_dark = 2130837584;
+			public const int common_signin_btn_icon_dark = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int common_signin_btn_text_disabled_focus_light = 2130837585;
+			public const int common_signin_btn_icon_disabled_dark = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int common_signin_btn_text_disabled_light = 2130837586;
+			public const int common_signin_btn_icon_disabled_focus_dark = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int common_signin_btn_text_focus_dark = 2130837587;
+			public const int common_signin_btn_icon_disabled_focus_light = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int common_signin_btn_text_focus_light = 2130837588;
+			public const int common_signin_btn_icon_disabled_light = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int common_signin_btn_text_light = 2130837589;
+			public const int common_signin_btn_icon_focus_dark = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int common_signin_btn_text_normal_dark = 2130837590;
+			public const int common_signin_btn_icon_focus_light = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int common_signin_btn_text_normal_light = 2130837591;
+			public const int common_signin_btn_icon_light = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int common_signin_btn_text_pressed_dark = 2130837592;
+			public const int common_signin_btn_icon_normal_dark = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int common_signin_btn_text_pressed_light = 2130837593;
+			public const int common_signin_btn_icon_normal_light = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int ic_cast_dark = 2130837594;
+			public const int common_signin_btn_icon_pressed_dark = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_cast_disabled_light = 2130837595;
+			public const int common_signin_btn_icon_pressed_light = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_cast_light = 2130837596;
+			public const int common_signin_btn_text_dark = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_cast_off_light = 2130837597;
+			public const int common_signin_btn_text_disabled_dark = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_cast_on_0_light = 2130837598;
+			public const int common_signin_btn_text_disabled_focus_dark = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_cast_on_1_light = 2130837599;
+			public const int common_signin_btn_text_disabled_focus_light = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_cast_on_2_light = 2130837600;
+			public const int common_signin_btn_text_disabled_light = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_cast_on_light = 2130837601;
+			public const int common_signin_btn_text_focus_dark = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_media_pause = 2130837602;
+			public const int common_signin_btn_text_focus_light = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_media_play = 2130837603;
+			public const int common_signin_btn_text_light = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_media_route_disabled_mono_dark = 2130837604;
+			public const int common_signin_btn_text_normal_dark = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_media_route_off_mono_dark = 2130837605;
+			public const int common_signin_btn_text_normal_light = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_media_route_on_0_mono_dark = 2130837606;
+			public const int common_signin_btn_text_pressed_dark = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_media_route_on_1_mono_dark = 2130837607;
+			public const int common_signin_btn_text_pressed_light = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_media_route_on_2_mono_dark = 2130837608;
+			public const int edit_text_baloon_style = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_media_route_on_mono_dark = 2130837609;
+			public const int ic_cast_dark = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_pause_dark = 2130837610;
+			public const int ic_cast_disabled_light = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_pause_light = 2130837611;
+			public const int ic_cast_light = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_play_dark = 2130837612;
+			public const int ic_cast_off_light = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_play_light = 2130837613;
+			public const int ic_cast_on_0_light = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_plusone_medium_off_client = 2130837614;
+			public const int ic_cast_on_1_light = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_plusone_small_off_client = 2130837615;
+			public const int ic_cast_on_2_light = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_plusone_standard_off_client = 2130837616;
+			public const int ic_cast_on_light = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_plusone_tall_off_client = 2130837617;
+			public const int ic_media_pause = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_setting_dark = 2130837618;
+			public const int ic_media_play = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_setting_light = 2130837619;
+			public const int ic_media_route_disabled_mono_dark = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int Icon = 2130837620;
+			public const int ic_media_route_off_mono_dark = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int mr_ic_audio_vol = 2130837621;
+			public const int ic_media_route_on_0_mono_dark = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837622;
+			public const int ic_media_route_on_1_mono_dark = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int mr_ic_media_route_connecting_mono_light = 2130837623;
+			public const int ic_media_route_on_2_mono_dark = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int mr_ic_media_route_mono_dark = 2130837624;
+			public const int ic_media_route_on_mono_dark = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int mr_ic_media_route_mono_light = 2130837625;
+			public const int ic_pause_dark = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int mr_ic_pause_dark = 2130837626;
+			public const int ic_pause_light = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int mr_ic_pause_light = 2130837627;
+			public const int ic_play_dark = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int mr_ic_play_dark = 2130837628;
+			public const int ic_play_light = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int mr_ic_play_light = 2130837629;
+			public const int ic_plusone_medium_off_client = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int mr_ic_settings_dark = 2130837630;
+			public const int ic_plusone_small_off_client = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int mr_ic_settings_light = 2130837631;
-			
-			// aapt resource value: 0x7f020083
-			public const int notification_template_icon_bg = 2130837635;
+			public const int ic_plusone_standard_off_client = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int powered_by_google_dark = 2130837632;
+			public const int ic_plusone_tall_off_client = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int powered_by_google_light = 2130837633;
+			public const int ic_setting_dark = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int redBaloon = 2130837634;
+			public const int ic_setting_light = 2130837634;
+			
+			// aapt resource value: 0x7f020083
+			public const int Icon = 2130837635;
+			
+			// aapt resource value: 0x7f020084
+			public const int mr_ic_audio_vol = 2130837636;
+			
+			// aapt resource value: 0x7f020085
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837637;
+			
+			// aapt resource value: 0x7f020086
+			public const int mr_ic_media_route_connecting_mono_light = 2130837638;
+			
+			// aapt resource value: 0x7f020087
+			public const int mr_ic_media_route_mono_dark = 2130837639;
+			
+			// aapt resource value: 0x7f020088
+			public const int mr_ic_media_route_mono_light = 2130837640;
+			
+			// aapt resource value: 0x7f020089
+			public const int mr_ic_pause_dark = 2130837641;
+			
+			// aapt resource value: 0x7f02008a
+			public const int mr_ic_pause_light = 2130837642;
+			
+			// aapt resource value: 0x7f02008b
+			public const int mr_ic_play_dark = 2130837643;
+			
+			// aapt resource value: 0x7f02008c
+			public const int mr_ic_play_light = 2130837644;
+			
+			// aapt resource value: 0x7f02008d
+			public const int mr_ic_settings_dark = 2130837645;
+			
+			// aapt resource value: 0x7f02008e
+			public const int mr_ic_settings_light = 2130837646;
+			
+			// aapt resource value: 0x7f020099
+			public const int notification_template_icon_bg = 2130837657;
+			
+			// aapt resource value: 0x7f02008f
+			public const int nuage1 = 2130837647;
+			
+			// aapt resource value: 0x7f020090
+			public const int nuage2 = 2130837648;
+			
+			// aapt resource value: 0x7f020091
+			public const int nuage5 = 2130837649;
+			
+			// aapt resource value: 0x7f020092
+			public const int petit_gradient_pour_page_message = 2130837650;
+			
+			// aapt resource value: 0x7f020093
+			public const int powered_by_google_dark = 2130837651;
+			
+			// aapt resource value: 0x7f020094
+			public const int powered_by_google_light = 2130837652;
+			
+			// aapt resource value: 0x7f020095
+			public const int red_baloon = 2130837653;
+			
+			// aapt resource value: 0x7f020096
+			public const int titleCatchedBaloonShape = 2130837654;
+			
+			// aapt resource value: 0x7f020097
+			public const int titleFollowedBaloonShape = 2130837655;
+			
+			// aapt resource value: 0x7f020098
+			public const int wibo_accueil = 2130837656;
 			
 			static Drawable()
 			{
@@ -3234,8 +3306,8 @@ namespace gmaps_tutorial
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060078
-			public const int action0 = 2131099768;
+			// aapt resource value: 0x7f060084
+			public const int action0 = 2131099780;
 			
 			// aapt resource value: 0x7f060057
 			public const int action_bar = 2131099735;
@@ -3261,8 +3333,8 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060058
 			public const int action_context_bar = 2131099736;
 			
-			// aapt resource value: 0x7f06007c
-			public const int action_divider = 2131099772;
+			// aapt resource value: 0x7f060088
+			public const int action_divider = 2131099784;
 			
 			// aapt resource value: 0x7f060033
 			public const int action_menu_divider = 2131099699;
@@ -3294,11 +3366,11 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060027
 			public const int always = 2131099687;
 			
-			// aapt resource value: 0x7f060068
-			public const int answerBaloon = 2131099752;
+			// aapt resource value: 0x7f06006a
+			public const int answerBaloonEditText = 2131099754;
 			
-			// aapt resource value: 0x7f06006f
-			public const int art = 2131099759;
+			// aapt resource value: 0x7f06007b
+			public const int art = 2131099771;
 			
 			// aapt resource value: 0x7f060022
 			public const int beginning = 2131099682;
@@ -3309,8 +3381,8 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f06004d
 			public const int buttonPanel = 2131099725;
 			
-			// aapt resource value: 0x7f060075
-			public const int buttons = 2131099765;
+			// aapt resource value: 0x7f060081
+			public const int buttons = 2131099777;
 			
 			// aapt resource value: 0x7f060006
 			public const int buyButton = 2131099654;
@@ -3321,8 +3393,8 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f06000a
 			public const int buy_with_google = 2131099658;
 			
-			// aapt resource value: 0x7f060079
-			public const int cancel_action = 2131099769;
+			// aapt resource value: 0x7f060085
+			public const int cancel_action = 2131099781;
 			
 			// aapt resource value: 0x7f060017
 			public const int cast_notification_id = 2131099671;
@@ -3330,8 +3402,8 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f06004f
 			public const int checkbox = 2131099727;
 			
-			// aapt resource value: 0x7f06007f
-			public const int chronometer = 2131099775;
+			// aapt resource value: 0x7f06008b
+			public const int chronometer = 2131099787;
 			
 			// aapt resource value: 0x7f06000e
 			public const int classic = 2131099662;
@@ -3341,6 +3413,9 @@ namespace gmaps_tutorial
 			
 			// aapt resource value: 0x7f060048
 			public const int contentPanel = 2131099720;
+			
+			// aapt resource value: 0x7f060070
+			public const int createBaloonButton = 2131099760;
 			
 			// aapt resource value: 0x7f06004c
 			public const int custom = 2131099724;
@@ -3354,8 +3429,8 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060040
 			public const int default_activity_button = 2131099712;
 			
-			// aapt resource value: 0x7f06006e
-			public const int default_control_frame = 2131099758;
+			// aapt resource value: 0x7f06007a
+			public const int default_control_frame = 2131099770;
 			
 			// aapt resource value: 0x7f06002a
 			public const int dialog = 2131099690;
@@ -3363,8 +3438,8 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060021
 			public const int disableHome = 2131099681;
 			
-			// aapt resource value: 0x7f060076
-			public const int disconnect = 2131099766;
+			// aapt resource value: 0x7f060082
+			public const int disconnect = 2131099778;
 			
 			// aapt resource value: 0x7f06000d
 			public const int donate_with_google = 2131099661;
@@ -3378,14 +3453,20 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060024
 			public const int end = 2131099684;
 			
-			// aapt resource value: 0x7f060084
-			public const int end_padder = 2131099780;
+			// aapt resource value: 0x7f060090
+			public const int end_padder = 2131099792;
 			
 			// aapt resource value: 0x7f06003e
 			public const int expand_activities_button = 2131099710;
 			
 			// aapt resource value: 0x7f06004e
 			public const int expanded_menu = 2131099726;
+			
+			// aapt resource value: 0x7f060067
+			public const int followBaloonButton = 2131099751;
+			
+			// aapt resource value: 0x7f06006e
+			public const int followedBaloonsMenuButton = 2131099758;
 			
 			// aapt resource value: 0x7f06000f
 			public const int grayscale = 2131099663;
@@ -3414,14 +3495,17 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
 			
-			// aapt resource value: 0x7f060083
-			public const int info = 2131099779;
+			// aapt resource value: 0x7f06008f
+			public const int info = 2131099791;
 			
-			// aapt resource value: 0x7f06007d
-			public const int line1 = 2131099773;
+			// aapt resource value: 0x7f060089
+			public const int line1 = 2131099785;
 			
-			// aapt resource value: 0x7f060081
-			public const int line3 = 2131099777;
+			// aapt resource value: 0x7f06008d
+			public const int line3 = 2131099789;
+			
+			// aapt resource value: 0x7f060069
+			public const int listLayout = 2131099753;
 			
 			// aapt resource value: 0x7f06001a
 			public const int listMode = 2131099674;
@@ -3429,29 +3513,35 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060041
 			public const int list_item = 2131099713;
 			
-			// aapt resource value: 0x7f060066
-			public const int map = 2131099750;
+			// aapt resource value: 0x7f06006c
+			public const int mainLayout = 2131099756;
+			
+			// aapt resource value: 0x7f06006d
+			public const int map = 2131099757;
 			
 			// aapt resource value: 0x7f060008
 			public const int match_parent = 2131099656;
 			
-			// aapt resource value: 0x7f06007b
-			public const int media_actions = 2131099771;
+			// aapt resource value: 0x7f060087
+			public const int media_actions = 2131099783;
 			
-			// aapt resource value: 0x7f06006d
-			public const int media_route_control_frame = 2131099757;
+			// aapt resource value: 0x7f060079
+			public const int media_route_control_frame = 2131099769;
 			
-			// aapt resource value: 0x7f060069
-			public const int media_route_list = 2131099753;
+			// aapt resource value: 0x7f060075
+			public const int media_route_list = 2131099765;
+			
+			// aapt resource value: 0x7f06007f
+			public const int media_route_volume_layout = 2131099775;
+			
+			// aapt resource value: 0x7f060080
+			public const int media_route_volume_slider = 2131099776;
 			
 			// aapt resource value: 0x7f060073
-			public const int media_route_volume_layout = 2131099763;
+			public const int messageBaloonEditText = 2131099763;
 			
-			// aapt resource value: 0x7f060074
-			public const int media_route_volume_slider = 2131099764;
-			
-			// aapt resource value: 0x7f060067
-			public const int messageList = 2131099751;
+			// aapt resource value: 0x7f060068
+			public const int messageBaloonScrollView = 2131099752;
 			
 			// aapt resource value: 0x7f060023
 			public const int middle = 2131099683;
@@ -3474,8 +3564,8 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060044
 			public const int parentPanel = 2131099716;
 			
-			// aapt resource value: 0x7f060070
-			public const int play_pause = 2131099760;
+			// aapt resource value: 0x7f06007c
+			public const int play_pause = 2131099772;
 			
 			// aapt resource value: 0x7f060002
 			public const int production = 2131099650;
@@ -3489,8 +3579,8 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060051
 			public const int radio = 2131099729;
 			
-			// aapt resource value: 0x7f06006b
-			public const int route_name = 2131099755;
+			// aapt resource value: 0x7f060077
+			public const int route_name = 2131099767;
 			
 			// aapt resource value: 0x7f060004
 			public const int sandbox = 2131099652;
@@ -3540,8 +3630,14 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060007
 			public const int selectionDetails = 2131099655;
 			
-			// aapt resource value: 0x7f06006c
-			public const int settings = 2131099756;
+			// aapt resource value: 0x7f06006b
+			public const int sendAnswerButton = 2131099755;
+			
+			// aapt resource value: 0x7f060074
+			public const int sendBaloonButton = 2131099764;
+			
+			// aapt resource value: 0x7f060078
+			public const int settings = 2131099768;
 			
 			// aapt resource value: 0x7f060050
 			public const int shortcut = 2131099728;
@@ -3554,6 +3650,9 @@ namespace gmaps_tutorial
 			
 			// aapt resource value: 0x7f06001f
 			public const int showTitle = 2131099679;
+			
+			// aapt resource value: 0x7f06006f
+			public const int skyBox = 2131099759;
 			
 			// aapt resource value: 0x7f060011
 			public const int slide = 2131099665;
@@ -3570,11 +3669,11 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f06002c
 			public const int src_over = 2131099692;
 			
-			// aapt resource value: 0x7f06007a
-			public const int status_bar_latest_event_content = 2131099770;
+			// aapt resource value: 0x7f060086
+			public const int status_bar_latest_event_content = 2131099782;
 			
-			// aapt resource value: 0x7f060077
-			public const int stop = 2131099767;
+			// aapt resource value: 0x7f060083
+			public const int stop = 2131099779;
 			
 			// aapt resource value: 0x7f060005
 			public const int strict_sandbox = 2131099653;
@@ -3582,8 +3681,8 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060062
 			public const int submit_area = 2131099746;
 			
-			// aapt resource value: 0x7f060072
-			public const int subtitle = 2131099762;
+			// aapt resource value: 0x7f06007e
+			public const int subtitle = 2131099774;
 			
 			// aapt resource value: 0x7f06001b
 			public const int tabMode = 2131099675;
@@ -3594,26 +3693,35 @@ namespace gmaps_tutorial
 			// aapt resource value: 0x7f060003
 			public const int test = 2131099651;
 			
-			// aapt resource value: 0x7f060082
-			public const int text = 2131099778;
+			// aapt resource value: 0x7f06008e
+			public const int text = 2131099790;
 			
-			// aapt resource value: 0x7f060080
-			public const int text2 = 2131099776;
+			// aapt resource value: 0x7f06008c
+			public const int text2 = 2131099788;
 			
 			// aapt resource value: 0x7f06004a
 			public const int textSpacerNoButtons = 2131099722;
 			
-			// aapt resource value: 0x7f060071
-			public const int text_wrapper = 2131099761;
+			// aapt resource value: 0x7f06007d
+			public const int text_wrapper = 2131099773;
 			
-			// aapt resource value: 0x7f06007e
-			public const int time = 2131099774;
+			// aapt resource value: 0x7f06008a
+			public const int time = 2131099786;
 			
 			// aapt resource value: 0x7f060043
 			public const int title = 2131099715;
 			
-			// aapt resource value: 0x7f06006a
-			public const int title_bar = 2131099754;
+			// aapt resource value: 0x7f060072
+			public const int titleBaloonEditText = 2131099762;
+			
+			// aapt resource value: 0x7f060071
+			public const int titleBaloonList = 2131099761;
+			
+			// aapt resource value: 0x7f060066
+			public const int titleBaloonTextView = 2131099750;
+			
+			// aapt resource value: 0x7f060076
+			public const int title_bar = 2131099766;
 			
 			// aapt resource value: 0x7f060046
 			public const int title_template = 2131099718;
@@ -3753,55 +3861,67 @@ namespace gmaps_tutorial
 			public const int abc_simple_dropdown_hint = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int Main = 2130903065;
+			public const int contentAnswerableBaloon = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int messageBaloon = 2130903066;
+			public const int contentBaloon = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int mr_media_route_chooser_dialog = 2130903067;
+			public const int loadingPage = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int mr_media_route_controller_material_dialog_b = 2130903068;
+			public const int Main = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int mr_media_route_list_item = 2130903069;
+			public const int menuFollowedBaloon = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int notification_media_action = 2130903070;
+			public const int messageBaloonDialogFragment = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int notification_media_cancel_action = 2130903071;
+			public const int mr_media_route_chooser_dialog = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int notification_template_big_media = 2130903072;
+			public const int mr_media_route_controller_material_dialog_b = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int notification_template_big_media_narrow = 2130903073;
+			public const int mr_media_route_list_item = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int notification_template_lines = 2130903074;
+			public const int notification_media_action = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int notification_template_media = 2130903075;
+			public const int notification_media_cancel_action = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_template_part_chronometer = 2130903076;
+			public const int notification_template_big_media = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int notification_template_part_time = 2130903077;
+			public const int notification_template_big_media_narrow = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int select_dialog_item_material = 2130903078;
+			public const int notification_template_lines = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int select_dialog_multichoice_material = 2130903079;
+			public const int notification_template_media = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int select_dialog_singlechoice_material = 2130903080;
+			public const int notification_template_part_chronometer = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int support_simple_spinner_dropdown_item = 2130903081;
+			public const int notification_template_part_time = 2130903081;
+			
+			// aapt resource value: 0x7f03002a
+			public const int select_dialog_item_material = 2130903082;
+			
+			// aapt resource value: 0x7f03002b
+			public const int select_dialog_multichoice_material = 2130903083;
+			
+			// aapt resource value: 0x7f03002c
+			public const int select_dialog_singlechoice_material = 2130903084;
+			
+			// aapt resource value: 0x7f03002d
+			public const int support_simple_spinner_dropdown_item = 2130903085;
 			
 			static Layout()
 			{
@@ -4975,6 +5095,15 @@ namespace gmaps_tutorial
 			
 			// aapt resource value: 0x7f090008
 			public const int Widget_MediaRouter_MediaRouteButton = 2131296264;
+			
+			// aapt resource value: 0x7f09012d
+			public const int createBaloonAnimation = 2131296557;
+			
+			// aapt resource value: 0x7f09012f
+			public const int titleCatchedBaloonTextViewStyle = 2131296559;
+			
+			// aapt resource value: 0x7f09012e
+			public const int titleFollowedBaloonTextViewStyle = 2131296558;
 			
 			static Style()
 			{

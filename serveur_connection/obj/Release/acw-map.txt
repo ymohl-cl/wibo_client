@@ -1,4 +1,0 @@
-serveur_connection.MainActivity, serveur_connection;md58d9f6d5046b41f10078e24cf35851768.MainActivity
-serveur_connection.MainActivity, serveur_connection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58d9f6d5046b41f10078e24cf35851768.MainActivity
-serveur_connection.MainActivity;md58d9f6d5046b41f10078e24cf35851768.MainActivity
-serveur_connection.MainActivity;md58d9f6d5046b41f10078e24cf35851768.MainActivity

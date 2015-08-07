@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiboApp", "WiboApp\WiboApp.csproj", "{8DF55187-D493-4670-8DEF-EF603CA3C336}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gmaps_tutorial", "gmaps_tutorial\gmaps_tutorial.csproj", "{54BCBFBE-7321-40EA-A527-9A901CA2E196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serveur_connection", "serveur_connection\serveur_connection.csproj", "{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE324D54-668E-4AE5-A964-9D7698769239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "textBoxMessage", "textBoxMessage\textBoxMessage.csproj", "{66C92DE5-4AE8-4D0A-A87C-14F63BD6EEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibo", "Wibo\Wibo.csproj", "{416B22C1-54AB-47AA-B71F-00403605A014}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,24 +17,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8DF55187-D493-4670-8DEF-EF603CA3C336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DF55187-D493-4670-8DEF-EF603CA3C336}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DF55187-D493-4670-8DEF-EF603CA3C336}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{8DF55187-D493-4670-8DEF-EF603CA3C336}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DF55187-D493-4670-8DEF-EF603CA3C336}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8DF55187-D493-4670-8DEF-EF603CA3C336}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{54BCBFBE-7321-40EA-A527-9A901CA2E196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{54BCBFBE-7321-40EA-A527-9A901CA2E196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54BCBFBE-7321-40EA-A527-9A901CA2E196}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{54BCBFBE-7321-40EA-A527-9A901CA2E196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54BCBFBE-7321-40EA-A527-9A901CA2E196}.Release|Any CPU.Build.0 = Release|Any CPU
 		{54BCBFBE-7321-40EA-A527-9A901CA2E196}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{98A9CAC6-AC04-4757-9AAC-F2ECE8BF674E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{66C92DE5-4AE8-4D0A-A87C-14F63BD6EEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C92DE5-4AE8-4D0A-A87C-14F63BD6EEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C92DE5-4AE8-4D0A-A87C-14F63BD6EEBC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{66C92DE5-4AE8-4D0A-A87C-14F63BD6EEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C92DE5-4AE8-4D0A-A87C-14F63BD6EEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C92DE5-4AE8-4D0A-A87C-14F63BD6EEBC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{416B22C1-54AB-47AA-B71F-00403605A014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416B22C1-54AB-47AA-B71F-00403605A014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416B22C1-54AB-47AA-B71F-00403605A014}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{416B22C1-54AB-47AA-B71F-00403605A014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416B22C1-54AB-47AA-B71F-00403605A014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416B22C1-54AB-47AA-B71F-00403605A014}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

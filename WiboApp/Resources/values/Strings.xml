@@ -2,4 +2,5 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">WiboApp</string>
+    <string name="google_maps_key">AIzaSyCktbTgM-Nz5Vh30-jAkAFLhnwTcvg0Ozc</string>
 </resources>
