@@ -1,0 +1,13 @@
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\textBoxMessage.csprojResolveAssemblyReference.cache
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\bin\Debug\textBoxMessage.dll
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\bin\Debug\textBoxMessage.pdb
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\bin\Debug\textBoxMessage.textBoxMessage.apk
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\bin\Debug\textBoxMessage.textBoxMessage-Signed.apk
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\textBoxMessage.dll
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\textBoxMessage.pdb
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\android\bin\textBoxMessage.textBoxMessage.apk
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\res\layout\main.xml
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\res\values\strings.xml
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\res\drawable\icon.png
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\R.cs.flag
+C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\uploadflags.txt
