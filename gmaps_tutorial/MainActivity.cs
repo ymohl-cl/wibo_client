@@ -27,6 +27,7 @@ namespace wibo
     [Activity(Label = "wibo", MainLauncher = true, Icon = "@drawable/icon", ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : Activity, IOnMapReadyCallback, IGoogleApiClientConnectionCallbacks, IGoogleApiClientOnConnectionFailedListener
     {
+        //Merge Thibault
         private Connection _connection;
         private IGoogleApiClient apiClient;
         private GoogleMap _map;

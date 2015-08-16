@@ -1,1 +1,39 @@
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><fragment android:id="@+id/map" android:layout_width="match_parent" android:layout_height="match_parent" android:name="com.google.android.gms.maps.MapFragment" /><LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginTop="10dp"><Button android:id="@+id/followedBalloonsMenuButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom" android:text="Ballons suivis" android:padding="10dp" /></LinearLayout><ImageView android:src="@drawable/background_gradient_avec_trou" android:layout_width="381.1dp" android:layout_height="wrap_content" android:id="@+id/skyBox" /><ImageButton android:id="@+id/createBalloonButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginTop="450dp" android:text="Créer un ballon" android:background="@android:color/transparent" android:src="@drawable/bouton_avec_plus" /></RelativeLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/followedBalloonsMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Ballons suivis"
+            android:padding="10dp" />
+    </LinearLayout>
+    <ImageView
+        android:src="@drawable/background_gradient_avec_trou"
+        android:layout_width="381.1dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/skyBox" />
+    <ImageButton
+        android:id="@+id/createBalloonButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="Créer un ballon"
+        android:background="@android:color/transparent"
+        android:src="@drawable/bouton_avec_plus" />
+</RelativeLayout>
