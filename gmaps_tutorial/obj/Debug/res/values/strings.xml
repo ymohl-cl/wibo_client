@@ -1,6 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">Wibo</string>
-    <string name="google_maps_key">AIzaSyB5rt8rEKngf7y0d0F0pjz9uqMyHj8aNSE</string>
-</resources>
+<resources><string name="Hello">Hello World, Click Me!</string><string name="ApplicationName">Wibo</string><string name="google_maps_key">AIzaSyB5rt8rEKngf7y0d0F0pjz9uqMyHj8aNSE</string></resources>

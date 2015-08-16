@@ -1,20 +1,2 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<resources>
-
-  <style name="createBalloonAnimation">
-    <item name="android:windowEnterAnimation">@anim/slideBot</item>
-    <item name="android:windowExitAnimation">@anim/slideTop</item>/>
-  </style>
-
-  <style name="titleFollowedBalloonTextViewStyle">
-    <item name="android:gravity">center</item>
-    <item name="android:textSize">18sp</item>
-    <item name="android:background">@drawable/titleFollowedBalloonShape</item>
-  </style>
-  
-  <style name="titleCatchedBalloonTextViewStyle">
-    <item name="android:gravity">center</item>
-    <item name="android:textSize">18sp</item>
-    <item name="android:background">@drawable/titleCatchedBalloonShape</item>
-  </style>
-</resources>
+<resources><style name="createBalloonAnimation"><item name="android:windowEnterAnimation">@anim/slidebot</item><item name="android:windowExitAnimation">@anim/slidetop</item>/&gt;
+  </style><style name="titleFollowedBalloonTextViewStyle"><item name="android:gravity">center</item><item name="android:textSize">18sp</item><item name="android:background">@drawable/titlefollowedballoonshape</item></style><style name="titleCatchedBalloonTextViewStyle"><item name="android:gravity">center</item><item name="android:textSize">18sp</item><item name="android:background">@drawable/titlecatchedballoonshape</item></style></resources>
