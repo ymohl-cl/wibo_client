@@ -53,6 +53,7 @@ namespace wibo
         //On create is called when the activity is created
         protected override void OnCreate(Bundle bundle)
         {
+            /* Coucou */
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
 
