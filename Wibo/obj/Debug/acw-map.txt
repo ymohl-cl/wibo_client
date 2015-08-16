@@ -1,0 +1,4 @@
+Wibo.MainActivity, Wibo;md52e58acb419c1a892a0290bfd3f6312f0.MainActivity
+Wibo.MainActivity, Wibo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52e58acb419c1a892a0290bfd3f6312f0.MainActivity
+Wibo.MainActivity;md52e58acb419c1a892a0290bfd3f6312f0.MainActivity
+wibo.MainActivity;md52e58acb419c1a892a0290bfd3f6312f0.MainActivity

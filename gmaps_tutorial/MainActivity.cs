@@ -43,6 +43,12 @@ namespace wibo
         private Button followedBalloonsMenuButton;
         private List<Marker> _balloonMarkers;
         private RelativeLayout _layout;
+        private List<MarkerOptions> _markersOptions;
+        private EventWaitHandle ewh1 = new EventWaitHandle(false, EventResetMode.AutoReset);
+        private EventWaitHandle ewh2 = new EventWaitHandle(false, EventResetMode.AutoReset);
+
+        private double _tmpLon = 48.833086;
+        private double _tmpLat = 2.310655;
 
         //On create is called when the activity is created
         protected override void OnCreate(Bundle bundle)
@@ -61,14 +67,15 @@ namespace wibo
             _catchedBalloons = new List<Balloon>();
             _balloonMarkers = new List<Marker>();
             _connection = new Connection();
+            _markersOptions = new List<MarkerOptions>();
 
             //Loop d'echange avec le serveur
             ThreadPool.QueueUserWorkItem(o => this._connection.StartLoop());
 
             //Remplissage de la liste des ballons suivis.
+            Console.WriteLine("Sync with server");
             _connection.SyncWithServer();
-
-
+/*
             _testMessages.Add("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae est eu ante molestie aliquam ac at ligula. Nulla justo nisi, pharetra et facilisis ut, congue et felis. Cras commodo justo sed erat porttitor, at porta ligula euismod. Curabitur non molestie arcu.");
             _testMessages.Add("Nulla sed luctus magna. Nulla diam nunc, scelerisque ac elementum eget, fermentum ut nulla. Cras vestibulum, sapien eu aliquam dignissim, sapien arcu luctus odio, eu rutrum elit sapien nec urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.");
             _testMessages.Add(" Maecenas in sem ut nisl rhoncus rutrum. Fusce placerat neque iaculis, faucibus turpis quis, pretium arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut tincidunt, elit rhoncus maximus hendrerit, ex nunc finibus nunc, ut commodo libero diam non nulla. Quisque eu sollicitudin turpis, sed convallis nulla");
@@ -81,9 +88,9 @@ namespace wibo
             _testMessages.Add("Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus leo dui, imperdiet dictum neque tristique, sollicitudin tincidunt arcu. Phasellus cursus tristique urna id facilisis. Nullam ut elit ante. Suspendisse quis lacus eu quam dapibus pharetra a sit amet diam. ");
             _testMessages.Add("In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus");
             _testMessages.Add("Maecenas nec erat ac ligula iaculis fermentum. Aliquam venenatis mollis augue, ac mollis nisi suscipit id. Donec ut lobortis nunc, iaculis aliquam ante. Etiam maximus sagittis arcu, id pretium est imperdiet in. Vivamus ultricies urna quis vehicula imperdiet. Nulla lacus urna, pellentesque sed semper id, pulvinar at risus. Ut quis sem congue, pretium ante ac, ultrices massa. Sed eleifend laoreet orci, et varius sapien consectetur non. Aliquam tempus sollicitudin tempor. Donec tristique eros eu turpis porttitor tincidunt. ");
+*/
 
-            /*
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched1", 88, 48.8784073, 2.3540572, false, 2.0, 35.6));
+           /* _nearbyBalloons.Add(new Balloon(_testMessages, "catched1", 88, 48.833086, 2.310655, false, 2.0, 35.6));
             _nearbyBalloons.Add(new Balloon(_testMessages, "catched2", 82, 48.8628437, 2.3252016, false, 2.0, 35.6));
             _nearbyBalloons.Add(new Balloon(_testMessages, "catched3", 83, 48.87840, 2.35408, false, 2.0, 35.6));
             _nearbyBalloons.Add(new Balloon(_testMessages, "catched4", 14, 48.8873, 2.352, false, 2.0, 35.6));
@@ -94,6 +101,7 @@ namespace wibo
             _nearbyBalloons.Add(new Balloon(_testMessages, "catched9", 11, 48.8643, 2.40572, false, 2.0, 35.6));
             _nearbyBalloons.Add(new Balloon(_testMessages, "catched10", 1, 48.8799, 2.3599, false, 2.0, 35.6));
             */
+            /*
             _followedBalloons.Add(new Balloon(_testMessages, "test1", 88, 48.8784073, 2.3540572, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test2", 82, 48.8628437, 2.3252016, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test3", 83, 48.87840, 2.35408, true, 2.0, 35.6));
@@ -104,7 +112,11 @@ namespace wibo
             _followedBalloons.Add(new Balloon(_testMessages, "test8", 52, 48.8768, 2.35, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test9", 11, 48.8643, 2.40572, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test10", 1, 48.8799, 2.3599, true, 2.0, 35.6));
-
+            */
+            _connection._OnReceiveFollowedList += (o, s) =>
+            {
+                _followedBalloons = s.Response;
+            };
             createBalloonButton = FindViewById<ImageButton>(Resource.Id.createBalloonButton);
             createBalloonButton.Click += createBalloonButton_Click;
             followedBalloonsMenuButton = FindViewById<Button>(Resource.Id.followedBalloonsMenuButton);
@@ -138,6 +150,7 @@ namespace wibo
             //send a request to re-get nearest balloons then add it to the map and display
             //Set up the map
             SetUpMap();
+            _connection.SetLocation(_tmpLon, _tmpLat, true);
             //ThreadPool.QueueUserWorkItem(o => moveBalloonsOnMap());
             /*
             Log.Debug("OnResume", "OnResume called, connecting to client...");
@@ -149,7 +162,11 @@ namespace wibo
 
         public void removeFromMap(Marker marker)
         {
-            marker.Remove();
+            Console.WriteLine("removing from map");
+            RunOnUiThread(() =>
+            {
+                marker.Remove();
+            });
         }
 
         private void SetUpMap()
@@ -174,37 +191,34 @@ namespace wibo
             _map.UiSettings.SetAllGesturesEnabled(false);
             _map.MapType = GoogleMap.MapTypeTerrain;
             _map.MarkerClick += MapOnMarkerClick;
+
             //Send a request to retrieve nearby balloons
-            ThreadPool.QueueUserWorkItem(o => _connection.SetLocation(48.833086, 2.310655));
+            ThreadPool.QueueUserWorkItem(o => _connection.SetLocation(_tmpLon, _tmpLat));
             _connection._OnReceiveBalloonList += (o, s) =>
             {
                 Console.WriteLine("List of nearby baloons received.");
                 _nearbyBalloons = s.Response;
+                if (_balloonMarkers.Count > 0)
+                {
+                    _balloonMarkers.ForEach(removeFromMap);
+                    _balloonMarkers.Clear();
+                }
                 foreach (Balloon balloon in _nearbyBalloons)
                 {
                     MarkerOptions optionsBalloon = new MarkerOptions()
                    .SetPosition(new LatLng(balloon.LatPosition, balloon.LngPosition))
                    .SetTitle(balloon.Id.ToString())
                    .SetIcon(redBalloon);
-                    Marker marker = _map.AddMarker(optionsBalloon);
-                    marker.HideInfoWindow();
-                    _balloonMarkers.Add(marker);
-                    Console.WriteLine(marker.Id);
+                    RunOnUiThread(() =>
+                    {
+                        Marker marker = _map.AddMarker(optionsBalloon);
+                        marker.HideInfoWindow();
+                        _balloonMarkers.Add(marker);
+                    });
                 }
             };
-/*            foreach (Balloon balloon in _nearbyBalloons)
-            {
-                MarkerOptions optionsBalloon = new MarkerOptions()
-               .SetPosition(new LatLng(balloon.LatPosition, balloon.LngPosition))
-               .SetTitle(balloon.Id.ToString())
-               .SetIcon(redBalloon);
-                Marker marker = _map.AddMarker(optionsBalloon);
-                marker.HideInfoWindow();
-                _balloonMarkers.Add(marker);
-                Console.WriteLine(marker.Id);
-            }
-*/            // Then add marker for each near balloons
-            _locationLatLng = new LatLng(48.833086, 2.310655);
+            // Set user's location
+            _locationLatLng = new LatLng(_tmpLon, _tmpLat);
             //move the camera to the location of the user
             CameraUpdate camera = CameraUpdateFactory.NewLatLngZoom(_locationLatLng, 15);
             _map.MoveCamera(camera);
@@ -241,8 +255,16 @@ namespace wibo
             marker = markerClickEventArgs.Marker;
             UInt64.TryParse(marker.Title, out idBalloon);
             balloon = _nearbyBalloons.Find(x => x.Id == idBalloon);
+            _connection.SetGrab((long)idBalloon);
+            _connection._OnReceiveBalloon += (o, s) =>
+            {
+                balloon.Messages = s.Response.Messages;
+                ewh1.Set();
+            };
+            ewh1.WaitOne();
+            String jsonBalloon = JsonConvert.SerializeObject(balloon);
             balloon.Catched = true;
-            string jsonBalloon = JsonConvert.SerializeObject(balloon, Formatting.Indented);
+            //string jsonBalloon = JsonConvert.SerializeObject(balloon, Formatting.Indented);
             var seeAnswerableBalloonContentActivity = new Intent(this, typeof(SeeAnswerableBalloonContentActivity));
             seeAnswerableBalloonContentActivity.PutExtra("Balloon", jsonBalloon);
             StartActivityForResult(seeAnswerableBalloonContentActivity, 1);
@@ -336,6 +358,7 @@ namespace wibo
         private void createBalloonFragment_sendBalloon(object sender, SendBalloonEvent e)
         {
             //get datas from the balloon creation and send to server.
+            _connection.SetNewBalloon(_tmpLon, _tmpLat, e.TitleBalloon, e.MessageBalloon);
         }
 
         public void OnLocationChanged(Location location)

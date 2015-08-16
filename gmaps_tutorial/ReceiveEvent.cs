@@ -14,6 +14,22 @@ using Newtonsoft.Json;
 
 namespace wibo
 {  
+    public class OnReceiveFollowedListArgs : EventArgs
+    {
+        private List<Balloon> _response;
+
+        public List<Balloon> Response
+        {
+            get { return _response; }
+            set { _response = value; }
+        }
+
+        public OnReceiveFollowedListArgs(List<Balloon> followedList) : base ()
+        {
+            Response = followedList;
+        }
+    }
+
     public class OnReceiveBalloonListArgs : EventArgs
     {
         private List<Balloon> _response;

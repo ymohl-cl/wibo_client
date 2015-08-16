@@ -39,11 +39,12 @@ namespace wibo
 
         public event EventHandler<OnReceiveBalloonArgs> _OnReceiveBalloon;
         public event EventHandler<OnReceiveBalloonListArgs> _OnReceiveBalloonList;
+        public event EventHandler<OnReceiveFollowedListArgs> _OnReceiveFollowedList;
 
         // Default constructor
         public Connection()
         {
-            string ip = "82.245.153.246";
+            string ip = "176.182.102.21";
             int port = 8081;
             this._socket = new Socket(
                 AddressFamily.InterNetwork,
@@ -112,13 +113,31 @@ namespace wibo
         }
 
         // Prepare location request content
-        public bool SetLocation(double lon, double lat)
+        public void SetLocation(double lon, double lat, bool flag = false)
         {
-            ByteBuffer data = ByteBuffer.Allocate(16);
-            data.PutDouble(0, lon);
-            data.PutDouble(8, lat);
-
-            return AddToRequestList(3, data);
+            if (flag == true)
+            {
+                Console.WriteLine("Send unique location");
+                ByteBuffer data = ByteBuffer.Allocate(16);
+                data.PutDouble(0, lon);
+                data.PutDouble(8, lat);
+                if (AddToRequestList(3, data) == false)
+                {
+                    Console.WriteLine("AddToRequestList returned false");
+                }
+                return;
+            }
+            while (true)
+            {
+                ByteBuffer data = ByteBuffer.Allocate(16);
+                data.PutDouble(0, lon);
+                data.PutDouble(8, lat);
+                if (AddToRequestList(3, data) == false)
+                {
+                    Console.WriteLine("AddToRequestList returned false");
+                }
+                Thread.Sleep(300000);
+            }
         }
 
         // Prepare grab request content
@@ -249,21 +268,6 @@ namespace wibo
             return true;
         }
 
-        private void printRequest(byte[] request)
-        {
-            ByteBuffer buffer = ByteBuffer.Wrap(request);
-            short type = buffer.GetShort(2);
-            //Console.Write("Size : {0}\nType : {1}\nNbPackets : {2}\nID packet : {3}\n", buffer.GetShort(0), type, buffer.GetInt(8), buffer.GetInt(12));
-            switch (type)
-            {
-                case 3:
-                    Console.Write("Longitude : {0}\nLatitude : {1}\n", buffer.GetDouble(56), buffer.GetDouble(64));
-                    break;
-                default:
-                    break;
-            }
-        }
-
         // Send and receive algorithm between client and server
         public void StartLoop()
         {
@@ -274,7 +278,6 @@ namespace wibo
                     try
                     {
                         byte[] readArray = new byte[1024];
-                        printRequest(_requestList[0]);
                         Console.Write("sending : ");
                         for (int i = 0; i < 1024; i++)
                         {
@@ -284,7 +287,6 @@ namespace wibo
                         }
                         int bytesSent = this._socket.Send(_requestList[0]);
                         Console.WriteLine("{0} bytes sent.", bytesSent);
-//                        Thread.Sleep(5000);
                         int bytesReceived = this._socket.Receive(readArray);
                         Console.WriteLine("{0} bytes received.", bytesReceived);
                         Console.Write("received : ");
@@ -295,16 +297,10 @@ namespace wibo
                                 j++;
                             Console.Write(readArray[i]);
                         }
-/*                        if (j == 1024)
-                        {
-                            Console.WriteLine("previous packet was empty");
-                            int bReceived = this._socket.Receive(readArray);
-                            Console.WriteLine("{0} bytes received in new packet.", bReceived);
-                        }
-*/                        Console.Write("\n");
                         ParseResponse(ByteBuffer.Wrap(readArray));
-                        if (_requestList.Count > 0)
+                        if (_requestList.Count > 0) {
                             _requestList.RemoveAt(0);
+                        }
                     }
                     catch (Exception err)
                     {
@@ -442,6 +438,10 @@ namespace wibo
                     _followedList[j].Messages = _msgList;
                     _OnReceiveBalloon.Invoke(this, new OnReceiveBalloonArgs(_followedList[j]));
                 }
+                else if (_followedList != null && j == _followedList.Count)
+                {
+                    _OnReceiveFollowedList.Invoke(this, new OnReceiveFollowedListArgs(_followedList));
+                }
                 else
                 {
                     Console.WriteLine("Create balloon");
@@ -488,8 +488,8 @@ namespace wibo
                     null,
                     title,
                     (UInt64)buffer.GetLong(byteIndex),
-                    buffer.GetDouble(byteIndex + 32),
                     buffer.GetDouble(byteIndex + 24),
+                    buffer.GetDouble(byteIndex + 32),
                     false,
                     buffer.GetDouble(byteIndex + 48),
                     buffer.GetDouble(byteIndex + 40)));

@@ -1,1 +1,1 @@
-C:\Users\Fingalar\Documents\wibo_client\textBoxMessage\obj\Debug\assemblies\textBoxMessage.dll
+C:\Users\Patrick\Documents\wibo_client\textBoxMessage\obj\Debug\assemblies\textBoxMessage.dll

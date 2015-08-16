@@ -1,0 +1,13 @@
+C:\Users\Patrick\Documents\wibo_client\Wibo\bin\Debug\Wibo.dll
+C:\Users\Patrick\Documents\wibo_client\Wibo\bin\Debug\Wibo.pdb
+C:\Users\Patrick\Documents\wibo_client\Wibo\bin\Debug\Wibo.Wibo.apk
+C:\Users\Patrick\Documents\wibo_client\Wibo\bin\Debug\Wibo.Wibo-Signed.apk
+C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\Wibo.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\Wibo.dll
+C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\Wibo.pdb
+C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\android\bin\Wibo.Wibo.apk
+C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\res\layout\main.xml
+C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\res\values\strings.xml
+C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\res\drawable\icon.png
+C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\R.cs.flag
+C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\uploadflags.txt
