@@ -17,7 +17,6 @@ using Android.Locations;
 using Android.Util;
 using Android.Gms.Maps;
 using Android.Gms.Maps.Model;
-using Android.Gms.Location;
 using Android.Gms.Common;
 using Android.Gms.Common.Apis;
 using Newtonsoft.Json;
@@ -25,9 +24,9 @@ using Newtonsoft.Json;
 namespace wibo
 {
     [Activity(Label = "wibo", MainLauncher = true, Icon = "@drawable/icon", ScreenOrientation = ScreenOrientation.Portrait)]
-    public class MainActivity : Activity, IOnMapReadyCallback, IGoogleApiClientConnectionCallbacks, IGoogleApiClientOnConnectionFailedListener
+    public class MainActivity : Activity, IOnMapReadyCallback, ILocationListener
     {
-        //Merge Thibault
+        private LocationManager locMgr;
         private Connection _connection;
         private IGoogleApiClient apiClient;
         private GoogleMap _map;
@@ -54,7 +53,6 @@ namespace wibo
         //On create is called when the activity is created
         protected override void OnCreate(Bundle bundle)
         {
-            /* Coucou */
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
 
@@ -77,37 +75,37 @@ namespace wibo
             //Remplissage de la liste des ballons suivis.
             Console.WriteLine("Sync with server");
             _connection.SyncWithServer();
-/*
-            _testMessages.Add("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae est eu ante molestie aliquam ac at ligula. Nulla justo nisi, pharetra et facilisis ut, congue et felis. Cras commodo justo sed erat porttitor, at porta ligula euismod. Curabitur non molestie arcu.");
-            _testMessages.Add("Nulla sed luctus magna. Nulla diam nunc, scelerisque ac elementum eget, fermentum ut nulla. Cras vestibulum, sapien eu aliquam dignissim, sapien arcu luctus odio, eu rutrum elit sapien nec urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.");
-            _testMessages.Add(" Maecenas in sem ut nisl rhoncus rutrum. Fusce placerat neque iaculis, faucibus turpis quis, pretium arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut tincidunt, elit rhoncus maximus hendrerit, ex nunc finibus nunc, ut commodo libero diam non nulla. Quisque eu sollicitudin turpis, sed convallis nulla");
-            _testMessages.Add("Aliquam tempus, mauris venenatis facilisis venenatis, libero magna vulputate magna, in congue arcu sapien nec tellus. Sed in nibh et erat efficitur imperdiet. Aliquam efficitur tincidunt erat vitae pretium. ");
-            _testMessages.Add("Integer lorem enim, auctor at diam nec, consequat vulputate neque. Nullam eget accumsan quam. Mauris ultricies nisi sapien, finibus fermentum libero semper at. Aliquam sed consectetur leo. Donec egestas nisl quis est tempor, eget rhoncus nunc scelerisque. Nulla rhoncus ut eros sed accumsan. Proin nibh elit, iaculis nec dolor at, imperdiet feugiat elit. Donec blandit dolor ut sagittis aliquam.");
-            _testMessages.Add("Ut ut pharetra ante. Nullam mauris nulla, laoreet et volutpat vel, gravida sit amet massa. Integer purus enim, luctus eget ultrices sed, dictum id erat.");
-            _testMessages.Add(" Nulla laoreet justo risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus lacus velit, dapibus vel sollicitudin eu, fermentum eu ex. Donec ornare odio dui, eu aliquam arcu gravida quis. Maecenas sit amet enim a ligula vehicula gravida nec ultrices felis. ");
-            _testMessages.Add("Integer vitae arcu vel lectus interdum cursus vel sed ligula. Donec vel tellus vitae orci ultricies consectetur. Aenean tempus arcu vitae arcu faucibus tincidunt. Proin maximus ultrices mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec finibus, sapien nec commodo suscipit, nunc quam tempor ex, et iaculis lectus odio et tellus. Nunc non velit porta, maximus risus commodo, volutpat neque. ");
-            _testMessages.Add("Nunc molestie, lacus eget vulputate euismod, est augue tincidunt purus, nec bibendum ligula ipsum ut lectus. Aliquam ac mollis mi. In finibus auctor congue. Pellentesque lobortis nulla nec pellentesque viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.");
-            _testMessages.Add("Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus leo dui, imperdiet dictum neque tristique, sollicitudin tincidunt arcu. Phasellus cursus tristique urna id facilisis. Nullam ut elit ante. Suspendisse quis lacus eu quam dapibus pharetra a sit amet diam. ");
-            _testMessages.Add("In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus");
-            _testMessages.Add("Maecenas nec erat ac ligula iaculis fermentum. Aliquam venenatis mollis augue, ac mollis nisi suscipit id. Donec ut lobortis nunc, iaculis aliquam ante. Etiam maximus sagittis arcu, id pretium est imperdiet in. Vivamus ultricies urna quis vehicula imperdiet. Nulla lacus urna, pellentesque sed semper id, pulvinar at risus. Ut quis sem congue, pretium ante ac, ultrices massa. Sed eleifend laoreet orci, et varius sapien consectetur non. Aliquam tempus sollicitudin tempor. Donec tristique eros eu turpis porttitor tincidunt. ");
-*/
-
-           /* _nearbyBalloons.Add(new Balloon(_testMessages, "catched1", 88, 48.833086, 2.310655, false, 2.0, 35.6));
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched2", 82, 48.8628437, 2.3252016, false, 2.0, 35.6));
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched3", 83, 48.87840, 2.35408, false, 2.0, 35.6));
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched4", 14, 48.8873, 2.352, false, 2.0, 35.6));
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched5", 100, 48.84073, 2.3572, false, 2.0, 35.6));
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched6", 35, 48.878473, 2.3544, false, 2.0, 35.6));
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched7", 93, 48.87073, 2.372, false, 2.0, 35.6));
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched8", 52, 48.8768, 2.35, false, 2.0, 35.6));
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched9", 11, 48.8643, 2.40572, false, 2.0, 35.6));
-            _nearbyBalloons.Add(new Balloon(_testMessages, "catched10", 1, 48.8799, 2.3599, false, 2.0, 35.6));
+            /*
+                        _testMessages.Add("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae est eu ante molestie aliquam ac at ligula. Nulla justo nisi, pharetra et facilisis ut, congue et felis. Cras commodo justo sed erat porttitor, at porta ligula euismod. Curabitur non molestie arcu.");
+                        _testMessages.Add("Nulla sed luctus magna. Nulla diam nunc, scelerisque ac elementum eget, fermentum ut nulla. Cras vestibulum, sapien eu aliquam dignissim, sapien arcu luctus odio, eu rutrum elit sapien nec urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.");
+                        _testMessages.Add(" Maecenas in sem ut nisl rhoncus rutrum. Fusce placerat neque iaculis, faucibus turpis quis, pretium arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut tincidunt, elit rhoncus maximus hendrerit, ex nunc finibus nunc, ut commodo libero diam non nulla. Quisque eu sollicitudin turpis, sed convallis nulla");
+                        _testMessages.Add("Aliquam tempus, mauris venenatis facilisis venenatis, libero magna vulputate magna, in congue arcu sapien nec tellus. Sed in nibh et erat efficitur imperdiet. Aliquam efficitur tincidunt erat vitae pretium. ");
+                        _testMessages.Add("Integer lorem enim, auctor at diam nec, consequat vulputate neque. Nullam eget accumsan quam. Mauris ultricies nisi sapien, finibus fermentum libero semper at. Aliquam sed consectetur leo. Donec egestas nisl quis est tempor, eget rhoncus nunc scelerisque. Nulla rhoncus ut eros sed accumsan. Proin nibh elit, iaculis nec dolor at, imperdiet feugiat elit. Donec blandit dolor ut sagittis aliquam.");
+                        _testMessages.Add("Ut ut pharetra ante. Nullam mauris nulla, laoreet et volutpat vel, gravida sit amet massa. Integer purus enim, luctus eget ultrices sed, dictum id erat.");
+                        _testMessages.Add(" Nulla laoreet justo risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus lacus velit, dapibus vel sollicitudin eu, fermentum eu ex. Donec ornare odio dui, eu aliquam arcu gravida quis. Maecenas sit amet enim a ligula vehicula gravida nec ultrices felis. ");
+                        _testMessages.Add("Integer vitae arcu vel lectus interdum cursus vel sed ligula. Donec vel tellus vitae orci ultricies consectetur. Aenean tempus arcu vitae arcu faucibus tincidunt. Proin maximus ultrices mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec finibus, sapien nec commodo suscipit, nunc quam tempor ex, et iaculis lectus odio et tellus. Nunc non velit porta, maximus risus commodo, volutpat neque. ");
+                        _testMessages.Add("Nunc molestie, lacus eget vulputate euismod, est augue tincidunt purus, nec bibendum ligula ipsum ut lectus. Aliquam ac mollis mi. In finibus auctor congue. Pellentesque lobortis nulla nec pellentesque viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.");
+                        _testMessages.Add("Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus leo dui, imperdiet dictum neque tristique, sollicitudin tincidunt arcu. Phasellus cursus tristique urna id facilisis. Nullam ut elit ante. Suspendisse quis lacus eu quam dapibus pharetra a sit amet diam. ");
+                        _testMessages.Add("In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus");
+                        _testMessages.Add("Maecenas nec erat ac ligula iaculis fermentum. Aliquam venenatis mollis augue, ac mollis nisi suscipit id. Donec ut lobortis nunc, iaculis aliquam ante. Etiam maximus sagittis arcu, id pretium est imperdiet in. Vivamus ultricies urna quis vehicula imperdiet. Nulla lacus urna, pellentesque sed semper id, pulvinar at risus. Ut quis sem congue, pretium ante ac, ultrices massa. Sed eleifend laoreet orci, et varius sapien consectetur non. Aliquam tempus sollicitudin tempor. Donec tristique eros eu turpis porttitor tincidunt. ");
             */
+
+            /* _nearbyBalloons.Add(new Balloon(_testMessages, "catched1", 88, 48.833086, 2.310655, false, 2.0, 35.6));
+             _nearbyBalloons.Add(new Balloon(_testMessages, "catched2", 82, 48.8628437, 2.3252016, false, 2.0, 35.6));
+             _nearbyBalloons.Add(new Balloon(_testMessages, "catched3", 83, 48.87840, 2.35408, false, 2.0, 35.6));
+             _nearbyBalloons.Add(new Balloon(_testMessages, "catched4", 14, 48.8873, 2.352, false, 2.0, 35.6));
+             _nearbyBalloons.Add(new Balloon(_testMessages, "catched5", 100, 48.84073, 2.3572, false, 2.0, 35.6));
+             _nearbyBalloons.Add(new Balloon(_testMessages, "catched6", 35, 48.878473, 2.3544, false, 2.0, 35.6));
+             _nearbyBalloons.Add(new Balloon(_testMessages, "catched7", 93, 48.87073, 2.372, false, 2.0, 35.6));
+             _nearbyBalloons.Add(new Balloon(_testMessages, "catched8", 52, 48.8768, 2.35, false, 2.0, 35.6));
+             _nearbyBalloons.Add(new Balloon(_testMessages, "catched9", 11, 48.8643, 2.40572, false, 2.0, 35.6));
+             _nearbyBalloons.Add(new Balloon(_testMessages, "catched10", 1, 48.8799, 2.3599, false, 2.0, 35.6));
+             */
             /*
             _followedBalloons.Add(new Balloon(_testMessages, "test1", 88, 48.8784073, 2.3540572, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test2", 82, 48.8628437, 2.3252016, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test3", 83, 48.87840, 2.35408, true, 2.0, 35.6));
-            _followedBalloons.Add(new Balloon(_testMessages, "test4", 14, 48.8873, 2.352, true, 2.0, 35.6));
+           _followedBalloons.Add(new Balloon(_testMessages, "test4", 14, 48.8873, 2.352, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test5", 100, 48.84073, 2.3572, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test6", 35, 48.878473, 2.3544, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test7", 93, 48.87073, 2.372, true, 2.0, 35.6));
@@ -124,21 +122,13 @@ namespace wibo
             followedBalloonsMenuButton = FindViewById<Button>(Resource.Id.followedBalloonsMenuButton);
             followedBalloonsMenuButton.Click += followedBalloonsMenuButton_Click;
 
-            /*
-            _isGooglePlayServicesInstalled = IsGooglePlayServicesInstalled();  
-            if (_isGooglePlayServicesInstalled)
-            {
-                // pass in the Context, ConnectionListener and ConnectionFailedListener
-                apiClient = new GoogleApiClientBuilder(this, this, this)
-                    .AddApi(LocationServices.API).Build();
-            }
-            else
+            _isGooglePlayServicesInstalled = IsGooglePlayServicesInstalled();
+            if (!_isGooglePlayServicesInstalled)
             {
                 Log.Error("OnCreate", "Google Play Services is not installed");
                 Toast.MakeText(this, "Google Play Services is not installed", ToastLength.Long).Show();
                 Finish();
             }
-            */
         }
 
         private void moveBalloonsOnMap()
@@ -149,10 +139,13 @@ namespace wibo
         protected override void OnResume()
         {
             base.OnResume();
-            //send a request to re-get nearest balloons then add it to the map and display
             //Set up the map
             SetUpMap();
-            _connection.SetLocation(_tmpLon, _tmpLat, true);
+            var locationCriteria = new Criteria();
+            locationCriteria.Accuracy = Accuracy.Coarse;
+            locationCriteria.PowerRequirement = Power.Medium;
+            string locationProvider = locMgr.GetBestProvider(locationCriteria, true);
+            locMgr.RequestLocationUpdates(locationProvider, 2000, 1, this);
             //ThreadPool.QueueUserWorkItem(o => moveBalloonsOnMap());
             /*
             Log.Debug("OnResume", "OnResume called, connecting to client...");
@@ -282,29 +275,17 @@ namespace wibo
         protected override void OnDestroy()
         {
             base.OnDestroy();
-            /*
-            Log.Debug("OnDestroy", "OnDestroy called, stopping location update...");
-            if (apiClient.IsConnected)
-            {
-                apiClient.Disconnect();
-            }
-            */
         }
+
 
         //Is called when a new Activity starts and when the app is set to background
         protected override void OnPause()
         {
             base.OnPause();
-            /*
-            Log.Debug("OnPause", "OnPause called, stopping location updates");
-            if (apiClient.IsConnected)
-            {
-                apiClient.Disconnect();
-            }
-            */
+            locMgr.RemoveUpdates(this);
         }
 
-         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             UInt64 id;
             Boolean followed;
@@ -363,11 +344,6 @@ namespace wibo
             _connection.SetNewBalloon(_tmpLon, _tmpLat, e.TitleBalloon, e.MessageBalloon);
         }
 
-        public void OnLocationChanged(Location location)
-        {
-
-        }
-
         bool IsGooglePlayServicesInstalled()
         {
             int queryResult = GoogleApiAvailability.Instance.IsGooglePlayServicesAvailable(this);
@@ -387,46 +363,31 @@ namespace wibo
             return false;
         }
 
-        public View GetInfoWindow(Marker marker)
+        public void OnLocationChanged(Location location)
         {
-            return null;
-        }
-
-        public void OnConnected(Bundle bundle)
-        {
-            // This method is called when we connect to the LocationClient. We can start location updated directly form
-            // here if desired, or we can do it in a lifecycle method, as shown above
-            // You must implement this to implement the IGooglePlayServicesClientConnectionCallbacks Interface
-            Log.Info("LocationClient", "Now connected to client");
-            _currentLocation = LocationServices.FusedLocationApi.GetLastLocation(apiClient);
-            if (_currentLocation != null)
+            _locationLatLng.Latitude = location.Latitude;
+            _locationLatLng.Longitude = location.Longitude;
+            _connection.SetLocation(_locationLatLng.Longitude, _locationLatLng.Latitude, true);
+            if (_map != null)
             {
-                Log.Info("LocationClient", "Now find his location");
-                _locationLatLng = new LatLng(43, 2);
-                //move the camera to the location of the user
-                CameraUpdate camera = CameraUpdateFactory.NewLatLngZoom(_locationLatLng, 10);
+                CameraUpdate camera = CameraUpdateFactory.NewLatLngZoom(_locationLatLng, 15);
                 _map.MoveCamera(camera);
             }
         }
 
-        public void OnDisconnected()
+        public void OnProviderDisabled(string provider)
         {
-            // This method is called when we disconnect from the LocationClient.
-            // You must implement this to implement the IGooglePlayServicesClientConnectionCallbacks Interface
-            Log.Info("LocationClient", "Now disconnected from client");
+            Console.WriteLine("Provider Disabled");
         }
 
-        public void OnConnectionFailed(ConnectionResult bundle)
+        public void OnProviderEnabled(string provider)
         {
-            // This method is used to handle connection issues with the Google Play Services Client (LocationClient).
-            // You can check if the connection has a resolution (bundle.HasResolution) and attempt to resolve it
-            // You must implement this to implement the IGooglePlayServicesClientOnConnectionFailedListener Interface
-            Log.Info("LocationClient", "Connection failed, attempting to reach google play services");
+            Console.WriteLine("Provider Enabled");
         }
 
-        public void OnConnectionSuspended(int i)
+        public void OnStatusChanged(string provider, Availability status, Bundle extras)
         {
-
+            Console.WriteLine("Status for localisation changed");
         }
     }
 }
