@@ -44,7 +44,7 @@ namespace wibo
         // Default constructor
         public Connection()
         {
-            string ip = "176.182.102.21";
+            string ip = "195.154.164.215";
             int port = 8081;
             this._socket = new Socket(
                 AddressFamily.InterNetwork,
@@ -398,8 +398,14 @@ namespace wibo
 
         private void FillBalloon(ByteBuffer buffer)
         {
+            if (buffer.GetLong(12) == 0)
+            {
+                _lastMsgId = -1;
+            }
             long balloonId = buffer.GetLong(16);
             int firstId = buffer.GetInt(32);
+            Console.WriteLine("firstId = {0}", firstId);
+            Console.WriteLine("Last mesage id = {0}", _lastMsgId);
             if (firstId == 0)
             {
                 _msgList = new List<String>();
@@ -418,6 +424,7 @@ namespace wibo
                 buffer.Get(msgArray);
                 if (i == 0 && firstId == _lastMsgId)
                 {
+                    Console.WriteLine("msgList.Count = {0}", _msgList.Count);
                     _msgList[_msgList.Count - 1] += Encoding.UTF8.GetString(msgArray);
                 }
                 else

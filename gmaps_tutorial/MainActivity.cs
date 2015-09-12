@@ -23,7 +23,7 @@ using Newtonsoft.Json;
 
 namespace wibo
 {
-    [Activity(Label = "wibo", MainLauncher = true, Icon = "@drawable/icon", ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "wibo", MainLauncher = true, Icon = "@drawable/ic_launcher", ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : Activity, IOnMapReadyCallback, ILocationListener
     {
         private LocationManager locMgr;
@@ -139,14 +139,15 @@ namespace wibo
         protected override void OnResume()
         {
             base.OnResume();
+            _connection.SetLocation(_tmpLon, _tmpLat, true);
             //Set up the map
             SetUpMap();
-            var locationCriteria = new Criteria();
-            locationCriteria.Accuracy = Accuracy.Coarse;
-            locationCriteria.PowerRequirement = Power.Medium;
-            string locationProvider = locMgr.GetBestProvider(locationCriteria, true);
-            locMgr.RequestLocationUpdates(locationProvider, 2000, 1, this);
-            //ThreadPool.QueueUserWorkItem(o => moveBalloonsOnMap());
+//            var locationCriteria = new Criteria();
+//            locationCriteria.Accuracy = Accuracy.Coarse;
+//            locationCriteria.PowerRequirement = Power.Medium;
+//            string locationProvider = locMgr.GetBestProvider(locationCriteria, true);
+//            locMgr.RequestLocationUpdates(locationProvider, 2000, 1, this);
+            ThreadPool.QueueUserWorkItem(o => moveBalloonsOnMap());
             /*
             Log.Debug("OnResume", "OnResume called, connecting to client...");
             if (!apiClient.IsConnected)
@@ -188,6 +189,7 @@ namespace wibo
             _map.MarkerClick += MapOnMarkerClick;
 
             //Send a request to retrieve nearby balloons
+            Console.WriteLine("In OnMapReady.");
             ThreadPool.QueueUserWorkItem(o => _connection.SetLocation(_tmpLon, _tmpLat));
             _connection._OnReceiveBalloonList += (o, s) =>
             {
@@ -212,6 +214,7 @@ namespace wibo
                     });
                 }
             };
+
             // Set user's location
             _locationLatLng = new LatLng(_tmpLon, _tmpLat);
             //move the camera to the location of the user
@@ -282,7 +285,7 @@ namespace wibo
         protected override void OnPause()
         {
             base.OnPause();
-            locMgr.RemoveUpdates(this);
+//            locMgr.RemoveUpdates(this);
         }
 
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)

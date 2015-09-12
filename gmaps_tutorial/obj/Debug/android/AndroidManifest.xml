@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="wibo.wibo" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
   <application android:label="wibo" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:debuggable="true">
     <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
@@ -8,7 +8,7 @@
     <activity android:label="SeeAnswerableBalloonContentActivity" android:screenOrientation="portrait" android:name="md5268da1b63d5033155590eff0956b3b1d.SeeAnswerableBalloonContentActivity" />
     <activity android:label="MenuFollowedBalloonActivity" android:screenOrientation="portrait" android:name="md5268da1b63d5033155590eff0956b3b1d.MenuFollowedBalloonActivity" />
     <activity android:label="SeeBalloonContentActivity" android:screenOrientation="portrait" android:name="md5268da1b63d5033155590eff0956b3b1d.SeeBalloonContentActivity" />
-    <activity android:icon="@drawable/icon" android:label="wibo" android:screenOrientation="portrait" android:name="md5268da1b63d5033155590eff0956b3b1d.MainActivity">
+    <activity android:icon="@drawable/ic_launcher" android:label="wibo" android:screenOrientation="portrait" android:name="md5268da1b63d5033155590eff0956b3b1d.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

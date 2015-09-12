@@ -72,8 +72,9 @@
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\Wibo\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="OsmdroidAndroidBinding">
       <HintPath>..\..\Wibo\Components\osmdroid-android-binding-4.2\lib\android\OsmdroidAndroidBinding.dll</HintPath>
@@ -170,25 +171,23 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\messageBalloonDialogFragment.axml">
+    <AndroidResource Include="Resources\layout\contentAnswerableBalloon.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\contentBalloon.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\menuFollowedBalloon.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\contentAnswerableBalloon.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\loadingPage.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
       <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\menuFollowedBalloon.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\messageBalloonDialogFragment.axml">
+      <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
@@ -197,16 +196,13 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <XamarinComponentReference Include="googleplayservices">
       <Visible>False</Visible>
       <Version>25.0.0.0</Version>
     </XamarinComponentReference>
     <XamarinComponentReference Include="json.net">
       <Visible>False</Visible>
-      <Version>6.0.8.1</Version>
+      <Version>7.0.1</Version>
     </XamarinComponentReference>
     <XamarinComponentReference Include="osmdroid-android-binding">
       <Visible>False</Visible>
@@ -217,38 +213,250 @@
     <Content Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
     </Content>
-    <AndroidResource Include="Resources\drawable\redBalloon.png" />
-    <AndroidResource Include="Resources\drawable\edit_text_balloon_style.xml" />
     <AndroidResource Include="Resources\anim\slideBot.xml" />
     <AndroidResource Include="Resources\anim\SlideTop.xml" />
     <AndroidResource Include="Resources\values\styles.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\ballon_de_base_centre_map_grand.png" />
-    <AndroidResource Include="Resources\drawable\ballon_de_base_cote_map_petit.png" />
-    <AndroidResource Include="Resources\drawable\ballon_sans_queue_pour_gonflement_petit_taille_de_base.png" />
-    <AndroidResource Include="Resources\drawable\ballon_sans_queue_pour_gonflement_petit_taille_plus_grande.png" />
-    <AndroidResource Include="Resources\drawable\bouton_avec_plus.png" />
-    <AndroidResource Include="Resources\drawable\bouton_sans_plus.png" />
-    <AndroidResource Include="Resources\drawable\background_gradient_avec_trou.png" />
-    <AndroidResource Include="Resources\drawable\wibo_accueil.jpg" />
-    <AndroidResource Include="Resources\drawable\nuage1.png" />
-    <AndroidResource Include="Resources\drawable\nuage2.png" />
-    <AndroidResource Include="Resources\drawable\nuage5.png" />
-    <AndroidResource Include="Resources\drawable\titleFollowedBalloonShape.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\background_gradient_page_chargement.png" />
-    <AndroidResource Include="Resources\drawable\background_gradient_page_interne.png" />
-    <AndroidResource Include="Resources\drawable\background_origami.png" />
-    <AndroidResource Include="Resources\drawable\backround_gradient_avec_trou.png" />
-    <AndroidResource Include="Resources\drawable\cercle_blanc_contours_bleu.png" />
-    <AndroidResource Include="Resources\drawable\petit_gradient_pour_page_message.png" />
-    <AndroidResource Include="Resources\drawable\backgroundInternPagesLayerList.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\background_blanc.png" />
-    <AndroidResource Include="Resources\drawable\titleCatchedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\background_blanc.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\background_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\background_gradient_page_chargement.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\background_gradient_page_interne.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\background_origami.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\backgroundInternPagesLayerList.xml" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\backround_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\ballon_de_base_centre_map_grand.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\ballon_sans_queue_pour_gonflement_petit_taille_de_base.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\ballon_sans_queue_pour_gonflement_petit_taille_plus_grande.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\bouton_sans_plus.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\cercle_blanc_contours_bleu.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\edit_text_balloon_style.xml" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\nuage1.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\nuage2.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\nuage5.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\petit_gradient_pour_page_message.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\redBalloon.png" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\titleCatchedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\titleFollowedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-large-hdpi\wibo_accueil.jpg" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\background_blanc.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\background_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\background_gradient_page_chargement.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\background_gradient_page_interne.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\background_origami.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\backgroundInternPagesLayerList.xml" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\backround_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\ballon_de_base_centre_map_grand.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\ballon_sans_queue_pour_gonflement_petit_taille_de_base.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\ballon_sans_queue_pour_gonflement_petit_taille_plus_grande.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\bouton_sans_plus.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\cercle_blanc_contours_bleu.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\edit_text_balloon_style.xml" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\nuage1.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\nuage2.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\nuage5.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\petit_gradient_pour_page_message.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\redBalloon.png" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\titleCatchedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\titleFollowedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-large-mdpi\wibo_accueil.jpg" />
+    <AndroidResource Include="Resources\drawable-large-xhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-large-xhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-large-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-large-xxhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-large-xxhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-large-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-large-xxxhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-large-xxxhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-large-xxxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\background_blanc.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\background_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\background_gradient_page_chargement.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\background_gradient_page_interne.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\background_origami.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\backgroundInternPagesLayerList.xml" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\backround_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\ballon_de_base_centre_map_grand.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\ballon_sans_queue_pour_gonflement_petit_taille_de_base.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\ballon_sans_queue_pour_gonflement_petit_taille_plus_grande.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\bouton_sans_plus.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\cercle_blanc_contours_bleu.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\edit_text_balloon_style.xml" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\nuage1.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\nuage2.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\nuage5.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\petit_gradient_pour_page_message.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\redBalloon.png" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\titleCatchedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\titleFollowedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-normal-hdpi\wibo_accueil.jpg" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\background_blanc.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\background_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\background_gradient_page_chargement.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\background_gradient_page_interne.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\background_origami.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\backgroundInternPagesLayerList.xml" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\backround_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\ballon_de_base_centre_map_grand.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\ballon_sans_queue_pour_gonflement_petit_taille_de_base.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\ballon_sans_queue_pour_gonflement_petit_taille_plus_grande.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\bouton_sans_plus.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\cercle_blanc_contours_bleu.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\edit_text_balloon_style.xml" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\nuage1.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\nuage2.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\nuage5.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\petit_gradient_pour_page_message.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\redBalloon.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\titleCatchedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\titleFollowedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\wibo_accueil.jpg" />
+    <AndroidResource Include="Resources\drawable-normal-xhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-normal-xhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-normal-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-normal-xxhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-normal-xxhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-normal-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-normal-xxxhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-normal-xxxhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-normal-xxxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\background_blanc.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\background_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\background_gradient_page_chargement.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\background_gradient_page_interne.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\background_origami.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\backgroundInternPagesLayerList.xml" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\backround_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\ballon_de_base_centre_map_grand.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\ballon_sans_queue_pour_gonflement_petit_taille_de_base.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\ballon_sans_queue_pour_gonflement_petit_taille_plus_grande.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\bouton_sans_plus.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\cercle_blanc_contours_bleu.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\edit_text_balloon_style.xml" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\nuage1.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\nuage2.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\nuage5.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\petit_gradient_pour_page_message.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\redBalloon.png" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\titleCatchedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\titleFollowedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-small-hdpi\wibo_accueil.jpg" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\background_blanc.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\background_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\background_gradient_page_chargement.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\background_gradient_page_interne.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\background_origami.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\backgroundInternPagesLayerList.xml" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\backround_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\ballon_de_base_centre_map_grand.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\ballon_sans_queue_pour_gonflement_petit_taille_de_base.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\ballon_sans_queue_pour_gonflement_petit_taille_plus_grande.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\bouton_sans_plus.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\cercle_blanc_contours_bleu.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\edit_text_balloon_style.xml" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\nuage1.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\nuage2.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\nuage5.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\petit_gradient_pour_page_message.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\redBalloon.png" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\titleCatchedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\titleFollowedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-small-mdpi\wibo_accueil.jpg" />
+    <AndroidResource Include="Resources\drawable-small-xhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-small-xhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-small-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-small-xxhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-small-xxhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-small-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-small-xxxhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-small-xxxhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-small-xxxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\background_blanc.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\background_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\background_gradient_page_chargement.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\background_gradient_page_interne.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\background_origami.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\backgroundInternPagesLayerList.xml" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\backround_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\ballon_de_base_centre_map_grand.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\ballon_sans_queue_pour_gonflement_petit_taille_de_base.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\ballon_sans_queue_pour_gonflement_petit_taille_plus_grande.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\bouton_sans_plus.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\cercle_blanc_contours_bleu.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\edit_text_balloon_style.xml" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\nuage1.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\nuage2.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\nuage5.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\petit_gradient_pour_page_message.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\redBalloon.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\titleCatchedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\titleFollowedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-xlarge-hdpi\wibo_accueil.jpg" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\background_blanc.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\background_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\background_gradient_page_chargement.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\background_gradient_page_interne.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\background_origami.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\backgroundInternPagesLayerList.xml" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\backround_gradient_avec_trou.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\ballon_de_base_centre_map_grand.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\ballon_sans_queue_pour_gonflement_petit_taille_de_base.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\ballon_sans_queue_pour_gonflement_petit_taille_plus_grande.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\bouton_sans_plus.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\cercle_blanc_contours_bleu.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\edit_text_balloon_style.xml" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\nuage1.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\nuage2.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\nuage5.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\petit_gradient_pour_page_message.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\redBalloon.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\titleCatchedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\titleFollowedBalloonShape.xml" />
+    <AndroidResource Include="Resources\drawable-xlarge-mdpi\wibo_accueil.jpg" />
+    <AndroidResource Include="Resources\drawable-xlarge-xhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-xhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-xxhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-xxhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-xxxhdpi\ballon_de_base_cote_map_petit.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-xxxhdpi\bouton_avec_plus.png" />
+    <AndroidResource Include="Resources\drawable-xlarge-xxxhdpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\layout\NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
