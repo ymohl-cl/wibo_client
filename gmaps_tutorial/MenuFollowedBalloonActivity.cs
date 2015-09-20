@@ -12,106 +12,208 @@ using Android.Widget;
 using Android.Content.PM;
 using Newtonsoft.Json;
 
-
 namespace wibo
 {
-    [Activity(Label = "MenuFollowedBalloonActivity", MainLauncher = false, ScreenOrientation = ScreenOrientation.Portrait)]
-    public class MenuFollowedBalloonActivity : Activity
+	[Activity(Label = "MenuFollowedBalloonActivity", MainLauncher = false, ScreenOrientation = ScreenOrientation.Portrait, Theme="@style/MyTheme")]
+	public class MenuFollowedBalloonActivity : Activity
     {
         private List<Balloon> _followedBalloons;
         private List<Balloon> _catchedBalloons;
-        private ScrollView _scrollView;
-        private LinearLayout _layout;
+		private LinearLayout _menuFollowedBalloonTabs;
+		private FrameLayout _followedBalloonsTab;
+		private FrameLayout _catchedBalloonsTab;
+		private int _numTab;
+		private ListBalloonFragment _followedBalloonsFragment;
+		private ListBalloonFragment _catchedBalloonsFragment;
+		private TabMenuFollowedFragment _followedTabFocusFragment;
+		private TabMenuFollowedFragment _followedTabUnfocusFragment;
+		private TabMenuFollowedFragment _catchedTabFocusFragment;
+		private TabMenuFollowedFragment _catchedTabUnfocusFragment;
+		private string jsonCatchedBalloons;
+		private string jsonFollowedBalloons;
+		private const int CATCHED = 0;
+		private const int FOLLOW = 1;
+		private const int FOCUS = 0;
+		private const int UNFOCUS = 1;
 
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(savedInstanceState);
-            //get all serialized followed balloons and non-resend balloons
-            string jsonFolloweBalloons = Intent.GetStringExtra("Followed Balloons");
-            string jsonCatchedBalloons = Intent.GetStringExtra("Catched Balloons");
+            base.OnCreate(bundle);
+			SetContentView(Resource.Layout.menuFollowedBalloon);
+			//get all serialized followed balloons and non-resend balloons
+            jsonFollowedBalloons = Intent.GetStringExtra("Followed Balloons");
+            jsonCatchedBalloons = Intent.GetStringExtra("Catched Balloons");
             //then deserialize to retrieve them
-            _followedBalloons = JsonConvert.DeserializeObject<List<Balloon>>(jsonFolloweBalloons);
+            _followedBalloons = JsonConvert.DeserializeObject<List<Balloon>>(jsonFollowedBalloons);
             _catchedBalloons = JsonConvert.DeserializeObject<List<Balloon>>(jsonCatchedBalloons);
+
+			_catchedBalloonsTab = FindViewById<FrameLayout> (Resource.Id.catchedBalloonTab);
+			_followedBalloonsTab = FindViewById<FrameLayout> (Resource.Id.followedBalloonTab);
+
+			_followedBalloonsTab.Click += _followedBalloonsTab_Click;
+			_catchedBalloonsTab.Click += _catchedBalloonsTab_Click;;
+
+			_catchedBalloonsFragment = new ListBalloonFragment ();
+			_followedBalloonsFragment = new ListBalloonFragment();
+
+			CreateListFragment (jsonCatchedBalloons, _catchedBalloonsFragment, CATCHED);
+			CreateListFragment (jsonFollowedBalloons, _followedBalloonsFragment, FOLLOW);
+
+			_catchedTabFocusFragment = new TabMenuFollowedFragment ();
+			_catchedTabUnfocusFragment = new TabMenuFollowedFragment ();
+			_followedTabFocusFragment = new TabMenuFollowedFragment ();
+			_followedTabUnfocusFragment = new TabMenuFollowedFragment ();
+
+			CreateTabFragment (_catchedTabFocusFragment, FOCUS, CATCHED);
+			CreateTabFragment(_catchedTabUnfocusFragment, UNFOCUS, CATCHED);
+			CreateTabFragment(_followedTabFocusFragment, FOCUS, FOLLOW);
+			CreateTabFragment(_followedTabUnfocusFragment, UNFOCUS, FOLLOW);
+
         }
 
+        void _catchedBalloonsTab_Click (object sender, EventArgs e)
+        {
+			if (_numTab == FOLLOW)
+			{
+				ShowListFragment (CATCHED);
+				ShowTabFragment (CATCHED, FOCUS);
+				ShowTabFragment (FOLLOW, UNFOCUS);
+			}
+        }
+
+        void _followedBalloonsTab_Click (object sender, EventArgs e)
+        {
+			if (_numTab == CATCHED)
+			{
+				ShowListFragment (FOLLOW);
+				ShowTabFragment (CATCHED, UNFOCUS);
+				ShowTabFragment (FOLLOW, FOCUS);
+			}
+        }
+			
         //Is called after On ActivityResult so we can update the list if there were any changes in thez followed and catched balloons
         protected override void OnResume()
         {
             base.OnResume();
-            Console.WriteLine("OnResume Called");
-            SetContentView(Resource.Layout.menuFollowedBalloon);
-            _scrollView = FindViewById<ScrollView>(Resource.Id.titleBalloonList);
-            _layout = FindViewById<LinearLayout>(Resource.Id.listLayout);
-            //Check if there is any balloon to display
-            if (_followedBalloons == null && _catchedBalloons == null)
-            {
-                TextView noBalloons;
 
-                noBalloons = new TextView(this);
-                noBalloons.Text = "Vous n'avez aucun ballons suivis ni de ballons ‡ renvoyer";
-                _layout.AddView(noBalloons);
-            }
-            else
-            {
-                //First display the catchedBalloons if there is any
-                if (_catchedBalloons.Count != 0)
-                {
-                    AddTextViewFromBalloons(_catchedBalloons, 0);
-                }
-                //Then display the followed Balloons if there is any
-                if (_followedBalloons.Count != 0)
-                {
-                    AddTextViewFromBalloons(_followedBalloons, 1);
-                }
-            }
-        }
+			if (_catchedBalloons.Count > 0)
+			{
+				Console.WriteLine ("Catched first show");
+				ShowTabFragment (CATCHED, FOCUS);
+				ShowTabFragment (FOLLOW, UNFOCUS);
+				_numTab = CATCHED;
+				ShowListFragment (CATCHED);
+			} 
+			else 
+			{
+				Console.WriteLine ("Followed first show");
+				ShowTabFragment (CATCHED, UNFOCUS);
+				ShowTabFragment (FOLLOW, FOCUS);
+				_numTab = FOLLOW;
+				ShowListFragment (FOLLOW);
+			}
+			Console.WriteLine ("End onResume menu");
+		}
 
-        private void AddTextViewFromBalloons(List<Balloon> balloons, int type)
-        {
-            ContextThemeWrapper newContext;
+		private void ShowListFragment(int type)
+		{
+			var ft = FragmentManager.BeginTransaction();
+			_numTab = type;
+			if (type == CATCHED)
+			{
+				if (_catchedBalloonsFragment.IsVisible)
+					return ;
+				_catchedBalloonsFragment.View.BringToFront ();
+				ft.Hide (_followedBalloonsFragment);
+				ft.Show (_catchedBalloonsFragment);
+			}
+			if (type == FOLLOW) 
+			{
+				if (_followedBalloonsFragment.IsVisible)
+					return ;
+				_followedBalloonsFragment.View.BringToFront ();
+				ft.Hide (_catchedBalloonsFragment);
+				ft.Show(_followedBalloonsFragment);
+			}
+			ft.AddToBackStack(null);
+			ft.Commit ();
+		}
 
-            foreach (Balloon balloon in balloons)
-            {
-                if (type == 0)
-                {
-                   newContext = new ContextThemeWrapper(this, Resource.Style.titleCatchedBalloonTextViewStyle);
-                }
-                else
-                {
-                    newContext = new ContextThemeWrapper(this, Resource.Style.titleFollowedBalloonTextViewStyle);
-                }
-                TextView balloonTextView = new TextView(newContext);
-                LinearLayout.LayoutParams newLayoutParameters = new LinearLayout.LayoutParams(_layout.LayoutParameters);
-                newLayoutParameters.SetMargins(16, 4, 16, 4);
-                newLayoutParameters.Height = 96;
-                balloonTextView.LayoutParameters = newLayoutParameters;
-                balloonTextView.Text = balloon.Title;
-                balloonTextView.Click += (send, e) =>
-                {
-                    if (type == 0)
-                    {
-                        var seeAnswerableBalloonContentActivity = new Intent(this, typeof(SeeAnswerableBalloonContentActivity));
-                        //Serialize balloon to send it through Activities using the Intent class
-                        string balloonJson = JsonConvert.SerializeObject(balloon);
-                        //Send the clicked balloon
-                        seeAnswerableBalloonContentActivity.PutExtra("Balloon", balloonJson);
-                        //Wait for result to know if the balloon has been resend and/or followed
-                        StartActivityForResult(seeAnswerableBalloonContentActivity, 2);
-                    }
-                    else if (type == 1)
-                    {
-                        var seeBalloonContentActivity = new Intent(this, typeof(SeeBalloonContentActivity));
-                        //Serialize balloon to send it through Activities using the Intent class
-                        string balloonJson = JsonConvert.SerializeObject(balloon);
-                        //Send the clicked balloon
-                        seeBalloonContentActivity.PutExtra("Balloon", balloonJson);
-                        //Wait for result to know if the balloon has been resend and/or followed
-                        StartActivityForResult(seeBalloonContentActivity, 1);
-                    }
-                };
-                _layout.AddView(balloonTextView);
-            }
-        }
+		private void ShowTabFragment(int type, int state)
+		{
+			var ft = FragmentManager.BeginTransaction();
+			if (type == CATCHED)
+			{
+				if (state == FOCUS)
+				{
+					if (_catchedTabFocusFragment.IsVisible)
+						return;
+					Console.WriteLine ("Tab catched focus");
+					_catchedTabFocusFragment.View.BringToFront ();
+					ft.Hide (_catchedTabUnfocusFragment);
+					ft.Show (_catchedTabFocusFragment);
+				}
+				else
+				{
+					if (_catchedTabUnfocusFragment.IsVisible)
+						return;
+					Console.WriteLine ("Tab catched unfocus");
+					_catchedTabUnfocusFragment.View.BringToFront ();
+					ft.Hide (_catchedTabFocusFragment);
+					ft.Show (_catchedTabUnfocusFragment);
+				}
+			}
+			if (type == FOLLOW) 
+			{
+				if (state == FOCUS)
+				{
+					if (_followedTabFocusFragment.IsVisible)
+						return;
+					Console.WriteLine ("Tab follow focus");
+					_followedTabFocusFragment.View.BringToFront ();
+					ft.Hide (_followedTabUnfocusFragment);
+					ft.Show (_followedTabFocusFragment);
+				}
+				else
+				{
+					if (_followedTabUnfocusFragment.IsVisible)
+						return;
+					Console.WriteLine ("Tab follow unfocus");
+					_followedTabUnfocusFragment.View.BringToFront ();
+					ft.Hide (_followedTabFocusFragment);
+					ft.Show (_followedTabUnfocusFragment);
+				}
+			}
+			ft.AddToBackStack(null);
+			ft.Commit ();
+		}
+
+		private void CreateListFragment(string jsonBalloonsList, Fragment fragment, int type)
+		{
+			Bundle args = new Bundle ();
+			var ft = FragmentManager.BeginTransaction ();
+			args.PutString ("listBalloons", jsonBalloonsList);
+			args.PutInt ("typeBalloons", type);
+			fragment.Arguments = args;
+			ft.Add (Resource.Id.fragmentContainer, fragment);
+			ft.Hide (fragment);
+			ft.Commit ();
+		}
+
+		private void CreateTabFragment (Fragment fragment, int state, int type)
+		{
+			Bundle args = new Bundle();
+			var ft = FragmentManager.BeginTransaction ();
+			args.PutInt ("state", state);
+			args.PutInt ("type", type);
+			fragment.Arguments = args;
+			if (type == CATCHED)
+				ft.Add (Resource.Id.catchedBalloonTab, fragment);
+			else
+				ft.Add(Resource.Id.followedBalloonTab, fragment);
+			ft.Hide (fragment);
+			ft.Commit ();
+		}
 
         public override void OnBackPressed()
         {
@@ -127,57 +229,75 @@ namespace wibo
 
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
-            UInt64 id;
+            Int64 id;
+            Int64 type;
             Boolean followed;
             Boolean catched;
+            Balloon balloon;
+			Boolean followedListUpdated;
+			Boolean catchedListUpdated;
 
+			followedListUpdated = false;
+			catchedListUpdated = false;
             Console.WriteLine("OnActivityResult called, resultCode :{0}, requestCode :{1}", resultCode, requestCode);
-            //Return value from a followed balloon activity
+            //Return value a balloon content activity
             if (requestCode == 1)
             {
                 if (data.HasExtra("balloonId"))
                 {
-                    UInt64.TryParse(data.GetStringExtra("balloonId"), out id);
-                    Boolean.TryParse(data.GetStringExtra("followed"), out followed);
-                    Balloon balloon = _followedBalloons.Find(x => x.Id == id);
-                    if (followed == false)
+                    type = data.GetIntExtra("type", -1);
+                    id = data.GetLongExtra("balloonId", -1);
+                    followed = data.GetBooleanExtra("followed", false);
+                    catched = data.GetBooleanExtra("resend", true);
+                    if (type == CATCHED)
                     {
-                        _followedBalloons.Remove(balloon);
+                        balloon = _catchedBalloons.Find(x => x.Id == (UInt64)id);
                     }
-                }
-            }
-            //Return value from a
-            if (requestCode == 2)
-            {
-                if (data.HasExtra("balloonId"))
-                {
-                    UInt64.TryParse(data.GetStringExtra("balloonId"), out id);
-                    Boolean.TryParse(data.GetStringExtra("followed"), out followed);
-                    Boolean.TryParse(data.GetStringExtra("resend"), out catched);
-                    Balloon balloon = _catchedBalloons.Find(x => x.Id == id);
+                    else
+                    {
+                        balloon = _followedBalloons.Find(x => x.Id == (UInt64)id);
+                    }
                     balloon.Followed = followed;
-                    if (data.HasExtra("message"))
+                    balloon.Catched = catched;
+                    if (type == CATCHED)
                     {
-                        balloon.Messages.Add(data.GetStringExtra("message"));
-                    }
-                    Console.WriteLine(catched);
-                    Console.WriteLine(followed);
-                    if (followed && !catched)
-                    {
-                        if (balloon != null)
+                        if (!catched)
                         {
-                            _followedBalloons.Add(balloon);
                             _catchedBalloons.Remove(balloon);
+							catchedListUpdated = true;
+							if (followed) 
+							{
+								_followedBalloons.Add (balloon);
+								followedListUpdated = true;
+							}
                         }
                     }
-                    else if (!catched)
+                    if (type == FOLLOW)
                     {
-                        if (balloon != null)
+                        if (!followed)
                         {
-                            _catchedBalloons.Remove(balloon);
+							followedListUpdated = true;
+                            _followedBalloons.Remove(balloon);
                         }
                     }
                 }
+				//Mettre a jour les listes et les fragments associ√©s
+				if (catchedListUpdated == true) 
+				{
+					jsonCatchedBalloons = JsonConvert.SerializeObject (_catchedBalloons);
+					var ft = FragmentManager.BeginTransaction ();
+					ft.Remove (_catchedBalloonsFragment);
+					_catchedBalloonsFragment = new ListBalloonFragment ();
+					CreateListFragment (jsonCatchedBalloons, _catchedBalloonsFragment, CATCHED); 
+				}
+				if (followedListUpdated == true)
+				{
+					var ft = FragmentManager.BeginTransaction ();
+					jsonFollowedBalloons = JsonConvert.SerializeObject (_followedBalloons);
+					ft.Remove (_followedBalloonsFragment);
+					_followedBalloonsFragment = new ListBalloonFragment ();
+					CreateListFragment (jsonCatchedBalloons, _followedBalloonsFragment, FOLLOW); 
+				}
             }
         }
     }

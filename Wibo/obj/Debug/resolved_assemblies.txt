@@ -1,1 +1,7 @@
-C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\assemblies\Wibo.dll
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\assemblies\Wibo.dll
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\assemblies\System.Core.dll
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\assemblies\System.dll
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\assemblies\System.Xml.dll
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\assemblies\System.Xml.Linq.dll

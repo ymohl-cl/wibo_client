@@ -11,3 +11,15 @@ C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\res\values\strings.xml
 C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\res\drawable\icon.png
 C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\R.cs.flag
 C:\Users\Patrick\Documents\wibo_client\Wibo\obj\Debug\uploadflags.txt
+C:\Users\Fingalar\Documents\Wibo\Wibo\bin\Debug\Wibo.dll
+C:\Users\Fingalar\Documents\Wibo\Wibo\bin\Debug\Wibo.pdb
+C:\Users\Fingalar\Documents\Wibo\Wibo\bin\Debug\Wibo.Wibo.apk
+C:\Users\Fingalar\Documents\Wibo\Wibo\bin\Debug\Wibo.Wibo-Signed.apk
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\Wibo.dll
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\Wibo.pdb
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\android\bin\Wibo.Wibo.apk
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\res\layout\main.xml
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\res\values\strings.xml
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\res\drawable\icon.png
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\R.cs.flag
+C:\Users\Fingalar\Documents\Wibo\Wibo\obj\Debug\uploadflags.txt

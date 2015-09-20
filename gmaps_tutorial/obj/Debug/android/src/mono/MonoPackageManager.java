@@ -82,7 +82,6 @@ class MonoPackageManager_Resources {
 		"wibo.dll",
 		"GooglePlayServicesLib.dll",
 		"Newtonsoft.Json.dll",
-		"OsmdroidAndroidBinding.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
 		"Xamarin.Android.Support.v7.MediaRouter.dll",
@@ -109,5 +108,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_21";
+	public static final String ApiPackageName = null;
 }

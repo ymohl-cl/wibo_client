@@ -1,0 +1,28 @@
+﻿<Properties StartupItem="gmaps_tutorial\gmaps_tutorial.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.8e9a7777" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="D:\Developpement\Wibo\gmaps_tutorial\gmaps_tutorial.csproj.user">
+    <Files>
+      <File FileName="gmaps_tutorial\SeeBalloonContentActivity.cs" Line="1" Column="1" />
+      <File FileName="gmaps_tutorial\TabBalloonFragment.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets" Line="721" Column="37" />
+      <File FileName="gmaps_tutorial\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="gmaps_tutorial\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="gmaps_tutorial\Resources\values\Strings.xml" Line="1" Column="1" />
+      <File FileName="gmaps_tutorial\obj\Debug\resourcecache\882471F0CA05069E1EBDC221D636B056\res\values\maps_attrs.xml" Line="1" Column="1" />
+      <File FileName="..\..\..\..\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" Line="1" Column="1" />
+      <File FileName="gmaps_tutorial\packages.config" Line="1" Column="1" />
+      <File FileName="D:\Developpement\Wibo\gmaps_tutorial\gmaps_tutorial.csproj.user" Line="1" Column="1" />
+      <File FileName="gmaps_tutorial\MenuFollowedBalloonActivity.cs" Line="24" Column="22" NotebookId="1" />
+      <File FileName="gmaps_tutorial\TabMenuFollowedFragment.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="gmaps_tutorial\Resources\drawable-normal-mdpi\menuFollowedBalloonTabFocused.xml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="gmaps_tutorial\Resources\drawable-normal-mdpi\menuFollowedBalloonTabUnfocused.xml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="gmaps_tutorial\LoadingPage.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="gmaps_tutorial\ListBalloonFragment.cs" Line="1" Column="1" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.gmaps__tutorial AndroidDesignerPreferredDevice="Galaxy Nexus" />
+</Properties>

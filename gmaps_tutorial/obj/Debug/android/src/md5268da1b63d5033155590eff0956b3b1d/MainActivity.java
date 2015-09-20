@@ -16,6 +16,7 @@ public class MainActivity
 			"n_onDestroy:()V:GetOnDestroyHandler\n" +
 			"n_onPause:()V:GetOnPauseHandler\n" +
 			"n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler\n" +
+			"n_onBackPressed:()V:GetOnBackPressedHandler\n" +
 			"n_onMapReady:(Lcom/google/android/gms/maps/GoogleMap;)V:GetOnMapReady_Lcom_google_android_gms_maps_GoogleMap_Handler:Android.Gms.Maps.IOnMapReadyCallbackInvoker, Xamarin.GooglePlayServices.Maps\n" +
 			"n_onLocationChanged:(Landroid/location/Location;)V:GetOnLocationChanged_Landroid_location_Location_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_onProviderDisabled:(Ljava/lang/String;)V:GetOnProviderDisabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
@@ -72,6 +73,14 @@ public class MainActivity
 	}
 
 	private native void n_onActivityResult (int p0, int p1, android.content.Intent p2);
+
+
+	public void onBackPressed ()
+	{
+		n_onBackPressed ();
+	}
+
+	private native void n_onBackPressed ();
 
 
 	public void onMapReady (com.google.android.gms.maps.GoogleMap p0)

@@ -24,7 +24,7 @@
     </LinearLayout>
     <ImageView
         android:src="@drawable/background_gradient_avec_trou"
-        android:layout_width="381.1dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/skyBox" />
     <ImageButton

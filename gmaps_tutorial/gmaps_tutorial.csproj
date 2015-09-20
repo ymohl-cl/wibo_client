@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{54BCBFBE-7321-40EA-A527-9A901CA2E196}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
@@ -16,8 +14,9 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.1</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,18 +26,11 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AndroidLinkSkip />
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <BundleAssemblies>False</BundleAssemblies>
-    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
-    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
-    <AndroidStoreUncompressedFileExtensions />
-    <MandroidI18n />
+    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
     <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
     <Debugger>Xamarin</Debugger>
-    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
     <DevInstrumentationEnabled>True</DevInstrumentationEnabled>
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
@@ -49,36 +41,22 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <AndroidLinkMode>Full</AndroidLinkMode>
-    <AndroidLinkSkip />
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <BundleAssemblies>False</BundleAssemblies>
-    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
     <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
-    <AndroidStoreUncompressedFileExtensions />
-    <MandroidI18n />
+    <MandroidI18n>
+    </MandroidI18n>
     <Debugger>Xamarin</Debugger>
-    <AotAssemblies>False</AotAssemblies>
-    <EnableLLVM>False</EnableLLVM>
-    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
-    <EnableProguard>False</EnableProguard>
     <DevInstrumentationEnabled>False</DevInstrumentationEnabled>
     <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <AndroidLinkSkip>
+    </AndroidLinkSkip>
+    <AndroidStoreUncompressedFileExtensions>
+    </AndroidStoreUncompressedFileExtensions>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GooglePlayServicesLib">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.25.0.0.0\lib\MonoAndroid41\GooglePlayServicesLib.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="OsmdroidAndroidBinding">
-      <HintPath>..\..\Wibo\Components\osmdroid-android-binding-4.2\lib\android\OsmdroidAndroidBinding.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Json" />
@@ -92,6 +70,9 @@
     </Reference>
     <Reference Include="Xamarin.Android.Support.v7.MediaRouter">
       <HintPath>..\packages\Xamarin.Android.Support.v7.MediaRouter.22.2.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.MediaRouter.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Base">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Base.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Base.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Ads">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Ads.dll</HintPath>
@@ -108,14 +89,17 @@
     <Reference Include="Xamarin.GooglePlayServices.AppState">
       <HintPath>..\packages\Xamarin.GooglePlayServices.AppState.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.AppState.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Base">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Base.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Base.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Cast">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Cast.25.0.0.0\lib\MonoAndroid42\Xamarin.GooglePlayServices.Cast.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Drive">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Drive.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Drive.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Maps">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Maps.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Location">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Location.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Location.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Fitness">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Fitness.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Fitness.dll</HintPath>
@@ -128,12 +112,6 @@
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Identity">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Identity.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Identity.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Location">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Location.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Location.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Maps">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Maps.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Maps.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Nearby">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Nearby.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Nearby.dll</HintPath>
@@ -153,27 +131,35 @@
     <Reference Include="Xamarin.GooglePlayServices.Wearable">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Wearable.25.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Wearable.dll</HintPath>
     </Reference>
+    <Reference Include="GooglePlayServicesLib">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.25.0.0.0\lib\MonoAndroid41\GooglePlayServicesLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnswerableBalloonContentFragment.cs" />
     <Compile Include="Balloon.cs" />
+    <Compile Include="BalloonContentFragment.cs" />
     <Compile Include="Connection.cs" />
+    <Compile Include="ListBalloonFragment.cs" />
+    <Compile Include="LoadingPage.cs" />
     <Compile Include="ReceiveEvent.cs" />
-    <Compile Include="SeeAnswerableBalloonContentActivity.cs" />
     <Compile Include="MenuFollowedBalloonActivity.cs" />
     <Compile Include="SeeBalloonContentActivity.cs" />
     <Compile Include="CreateBalloonFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BalloonStatsFragment.cs" />
+    <Compile Include="TabMenuFollowedFragment.cs" />
+    <Compile Include="TabBalloonFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
-    <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\contentAnswerableBalloon.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\contentBalloon.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
@@ -189,25 +175,66 @@
     <AndroidResource Include="Resources\layout\messageBalloonDialogFragment.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\menuFollowedBalloonActionBar.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\listBalloonFragment.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\answerableBalloonContentFragment.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\balloonContentFragment.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\menuFollowedBalloonTabFocused.xml" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\menuFollowedBalloonTabUnfocused.xml" />
+    <AndroidResource Include="Resources\layout\catchedTabFocus.xml" />
+    <AndroidResource Include="Resources\layout\catchedTabUnfocus.xml" />
+    <AndroidResource Include="Resources\layout\followedTabFocus.xml" />
+    <AndroidResource Include="Resources\layout\followedTabUnfocus.xml" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_catch_orange.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_catch_white.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_glasses_orange.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_glasses_white.png" />
+    <AndroidResource Include="Resources\layout\contentTabFocus.xml" />
+    <AndroidResource Include="Resources\layout\contentTabUnfocus.xml" />
+    <AndroidResource Include="Resources\layout\statsTabFocus.xml" />
+    <AndroidResource Include="Resources\layout\statsTabUnfocus.xml" />
+    <AndroidResource Include="Resources\layout\answerTabFocus.xml" />
+    <AndroidResource Include="Resources\layout\answerTabUnfocus.xml" />
+    <AndroidResource Include="Resources\layout\releaseTabFocus.xml" />
+    <AndroidResource Include="Resources\layout\releaseTabUnfocus.xml" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\balloon.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\button_glasses.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\button_new.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\button_setting.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\button_stat.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_arrow_light_orange.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_arrow_orange.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_balloon_white.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_community_blue.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_community_white.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_km_white.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_mail_white.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_msg_content_orange.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_star_empty.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_star_full.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_stat_orange.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_user_blue.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_user_white.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_where_white.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_wibo_blue.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_wibo_white.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\icon_write_orange.png" />
+    <AndroidResource Include="Resources\drawable-normal-mdpi\button_magnet_53.png" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <XamarinComponentReference Include="googleplayservices">
-      <Visible>False</Visible>
-      <Version>25.0.0.0</Version>
-    </XamarinComponentReference>
-    <XamarinComponentReference Include="json.net">
-      <Visible>False</Visible>
-      <Version>7.0.1</Version>
-    </XamarinComponentReference>
-    <XamarinComponentReference Include="osmdroid-android-binding">
-      <Visible>False</Visible>
-      <Version>4.2</Version>
-    </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml">
@@ -455,9 +482,7 @@
     <AndroidResource Include="Resources\drawable-xlarge-xxxhdpi\bouton_avec_plus.png" />
     <AndroidResource Include="Resources\drawable-xlarge-xxxhdpi\ic_launcher.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\layout\NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.
@@ -466,4 +491,17 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Resources\values-v21\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="googleplayservices">
+      <Version>25.0.0.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="json.net">
+      <Version>6.0.8.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
 </Project>

@@ -22,8 +22,8 @@ using Java.Util;
 /*
  *  For debug reasons, Connect() method is called when creating a request
  *  and Diconnect() method is called after receiving the server response.
- *  In the actual programm, Connect() will be called by MainActivity's OnCreate() method
- *  and the connection will only be closed when OnDestroy() or OnPause() is called.
+ *  In the actual programm, Connect() will be called by LoadingPage's OnCreate() method
+ *  and the connection will only be closed when MainActivity's OnDestroy() or OnPause() is called.
  */
 
 namespace wibo

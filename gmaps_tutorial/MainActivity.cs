@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Net;
@@ -23,17 +23,15 @@ using Newtonsoft.Json;
 
 namespace wibo
 {
-    [Activity(Label = "wibo", MainLauncher = true, Icon = "@drawable/ic_launcher", ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "wibo", Icon = "@drawable/ic_launcher", ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : Activity, IOnMapReadyCallback, ILocationListener
     {
         private LocationManager locMgr;
         private Connection _connection;
-        private IGoogleApiClient apiClient;
         private GoogleMap _map;
         private Location _currentLocation;
         private LatLng _locationLatLng;
         private BitmapDescriptor redBalloon;
-        private ulong lastTime;
         private List<Balloon> _followedBalloons;
         private List<Balloon> _catchedBalloons;
         private List<Balloon> _nearbyBalloons;
@@ -51,14 +49,19 @@ namespace wibo
         private double _tmpLat = 2.310655;
 
         //On create is called when the activity is created
-        protected override void OnCreate(Bundle bundle)
+		protected override void OnCreate(Bundle bundle) 
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.Main);
+			Console.WriteLine ("Before setContentView");
+			SetContentView (Resource.Layout.Main);
+			Console.WriteLine ("Before setContentView");
+            //Get the connection object from the LoadingPage Activity
+            string jsonConnection = Intent.GetStringExtra("Connection");
+            _connection = JsonConvert.DeserializeObject<Connection>(jsonConnection);
 
-            //Window.RequestFeature(WindowFeatures.NoTitle);
+           // Window.RequestFeature(WindowFeatures.NoTitle);
             // Set our view from the "main" layout resource
-            redBalloon = BitmapDescriptorFactory.FromResource(Resource.Drawable.ballon_de_base_cote_map_petit);
+            //redBalloon = BitmapDescriptorFactory.FromResource(Resource.Drawable.ballon_de_base_cote_map_petit);
 
             // get nearest ballons and followed Balloons
             _nearbyBalloons = new List<Balloon>();
@@ -66,31 +69,23 @@ namespace wibo
             _followedBalloons = new List<Balloon>();
             _catchedBalloons = new List<Balloon>();
             _balloonMarkers = new List<Marker>();
-            _connection = new Connection();
             _markersOptions = new List<MarkerOptions>();
 
-            //Loop d'echange avec le serveur
-            ThreadPool.QueueUserWorkItem(o => this._connection.StartLoop());
-
-            //Remplissage de la liste des ballons suivis.
-            Console.WriteLine("Sync with server");
-            _connection.SyncWithServer();
-            /*
-                        _testMessages.Add("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae est eu ante molestie aliquam ac at ligula. Nulla justo nisi, pharetra et facilisis ut, congue et felis. Cras commodo justo sed erat porttitor, at porta ligula euismod. Curabitur non molestie arcu.");
-                        _testMessages.Add("Nulla sed luctus magna. Nulla diam nunc, scelerisque ac elementum eget, fermentum ut nulla. Cras vestibulum, sapien eu aliquam dignissim, sapien arcu luctus odio, eu rutrum elit sapien nec urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.");
-                        _testMessages.Add(" Maecenas in sem ut nisl rhoncus rutrum. Fusce placerat neque iaculis, faucibus turpis quis, pretium arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut tincidunt, elit rhoncus maximus hendrerit, ex nunc finibus nunc, ut commodo libero diam non nulla. Quisque eu sollicitudin turpis, sed convallis nulla");
-                        _testMessages.Add("Aliquam tempus, mauris venenatis facilisis venenatis, libero magna vulputate magna, in congue arcu sapien nec tellus. Sed in nibh et erat efficitur imperdiet. Aliquam efficitur tincidunt erat vitae pretium. ");
-                        _testMessages.Add("Integer lorem enim, auctor at diam nec, consequat vulputate neque. Nullam eget accumsan quam. Mauris ultricies nisi sapien, finibus fermentum libero semper at. Aliquam sed consectetur leo. Donec egestas nisl quis est tempor, eget rhoncus nunc scelerisque. Nulla rhoncus ut eros sed accumsan. Proin nibh elit, iaculis nec dolor at, imperdiet feugiat elit. Donec blandit dolor ut sagittis aliquam.");
-                        _testMessages.Add("Ut ut pharetra ante. Nullam mauris nulla, laoreet et volutpat vel, gravida sit amet massa. Integer purus enim, luctus eget ultrices sed, dictum id erat.");
-                        _testMessages.Add(" Nulla laoreet justo risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus lacus velit, dapibus vel sollicitudin eu, fermentum eu ex. Donec ornare odio dui, eu aliquam arcu gravida quis. Maecenas sit amet enim a ligula vehicula gravida nec ultrices felis. ");
-                        _testMessages.Add("Integer vitae arcu vel lectus interdum cursus vel sed ligula. Donec vel tellus vitae orci ultricies consectetur. Aenean tempus arcu vitae arcu faucibus tincidunt. Proin maximus ultrices mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec finibus, sapien nec commodo suscipit, nunc quam tempor ex, et iaculis lectus odio et tellus. Nunc non velit porta, maximus risus commodo, volutpat neque. ");
-                        _testMessages.Add("Nunc molestie, lacus eget vulputate euismod, est augue tincidunt purus, nec bibendum ligula ipsum ut lectus. Aliquam ac mollis mi. In finibus auctor congue. Pellentesque lobortis nulla nec pellentesque viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.");
-                        _testMessages.Add("Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus leo dui, imperdiet dictum neque tristique, sollicitudin tincidunt arcu. Phasellus cursus tristique urna id facilisis. Nullam ut elit ante. Suspendisse quis lacus eu quam dapibus pharetra a sit amet diam. ");
-                        _testMessages.Add("In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus");
-                        _testMessages.Add("Maecenas nec erat ac ligula iaculis fermentum. Aliquam venenatis mollis augue, ac mollis nisi suscipit id. Donec ut lobortis nunc, iaculis aliquam ante. Etiam maximus sagittis arcu, id pretium est imperdiet in. Vivamus ultricies urna quis vehicula imperdiet. Nulla lacus urna, pellentesque sed semper id, pulvinar at risus. Ut quis sem congue, pretium ante ac, ultrices massa. Sed eleifend laoreet orci, et varius sapien consectetur non. Aliquam tempus sollicitudin tempor. Donec tristique eros eu turpis porttitor tincidunt. ");
-            */
-
-            /* _nearbyBalloons.Add(new Balloon(_testMessages, "catched1", 88, 48.833086, 2.310655, false, 2.0, 35.6));
+            
+			_testMessages.Add("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae est eu ante molestie aliquam ac at ligula. Nulla justo nisi, pharetra et facilisis ut, congue et felis. Cras commodo justo sed erat porttitor, at porta ligula euismod. Curabitur non molestie arcu.");
+            _testMessages.Add("Nulla sed luctus magna. Nulla diam nunc, scelerisque ac elementum eget, fermentum ut nulla. Cras vestibulum, sapien eu aliquam dignissim, sapien arcu luctus odio, eu rutrum elit sapien nec urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.");
+            _testMessages.Add(" Maecenas in sem ut nisl rhoncus rutrum. Fusce placerat neque iaculis, faucibus turpis quis, pretium arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut tincidunt, elit rhoncus maximus hendrerit, ex nunc finibus nunc, ut commodo libero diam non nulla. Quisque eu sollicitudin turpis, sed convallis nulla");
+            _testMessages.Add("Aliquam tempus, mauris venenatis facilisis venenatis, libero magna vulputate magna, in congue arcu sapien nec tellus. Sed in nibh et erat efficitur imperdiet. Aliquam efficitur tincidunt erat vitae pretium. ");
+            _testMessages.Add("Integer lorem enim, auctor at diam nec, consequat vulputate neque. Nullam eget accumsan quam. Mauris ultricies nisi sapien, finibus fermentum libero semper at. Aliquam sed consectetur leo. Donec egestas nisl quis est tempor, eget rhoncus nunc scelerisque. Nulla rhoncus ut eros sed accumsan. Proin nibh elit, iaculis nec dolor at, imperdiet feugiat elit. Donec blandit dolor ut sagittis aliquam.");
+            _testMessages.Add("Ut ut pharetra ante. Nullam mauris nulla, laoreet et volutpat vel, gravida sit amet massa. Integer purus enim, luctus eget ultrices sed, dictum id erat.");
+            _testMessages.Add(" Nulla laoreet justo risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus lacus velit, dapibus vel sollicitudin eu, fermentum eu ex. Donec ornare odio dui, eu aliquam arcu gravida quis. Maecenas sit amet enim a ligula vehicula gravida nec ultrices felis. ");
+            _testMessages.Add("Integer vitae arcu vel lectus interdum cursus vel sed ligula. Donec vel tellus vitae orci ultricies consectetur. Aenean tempus arcu vitae arcu faucibus tincidunt. Proin maximus ultrices mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec finibus, sapien nec commodo suscipit, nunc quam tempor ex, et iaculis lectus odio et tellus. Nunc non velit porta, maximus risus commodo, volutpat neque. ");
+            _testMessages.Add("Nunc molestie, lacus eget vulputate euismod, est augue tincidunt purus, nec bibendum ligula ipsum ut lectus. Aliquam ac mollis mi. In finibus auctor congue. Pellentesque lobortis nulla nec pellentesque viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.");
+            _testMessages.Add("Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus leo dui, imperdiet dictum neque tristique, sollicitudin tincidunt arcu. Phasellus cursus tristique urna id facilisis. Nullam ut elit ante. Suspendisse quis lacus eu quam dapibus pharetra a sit amet diam. ");
+            _testMessages.Add("In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus");
+            _testMessages.Add("Maecenas nec erat ac ligula iaculis fermentum. Aliquam venenatis mollis augue, ac mollis nisi suscipit id. Donec ut lobortis nunc, iaculis aliquam ante. Etiam maximus sagittis arcu, id pretium est imperdiet in. Vivamus ultricies urna quis vehicula imperdiet. Nulla lacus urna, pellentesque sed semper id, pulvinar at risus. Ut quis sem congue, pretium ante ac, ultrices massa. Sed eleifend laoreet orci, et varius sapien consectetur non. Aliquam tempus sollicitudin tempor. Donec tristique eros eu turpis porttitor tincidunt. ");
+            
+            _nearbyBalloons.Add(new Balloon(_testMessages, "catched1", 88, 48.833086, 2.310655, false, 2.0, 35.6));
              _nearbyBalloons.Add(new Balloon(_testMessages, "catched2", 82, 48.8628437, 2.3252016, false, 2.0, 35.6));
              _nearbyBalloons.Add(new Balloon(_testMessages, "catched3", 83, 48.87840, 2.35408, false, 2.0, 35.6));
              _nearbyBalloons.Add(new Balloon(_testMessages, "catched4", 14, 48.8873, 2.352, false, 2.0, 35.6));
@@ -100,8 +95,8 @@ namespace wibo
              _nearbyBalloons.Add(new Balloon(_testMessages, "catched8", 52, 48.8768, 2.35, false, 2.0, 35.6));
              _nearbyBalloons.Add(new Balloon(_testMessages, "catched9", 11, 48.8643, 2.40572, false, 2.0, 35.6));
              _nearbyBalloons.Add(new Balloon(_testMessages, "catched10", 1, 48.8799, 2.3599, false, 2.0, 35.6));
-             */
-            /*
+            
+            
             _followedBalloons.Add(new Balloon(_testMessages, "test1", 88, 48.8784073, 2.3540572, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test2", 82, 48.8628437, 2.3252016, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test3", 83, 48.87840, 2.35408, true, 2.0, 35.6));
@@ -112,7 +107,8 @@ namespace wibo
             _followedBalloons.Add(new Balloon(_testMessages, "test8", 52, 48.8768, 2.35, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test9", 11, 48.8643, 2.40572, true, 2.0, 35.6));
             _followedBalloons.Add(new Balloon(_testMessages, "test10", 1, 48.8799, 2.3599, true, 2.0, 35.6));
-            */
+            
+
             _connection._OnReceiveFollowedList += (o, s) =>
             {
                 _followedBalloons = s.Response;
@@ -141,7 +137,7 @@ namespace wibo
             base.OnResume();
             _connection.SetLocation(_tmpLon, _tmpLat, true);
             //Set up the map
-            SetUpMap();
+            //SetUpMap();
 //            var locationCriteria = new Criteria();
 //            locationCriteria.Accuracy = Accuracy.Coarse;
 //            locationCriteria.PowerRequirement = Power.Medium;
@@ -167,6 +163,7 @@ namespace wibo
 
         private void SetUpMap()
         {
+
             if (_map == null)
             {
                 //Recupere la map via l'api google
@@ -177,11 +174,13 @@ namespace wibo
                 _balloonMarkers.ForEach(removeFromMap);
                 _balloonMarkers.Clear();
             }
+
         }
 
         //Fonction appelée en callback de GetMapAsync
         public void OnMapReady(GoogleMap googleMap)
         {
+
             Console.WriteLine("Map is ready to be used");
             _map = googleMap;
             _map.UiSettings.SetAllGesturesEnabled(false);
@@ -214,7 +213,6 @@ namespace wibo
                     });
                 }
             };
-
             // Set user's location
             _locationLatLng = new LatLng(_tmpLon, _tmpLat);
             //move the camera to the location of the user
@@ -227,8 +225,6 @@ namespace wibo
             var menuFollowedBalloonActivity = new Intent(this, typeof(MenuFollowedBalloonActivity));
             string jsonFollowedBalloons = JsonConvert.SerializeObject(_followedBalloons, Formatting.Indented);
             string jsonCatchedBalloons = JsonConvert.SerializeObject(_catchedBalloons, Formatting.Indented);
-            Console.WriteLine(jsonFollowedBalloons);
-            Console.WriteLine(jsonCatchedBalloons);
             menuFollowedBalloonActivity.PutExtra("Followed Balloons", jsonFollowedBalloons);
             menuFollowedBalloonActivity.PutExtra("Catched Balloons", jsonCatchedBalloons);
             StartActivityForResult(menuFollowedBalloonActivity, 2);
@@ -263,8 +259,9 @@ namespace wibo
             String jsonBalloon = JsonConvert.SerializeObject(balloon);
             balloon.Catched = true;
             //string jsonBalloon = JsonConvert.SerializeObject(balloon, Formatting.Indented);
-            var seeAnswerableBalloonContentActivity = new Intent(this, typeof(SeeAnswerableBalloonContentActivity));
+            var seeAnswerableBalloonContentActivity = new Intent(this, typeof(SeeBalloonContentActivity));
             seeAnswerableBalloonContentActivity.PutExtra("Balloon", jsonBalloon);
+            seeAnswerableBalloonContentActivity.PutExtra("type", 0);
             StartActivityForResult(seeAnswerableBalloonContentActivity, 1);
         }
 
@@ -391,6 +388,11 @@ namespace wibo
         public void OnStatusChanged(string provider, Availability status, Bundle extras)
         {
             Console.WriteLine("Status for localisation changed");
+        }
+
+        public override void OnBackPressed()
+        {
+            System.Environment.Exit(0);
         }
     }
 }
